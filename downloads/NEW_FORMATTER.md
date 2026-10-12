@@ -1,7 +1,10 @@
-# NewModelFormatter 0.9 experimental
+# NewModelFormatter 0.10 experimental
 
-This build corrects DXT1/BC1 alpha detection and records actual emitted material
-hashes, including eye/teeth reference comparisons. It retains missing-data
+This build rejects unsupported material libraries previously copied with the
+misleading label "already 2K26". It also checks for an intact embedded source
+hide mask when a legacy sidecar cannot be used. It retains DXT1/BC1 alpha
+detection and actual emitted material hashes, including eye/teeth reference
+comparisons. It retains missing-data
 checks and supported recovery for already-ported 2K26 models, and admits
 actual 2K24 model files through the native reader.
 It retains final/error reports and the optional Rey gear weight test.
@@ -10,7 +13,7 @@ YCL translator remain. Original files are preserved.
 
 ## Install
 
-1. Extract `NewModelFormatter_0.9_patch_installer.zip` into a fresh folder.
+1. Extract `NewModelFormatter_0.10_patch_installer.zip` into a fresh folder.
 2. Run `Install.cmd` and select your ORIGINAL Gorilla Model Formatter 1.0 EXE.
 3. Open the created `NewModelFormatter.exe`. Convert into a new empty output
    folder using your usual CakeView workflow.
@@ -31,6 +34,55 @@ writable, it prints the report-write error and preserves the conversion error.
 The report button falls back to Notepad when JSON has no file association.
 Forced process termination cannot guarantee a completed report.
 
+## Unsupported materials and Bryan's loading crash
+
+The original material reader returns no parsed materials for every non-v3
+inline block. Previously the caller interpreted that result as "already 2K26"
+and copied the library unchanged. Only the exact native v6 library with empty
+v4 stubs is now accepted as a native table. Unsupported, ambiguous or malformed
+layouts remain explicit problems and are withheld from a fresh output; existing
+output files and source files are never deleted. Material-row problems affect
+the final conversion status. The usual input/output and CakeView flow remains.
+
+Bryan's supplied 0.9 report converted genuine 2K24 models but skipped all four
+material-library instances with the old "already 2K26" label. His reported
+in-game loading crash has not been reproduced or attributed to a specific asset.
+The format guard prevents this particular unsupported-material success path;
+it does not establish a crash repair. His original `BaseModel/baseModel.mtls`
+(8,640 bytes) and `159_Default_Attire/159_Attire.mtls` (9,800 bytes) are still
+needed to inspect the actual blocks and implement a tested older-material adapter.
+The original models and readable HPL have already been supplied.
+
+A later multi-mod 0.9 INPUT report is a different case: all 12 models are
+format 41 inputs and all 12 material libraries converted, producing 102 payload
+audits. It has four unreadable-mask failures plus Xia's unsupported physics
+companions. It does not reproduce the earlier raw-2K24 material-skip path.
+
+## Flip Gordon and future hide-mask failures
+
+Flip's supplied 0.9 report identifies the same 81,408-byte HPL seen in earlier
+Rey/Xia ports: SHA-256
+`57abd17dd82782bcd4c1509c311d3f70227af707e7975a2e1b3fcbf1eae2c3dd`.
+The available identical bytes contain invalid record framing and indices far
+outside his reported body domain. This is not a usable outfit mask, and changing
+its mesh name does not restore the data.
+
+The legacy fallback uses only a readable, nonempty HPL already inside the
+selected source attire. It requires a successfully verified converted paired
+base, unchanged Body/Head remap topology, and every mask index in the actual
+domain. Valid sidecars and the existing exact-Rey recovery keep their priority.
+No body coverage is inferred from gear names and no mask from another wrestler
+is substituted. If no usable mask exists, the conversion remains incomplete.
+
+Flip's actual `_formatted_2K25` source base/attire were subsequently supplied.
+Their SHA-256/size match the report and the native reader sees format 41 with
+no recoverable embedded HPL. His uploaded converted format-47 files contain
+only empty 12-byte masks. The supported fallback therefore cannot recover his
+outfit coverage from these files. The remaining required mask source is a
+readable `931_Default_Attire/931_Attire.hpl` from the original mod archive,
+before `_formatted_2K25`. Another copy of the known invalid HPL will not help.
+Any recovered mask still needs entrance/gameplay coverage checks.
+
 ## Eye/teeth checks and Ricochet jacket investigation
 
 Each freshly converted material library now records
@@ -48,13 +100,22 @@ and emitted the expected normal. The available converted Bryan/Xia and supplied
 native reference models had 13 valid shading-anchor mesh/vertex references and
 the expected eye bindings/bones. These checks do not establish anatomical
 anchor placement, game lookup of textures, or the affected screenshots' output.
-Bryan's current 0.8 report has shader/type metadata but no actual texture hashes.
-Black teeth and dark eyes remain unresolved pending actual affected materials
-or a new report containing the emitted audit.
+Earlier 0.8 reports have shader/type metadata without actual texture hashes.
+The later multi-mod 0.9 report records matching left/right eye hashes and the
+expected normal reference on every base. Five of its six teeth/mouthbag pairs
+match the corresponding body color/normal references; HBK has the shared teeth
+color with a custom normal reference. This establishes reported bindings,
+not actual DDS resolution or correct sampling. Black teeth and dark eyes remain
+unresolved pending affected material/texture pixels and game checks.
 
 The available converted teeth models have two UV channels versus one in the
-stock reference, with different layouts. Comparing their coordinates did not
-establish a safe channel swap. Those UVs and vertex colors remain unchanged.
+stock reference, with different layouts. Comparing raw triangle order between
+different models provides no corresponding-triangle evidence for a channel
+swap. The comparison formatter's active C# material pass binds body atlas
+textures to teeth, whereas the Python writer defaults to shared stock teeth
+textures. An atlas layout may therefore be intentional. Actual affected DDS
+pixels and material references are needed before selecting a texture or UV
+repair. UVs and vertex colors remain unchanged.
 
 The supplied comparison archive contains stored material observations, not the
 original stock teeth JMTL or DDS pixels. No texture is fabricated or generic
@@ -132,6 +193,13 @@ reconstruction. Native reader checks are required before committing output,
 and boot coverage still needs an in-game check. The report records
 `aj_foot_mask` and `repaired_2k26_foot_mask`.
 
+Adam Cole's uploaded `combinations_ALPHA.jmtl` is a valid 312-byte shader-0x16
+material with explicit short-hair length 2. Its flow/combo hashes are
+`0x598227A899698A95` and `0xBE61F330147146CD`. The pixel-mask slot is explicitly
+unbound, which does not prove a missing required texture. This file alone does
+not explain the speckling. His matching output `880_Attire.mcd` and associated
+`Textures` folder are needed for mesh bindings, UVs and actual texture channels.
+
 AJ's beard remains unresolved. Its `M_Combinations` mesh binds to
 `combinations_ALPHA`. The missing shader file is
 `610_Default_Attire/Materials/combinations_ALPHA.jmtl`; the supplied base MTLS
@@ -199,7 +267,7 @@ source/configuration snapshots with hashes. The full Blender scene pipeline
 has not replaced the original native engine. Original Gorilla EXE/mod assets
 are excluded. See `SOURCE_REBUILD.md`.
 
-134 regression tests passed under Python 3.14 with NumPy. Earlier Wine/Xvfb
+168 regression tests passed under Python 3.14 with NumPy. Earlier Wine/Xvfb
 checks covered
 Rey, Billie YCL/materials, existing 2K26 byte preservation, AJ foot-mask
 embedding, actual 2K24 conversion, native missing-data recovery, fatal-error
@@ -209,3 +277,15 @@ Billie material/YCL output and UI. Sources stayed unchanged, and root/mod report
 returned reports. CakeView remained required. The PowerShell installer was
 checked by exact binary reconstruction and ZIP CRCs; it was not independently
 executed on Windows here. In-game appearance/movement tests remain required.
+
+Exact 0.10 Wine checks recovered the existing supplied Bryan HPL from a
+controlled legacy MCD fixture built with his actual original model payloads.
+An invalid sidecar did not suppress that intact mask: original flags/indices
+were preserved at all five output LODs and validated against the converted
+paired base. An independently constructed unsupported-v2 material table was
+withheld and its error reached both final report copies. This specimen is not
+Bryan's unavailable actual MTLS. Actual Flip original files reproduced the
+known-invalid-mask diagnosis without claiming a recovery, and his already
+converted files stayed byte-identical. Rey's original recovery/gear checks,
+Billie's YCL/material output, representative face/BC1 checks and the UI passed.
+Original uploads and isolated source copies remained unchanged.

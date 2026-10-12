@@ -1,0 +1,778 @@
+{
+  "scope": "actual supplied original Flip v41 model/base, plus exact known invalid HPL from report; no Flip materials or physics uploaded; no in-game check",
+  "source_models": [
+    {
+      "path": "Z:\\workspace\\formatter-investigation\\flip10-original-final\\source\\931_Dexter_Lumis\\BaseModel\\baseModel.mcd",
+      "version": 41,
+      "bones": 209,
+      "masks": [],
+      "mesh_names": [
+        "M_Body",
+        "M_EYE",
+        "M_transB_eyesha",
+        "M_Head",
+        "M_Tongue",
+        "M_MouthBag",
+        "M_Teeth"
+      ]
+    },
+    {
+      "path": "Z:\\workspace\\formatter-investigation\\flip10-original-final\\source\\931_Dexter_Lumis\\931_Default_Attire\\931_Attire.mcd",
+      "version": 41,
+      "bones": 346,
+      "masks": [],
+      "mesh_names": [
+        "M_Hair",
+        "S_Hair",
+        "M_Underwear",
+        "M_Shoes",
+        "M_L_Kneepad",
+        "M_L_Kneepad",
+        "M_L_Wrist",
+        "M_L_Wrist",
+        "M_L_Elbowpad",
+        "M_L_Elbowpad"
+      ]
+    }
+  ],
+  "source_unchanged": true,
+  "original_uploads_unchanged": true,
+  "known_invalid_hpl_diagnosed": true,
+  "empty_mask_not_reported_repaired": true,
+  "incomplete_status": true,
+  "reports_saved_and_equal": true,
+  "report": {
+    "source": "Z:\\workspace\\formatter-investigation\\flip10-original-final\\source\\931_Dexter_Lumis",
+    "output": "Z:\\workspace\\formatter-investigation\\flip10-original-final\\output\\Characters\\931_Dexter_Lumis",
+    "game_path": "Characters/931_Dexter_Lumis",
+    "models": [
+      {
+        "source": "Z:\\workspace\\formatter-investigation\\flip10-original-final\\source\\931_Dexter_Lumis\\BaseModel\\baseModel.mcd",
+        "output": "Z:\\workspace\\formatter-investigation\\flip10-original-final\\output\\Characters\\931_Dexter_Lumis\\BaseModel\\baseModel.mcd",
+        "source_version": "0x29",
+        "notes": [
+          "2K25 eye-shadow overlay mesh M_transB_eyesha left out (2K26 has no such mesh)",
+          "M_EYE split into eye_r (552 tris) and eye_l (552 tris)",
+          "skeleton: 2K26 male rig (138 bones on the stock pose, 2 moved to their 2K26 stock pose, 26 new)",
+          "2700 vertices used the old muscle bones and were re-weighted",
+          "13 eye/mouth shading anchors placed (2 by texture position, furthest 1.23 cm from its stock spot)"
+        ],
+        "kind": "base model",
+        "dropped_meshes": [
+          "2K25 eye-shadow overlay mesh M_transB_eyesha left out (2K26 has no such mesh)"
+        ],
+        "rig": "2K25",
+        "bones": "209 -> 175",
+        "skeleton": "male",
+        "reference_body": "male",
+        "bone_report": {
+          "variant": "male",
+          "stock_pose": 138,
+          "moved_to_2k26_pose": [
+            "H_Ebw_Out_L",
+            "H_Ebw_Out_R"
+          ],
+          "own_pose": [],
+          "new": 26
+        },
+        "weights": [
+          {
+            "mesh": "M_Body",
+            "old_groups": 16,
+            "verts_changed": 2579,
+            "kept_own_part": 0,
+            "max_distance_to_stock_skin": 3.97
+          },
+          {
+            "mesh": "M_EYE",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_Head",
+            "old_groups": 9,
+            "verts_changed": 121,
+            "kept_own_part": 0,
+            "max_distance_to_stock_skin": 1.9
+          },
+          {
+            "mesh": "M_Tongue",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_MouthBag",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_Teeth",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          }
+        ],
+        "attach_points_dropped": 0,
+        "mask_limits": {
+          "M_Body": 12755,
+          "M_EYE": 578,
+          "M_Head": 4382,
+          "M_Tongue": 341,
+          "M_MouthBag": 352,
+          "M_Teeth": 4701
+        },
+        "meshes": [
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Body"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_EYE"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Head"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Tongue"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_MouthBag"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Teeth"
+          }
+        ],
+        "status": "converted",
+        "mesh_vertex_counts": {
+          "M_Body": 12755,
+          "M_EYE": 578,
+          "M_Head": 4382,
+          "M_Tongue": 341,
+          "M_MouthBag": 352,
+          "M_Teeth": 4701
+        },
+        "verify": "pass",
+        "problems": [],
+        "facts": {
+          "bones": 175,
+          "substreams": [
+            "CTG!",
+            "MDL!",
+            "HPL!"
+          ],
+          "anchors": 13,
+          "M_Body": {
+            "verts": 12755,
+            "reweighted": 2579
+          },
+          "M_EYE": {
+            "verts": 578,
+            "reweighted": 0
+          },
+          "left_out": [
+            "M_transB_eyesha"
+          ],
+          "M_Head": {
+            "verts": 4382,
+            "reweighted": 121
+          },
+          "M_Tongue": {
+            "verts": 341,
+            "reweighted": 0
+          },
+          "M_MouthBag": {
+            "verts": 352,
+            "reweighted": 0
+          },
+          "M_Teeth": {
+            "verts": 4701,
+            "reweighted": 0
+          },
+          "hide_mask": "none"
+        },
+        "reference_weight_audit": {
+          "version": "supplied-reference-weight-audit-1",
+          "scope": "read_only_weight_data_checks; anatomical correctness unverified",
+          "bone_deform_flags": "not_in_native_records; reference driver-name rules only",
+          "meshes": [
+            {
+              "mesh": "M_Body",
+              "vertices": 12755,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_EYE",
+              "vertices": 578,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Head",
+              "vertices": 4382,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Tongue",
+              "vertices": 341,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_MouthBag",
+              "vertices": 352,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Teeth",
+              "vertices": 4701,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            }
+          ],
+          "suspicious_vertices": 0
+        }
+      },
+      {
+        "source": "Z:\\workspace\\formatter-investigation\\flip10-original-final\\source\\931_Dexter_Lumis\\931_Default_Attire\\931_Attire.mcd",
+        "output": "Z:\\workspace\\formatter-investigation\\flip10-original-final\\output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\931_Attire.mcd",
+        "source_version": "0x29",
+        "notes": [
+          "skeleton: 2K26 male rig (138 bones on the stock pose, 2 moved to their 2K26 stock pose, 26 new)",
+          "1130 vertices used the old muscle bones and were re-weighted",
+          "931_Attire.hpl has a hide-mask layout this parser cannot read; damage is not established: none written, so no skin is hidden under the gear",
+          "The sidecar matches previously inspected invalid shared HPL bytes. No verified embedded fallback was available; no hide mask was generated."
+        ],
+        "kind": "attire",
+        "dropped_meshes": [],
+        "rig": "2K25",
+        "bones": "346 -> 312",
+        "skeleton": "male",
+        "reference_body": "male",
+        "bone_report": {
+          "variant": "male",
+          "stock_pose": 138,
+          "moved_to_2k26_pose": [
+            "H_Ebw_Out_L",
+            "H_Ebw_Out_R"
+          ],
+          "own_pose": [],
+          "new": 26
+        },
+        "weights": [
+          {
+            "mesh": "M_Hair",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "S_Hair",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_Underwear",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_Shoes",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_L_Kneepad",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_L_Kneepad",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_L_Wrist",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_L_Wrist",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_L_Elbowpad",
+            "old_groups": 3,
+            "verts_changed": 565,
+            "kept_own_part": 0,
+            "max_distance_to_stock_skin": 4.96
+          },
+          {
+            "mesh": "M_L_Elbowpad",
+            "old_groups": 3,
+            "verts_changed": 565,
+            "kept_own_part": 0,
+            "max_distance_to_stock_skin": 4.96
+          }
+        ],
+        "attach_points_dropped": 0,
+        "mask_limits": {
+          "M_Hair": 8003,
+          "S_Hair": 198,
+          "M_Underwear": 942,
+          "M_Shoes": 2310,
+          "M_L_Kneepad": 556,
+          "M_L_Wrist": 216,
+          "M_L_Elbowpad": 565
+        },
+        "meshes": [
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Hair"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "S_Hair"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Underwear"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Shoes"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_L_Kneepad"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_L_Kneepad"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_L_Wrist"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_L_Wrist"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_L_Elbowpad"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_L_Elbowpad"
+          }
+        ],
+        "status": "converted",
+        "mesh_vertex_counts": {
+          "M_Hair": 8003,
+          "S_Hair": 198,
+          "M_Underwear": 942,
+          "M_Shoes": 2310,
+          "M_L_Kneepad": 556,
+          "M_L_Wrist": 216,
+          "M_L_Elbowpad": 565
+        },
+        "hide_mask_source_diagnosis": {
+          "version": "verified-existing-legacy-embedded-mask-1",
+          "state": "known_invalid_shared_hpl",
+          "source_model": "z:\\workspace\\formatter-investigation\\flip10-original-final\\source\\931_dexter_lumis\\931_default_attire\\931_attire.mcd",
+          "same_stem_sidecar": "z:\\workspace\\formatter-investigation\\flip10-original-final\\source\\931_dexter_lumis\\931_default_attire\\931_attire.hpl",
+          "matching_source_base": "z:\\workspace\\formatter-investigation\\flip10-original-final\\source\\931_dexter_lumis\\BaseModel\\baseModel.mcd",
+          "coverage_generated": false,
+          "sidecar_sha256": "57abd17dd82782bcd4c1509c311d3f70227af707e7975a2e1b3fcbf1eae2c3dd",
+          "sidecar_bytes": 81408,
+          "reason": "previously inspected identical HPL has unavailable mesh names, out-of-domain indices and invalid block framing",
+          "embedded_mask_count": 0,
+          "embedded_mask_state": "absent"
+        },
+        "verify": "fail",
+        "problems": [
+          "source hide mask is unsupported or unreadable; an empty output does not validate skin hiding"
+        ],
+        "facts": {
+          "bones": 312,
+          "substreams": [
+            "MDL!",
+            "HPL!"
+          ],
+          "anchors": 0,
+          "M_Hair": {
+            "verts": 8003,
+            "reweighted": 0
+          },
+          "S_Hair": {
+            "verts": 198,
+            "reweighted": 0
+          },
+          "M_Underwear": {
+            "verts": 942,
+            "reweighted": 0
+          },
+          "M_Shoes": {
+            "verts": 2310,
+            "reweighted": 0
+          },
+          "M_L_Kneepad": {
+            "verts": 556,
+            "reweighted": 0
+          },
+          "M_L_Wrist": {
+            "verts": 216,
+            "reweighted": 0
+          },
+          "M_L_Elbowpad": {
+            "verts": 565,
+            "reweighted": 565
+          },
+          "hide_mask": "unreadable",
+          "hide_mask_source_diagnosis": {
+            "version": "verified-existing-legacy-embedded-mask-1",
+            "state": "known_invalid_shared_hpl",
+            "source_model": "z:\\workspace\\formatter-investigation\\flip10-original-final\\source\\931_dexter_lumis\\931_default_attire\\931_attire.mcd",
+            "same_stem_sidecar": "z:\\workspace\\formatter-investigation\\flip10-original-final\\source\\931_dexter_lumis\\931_default_attire\\931_attire.hpl",
+            "matching_source_base": "z:\\workspace\\formatter-investigation\\flip10-original-final\\source\\931_dexter_lumis\\BaseModel\\baseModel.mcd",
+            "coverage_generated": false,
+            "sidecar_sha256": "57abd17dd82782bcd4c1509c311d3f70227af707e7975a2e1b3fcbf1eae2c3dd",
+            "sidecar_bytes": 81408,
+            "reason": "previously inspected identical HPL has unavailable mesh names, out-of-domain indices and invalid block framing",
+            "embedded_mask_count": 0,
+            "embedded_mask_state": "absent"
+          }
+        },
+        "reference_weight_audit": {
+          "version": "supplied-reference-weight-audit-1",
+          "scope": "read_only_weight_data_checks; anatomical correctness unverified",
+          "bone_deform_flags": "not_in_native_records; reference driver-name rules only",
+          "meshes": [
+            {
+              "mesh": "M_Hair",
+              "vertices": 8003,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "S_Hair",
+              "vertices": 198,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Underwear",
+              "vertices": 942,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Shoes",
+              "vertices": 2310,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_L_Kneepad",
+              "vertices": 556,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_L_Kneepad",
+              "vertices": 556,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_L_Wrist",
+              "vertices": 216,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_L_Wrist",
+              "vertices": 216,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_L_Elbowpad",
+              "vertices": 565,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_L_Elbowpad",
+              "vertices": 565,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            }
+          ],
+          "suspicious_vertices": 0
+        }
+      }
+    ],
+    "materials": [],
+    "copied": 0,
+    "left_out": [
+      "931_Default_Attire\\931_Attire.hpl (now inside the .mcd)"
+    ],
+    "problems": [
+      "BaseModel\\baseModel.mcd: no material file next to the model",
+      "931_Default_Attire\\931_Attire.mcd: source hide mask is unsupported or unreadable; an empty output does not validate skin hiding",
+      "931_Default_Attire\\931_Attire.mcd: no material file next to the model"
+    ],
+    "warnings": [
+      "931_Default_Attire\\931_Attire.ycl: blank physics file written, so the game does not use DEXTER LUMIS '23 (931)'s own hair / cloth physics on this model"
+    ],
+    "blank_physics": [
+      "931_Default_Attire\\931_Attire.ycl"
+    ],
+    "physics_converted": [],
+    "ycl_editor": null,
+    "engine": "Model engine: WWE2K_MDL add-on, inside this app",
+    "seconds": 5.2,
+    "source_inventory_before_conversion": [
+      {
+        "path": "931_Default_Attire/931_Attire.hpl",
+        "bytes": 81408,
+        "sha256": "57abd17dd82782bcd4c1509c311d3f70227af707e7975a2e1b3fcbf1eae2c3dd"
+      },
+      {
+        "path": "931_Default_Attire/931_Attire.mcd",
+        "bytes": 1204548,
+        "sha256": "017a44865267d32d99b639d5b245d5ea3afde60f3c46852721420e18c3e1b2ec"
+      },
+      {
+        "path": "BaseModel/baseModel.mcd",
+        "bytes": 6043100,
+        "sha256": "6670af89dc43b0d95e44d70f715bb9033cf449010f3430de2978fd63884b495c"
+      }
+    ],
+    "conversion_completeness": "incomplete",
+    "in_game_validation": "not_performed",
+    "repair_patch": "bounded-materials-and-existing-embedded-mask-recovery-10",
+    "native_2k26_models_preserved": 0,
+    "native_2k26_material_libraries_repaired": 0,
+    "native_2k26_patch": "native-2k26-preservation-and-material-links-1",
+    "reference_source_integration": {
+      "weight_checks": "supplied-reference-weight-audit-1",
+      "geometry_backend": "Gorilla native engine with ported reference components; full Blender workflow not invoked",
+      "wwe2k_mdl_source_supplied": true,
+      "ycl_backend": "original Gorilla converter",
+      "full_reference_engine_rebuilt": false
+    },
+    "ycl_repair_patch": "independent-gorilla-ycl-translation-1",
+    "native_2k26_missing_data_check": {
+      "version": "native-2k26-missing-data-audit-1",
+      "models_checked": 0,
+      "repairs_applied": 0,
+      "findings": [],
+      "in_game_validation": "not_performed",
+      "unavailable_data": "reported; never synthesized",
+      "state": "not_applicable_no_native_inputs"
+    },
+    "legacy_2k24_input_route": {
+      "version": "native-2k24-format-route-with-rig-guards-1",
+      "models_attempted": 0,
+      "model_checks_passed": 0,
+      "input_headers_rewritten": false,
+      "in_game_validation": "not_performed",
+      "validation_scope": "native model structural checks; materials, hide masks and physics reported separately"
+    },
+    "started_at_utc": "2026-10-12T19:04:32.963374+00:00",
+    "finished_at_utc": "2026-10-12T19:04:39.685735+00:00",
+    "status": "completed_with_problems",
+    "report_paths": [
+      "Z:\\workspace\\formatter-investigation\\flip10-original-final\\output\\931_Dexter_Lumis - conversion report.json",
+      "Z:\\workspace\\formatter-investigation\\flip10-original-final\\output\\Characters\\931_Dexter_Lumis\\931_Dexter_Lumis - conversion report.json"
+    ],
+    "report_path": "Z:\\workspace\\formatter-investigation\\flip10-original-final\\output\\931_Dexter_Lumis - conversion report.json"
+  },
+  "logs": [
+    "  BaseModel\\baseModel.mcd: base model, 209 -> 175 bones, male rig, check pass",
+    "  931_Default_Attire\\931_Attire.mcd: attire, 346 -> 312 bones, male rig, check fail",
+    "  931_Default_Attire\\931_Attire.ycl: blank physics file (stock 931_Dexter_Lumis has its own)",
+    "Report saved: Z:\\workspace\\formatter-investigation\\flip10-original-final\\output\\931_Dexter_Lumis - conversion report.json"
+  ]
+}

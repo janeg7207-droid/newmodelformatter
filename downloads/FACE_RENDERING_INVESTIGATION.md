@@ -12,15 +12,32 @@ comparison formatter's shader database. The standard teeth pair and eye normal
 corroborate the reference writer constants; representative native writer tests
 matched them. The original stock JMTL and texture pixels remain unavailable.
 Custom input references can override those defaults and remain preserved.
-The newly supplied Bryan report is from 0.8, has no emitted hash audit, and
-retains two unreadable-HPL failures across his regular/ROHHAIR attire folders.
-Those hide-mask failures do not establish the cause of black teeth.
+An earlier Bryan report is from 0.8 and retains unreadable-HPL failures. The
+latest supplied input report is from 0.9 and converts genuine 2K24 models, but
+every material library is skipped with "already 2K26" and every actual-payload
+audit is empty. The original reader returns no materials for all non-v3 blocks,
+so this label does not establish a native format. The user reports a game crash
+loading that output. Neither the format skip nor a mask failure establishes
+the crash cause. 0.10 rejects unsupported material formats and retains report
+problems; actual original Bryan MTLS bytes are still required for a repair.
+
+The subsequently supplied multi-mod INPUT report is also from 0.9 but uses
+12 format-41 models and converts all 12 material libraries. It records 102
+actual-payload audits, four unreadable-mask failures and Xia's incomplete
+physics companions. This is distinct from the earlier raw-format-40 report.
+All six bases have matching left/right eye hashes and the stock eye normal.
+Five teeth/mouthbag pairs match their body color/normal bindings; HBK has the
+shared teeth color and a custom normal. These report facts provide no reason
+to force a shared teeth pair or swap UV channels. Its limited input inventory
+excludes DDS/TEX/JMTL, so missing inventory entries do not establish missing
+textures. Actual pixels and game lookup remain unchecked.
 
 The native model comparison also found two teeth UV channels on the supplied
 Bryan/Xia conversions versus one on the supplied stock reference. Their first
 map occupies a small texture band; the second spans the full texture. Neither
-matches the stock reference's triangle-corner UVs, and nearest-UV distances do
-not establish that swapping channels is correct. Vertex-color ranges are
+matches the stock reference's raw triangle-corner order, but these are different
+models without correspondence alignment. That comparison and nearest-UV
+distances do not establish that swapping channels is correct. Vertex-color ranges are
 similar. No UV swap, stock-geometry substitution or blanket teeth whitening
 was made from this comparison. Actual affected output model/material data and
 an in-game check remain necessary to establish the rendering cause.
@@ -33,6 +50,12 @@ an in-game check remain necessary to establish the rendering cause.
 - Both writers contain the same teeth global color/normal references and
   irradiance policy, and the same global eye normal reference. Their presence
   in code does not prove the generated payload, baked assets or game lookup.
+- The comparison formatter's active WWE conversion selects its C# working
+  material backend. Its teeth pass assigns `yCh_skin / Normal` with body atlas
+  color/normal references. The alternate C# backend uses a teeth shader for
+  marked WWE base models, also with body atlas references. These differ from
+  the Python writer's shared stock defaults. UV0's atlas band may be intentional;
+  actual affected body/teeth texture pixels are needed to test sampling.
 - The supplied INPUT report maps all four eye materials to shader 0x12 and
   teeth/mouthbag to 0x1A. Those are report metadata; actual JMTL values and
   runtime resolution have not been checked for these outputs.
@@ -43,6 +66,12 @@ an in-game check remain necessary to establish the rendering cause.
 - The supplied original Bryan model/HPL pair and Xia model pair have been
   inspected. Their current 0.7 output material payloads/textures are absent
   from this workspace. Flip/Adam's actual output model data is also absent.
+- Adam Cole's supplied `combinations_ALPHA.jmtl` has a bounded shader-0x16
+  type-1 payload, explicit short hair length 2, and flow/combo hashes
+  `0x598227A899698A95` / `0xBE61F330147146CD`. Its pixel-mask reference is
+  explicitly unbound, not an absent field. No malformed/nonfinite scalar was
+  found. The user confirmed it came from Adam; the related model/textures are
+  still needed before changing shader values or texture data.
 
 ## Next evidence needed
 

@@ -1,0 +1,36 @@
+{
+  "installer": {
+    "original_sha256": "ece4729f2ac3fc707c69550d4a79df7866c11a61463d8eb529ae927e04f377f2",
+    "target_sha256": "b92fe0349985adf7512e15df76db84b85d61b25c064f593849d23282dab16c3b",
+    "original_bytes": 44019860,
+    "target_bytes": 44189707,
+    "operation_count": 7,
+    "raw_carchive_payloads_reused": 1066,
+    "original_pyz_module_prefix_reused": true,
+    "python_reconstruction_verified": true,
+    "windows_powershell_installer_tested": false,
+    "compressed_patch_bytes": 215354,
+    "zip_crc_verified": true,
+    "zip_bytes": 221476
+  },
+  "source_zip_bytes": 1154610,
+  "source_files": 161,
+  "source_zip_sha256": "0f88892f7efd61fd2dfb853a1ecbdd57d35a2a09d900b356d1772bb2a88cf045",
+  "regression_tests": 168,
+  "native_checks": "Wine/Xvfb; original bundled DLL; exact final EXE byte-identical to native-tested candidate",
+  "native_validation_files": [
+    "Material_And_Embedded_Mask_Validation_0.10.json",
+    "Flip_Original_Mask_Inspection_0.10.json",
+    "Rey_Paired_Gear_Validation_0.10.json",
+    "Billie_YCL_Conversion_Validation_0.10.json",
+    "NewModelFormatter_UI_Validation_0.10.json",
+    "Eye_Teeth_And_BC1_Validation_0.10.json"
+  ],
+  "in_game_tested": false,
+  "actual_flip_original_and_converted_models_inspected": true,
+  "actual_bryan_legacy_mtls_supplied": false,
+  "flip_visual_and_bryan_crash_fixes_confirmed": false,
+  "eyes_black_teeth_beard_and_ricochet_visual_fixes_confirmed": false,
+  "source_artifact_name": "NewModelFormatter_0.10_source_patch_r2.zip",
+  "extracted_source_zip_regression_tests": 168
+}
