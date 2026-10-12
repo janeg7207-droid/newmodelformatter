@@ -1,0 +1,288 @@
+{
+  "provenance": "selected stored 2K26 JMTL material observations in supplied ModelFormatter shader database; original JMTL/texture bytes and runtime correctness not independently verified",
+  "database_sha256": "90b1bdb8098bca7f54f38418808d519459da57fc6330e325ef354d92a5b50872",
+  "statistics": {
+    "yCh_Teeth": {
+      "captured_character_materials": 993,
+      "colorMap@ref_most_common": [
+        {
+          "value": "8311374115795497328",
+          "count": 980
+        },
+        {
+          "value": "1206148381611725945",
+          "count": 2
+        },
+        {
+          "value": "13939938551642471360",
+          "count": 2
+        }
+      ],
+      "nrMap@ref_most_common": [
+        {
+          "value": "13431178219333049464",
+          "count": 979
+        },
+        {
+          "value": "105729803960603336",
+          "count": 2
+        },
+        {
+          "value": "17240836112821076286",
+          "count": 2
+        }
+      ],
+      "irradianceR_most_common": [
+        {
+          "value": "absent",
+          "count": 993
+        }
+      ],
+      "irradianceG_most_common": [
+        {
+          "value": "0.7529412",
+          "count": 502
+        },
+        {
+          "value": "0.7490196",
+          "count": 491
+        }
+      ],
+      "irradianceB_most_common": [
+        {
+          "value": "0.7529412",
+          "count": 502
+        },
+        {
+          "value": "0.7490196",
+          "count": 491
+        }
+      ]
+    },
+    "yCh_eye": {
+      "captured_character_materials": 1622,
+      "colorMap@ref_most_common": [
+        {
+          "value": "3426401756727180288",
+          "count": 24
+        },
+        {
+          "value": "13376998300953343668",
+          "count": 4
+        },
+        {
+          "value": "7004065499581245157",
+          "count": 2
+        }
+      ],
+      "nrMap@ref_most_common": [
+        {
+          "value": "17274687911970229909",
+          "count": 1075
+        },
+        {
+          "value": "absent",
+          "count": 541
+        },
+        {
+          "value": "137575326585315205",
+          "count": 1
+        }
+      ],
+      "irradianceR_most_common": [
+        {
+          "value": "absent",
+          "count": 1622
+        }
+      ],
+      "irradianceG_most_common": [
+        {
+          "value": "absent",
+          "count": 1622
+        }
+      ],
+      "irradianceB_most_common": [
+        {
+          "value": "absent",
+          "count": 1622
+        }
+      ]
+    }
+  },
+  "samples": [
+    {
+      "source_name": "2K26 :: Root / Characters / 100 The Rock / BaseModel [mouthbag]",
+      "shader": "yCh_Teeth",
+      "game_format": "V6_V4_JMTL",
+      "material_name": "mouthbag",
+      "properties": {
+        "colorMap@ref": 8311374115795497328,
+        "nrMap@ref": 13431178219333049464,
+        "irradianceG": 0.7529412,
+        "irradianceB": 0.7529412
+      }
+    },
+    {
+      "source_name": "2K26 :: Root / Characters / 100 The Rock / BaseModel [teeth]",
+      "shader": "yCh_Teeth",
+      "game_format": "V6_V4_JMTL",
+      "material_name": "teeth",
+      "properties": {
+        "colorMap@ref": 8311374115795497328,
+        "nrMap@ref": 13431178219333049464,
+        "irradianceG": 0.7529412,
+        "irradianceB": 0.7529412
+      }
+    },
+    {
+      "source_name": "2K26 :: Root / Characters / 1157 The Rock / BaseModel [mouthbag]",
+      "shader": "yCh_Teeth",
+      "game_format": "V6_V4_JMTL",
+      "material_name": "mouthbag",
+      "properties": {
+        "colorMap@ref": 8311374115795497328,
+        "nrMap@ref": 13431178219333049464,
+        "irradianceG": 0.7490196,
+        "irradianceB": 0.7490196
+      }
+    },
+    {
+      "source_name": "2K26 :: Root / Characters / 1157 The Rock / BaseModel [teeth]",
+      "shader": "yCh_Teeth",
+      "game_format": "V6_V4_JMTL",
+      "material_name": "teeth",
+      "properties": {
+        "colorMap@ref": 8311374115795497328,
+        "nrMap@ref": 13431178219333049464,
+        "irradianceG": 0.7490196,
+        "irradianceB": 0.7490196
+      }
+    },
+    {
+      "source_name": "2K26 :: Root / Characters / 1167 John Cena / BaseModel [mouthbag]",
+      "shader": "yCh_Teeth",
+      "game_format": "V6_V4_JMTL",
+      "material_name": "mouthbag",
+      "properties": {
+        "colorMap@ref": 8311374115795497328,
+        "nrMap@ref": 13431178219333049464,
+        "irradianceG": 0.7490196,
+        "irradianceB": 0.7490196
+      }
+    },
+    {
+      "source_name": "2K26 :: Root / Characters / 1167 John Cena / BaseModel [teeth]",
+      "shader": "yCh_Teeth",
+      "game_format": "V6_V4_JMTL",
+      "material_name": "teeth",
+      "properties": {
+        "colorMap@ref": 8311374115795497328,
+        "nrMap@ref": 13431178219333049464,
+        "irradianceG": 0.7490196,
+        "irradianceB": 0.7490196
+      }
+    },
+    {
+      "source_name": "2K26 :: Root / Characters / 1333 The Rock / BaseModel [mouthbag]",
+      "shader": "yCh_Teeth",
+      "game_format": "V6_V4_JMTL",
+      "material_name": "mouthbag",
+      "properties": {
+        "colorMap@ref": 8311374115795497328,
+        "nrMap@ref": 13431178219333049464,
+        "irradianceG": 0.7490196,
+        "irradianceB": 0.7490196
+      }
+    },
+    {
+      "source_name": "2K26 :: Root / Characters / 1333 The Rock / BaseModel [teeth]",
+      "shader": "yCh_Teeth",
+      "game_format": "V6_V4_JMTL",
+      "material_name": "teeth",
+      "properties": {
+        "colorMap@ref": 8311374115795497328,
+        "nrMap@ref": 13431178219333049464,
+        "irradianceG": 0.7490196,
+        "irradianceB": 0.7490196
+      }
+    },
+    {
+      "source_name": "2K26 :: Root / Characters / 100 The Rock / BaseModel [eye_l]",
+      "shader": "yCh_eye",
+      "game_format": "V6_V4_JMTL",
+      "material_name": "eye_l",
+      "properties": {
+        "colorMap@ref": 7004065499581245157,
+        "nrMap@ref": 17274687911970229909
+      }
+    },
+    {
+      "source_name": "2K26 :: Root / Characters / 100 The Rock / BaseModel [eye_r]",
+      "shader": "yCh_eye",
+      "game_format": "V6_V4_JMTL",
+      "material_name": "eye_r",
+      "properties": {
+        "colorMap@ref": 7004065499581245157,
+        "nrMap@ref": 17274687911970229909
+      }
+    },
+    {
+      "source_name": "2K26 :: Root / Characters / 100 The Rock / BaseModel [eyelash]",
+      "shader": "yCh_eye",
+      "game_format": "V6_V4_JMTL",
+      "material_name": "eyelash",
+      "properties": {
+        "colorMap@ref": 18119550837130304085
+      }
+    },
+    {
+      "source_name": "2K26 :: Root / Characters / 1157 The Rock / BaseModel [eye_l]",
+      "shader": "yCh_eye",
+      "game_format": "V6_V4_JMTL",
+      "material_name": "eye_l",
+      "properties": {
+        "colorMap@ref": 9682385499396469451,
+        "nrMap@ref": 17274687911970229909
+      }
+    },
+    {
+      "source_name": "2K26 :: Root / Characters / 1157 The Rock / BaseModel [eye_r]",
+      "shader": "yCh_eye",
+      "game_format": "V6_V4_JMTL",
+      "material_name": "eye_r",
+      "properties": {
+        "colorMap@ref": 9682385499396469451,
+        "nrMap@ref": 17274687911970229909
+      }
+    },
+    {
+      "source_name": "2K26 :: Root / Characters / 1157 The Rock / BaseModel [eyelash]",
+      "shader": "yCh_eye",
+      "game_format": "V6_V4_JMTL",
+      "material_name": "eyelash",
+      "properties": {
+        "colorMap@ref": 10585434132948015567
+      }
+    },
+    {
+      "source_name": "2K26 :: Root / Characters / 1167 John Cena / BaseModel [eye_l]",
+      "shader": "yCh_eye",
+      "game_format": "V6_V4_JMTL",
+      "material_name": "eye_l",
+      "properties": {
+        "colorMap@ref": 12933300127887644746,
+        "nrMap@ref": 17274687911970229909
+      }
+    },
+    {
+      "source_name": "2K26 :: Root / Characters / 1167 John Cena / BaseModel [eye_r]",
+      "shader": "yCh_eye",
+      "game_format": "V6_V4_JMTL",
+      "material_name": "eye_r",
+      "properties": {
+        "colorMap@ref": 12933300127887644746,
+        "nrMap@ref": 17274687911970229909
+      }
+    }
+  ]
+}

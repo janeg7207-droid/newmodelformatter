@@ -1,0 +1,661 @@
+{
+  "scope": "exact experimental 0.9 bundled writers and native reader under Wine; representative generated material inputs and existing supplied model data; not the affected screenshot output folders; no in-game/baked asset check",
+  "material_cases": [
+    {
+      "name": "default_teeth",
+      "shader": 26,
+      "emitted_color_ref": "0x7357eeb9075df170",
+      "emitted_normal_ref": "0xba65216dd64f5c78",
+      "reference_expectations_match": true,
+      "source_parameters_unchanged": true,
+      "irradiance_bytes": [
+        0,
+        191,
+        191
+      ],
+      "sha256": "6460094f4005e6884f09a0e0550a71ddf0df7250ff0da783e7ec5dd5e4294bf5",
+      "written_face_texture_check": {
+        "scope": "reference-writer hash comparison; in-game asset resolution not verified",
+        "color_ref": 8311374115795497328,
+        "normal_ref": 13431178219333049464,
+        "required_color_and_normal_refs_present": true,
+        "reference_color_ref": 8311374115795497328,
+        "reference_normal_ref": 13431178219333049464,
+        "reference_texture_pair_match": true,
+        "custom_or_legacy_refs": "preserved; verify actual textures if reference hashes differ"
+      }
+    },
+    {
+      "name": "caller_teeth",
+      "shader": 26,
+      "emitted_color_ref": "0x11223344",
+      "emitted_normal_ref": "0x55667788",
+      "reference_expectations_match": true,
+      "source_parameters_unchanged": true,
+      "irradiance_bytes": [
+        0,
+        191,
+        191
+      ],
+      "sha256": "9c7d1efb125be8a0600989c0528f9604cbd1afbb6263803fbf3702bd6416814d",
+      "written_face_texture_check": {
+        "scope": "reference-writer hash comparison; in-game asset resolution not verified",
+        "color_ref": 287454020,
+        "normal_ref": 1432778632,
+        "required_color_and_normal_refs_present": true,
+        "reference_color_ref": 8311374115795497328,
+        "reference_normal_ref": 13431178219333049464,
+        "reference_texture_pair_match": false,
+        "custom_or_legacy_refs": "preserved; verify actual textures if reference hashes differ"
+      }
+    },
+    {
+      "name": "eye_l",
+      "shader": 18,
+      "emitted_color_ref": "0x1020304050607080",
+      "emitted_normal_ref": "0xefbc052176b84e95",
+      "reference_expectations_match": true,
+      "source_parameters_unchanged": true,
+      "irradiance_bytes": null,
+      "sha256": "9c72a63811c36065becc03244d84bb2621d3dd24979b3e933f37ff8bda0c0af3",
+      "written_face_texture_check": {
+        "scope": "reference-writer hash comparison; in-game asset resolution not verified",
+        "color_ref": 1161981756646125696,
+        "normal_ref": 17274687911970229909,
+        "required_color_and_normal_refs_present": true,
+        "reference_normal_ref": 17274687911970229909,
+        "reference_normal_match": true,
+        "custom_or_legacy_refs": "preserved; verify actual textures if reference hashes differ"
+      }
+    },
+    {
+      "name": "eye_r",
+      "shader": 18,
+      "emitted_color_ref": "0x1020304050607080",
+      "emitted_normal_ref": "0xefbc052176b84e95",
+      "reference_expectations_match": true,
+      "source_parameters_unchanged": true,
+      "irradiance_bytes": null,
+      "sha256": "9c72a63811c36065becc03244d84bb2621d3dd24979b3e933f37ff8bda0c0af3",
+      "written_face_texture_check": {
+        "scope": "reference-writer hash comparison; in-game asset resolution not verified",
+        "color_ref": 1161981756646125696,
+        "normal_ref": 17274687911970229909,
+        "required_color_and_normal_refs_present": true,
+        "reference_normal_ref": 17274687911970229909,
+        "reference_normal_match": true,
+        "custom_or_legacy_refs": "preserved; verify actual textures if reference hashes differ"
+      }
+    }
+  ],
+  "eyes": [
+    {
+      "name": "Bryan_original_2K24_converted",
+      "version": 47,
+      "eye_vertices": 578,
+      "face_groups": [
+        [
+          "eye_r:skinned",
+          0,
+          552
+        ],
+        [
+          "eye_l:skinned",
+          552,
+          552
+        ]
+      ],
+      "eye_shapes": [],
+      "eye_weight_bones": [
+        "J_Eye_L",
+        "J_Eye_R"
+      ],
+      "anchors": [
+        {
+          "name": "_ag_0001",
+          "mesh": "M_Teeth",
+          "slot": 1,
+          "vertex": 3346,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0003",
+          "mesh": "M_Head",
+          "slot": 3,
+          "vertex": 1491,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0000",
+          "mesh": "M_Teeth",
+          "slot": 0,
+          "vertex": 592,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0002",
+          "mesh": "M_Head",
+          "slot": 2,
+          "vertex": 432,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0004",
+          "mesh": "M_Teeth",
+          "slot": 4,
+          "vertex": 1605,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0005",
+          "mesh": "M_Head",
+          "slot": 5,
+          "vertex": 4118,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0006",
+          "mesh": "M_Head",
+          "slot": 6,
+          "vertex": 4102,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0007",
+          "mesh": "M_Head",
+          "slot": 7,
+          "vertex": 4105,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0008",
+          "mesh": "M_Head",
+          "slot": 8,
+          "vertex": 4111,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0009",
+          "mesh": "M_Head",
+          "slot": 9,
+          "vertex": 3944,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0010",
+          "mesh": "M_Head",
+          "slot": 10,
+          "vertex": 4266,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0011",
+          "mesh": "M_Head",
+          "slot": 11,
+          "vertex": 4269,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0012",
+          "mesh": "M_Head",
+          "slot": 12,
+          "vertex": 4276,
+          "mesh_and_vertex_valid": true
+        }
+      ],
+      "anchor_count": 13,
+      "all_anchor_meshes_and_indices_valid": true,
+      "file_unchanged": true
+    },
+    {
+      "name": "Xia_original_2K25_converted",
+      "version": 47,
+      "eye_vertices": 626,
+      "face_groups": [
+        [
+          "eye_r:skinned",
+          0,
+          552
+        ],
+        [
+          "eye_l:skinned",
+          552,
+          552
+        ]
+      ],
+      "eye_shapes": [
+        "PupilContract",
+        "PupilExpand"
+      ],
+      "eye_weight_bones": [
+        "J_Eye_L",
+        "J_Eye_R"
+      ],
+      "anchors": [
+        {
+          "name": "_ag_0001",
+          "mesh": "M_Teeth",
+          "slot": 1,
+          "vertex": 3764,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0003",
+          "mesh": "M_Head",
+          "slot": 3,
+          "vertex": 1157,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0000",
+          "mesh": "M_Teeth",
+          "slot": 0,
+          "vertex": 2648,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0002",
+          "mesh": "M_Head",
+          "slot": 2,
+          "vertex": 1093,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0004",
+          "mesh": "M_Teeth",
+          "slot": 4,
+          "vertex": 1603,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0005",
+          "mesh": "M_Head_Caruncle",
+          "slot": 5,
+          "vertex": 62,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0006",
+          "mesh": "M_Head_Caruncle",
+          "slot": 6,
+          "vertex": 263,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0007",
+          "mesh": "M_Head_Caruncle",
+          "slot": 7,
+          "vertex": 287,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0008",
+          "mesh": "M_Head_Caruncle",
+          "slot": 8,
+          "vertex": 336,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0009",
+          "mesh": "M_Head_Caruncle",
+          "slot": 9,
+          "vertex": 69,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0010",
+          "mesh": "M_Head_Caruncle",
+          "slot": 10,
+          "vertex": 358,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0011",
+          "mesh": "M_Head_Caruncle",
+          "slot": 11,
+          "vertex": 385,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0012",
+          "mesh": "M_Head_Caruncle",
+          "slot": 12,
+          "vertex": 102,
+          "mesh_and_vertex_valid": true
+        }
+      ],
+      "anchor_count": 13,
+      "all_anchor_meshes_and_indices_valid": true,
+      "file_unchanged": true
+    },
+    {
+      "name": "supplied_native_2K26_reference",
+      "version": 47,
+      "eye_vertices": 626,
+      "face_groups": [
+        [
+          "eye_r:skinned",
+          0,
+          552
+        ],
+        [
+          "eye_l:skinned",
+          552,
+          552
+        ]
+      ],
+      "eye_shapes": [
+        "PupilContract",
+        "PupilExpand"
+      ],
+      "eye_weight_bones": [
+        "J_Eye_L",
+        "J_Eye_R"
+      ],
+      "anchors": [
+        {
+          "name": "_ag_0001",
+          "mesh": "M_Teeth",
+          "slot": 1,
+          "vertex": 3770,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0003",
+          "mesh": "M_Head",
+          "slot": 3,
+          "vertex": 1157,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0000",
+          "mesh": "M_Teeth",
+          "slot": 0,
+          "vertex": 2667,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0002",
+          "mesh": "M_Head",
+          "slot": 2,
+          "vertex": 1093,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0004",
+          "mesh": "M_Tongue",
+          "slot": 4,
+          "vertex": 167,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0005",
+          "mesh": "M_Head_Caruncle",
+          "slot": 5,
+          "vertex": 127,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0006",
+          "mesh": "M_Head_Caruncle",
+          "slot": 6,
+          "vertex": 263,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0007",
+          "mesh": "M_Head_Caruncle",
+          "slot": 7,
+          "vertex": 294,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0008",
+          "mesh": "M_Head_Caruncle",
+          "slot": 8,
+          "vertex": 295,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0009",
+          "mesh": "M_Head_Caruncle",
+          "slot": 9,
+          "vertex": 148,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0010",
+          "mesh": "M_Head_Caruncle",
+          "slot": 10,
+          "vertex": 361,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0011",
+          "mesh": "M_Head_Caruncle",
+          "slot": 11,
+          "vertex": 392,
+          "mesh_and_vertex_valid": true
+        },
+        {
+          "name": "_ag_0012",
+          "mesh": "M_Head_Caruncle",
+          "slot": 12,
+          "vertex": 393,
+          "mesh_and_vertex_valid": true
+        }
+      ],
+      "anchor_count": 13,
+      "all_anchor_meshes_and_indices_valid": true,
+      "file_unchanged": true
+    }
+  ],
+  "teeth_model_data": [
+    {
+      "name": "Bryan_original_2K24_converted",
+      "vertices": 4701,
+      "face_groups": [
+        [
+          "teeth:skinned",
+          0,
+          7898
+        ]
+      ],
+      "uv_channels": 2,
+      "vertex_colors": [
+        {
+          "name": 0,
+          "shape": [
+            4701,
+            4
+          ],
+          "dtype": "float32",
+          "min": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "max": [
+            0.9999999403953552,
+            0.9999999403953552,
+            0.9999999403953552,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Xia_original_2K25_converted",
+      "vertices": 4701,
+      "face_groups": [
+        [
+          "teeth:skinned",
+          0,
+          7898
+        ]
+      ],
+      "uv_channels": 2,
+      "vertex_colors": [
+        {
+          "name": 0,
+          "shape": [
+            4701,
+            4
+          ],
+          "dtype": "float32",
+          "min": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "max": [
+            0.9999999403953552,
+            0.9999999403953552,
+            0.9999999403953552,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "supplied_native_2K26_reference",
+      "vertices": 4700,
+      "face_groups": [
+        [
+          "teeth:skinned",
+          0,
+          7898
+        ]
+      ],
+      "uv_channels": 1,
+      "vertex_colors": [
+        {
+          "name": 0,
+          "shape": [
+            4700,
+            4
+          ],
+          "dtype": "float32",
+          "min": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "max": [
+            0.9999999403953552,
+            0.9999999403953552,
+            0.9999999403953552,
+            1.0
+          ]
+        }
+      ]
+    }
+  ],
+  "matching_left_right_generated_eye_materials": true,
+  "bc1_alpha_detected": true,
+  "trans_gear_selected_variant": 2,
+  "bc1_texture_unchanged": true,
+  "caller_teeth_refs_preserved": "explicit caller refs override global defaults; actual affected JMTLs are required to establish which pair the mod uses",
+  "game_asset_resolution": "not_performed",
+  "affected_screenshot_outputs_inspected": false,
+  "teeth_uv_comparison": [
+    {
+      "model": "Bryan_original_2K24_converted",
+      "uv_maps": [
+        {
+          "uv_sha256": "6c8e3e6917a8450e24ff18fd05880bea656a966a2725aa89a97779b92957f3f4",
+          "nearest_stock_uv_max": 0.09255247563123703,
+          "nearest_stock_uv_mean": 0.0173522401172536,
+          "channel": 0,
+          "min": [
+            0.007348999846726656,
+            0.7910109758377075
+          ],
+          "max": [
+            0.5392580032348633,
+            0.9986050128936768
+          ],
+          "same_triangle_corner_uv_as_stock": false,
+          "maximum_triangle_corner_uv_difference": 0.965015172958374
+        },
+        {
+          "uv_sha256": "8ae3d2ea64c10338e637ecfad4911f961b33809d1e780c35b8311f1f8e0ad2ce",
+          "nearest_stock_uv_max": 0.2542092502117157,
+          "nearest_stock_uv_mean": 0.027540075500401752,
+          "channel": 1,
+          "min": [
+            0.00788070261478424,
+            0.0037654638290405273
+          ],
+          "max": [
+            0.9935464859008789,
+            0.9957854151725769
+          ],
+          "same_triangle_corner_uv_as_stock": false,
+          "maximum_triangle_corner_uv_difference": 0.9827461242675781
+        }
+      ]
+    },
+    {
+      "model": "Xia_original_2K25_converted",
+      "uv_maps": [
+        {
+          "uv_sha256": "f62caf0827bf4472f674c7a95477b99aeba3b738cbeaa1dc328c79adc9a22f21",
+          "nearest_stock_uv_max": 0.09255247563123703,
+          "nearest_stock_uv_mean": 0.0173522401172536,
+          "channel": 0,
+          "min": [
+            0.007348999846726656,
+            0.7910109758377075
+          ],
+          "max": [
+            0.5392580032348633,
+            0.9986050128936768
+          ],
+          "same_triangle_corner_uv_as_stock": false,
+          "maximum_triangle_corner_uv_difference": 0.9780842065811157
+        },
+        {
+          "uv_sha256": "c909b5cbdb69b6bca34dfae897d2760dd3fdd28a7c6f4b9264ec13c0a8340f5c",
+          "nearest_stock_uv_max": 0.2542092502117157,
+          "nearest_stock_uv_mean": 0.027540075500401752,
+          "channel": 1,
+          "min": [
+            0.00788070261478424,
+            0.0037654638290405273
+          ],
+          "max": [
+            0.9935464859008789,
+            0.9957854151725769
+          ],
+          "same_triangle_corner_uv_as_stock": false,
+          "maximum_triangle_corner_uv_difference": 0.9602445960044861
+        }
+      ]
+    },
+    {
+      "model": "supplied_native_2K26_reference",
+      "uv_maps": [
+        {
+          "uv_sha256": "a1f6d1f21c328a56c64dbb0fb6d599cfe59051e48693879790aa919efaeb6809",
+          "nearest_stock_uv_max": 0.0,
+          "nearest_stock_uv_mean": 0.0,
+          "channel": 0,
+          "min": [
+            0.0052472976967692375,
+            0.008594930171966553
+          ],
+          "max": [
+            0.9935460090637207,
+            0.9957849979400635
+          ],
+          "same_triangle_corner_uv_as_stock": true,
+          "maximum_triangle_corner_uv_difference": 0.0
+        }
+      ]
+    }
+  ]
+}

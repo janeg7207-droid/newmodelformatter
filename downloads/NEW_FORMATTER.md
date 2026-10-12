@@ -1,14 +1,16 @@
-# NewModelFormatter 0.8 experimental
+# NewModelFormatter 0.9 experimental
 
-This build adds missing-data checks and supported recovery for already-ported
-2K26 models, and admits actual 2K24 model files through the native reader.
+This build corrects DXT1/BC1 alpha detection and records actual emitted material
+hashes, including eye/teeth reference comparisons. It retains missing-data
+checks and supported recovery for already-ported 2K26 models, and admits
+actual 2K24 model files through the native reader.
 It retains final/error reports and the optional Rey gear weight test.
 Folder input/output, CakeView, the Gorilla-style UI and Gorilla's
 YCL translator remain. Original files are preserved.
 
 ## Install
 
-1. Extract `NewModelFormatter_0.8_patch_installer.zip` into a fresh folder.
+1. Extract `NewModelFormatter_0.9_patch_installer.zip` into a fresh folder.
 2. Run `Install.cmd` and select your ORIGINAL Gorilla Model Formatter 1.0 EXE.
 3. Open the created `NewModelFormatter.exe`. Convert into a new empty output
    folder using your usual CakeView workflow.
@@ -28,6 +30,51 @@ Writes are atomic. If the output is unwritable, the tool uses
 writable, it prints the report-write error and preserves the conversion error.
 The report button falls back to Notepad when JSON has no file association.
 Forced process termination cannot guarantee a completed report.
+
+## Eye/teeth checks and Ricochet jacket investigation
+
+Each freshly converted material library now records
+`written_material_payload_audit` from its actual JMTL bytes: SHA-256, shader and
+texture hashes. Eye/teeth entries include `face_texture_check`. Native-input
+material audits include the same checks. The expected teeth pair is
+`0x7357EEB9075DF170` / `0xBA65216DD64F5C78`; the expected eye normal is
+`0xEFBC052176B84E95`. Captured 2K26 character material observations inside the
+supplied comparison formatter corroborate these reference values.
+
+Default emitted teeth hashes matched this pair in the exact packaged writer.
+Caller-supplied teeth references remain preserved and are distinguished from
+the reference pair. Left/right eye test materials retained the requested color
+and emitted the expected normal. The available converted Bryan/Xia and supplied
+native reference models had 13 valid shading-anchor mesh/vertex references and
+the expected eye bindings/bones. These checks do not establish anatomical
+anchor placement, game lookup of textures, or the affected screenshots' output.
+Bryan's current 0.8 report has shader/type metadata but no actual texture hashes.
+Black teeth and dark eyes remain unresolved pending actual affected materials
+or a new report containing the emitted audit.
+
+The available converted teeth models have two UV channels versus one in the
+stock reference, with different layouts. Comparing their coordinates did not
+establish a safe channel swap. Those UVs and vertex colors remain unchanged.
+
+The supplied comparison archive contains stored material observations, not the
+original stock teeth JMTL or DDS pixels. No texture is fabricated or generic
+teeth material substituted over custom data. See FACE_RENDERING_INVESTIGATION.md.
+
+Gorilla treated every DXT1 texture as opaque. DXT1 can contain transparent
+pixels when the BC1 palette has three colors and a used pixel selects entry 3.
+The correction checks those actual selectors, ignores padding outside the
+image, and handles BC1 in DX10 headers. Truncated/unsupported layouts remain
+unknown; other formats retain Gorilla's decoder. Texture bytes are unchanged.
+The existing material conversion policy uses this corrected classification.
+Existing native JMTL variants are preserved rather than guessed/replaced.
+
+Ricochet's report lists `jacket` and `jacket_trans` as yCh_trans inputs, with no
+explicit output transparency variant, and an unreadable hide mask. This is
+not enough to establish the cause of the angular patches in his screenshot.
+His `1029_Default_Attire/1029_Attire.mcd`, `.mtls`, `Materials/jacket.jmtl`,
+`Materials/jacket_trans.jmtl` and referenced DDS files are needed for that
+specific material/geometry comparison. A ZIP of the affected wrestler folder
+preserves the files/structure. No Ricochet visual fix is claimed.
 
 ## Rey test
 
@@ -152,10 +199,13 @@ source/configuration snapshots with hashes. The full Blender scene pipeline
 has not replaced the original native engine. Original Gorilla EXE/mod assets
 are excluded. See `SOURCE_REBUILD.md`.
 
-114 regression tests passed under Python 3.14 with NumPy. Wine/Xvfb tests covered
+134 regression tests passed under Python 3.14 with NumPy. Earlier Wine/Xvfb
+checks covered
 Rey, Billie YCL/materials, existing 2K26 byte preservation, AJ foot-mask
 embedding, actual 2K24 conversion, native missing-data recovery, fatal-error
-Temp reporting, and the GUI report button. Sources stayed unchanged, and root/mod report copies matched the final
+Temp reporting, and the GUI report button. New exact-build checks covered the
+emitted eye/teeth references, native eye/teeth data inspection, BC1 classification,
+Billie material/YCL output and UI. Sources stayed unchanged, and root/mod report copies matched the final
 returned reports. CakeView remained required. The PowerShell installer was
 checked by exact binary reconstruction and ZIP CRCs; it was not independently
 executed on Windows here. In-game appearance/movement tests remain required.

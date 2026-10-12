@@ -1,0 +1,30 @@
+{
+  "installer": {
+    "original_sha256": "ece4729f2ac3fc707c69550d4a79df7866c11a61463d8eb529ae927e04f377f2",
+    "target_sha256": "e54d28913c3f780568295a5e3e7af7071fb4120790cf2128e9e7b5c7c72884a5",
+    "original_bytes": 44019860,
+    "target_bytes": 44169718,
+    "operation_count": 7,
+    "raw_carchive_payloads_reused": 1066,
+    "original_pyz_module_prefix_reused": true,
+    "python_reconstruction_verified": true,
+    "windows_powershell_installer_tested": false,
+    "compressed_patch_bytes": 195051,
+    "zip_crc_verified": true,
+    "zip_bytes": 200856
+  },
+  "source_zip_bytes": 1135266,
+  "source_files": 156,
+  "source_zip_sha256": "f5cb6522bbb77adc3c488143312e145e88ad091a860b67cffb3b28e6365fbb78",
+  "regression_tests": 134,
+  "native_checks": "Wine/Xvfb; original bundled DLL; exact final EXE equal to native-tested candidate",
+  "native_validation_files": [
+    "Eye_Teeth_And_BC1_Validation_0.9.json",
+    "Billie_YCL_Conversion_Validation_0.9.json",
+    "NewModelFormatter_UI_Validation_0.9.json",
+    "Captured_2K26_Face_References_0.9.json"
+  ],
+  "in_game_tested": false,
+  "affected_screenshot_outputs_inspected": false,
+  "eyes_black_teeth_beard_and_ricochet_visual_fixes_confirmed": false
+}
