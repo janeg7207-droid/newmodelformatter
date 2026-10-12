@@ -1,0 +1,764 @@
+{
+  "scope": "genuine supplied native 2K24 v40 files under Wine; original readable HPL supplied; material files absent; no game check",
+  "source_unchanged": true,
+  "actual_input_versions": {
+    "Z:\\workspace\\formatter-investigation\\bryan24-hpl08\\source\\159_Bryan_Danielson\\BaseModel\\baseModel.mdl": 40,
+    "Z:\\workspace\\formatter-investigation\\bryan24-hpl08\\source\\159_Bryan_Danielson\\159_Default_Attire\\159_Attire.mdl": 40
+  },
+  "actual_output_versions": {
+    "Z:\\workspace\\formatter-investigation\\bryan24-hpl08\\output\\Characters\\159_Bryan_Danielson\\BaseModel\\baseModel.mcd": 47,
+    "Z:\\workspace\\formatter-investigation\\bryan24-hpl08\\output\\Characters\\159_Bryan_Danielson\\159_Default_Attire\\159_Attire.mcd": 47
+  },
+  "report": {
+    "source": "Z:\\workspace\\formatter-investigation\\bryan24-hpl08\\source\\159_Bryan_Danielson",
+    "output": "Z:\\workspace\\formatter-investigation\\bryan24-hpl08\\output\\Characters\\159_Bryan_Danielson",
+    "game_path": "Characters/159_Bryan_Danielson",
+    "models": [
+      {
+        "source": "Z:\\workspace\\formatter-investigation\\bryan24-hpl08\\source\\159_Bryan_Danielson\\BaseModel\\baseModel.mdl",
+        "output": "Z:\\workspace\\formatter-investigation\\bryan24-hpl08\\output\\Characters\\159_Bryan_Danielson\\BaseModel\\baseModel.mcd",
+        "source_version": "0x28",
+        "notes": [
+          "2K25 eye-shadow overlay mesh M_transB_eyesha left out (2K26 has no such mesh)",
+          "M_EYE split into eye_r (552 tris) and eye_l (552 tris)",
+          "skeleton: 2K26 male rig (138 bones on the stock pose, 2 moved to their 2K26 stock pose, 26 new)",
+          "2684 vertices used the old muscle bones and were re-weighted",
+          "M_Body had no vertex colour: stock 2K26 colours filled in",
+          "13 eye/mouth shading anchors placed (2 by texture position, furthest 0.80 cm from its stock spot)",
+          "2K24 source format routed without changing input bytes; rig/material/physics validation is still required."
+        ],
+        "kind": "base model",
+        "dropped_meshes": [
+          "2K25 eye-shadow overlay mesh M_transB_eyesha left out (2K26 has no such mesh)"
+        ],
+        "rig": "2K25",
+        "bones": "209 -> 175",
+        "skeleton": "male",
+        "reference_body": "male",
+        "bone_report": {
+          "variant": "male",
+          "stock_pose": 138,
+          "moved_to_2k26_pose": [
+            "H_Ebw_Out_L",
+            "H_Ebw_Out_R"
+          ],
+          "own_pose": [],
+          "new": 26
+        },
+        "weights": [
+          {
+            "mesh": "M_Tongue",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_Teeth",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_MouthBag",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_EYE",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_Head",
+            "old_groups": 8,
+            "verts_changed": 126,
+            "kept_own_part": 0,
+            "max_distance_to_stock_skin": 1.32
+          },
+          {
+            "mesh": "M_Body",
+            "old_groups": 16,
+            "verts_changed": 2558,
+            "kept_own_part": 0,
+            "max_distance_to_stock_skin": 2.21
+          }
+        ],
+        "attach_points_dropped": 0,
+        "mask_limits": {
+          "M_Tongue": 341,
+          "M_Teeth": 4701,
+          "M_MouthBag": 352,
+          "M_EYE": 578,
+          "M_Head": 4375,
+          "M_Body": 12768
+        },
+        "meshes": [
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Tongue"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Teeth"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_MouthBag"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_EYE"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Head"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Body"
+          }
+        ],
+        "status": "converted",
+        "mesh_vertex_counts": {
+          "M_Tongue": 341,
+          "M_Teeth": 4701,
+          "M_MouthBag": 352,
+          "M_EYE": 578,
+          "M_Head": 4375,
+          "M_Body": 12768
+        },
+        "source_game": "WWE 2K24",
+        "legacy_2k24_conversion": {
+          "version": "native-2k24-format-route-with-rig-guards-1",
+          "source_version": 40,
+          "input_header_rewritten": false,
+          "backend": "original native v40 reader and Gorilla conversion core",
+          "rig_checks": "original compatibility checks retained",
+          "validation": "see per-model verify; materials, hide masks, physics and in-game checks remain separate"
+        },
+        "verify": "pass",
+        "problems": [],
+        "facts": {
+          "bones": 175,
+          "substreams": [
+            "CTG!",
+            "MDL!",
+            "HPL!"
+          ],
+          "anchors": 13,
+          "M_Tongue": {
+            "verts": 341,
+            "reweighted": 0
+          },
+          "M_Teeth": {
+            "verts": 4701,
+            "reweighted": 0
+          },
+          "M_MouthBag": {
+            "verts": 352,
+            "reweighted": 0
+          },
+          "M_EYE": {
+            "verts": 578,
+            "reweighted": 0
+          },
+          "M_Head": {
+            "verts": 4375,
+            "reweighted": 126
+          },
+          "left_out": [
+            "M_transB_eyesha"
+          ],
+          "M_Body": {
+            "verts": 12768,
+            "reweighted": 2558
+          },
+          "hide_mask": "none"
+        },
+        "reference_weight_audit": {
+          "version": "supplied-reference-weight-audit-1",
+          "scope": "read_only_weight_data_checks; anatomical correctness unverified",
+          "bone_deform_flags": "not_in_native_records; reference driver-name rules only",
+          "meshes": [
+            {
+              "mesh": "M_Tongue",
+              "vertices": 341,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Teeth",
+              "vertices": 4701,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_MouthBag",
+              "vertices": 352,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_EYE",
+              "vertices": 578,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Head",
+              "vertices": 4375,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Body",
+              "vertices": 12768,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            }
+          ],
+          "suspicious_vertices": 0
+        }
+      },
+      {
+        "source": "Z:\\workspace\\formatter-investigation\\bryan24-hpl08\\source\\159_Bryan_Danielson\\159_Default_Attire\\159_Attire.mdl",
+        "output": "Z:\\workspace\\formatter-investigation\\bryan24-hpl08\\output\\Characters\\159_Bryan_Danielson\\159_Default_Attire\\159_Attire.mcd",
+        "source_version": "0x28",
+        "notes": [
+          "skeleton: 2K26 male rig (138 bones on the stock pose, 2 moved to their 2K26 stock pose, 26 new)",
+          "hide mask carried over from 159_Attire.hpl (ring: M_Body 4215; entrance: M_Body 4215)",
+          "2K24 source format routed without changing input bytes; rig/material/physics validation is still required."
+        ],
+        "kind": "attire",
+        "dropped_meshes": [],
+        "rig": "2K25",
+        "bones": "209 -> 175",
+        "skeleton": "male",
+        "reference_body": "male",
+        "bone_report": {
+          "variant": "male",
+          "stock_pose": 138,
+          "moved_to_2k26_pose": [
+            "H_Ebw_Out_L",
+            "H_Ebw_Out_R"
+          ],
+          "own_pose": [],
+          "new": 26
+        },
+        "weights": [
+          {
+            "mesh": "M_Combinations",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_L_Kneepad",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_L_Wrist",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_R_Kneepad",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_R_Wrist",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_Shoes",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_Underwear",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_Hair",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_Hair",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          }
+        ],
+        "attach_points_dropped": 0,
+        "mask_limits": {
+          "M_Combinations": 5320,
+          "M_L_Kneepad": 480,
+          "M_L_Wrist": 204,
+          "M_R_Kneepad": 480,
+          "M_R_Wrist": 204,
+          "M_Shoes": 2552,
+          "M_Underwear": 711,
+          "M_Hair": 8858
+        },
+        "meshes": [
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Combinations"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_L_Kneepad"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_L_Wrist"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_R_Kneepad"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_R_Wrist"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Shoes"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Underwear"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Hair"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Hair"
+          }
+        ],
+        "status": "converted",
+        "mesh_vertex_counts": {
+          "M_Combinations": 5320,
+          "M_L_Kneepad": 480,
+          "M_L_Wrist": 204,
+          "M_R_Kneepad": 480,
+          "M_R_Wrist": 204,
+          "M_Shoes": 2552,
+          "M_Underwear": 711,
+          "M_Hair": 8858
+        },
+        "source_game": "WWE 2K24",
+        "legacy_2k24_conversion": {
+          "version": "native-2k24-format-route-with-rig-guards-1",
+          "source_version": 40,
+          "input_header_rewritten": false,
+          "backend": "original native v40 reader and Gorilla conversion core",
+          "rig_checks": "original compatibility checks retained",
+          "validation": "see per-model verify; materials, hide masks, physics and in-game checks remain separate"
+        },
+        "verify": "pass",
+        "problems": [],
+        "facts": {
+          "bones": 175,
+          "substreams": [
+            "MDL!",
+            "HPL!"
+          ],
+          "anchors": 0,
+          "M_Combinations": {
+            "verts": 5320,
+            "reweighted": 0
+          },
+          "M_L_Kneepad": {
+            "verts": 480,
+            "reweighted": 0
+          },
+          "M_L_Wrist": {
+            "verts": 204,
+            "reweighted": 0
+          },
+          "M_R_Kneepad": {
+            "verts": 480,
+            "reweighted": 0
+          },
+          "M_R_Wrist": {
+            "verts": 204,
+            "reweighted": 0
+          },
+          "M_Shoes": {
+            "verts": 2552,
+            "reweighted": 0
+          },
+          "M_Underwear": {
+            "verts": 711,
+            "reweighted": 0
+          },
+          "M_Hair": {
+            "verts": 8858,
+            "reweighted": 0
+          },
+          "hide_mask": "mask"
+        },
+        "reference_weight_audit": {
+          "version": "supplied-reference-weight-audit-1",
+          "scope": "read_only_weight_data_checks; anatomical correctness unverified",
+          "bone_deform_flags": "not_in_native_records; reference driver-name rules only",
+          "meshes": [
+            {
+              "mesh": "M_Combinations",
+              "vertices": 5320,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_L_Kneepad",
+              "vertices": 480,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_L_Wrist",
+              "vertices": 204,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_R_Kneepad",
+              "vertices": 480,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_R_Wrist",
+              "vertices": 204,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Shoes",
+              "vertices": 2552,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Underwear",
+              "vertices": 711,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Hair",
+              "vertices": 8858,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Hair",
+              "vertices": 8858,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            }
+          ],
+          "suspicious_vertices": 0
+        }
+      }
+    ],
+    "materials": [],
+    "copied": 0,
+    "left_out": [
+      "159_Default_Attire\\159_Attire.hpl (now inside the .mcd)"
+    ],
+    "problems": [
+      "BaseModel\\baseModel.mdl: no material file next to the model",
+      "159_Default_Attire\\159_Attire.mdl: no material file next to the model"
+    ],
+    "warnings": [
+      "2K24 conversion is experimental; original rig checks retained and in-game validation required."
+    ],
+    "blank_physics": [],
+    "physics_converted": [],
+    "ycl_editor": null,
+    "engine": "Model engine: WWE2K_MDL add-on, inside this app",
+    "seconds": 6.9,
+    "source_inventory_before_conversion": [
+      {
+        "path": "159_Default_Attire/159_Attire.hpl",
+        "bytes": 67580,
+        "sha256": "3c4b880b325f1f424d8d0b8dae88f9f38d7263751b23654d2906fa6123dc00be"
+      },
+      {
+        "path": "159_Default_Attire/159_Attire.mdl",
+        "bytes": 9657484,
+        "sha256": "ab0800e0d82ed91bf2f1e623e1ea3efde1e03cb1d68924d7be8cfc214f3cb88a"
+      },
+      {
+        "path": "BaseModel/baseModel.mdl",
+        "bytes": 5787552,
+        "sha256": "dd554cda6ff7567fd59bbca7093539215ba28389c3584c3fd06408ef7f06752a"
+      }
+    ],
+    "conversion_completeness": "incomplete",
+    "in_game_validation": "not_performed",
+    "repair_patch": "native26-missing-data-and-verified-recovery-8",
+    "native_2k26_models_preserved": 0,
+    "native_2k26_material_libraries_repaired": 0,
+    "native_2k26_patch": "native-2k26-preservation-and-material-links-1",
+    "reference_source_integration": {
+      "weight_checks": "supplied-reference-weight-audit-1",
+      "geometry_backend": "Gorilla native engine with ported reference components; full Blender workflow not invoked",
+      "wwe2k_mdl_source_supplied": true,
+      "ycl_backend": "original Gorilla converter",
+      "full_reference_engine_rebuilt": false
+    },
+    "ycl_repair_patch": "independent-gorilla-ycl-translation-1",
+    "native_2k26_missing_data_check": {
+      "version": "native-2k26-missing-data-audit-1",
+      "models_checked": 0,
+      "repairs_applied": 0,
+      "findings": [],
+      "in_game_validation": "not_performed",
+      "unavailable_data": "reported; never synthesized",
+      "state": "not_applicable_no_native_inputs"
+    },
+    "legacy_2k24_input_route": {
+      "version": "native-2k24-format-route-with-rig-guards-1",
+      "models_attempted": 2,
+      "model_checks_passed": 2,
+      "input_headers_rewritten": false,
+      "in_game_validation": "not_performed",
+      "validation_scope": "native model structural checks; materials, hide masks and physics reported separately"
+    },
+    "started_at_utc": "2026-10-12T17:09:58.688119+00:00",
+    "finished_at_utc": "2026-10-12T17:10:06.602984+00:00",
+    "status": "completed_with_problems",
+    "report_paths": [
+      "Z:\\workspace\\formatter-investigation\\bryan24-hpl08\\output\\159_Bryan_Danielson - conversion report.json",
+      "Z:\\workspace\\formatter-investigation\\bryan24-hpl08\\output\\Characters\\159_Bryan_Danielson\\159_Bryan_Danielson - conversion report.json"
+    ],
+    "report_path": "Z:\\workspace\\formatter-investigation\\bryan24-hpl08\\output\\159_Bryan_Danielson - conversion report.json"
+  },
+  "logs": [
+    "  BaseModel\\baseModel.mdl: base model, 209 -> 175 bones, male rig, check pass",
+    "  159_Default_Attire\\159_Attire.mdl: attire, 209 -> 175 bones, male rig, check pass",
+    "2K24 conversion is experimental; original rig checks retained and in-game validation required.",
+    "Report saved: Z:\\workspace\\formatter-investigation\\bryan24-hpl08\\output\\159_Bryan_Danielson - conversion report.json"
+  ],
+  "reports_saved_and_equal": {
+    "Z:\\workspace\\formatter-investigation\\bryan24-hpl08\\output\\159_Bryan_Danielson - conversion report.json": true,
+    "Z:\\workspace\\formatter-investigation\\bryan24-hpl08\\output\\Characters\\159_Bryan_Danielson\\159_Bryan_Danielson - conversion report.json": true
+  },
+  "input_hpl_whole": true,
+  "output_hpl_whole": true,
+  "input_hpl_bytes": 67580,
+  "output_hpl_bytes": 168932,
+  "mask_flags_and_indices_preserved": true,
+  "mask_indices_in_actual_paired_base": true,
+  "mask_counts": {
+    "0": {
+      "0": {
+        "M_Body": 4215
+      },
+      "1": {
+        "M_Body": 4215
+      }
+    },
+    "1": {
+      "0": {
+        "M_Body": 4215
+      },
+      "1": {
+        "M_Body": 4215
+      }
+    },
+    "2": {
+      "0": {
+        "M_Body": 4215
+      },
+      "1": {
+        "M_Body": 4215
+      }
+    },
+    "3": {
+      "0": {
+        "M_Body": 4215
+      },
+      "1": {
+        "M_Body": 4215
+      }
+    },
+    "4": {
+      "0": {
+        "M_Body": 4215
+      },
+      "1": {
+        "M_Body": 4215
+      }
+    }
+  }
+}

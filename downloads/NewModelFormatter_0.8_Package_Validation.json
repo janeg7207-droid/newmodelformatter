@@ -1,0 +1,32 @@
+{
+  "installer": {
+    "original_sha256": "ece4729f2ac3fc707c69550d4a79df7866c11a61463d8eb529ae927e04f377f2",
+    "target_sha256": "5ad20c8b82cd4c53f849a7cbd2775b4c6b1eb09022cbbf53db3dedaeefb20642",
+    "original_bytes": 44019860,
+    "target_bytes": 44165448,
+    "operation_count": 7,
+    "raw_carchive_payloads_reused": 1066,
+    "original_pyz_module_prefix_reused": true,
+    "python_reconstruction_verified": true,
+    "windows_powershell_installer_tested": false,
+    "compressed_patch_bytes": 190830,
+    "zip_crc_verified": true,
+    "zip_bytes": 196312
+  },
+  "source_zip_bytes": 1125470,
+  "source_files": 151,
+  "source_zip_sha256": "72eeeea2f4ed40430630b53e5fea74bb22a785631a1f2ebd6cddb2fcaecff982",
+  "regression_tests": 114,
+  "native_checks": "Wine/Xvfb; original bundled DLL",
+  "native_validation_files": [
+    "Rey_Paired_Gear_Validation_0.8.json",
+    "Billie_YCL_Conversion_Validation_0.8.json",
+    "Report_Error_Fallback_Validation_0.8.json",
+    "NewModelFormatter_UI_Validation_0.8.json",
+    "AJ_Foot_Mask_Validation_0.8.json",
+    "Native_Missing_Data_Recovery_Validation_0.8.json",
+    "Bryan_2K24_And_HPL_Validation_0.8.json",
+    "Xia_Li_Mask_Inspection_0.8.json"
+  ],
+  "in_game_tested": false
+}

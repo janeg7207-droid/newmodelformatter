@@ -1,12 +1,14 @@
-# NewModelFormatter 0.7 experimental
+# NewModelFormatter 0.8 experimental
 
-This build adds reliable final/error reports and an optional new Rey gear
-weight test. Folder input/output, CakeView, the Gorilla-style UI and Gorilla's
+This build adds missing-data checks and supported recovery for already-ported
+2K26 models, and admits actual 2K24 model files through the native reader.
+It retains final/error reports and the optional Rey gear weight test.
+Folder input/output, CakeView, the Gorilla-style UI and Gorilla's
 YCL translator remain. Original files are preserved.
 
 ## Install
 
-1. Extract `NewModelFormatter_0.7_patch_installer.zip` into a fresh folder.
+1. Extract `NewModelFormatter_0.8_patch_installer.zip` into a fresh folder.
 2. Run `Install.cmd` and select your ORIGINAL Gorilla Model Formatter 1.0 EXE.
 3. Open the created `NewModelFormatter.exe`. Convert into a new empty output
    folder using your usual CakeView workflow.
@@ -91,20 +93,69 @@ claimed until that actual material can be inspected.
 
 ## Existing 2K26 inputs and source
 
-Existing 2K26 models are accepted for preservation/material audit. Select
+Existing 2K26 models are accepted for preservation and missing-data checks. Select
 **Keep the mod's own folder name**; moving opaque material texture hashes to
-another stock slot is unsupported. This path preserves native model and
-physics bytes, except for the explicitly reported exact-AJ foot-mask repair.
-It does not rebuild unsupported old skinning/physics.
+another stock slot is unsupported. The new pass checks material definitions,
+texture references, hide masks against the actual paired base, and available
+physics references. Its supported repairs are:
+
+- Rebuild a missing native MTLS table or entry from actual readable JMTLs in
+  the selected folder. Existing shader values are retained.
+- Recover referenced DDS/TEX files when an exact game-path hash identifies
+  an available source file. Missing hashes are reported as external or missing;
+  stock game assets may resolve them at bake/runtime.
+- Restore an empty, absent or unreadable embedded mask from a readable,
+  matching HPL sidecar after paired-base/domain and native-reader checks.
+  This supports uniform LOD masks and preserves the model and all other streams.
+- Restore an available YCL using Gorilla's existing translator where supported.
+  Existing native WDF/YWA companions remain preserved but unverified.
+
+Inspect `native_2k26_missing_data_check` and each model's
+`native_missing_data_audit` in the report. Unavailable shaders, textures,
+paired bases, masks or physics remain listed with their expected paths/hashes.
+The pass does not regenerate missing geometry or arbitrary outfit masks.
+Unreadable/ambiguous layouts remain preserved and reported.
+
+Actual native-file tests restored all 13 Billie material bindings after
+deleting a table or entry in test copies. Healthy model/shader bytes stayed
+identical. A deliberately removed Rey embedded mask was recovered from his
+valid sidecar and exactly matched the earlier validated mask; all other model
+substreams stayed identical. These isolated tests still lacked textures or
+physics/material assets, so their reports correctly retained unresolved items.
+
+## 2K24 inputs and Xia Li
+
+Native model format 40 (0x28) now passes the folder admission gate. The backend
+reads the original bytes as 2K24; no header is relabeled as 2K25. Original rig
+and output checks remain active. Unsupported older rigs retain failures.
+2K24 conversion is experimental: materials, masks, texture conventions and
+physics require their own checks, followed by an in-game check.
+
+The supplied original Bryan ROH base and attire are genuine format-40 inputs.
+Both converted to format 47 with 209 -> 175 bones and passed native structural
+checks. His original 67,580-byte HPL was readable, converted to a complete
+168,932-byte embedded mask, and preserved flags/indices at all five output
+LODs within the actual paired-base domains. His MTLS/material files were not
+supplied with this pair, so these
+checks do not establish a complete, bake-ready mod.
+
+Xia Li's supplied base and attire are format 41 (2K25). Neither contains an
+embedded HPL. Her report's separate 81,408-byte HPL is byte-identical to the
+unreadable placeholder previously observed with Rey/Bryan. Her exact missing
+mask source is a readable `982_Default_Attire/982_Attire.hpl` matched to the
+supplied base. Another wrestler's mask cannot substitute for it. Xia's YCL
+was translated in her report, but four YWA companion files were omitted;
+compatible movement remains unverified.
 
 The source ZIP includes runtime repairs, build code, tests and all 100 supplied
 source/configuration snapshots with hashes. The full Blender scene pipeline
 has not replaced the original native engine. Original Gorilla EXE/mod assets
 are excluded. See `SOURCE_REBUILD.md`.
 
-89 regression tests passed under Python 3.14 with NumPy. Wine/Xvfb tests covered
+114 regression tests passed under Python 3.14 with NumPy. Wine/Xvfb tests covered
 Rey, Billie YCL/materials, existing 2K26 byte preservation, AJ foot-mask
-embedding, fatal-error Temp reporting, and the GUI report button. Sources stayed unchanged, and root/mod report copies matched the final
+embedding, actual 2K24 conversion, native missing-data recovery, fatal-error
+Temp reporting, and the GUI report button. Sources stayed unchanged, and root/mod report copies matched the final
 returned reports. CakeView remained required. The PowerShell installer was
 checked by exact binary reconstruction and ZIP CRCs; it was not independently
 executed on Windows here. In-game appearance/movement tests remain required.
