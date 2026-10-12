@@ -1,0 +1,509 @@
+{
+  "scope": "exact final0.13r4 candidate full folder pipeline; actual formatted25 Bryan and copied native47 before/after matched-anchor trial; no game/CakeView render test",
+  "cases": [
+    {
+      "case": "legacy25",
+      "source_unchanged": true,
+      "models_verify_original_pass": true,
+      "base_sha256": "19956b0ba487d68f90999d86a3837d695b3b14c0c79763d46cebc5814a1ac4ba",
+      "base_bytes": 6688516,
+      "slot4": [
+        "_ag_0004",
+        "M_Tongue",
+        4,
+        127
+      ],
+      "model_status": "converted",
+      "facts": {
+        "source_sha256": null,
+        "output_sha256": "19956b0ba487d68f90999d86a3837d695b3b14c0c79763d46cebc5814a1ac4ba",
+        "output_sha256_before_experimental_anchor": "9727b9f46c18eb54d4eb11a40fdf98a25d8b3ca4aac135c2b26be2714e9fad60",
+        "byte_identical": false,
+        "model_bytes_preserved": false,
+        "geometry_weights_bones_and_embedded_streams": "geometry, weights, bones and every non-target byte preserved; only GtPt slot 4 mesh-index and vertex fields changed"
+      },
+      "experiment": {
+        "version": "exact-supplied-bryan-and-flip-tongue-anchor-experiment-2",
+        "scope": "exact inspected supplied Bryan and Flip Gordon profiles only; each source must match its own output profile",
+        "applied": 1,
+        "already_applied": 0,
+        "in_game_validation": "not_performed",
+        "black_teeth_fixed": "not established; controlled anatomical anchor experiment",
+        "matched_profiles": [
+          "Bryan"
+        ]
+      },
+      "experiment_state": "applied_experimental_anchor_test",
+      "matched_only_bryan_profile": true,
+      "changed_assets_relative_to_12": [
+        "BaseModel/Materials/eye_l.jmtl",
+        "BaseModel/Materials/eye_r.jmtl",
+        "BaseModel/baseModel.mcd"
+      ],
+      "changed_assets_relative_to_r3": [
+        "BaseModel/Materials/eye_l.jmtl",
+        "BaseModel/Materials/eye_r.jmtl"
+      ],
+      "all_asset_inventory_keys_equal_12": true,
+      "all_asset_inventory_keys_equal_r3": true,
+      "only_expected_assets_changed": true,
+      "all_non_eye_materials_and_dds_unchanged_12": true,
+      "all_attire_assets_unchanged_12": true,
+      "base_model_byte_identical_r3": true,
+      "native_changed_assets_from_own_input": null,
+      "native_assets_preserved_except_expected_anchor_bytes": null,
+      "only_reviewed_three_bytes_differ_from_12": true,
+      "all_twelve_other_anchor_records_preserved": true,
+      "paired_mask_final_base_sha256": "19956b0ba487d68f90999d86a3837d695b3b14c0c79763d46cebc5814a1ac4ba",
+      "paired_mask_pre_anchor_base_sha256": "9727b9f46c18eb54d4eb11a40fdf98a25d8b3ca4aac135c2b26be2714e9fad60",
+      "face_audit_reads_final_sha256": true,
+      "face_audit_problems": [],
+      "reports_saved_and_equal": true,
+      "completeness": "incomplete",
+      "pending_game_check": "required; appearance not validated",
+      "problems": [
+        "restored supplied matching hide mask requires entrance/gameplay validation",
+        "Experimental Bryan tongue anchor test requires an in-game teeth check; a visual fix has not been established."
+      ],
+      "pending_game_check_problems_only": true,
+      "legacy_eye_material_checks": [
+        {
+          "name": "eye_l",
+          "sha256": "952afb8ac8360ef89876cba23cee85a05333f2ba0becf38d26869af1b5327f40",
+          "bytes": 152,
+          "authored_scalar_count": 14,
+          "authored_scalar_fields": [
+            {
+              "slot": 4,
+              "key": "caustic",
+              "source_type": 2,
+              "observed": 1.0,
+              "expected": 1.0,
+              "present": true,
+              "matches_source": true
+            },
+            {
+              "slot": 5,
+              "key": "g_eyeRoughness",
+              "source_type": 2,
+              "observed": 1.0,
+              "expected": 1.0,
+              "present": true,
+              "matches_source": true
+            },
+            {
+              "slot": 6,
+              "key": "g_fFresnel",
+              "source_type": 2,
+              "observed": 0.8500000238418579,
+              "expected": 0.8500000238418579,
+              "present": true,
+              "matches_source": true
+            },
+            {
+              "slot": 7,
+              "key": "g_pupilLns",
+              "source_absent": true,
+              "remains_absent": true
+            },
+            {
+              "slot": 8,
+              "key": "g_pupilPar",
+              "source_absent": true,
+              "remains_absent": true
+            },
+            {
+              "slot": 9,
+              "key": "g_refraction",
+              "source_type": 2,
+              "observed": 1,
+              "expected": 1,
+              "present": true,
+              "matches_source": true
+            },
+            {
+              "slot": 10,
+              "key": "g_specIntensity",
+              "source_type": 2,
+              "observed": 2.0,
+              "expected": 2.0,
+              "present": true,
+              "matches_source": true
+            },
+            {
+              "slot": 11,
+              "key": "g_eyeWetness",
+              "source_type": 2,
+              "observed": 0.0,
+              "expected": 0.0,
+              "present": true,
+              "matches_source": true
+            },
+            {
+              "slot": 12,
+              "key": "eyeLidShadowDarkness",
+              "source_type": 2,
+              "observed": 0.10000000149011612,
+              "expected": 0.10000000149011612,
+              "present": true,
+              "matches_source": true
+            },
+            {
+              "slot": 13,
+              "key": "eyeLidShadowFallOff",
+              "source_type": 2,
+              "observed": 0.15000000596046448,
+              "expected": 0.15000000596046448,
+              "present": true,
+              "matches_source": true
+            },
+            {
+              "slot": 14,
+              "key": "eyeShadowConeSharpness",
+              "source_type": 2,
+              "observed": 0.10000000149011612,
+              "expected": 0.10000000149011612,
+              "present": true,
+              "matches_source": true
+            },
+            {
+              "slot": 15,
+              "key": "eyeShadowConeBgLevel",
+              "source_type": 2,
+              "observed": 0.10000000149011612,
+              "expected": 0.10000000149011612,
+              "present": true,
+              "matches_source": true
+            },
+            {
+              "slot": 16,
+              "key": "eyeShadowHorizontalFit",
+              "source_type": 2,
+              "observed": 1.7999999523162842,
+              "expected": 1.7999999523162842,
+              "present": true,
+              "matches_source": true
+            },
+            {
+              "slot": 17,
+              "key": "eyeShadowLidZBias",
+              "source_type": 2,
+              "observed": 0.5,
+              "expected": 0.5,
+              "present": true,
+              "matches_source": true
+            },
+            {
+              "slot": 18,
+              "key": "eyeShadowVerticalBias",
+              "source_type": 2,
+              "observed": 0.12999999523162842,
+              "expected": 0.12999999523162842,
+              "present": true,
+              "matches_source": true
+            },
+            {
+              "slot": 19,
+              "key": "eyeShadowVerticalFit",
+              "source_type": 2,
+              "observed": 0.4000000059604645,
+              "expected": 0.4000000059604645,
+              "present": true,
+              "matches_source": true
+            }
+          ],
+          "refs_unchanged_from_12": true
+        },
+        {
+          "name": "eye_r",
+          "sha256": "952afb8ac8360ef89876cba23cee85a05333f2ba0becf38d26869af1b5327f40",
+          "bytes": 152,
+          "authored_scalar_count": 14,
+          "authored_scalar_fields": [
+            {
+              "slot": 4,
+              "key": "caustic",
+              "source_type": 2,
+              "observed": 1.0,
+              "expected": 1.0,
+              "present": true,
+              "matches_source": true
+            },
+            {
+              "slot": 5,
+              "key": "g_eyeRoughness",
+              "source_type": 2,
+              "observed": 1.0,
+              "expected": 1.0,
+              "present": true,
+              "matches_source": true
+            },
+            {
+              "slot": 6,
+              "key": "g_fFresnel",
+              "source_type": 2,
+              "observed": 0.8500000238418579,
+              "expected": 0.8500000238418579,
+              "present": true,
+              "matches_source": true
+            },
+            {
+              "slot": 7,
+              "key": "g_pupilLns",
+              "source_absent": true,
+              "remains_absent": true
+            },
+            {
+              "slot": 8,
+              "key": "g_pupilPar",
+              "source_absent": true,
+              "remains_absent": true
+            },
+            {
+              "slot": 9,
+              "key": "g_refraction",
+              "source_type": 2,
+              "observed": 1,
+              "expected": 1,
+              "present": true,
+              "matches_source": true
+            },
+            {
+              "slot": 10,
+              "key": "g_specIntensity",
+              "source_type": 2,
+              "observed": 2.0,
+              "expected": 2.0,
+              "present": true,
+              "matches_source": true
+            },
+            {
+              "slot": 11,
+              "key": "g_eyeWetness",
+              "source_type": 2,
+              "observed": 0.0,
+              "expected": 0.0,
+              "present": true,
+              "matches_source": true
+            },
+            {
+              "slot": 12,
+              "key": "eyeLidShadowDarkness",
+              "source_type": 2,
+              "observed": 0.10000000149011612,
+              "expected": 0.10000000149011612,
+              "present": true,
+              "matches_source": true
+            },
+            {
+              "slot": 13,
+              "key": "eyeLidShadowFallOff",
+              "source_type": 2,
+              "observed": 0.15000000596046448,
+              "expected": 0.15000000596046448,
+              "present": true,
+              "matches_source": true
+            },
+            {
+              "slot": 14,
+              "key": "eyeShadowConeSharpness",
+              "source_type": 2,
+              "observed": 0.10000000149011612,
+              "expected": 0.10000000149011612,
+              "present": true,
+              "matches_source": true
+            },
+            {
+              "slot": 15,
+              "key": "eyeShadowConeBgLevel",
+              "source_type": 2,
+              "observed": 0.10000000149011612,
+              "expected": 0.10000000149011612,
+              "present": true,
+              "matches_source": true
+            },
+            {
+              "slot": 16,
+              "key": "eyeShadowHorizontalFit",
+              "source_type": 2,
+              "observed": 1.7999999523162842,
+              "expected": 1.7999999523162842,
+              "present": true,
+              "matches_source": true
+            },
+            {
+              "slot": 17,
+              "key": "eyeShadowLidZBias",
+              "source_type": 2,
+              "observed": 0.5,
+              "expected": 0.5,
+              "present": true,
+              "matches_source": true
+            },
+            {
+              "slot": 18,
+              "key": "eyeShadowVerticalBias",
+              "source_type": 2,
+              "observed": 0.12999999523162842,
+              "expected": 0.12999999523162842,
+              "present": true,
+              "matches_source": true
+            },
+            {
+              "slot": 19,
+              "key": "eyeShadowVerticalFit",
+              "source_type": 2,
+              "observed": 0.4000000059604645,
+              "expected": 0.4000000059604645,
+              "present": true,
+              "matches_source": true
+            }
+          ],
+          "refs_unchanged_from_12": true
+        }
+      ],
+      "in_game_validation": "not_performed",
+      "output_root": "Z:\\workspace\\formatter-investigation\\teeth13-final-r4\\legacy25\\output\\Characters\\159_Bryan_Danielson"
+    },
+    {
+      "case": "native26_before_trial",
+      "source_unchanged": true,
+      "models_verify_original_pass": true,
+      "base_sha256": "19956b0ba487d68f90999d86a3837d695b3b14c0c79763d46cebc5814a1ac4ba",
+      "base_bytes": 6688516,
+      "slot4": [
+        "_ag_0004",
+        "M_Tongue",
+        4,
+        127
+      ],
+      "model_status": "repaired_2k26_experimental_tongue_anchor",
+      "facts": {
+        "source_sha256": "9727b9f46c18eb54d4eb11a40fdf98a25d8b3ca4aac135c2b26be2714e9fad60",
+        "output_sha256": "19956b0ba487d68f90999d86a3837d695b3b14c0c79763d46cebc5814a1ac4ba",
+        "output_sha256_before_experimental_anchor": "9727b9f46c18eb54d4eb11a40fdf98a25d8b3ca4aac135c2b26be2714e9fad60",
+        "byte_identical": false,
+        "model_bytes_preserved": false,
+        "geometry_weights_bones_and_embedded_streams": "geometry, weights, bones and every non-target byte preserved; only GtPt slot 4 mesh-index and vertex fields changed"
+      },
+      "experiment": {
+        "version": "exact-supplied-bryan-and-flip-tongue-anchor-experiment-2",
+        "scope": "exact inspected supplied Bryan and Flip Gordon profiles only; each source must match its own output profile",
+        "applied": 1,
+        "already_applied": 0,
+        "in_game_validation": "not_performed",
+        "black_teeth_fixed": "not established; controlled anatomical anchor experiment",
+        "matched_profiles": [
+          "Bryan"
+        ]
+      },
+      "experiment_state": "applied_experimental_anchor_test",
+      "matched_only_bryan_profile": true,
+      "changed_assets_relative_to_12": [
+        "BaseModel/baseModel.mcd"
+      ],
+      "changed_assets_relative_to_r3": [],
+      "all_asset_inventory_keys_equal_12": true,
+      "all_asset_inventory_keys_equal_r3": true,
+      "only_expected_assets_changed": true,
+      "all_non_eye_materials_and_dds_unchanged_12": true,
+      "all_attire_assets_unchanged_12": true,
+      "base_model_byte_identical_r3": true,
+      "native_changed_assets_from_own_input": [
+        "BaseModel/baseModel.mcd"
+      ],
+      "native_assets_preserved_except_expected_anchor_bytes": true,
+      "only_reviewed_three_bytes_differ_from_12": true,
+      "all_twelve_other_anchor_records_preserved": true,
+      "paired_mask_final_base_sha256": null,
+      "paired_mask_pre_anchor_base_sha256": null,
+      "face_audit_reads_final_sha256": true,
+      "face_audit_problems": [],
+      "reports_saved_and_equal": true,
+      "completeness": "incomplete",
+      "pending_game_check": "required; appearance not validated",
+      "problems": [
+        "Experimental Bryan tongue anchor test requires an in-game teeth check; a visual fix has not been established."
+      ],
+      "pending_game_check_problems_only": true,
+      "legacy_eye_material_checks": [],
+      "in_game_validation": "not_performed",
+      "output_root": "Z:\\workspace\\formatter-investigation\\teeth13-final-r4\\native26_before_trial\\output\\Characters\\159_Bryan_Danielson"
+    },
+    {
+      "case": "native26_trial_idempotent",
+      "source_unchanged": true,
+      "models_verify_original_pass": true,
+      "base_sha256": "19956b0ba487d68f90999d86a3837d695b3b14c0c79763d46cebc5814a1ac4ba",
+      "base_bytes": 6688516,
+      "slot4": [
+        "_ag_0004",
+        "M_Tongue",
+        4,
+        127
+      ],
+      "model_status": "preserved_2k26",
+      "facts": {
+        "source_sha256": "19956b0ba487d68f90999d86a3837d695b3b14c0c79763d46cebc5814a1ac4ba",
+        "output_sha256": "19956b0ba487d68f90999d86a3837d695b3b14c0c79763d46cebc5814a1ac4ba",
+        "output_sha256_before_experimental_anchor": null,
+        "byte_identical": true,
+        "model_bytes_preserved": null,
+        "geometry_weights_bones_and_embedded_streams": "byte_identical"
+      },
+      "experiment": {
+        "version": "exact-supplied-bryan-and-flip-tongue-anchor-experiment-2",
+        "scope": "exact inspected supplied Bryan and Flip Gordon profiles only; each source must match its own output profile",
+        "applied": 0,
+        "already_applied": 1,
+        "in_game_validation": "not_performed",
+        "black_teeth_fixed": "not established; controlled anatomical anchor experiment",
+        "matched_profiles": [
+          "Bryan"
+        ]
+      },
+      "experiment_state": "already_applied",
+      "matched_only_bryan_profile": true,
+      "changed_assets_relative_to_12": [
+        "BaseModel/baseModel.mcd"
+      ],
+      "changed_assets_relative_to_r3": [],
+      "all_asset_inventory_keys_equal_12": true,
+      "all_asset_inventory_keys_equal_r3": true,
+      "only_expected_assets_changed": true,
+      "all_non_eye_materials_and_dds_unchanged_12": true,
+      "all_attire_assets_unchanged_12": true,
+      "base_model_byte_identical_r3": true,
+      "native_changed_assets_from_own_input": [],
+      "native_assets_preserved_except_expected_anchor_bytes": true,
+      "only_reviewed_three_bytes_differ_from_12": true,
+      "all_twelve_other_anchor_records_preserved": true,
+      "paired_mask_final_base_sha256": null,
+      "paired_mask_pre_anchor_base_sha256": null,
+      "face_audit_reads_final_sha256": true,
+      "face_audit_problems": [],
+      "reports_saved_and_equal": true,
+      "completeness": "incomplete",
+      "pending_game_check": "required; appearance not validated",
+      "problems": [
+        "Experimental Bryan tongue anchor test requires an in-game teeth check; a visual fix has not been established."
+      ],
+      "pending_game_check_problems_only": true,
+      "legacy_eye_material_checks": [],
+      "in_game_validation": "not_performed",
+      "output_root": "Z:\\workspace\\formatter-investigation\\teeth13-final-r4\\native26_trial_idempotent\\output\\Characters\\159_Bryan_Danielson"
+    }
+  ],
+  "all_cases_structural_checks_passed": true,
+  "legacy_mask_hash_chain_correct": true,
+  "native_changed_facts_truthful": true,
+  "native_idempotent_facts_truthful": true,
+  "native_materials_dds_and_non_anchor_assets_identical_to_own_input": true,
+  "legacy_14_authored_scalars_preserved_each_eye": true,
+  "candidate_sha256": "fce692b1f25f3d71436bf9bf50c2427e69a1603d310703bb55105dc956ba9f98",
+  "candidate_bytes": 44262520,
+  "candidate_module_payload_verified": true,
+  "all_checks_passed": true,
+  "in_game_visual_fix_confirmed": false,
+  "helper_unit_tests_passed": 26
+}

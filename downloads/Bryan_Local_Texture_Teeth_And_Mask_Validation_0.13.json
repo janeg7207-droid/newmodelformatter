@@ -1,0 +1,3430 @@
+{
+  "scope": "exact0.13nativeconversionofactualsuppliedformatted2K25Bryan; expectedDDSlocalbindingsandreferencewriterirradiance; automaticoriginalmaskrecovery; no in-game orCakeViewbakedassettest",
+  "source_unchanged": true,
+  "models_verified": true,
+  "report": {
+    "source": "Z:\\workspace\\formatter-investigation\\bryan25-upload\\159_Bryan_Danielson",
+    "output": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson",
+    "game_path": "Characters/159_Bryan_Danielson",
+    "models": [
+      {
+        "source": "Z:\\workspace\\formatter-investigation\\bryan25-upload\\159_Bryan_Danielson\\BaseModel\\baseModel.mcd",
+        "output": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\BaseModel\\baseModel.mcd",
+        "source_version": "0x29",
+        "notes": [
+          "2K25 eye-shadow overlay mesh M_transB_eyesha left out (2K26 has no such mesh)",
+          "M_EYE split into eye_r (552 tris) and eye_l (552 tris)",
+          "skeleton: 2K26 male rig (138 bones on the stock pose, 2 moved to their 2K26 stock pose, 26 new)",
+          "2684 vertices used the old muscle bones and were re-weighted",
+          "M_Body had no vertex colour: stock 2K26 colours filled in",
+          "13 eye/mouth shading anchors placed (2 by texture position, furthest 0.80 cm from its stock spot)"
+        ],
+        "kind": "base model",
+        "dropped_meshes": [
+          "2K25 eye-shadow overlay mesh M_transB_eyesha left out (2K26 has no such mesh)"
+        ],
+        "rig": "2K25",
+        "bones": "209 -> 175",
+        "skeleton": "male",
+        "reference_body": "male",
+        "bone_report": {
+          "variant": "male",
+          "stock_pose": 138,
+          "moved_to_2k26_pose": [
+            "H_Ebw_Out_L",
+            "H_Ebw_Out_R"
+          ],
+          "own_pose": [],
+          "new": 26
+        },
+        "weights": [
+          {
+            "mesh": "M_Tongue",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_Teeth",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_MouthBag",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_EYE",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_Head",
+            "old_groups": 8,
+            "verts_changed": 126,
+            "kept_own_part": 0,
+            "max_distance_to_stock_skin": 1.32
+          },
+          {
+            "mesh": "M_Body",
+            "old_groups": 16,
+            "verts_changed": 2558,
+            "kept_own_part": 0,
+            "max_distance_to_stock_skin": 2.21
+          }
+        ],
+        "attach_points_dropped": 0,
+        "mask_limits": {
+          "M_Tongue": 341,
+          "M_Teeth": 4701,
+          "M_MouthBag": 352,
+          "M_EYE": 578,
+          "M_Head": 4375,
+          "M_Body": 12768
+        },
+        "meshes": [
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Tongue"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Teeth"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_MouthBag"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_EYE"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Head"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Body"
+          }
+        ],
+        "status": "converted",
+        "mesh_vertex_counts": {
+          "M_Tongue": 341,
+          "M_Teeth": 4701,
+          "M_MouthBag": 352,
+          "M_EYE": 578,
+          "M_Head": 4375,
+          "M_Body": 12768
+        },
+        "verify": "pass",
+        "problems": [],
+        "facts": {
+          "bones": 175,
+          "substreams": [
+            "CTG!",
+            "MDL!",
+            "HPL!"
+          ],
+          "anchors": 13,
+          "M_Tongue": {
+            "verts": 341,
+            "reweighted": 0
+          },
+          "M_Teeth": {
+            "verts": 4701,
+            "reweighted": 0
+          },
+          "M_MouthBag": {
+            "verts": 352,
+            "reweighted": 0
+          },
+          "M_EYE": {
+            "verts": 578,
+            "reweighted": 0
+          },
+          "M_Head": {
+            "verts": 4375,
+            "reweighted": 126
+          },
+          "left_out": [
+            "M_transB_eyesha"
+          ],
+          "M_Body": {
+            "verts": 12768,
+            "reweighted": 2558
+          },
+          "hide_mask": "none",
+          "output_sha256_before_experimental_anchor": "9727b9f46c18eb54d4eb11a40fdf98a25d8b3ca4aac135c2b26be2714e9fad60",
+          "output_sha256": "19956b0ba487d68f90999d86a3837d695b3b14c0c79763d46cebc5814a1ac4ba",
+          "byte_identical": false,
+          "model_bytes_preserved": false,
+          "geometry_weights_bones_and_embedded_streams": "geometry, weights, bones and every non-target byte preserved; only GtPt slot 4 mesh-index and vertex fields changed"
+        },
+        "reference_weight_audit": {
+          "version": "supplied-reference-weight-audit-1",
+          "scope": "read_only_weight_data_checks; anatomical correctness unverified",
+          "bone_deform_flags": "not_in_native_records; reference driver-name rules only",
+          "meshes": [
+            {
+              "mesh": "M_Tongue",
+              "vertices": 341,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Teeth",
+              "vertices": 4701,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_MouthBag",
+              "vertices": 352,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_EYE",
+              "vertices": 578,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Head",
+              "vertices": 4375,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Body",
+              "vertices": 12768,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            }
+          ],
+          "suspicious_vertices": 0
+        },
+        "experimental_tongue_anchor": {
+          "version": "exact-supplied-bryan-and-flip-tongue-anchor-experiment-2",
+          "profile": "Bryan",
+          "provenance": {
+            "native_reference_sha256": "bb0176e86fc2e74cebc61058acac1fa3103c7a859f2e54a2196947fe95ee4a1c",
+            "native_reference_slot": 4,
+            "native_reference_mesh": "M_Tongue",
+            "native_reference_vertex": 167,
+            "matched_supplied_mesh": "M_Tongue",
+            "matched_supplied_vertex": 127,
+            "render_vertices_both": 341,
+            "unique_position_vertices_both": 302,
+            "oriented_triangles_both": 584,
+            "all_oriented_triangles_and_edges_matched": true,
+            "match_method": "20 topology-label refinements; mirrored pairs resolved by anatomical X side; full oriented triangle and edge bijection independently verified",
+            "anchor_target_class": "unique one-node topology class; unique render vertex; target selection does not depend on mirrored-pair resolution",
+            "current_anchor_distance_to_matched_tongue_cm": 1.4352437257766724,
+            "scope": "exact inspected supplied Bryan input/output only; no universal anchor-role assumption"
+          },
+          "source_sha256": "343eede12271859708f75b52deb28c92fae9fe5983dcbb7d37cd0684378d4f67",
+          "before_sha256": "9727b9f46c18eb54d4eb11a40fdf98a25d8b3ca4aac135c2b26be2714e9fad60",
+          "after_sha256": "19956b0ba487d68f90999d86a3837d695b3b14c0c79763d46cebc5814a1ac4ba",
+          "old_point": [
+            "_ag_0004",
+            "M_Teeth",
+            4,
+            1605
+          ],
+          "profile_original_point": [
+            "_ag_0004",
+            "M_Teeth",
+            4,
+            1605
+          ],
+          "new_point": [
+            "_ag_0004",
+            "M_Tongue",
+            4,
+            127
+          ],
+          "wire_format": "four unsigned 16-bit fields per record",
+          "fields_written": [
+            "mesh_string_index",
+            "vertex_index"
+          ],
+          "permitted_wire_bytes": 4,
+          "changed_byte_offsets": [
+            104294,
+            104298,
+            104299
+          ],
+          "all_non_target_bytes_preserved": true,
+          "other_twelve_records_preserved": true,
+          "geometry_weights_masks_and_other_substreams_preserved": true,
+          "original_verification_scope": "original model/gear/mask checks preceded the anchor-only patch; native record syntax and matched tongue domain were separately checked",
+          "in_game_validation": "not_performed",
+          "black_teeth_fixed": "not established",
+          "state": "applied_experimental_anchor_test"
+        },
+        "face_output_audit": {
+          "version": "all-recorded-model-output-face-audit-1",
+          "output": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\BaseModel\\baseModel.mcd",
+          "problems": [],
+          "warnings": [],
+          "file_changes": "none; read-only audit",
+          "reference_scope": "supplied native 2K26 face schema and writer references; identical topology or appearance is not required",
+          "reference_baseline_name": "earlier_supplied_native_2k26_cena_face_schema",
+          "in_game_validation": "not_performed",
+          "original_model_verify": "pass",
+          "output_sha256": "19956b0ba487d68f90999d86a3837d695b3b14c0c79763d46cebc5814a1ac4ba",
+          "output_version": 47,
+          "applicability": "face_meshes_present",
+          "meshes": [
+            {
+              "mesh": "M_Tongue",
+              "kind": "mouthbag",
+              "vertices": 341,
+              "problems": [],
+              "warnings": [],
+              "scene_flag": 128,
+              "motion_flag": -1,
+              "game_flag_policy": "observed; no shader or motion flags are forced",
+              "triangles": 584,
+              "uv_channels": [
+                {
+                  "channel": 0,
+                  "shape": [
+                    341,
+                    2
+                  ],
+                  "state": "finite",
+                  "minimum": [
+                    0.0019042693311348557,
+                    0.8875911831855774
+                  ],
+                  "maximum": [
+                    0.12403831630945206,
+                    0.9922455549240112
+                  ]
+                }
+              ],
+              "normals": {
+                "shape": [
+                  341,
+                  3
+                ],
+                "finite": true
+              },
+              "tangents": {
+                "shape": [
+                  341,
+                  4
+                ],
+                "finite": true
+              },
+              "color_channels": [],
+              "face_groups": [
+                {
+                  "material": "mouthbag",
+                  "first_triangle": 0,
+                  "triangle_count": 584
+                }
+              ]
+            },
+            {
+              "mesh": "M_Teeth",
+              "kind": "teeth",
+              "vertices": 4701,
+              "problems": [],
+              "warnings": [],
+              "scene_flag": 128,
+              "motion_flag": -1,
+              "game_flag_policy": "observed; no shader or motion flags are forced",
+              "triangles": 7898,
+              "uv_channels": [
+                {
+                  "channel": 0,
+                  "shape": [
+                    4701,
+                    2
+                  ],
+                  "state": "finite",
+                  "minimum": [
+                    0.007348999846726656,
+                    0.7910109758377075
+                  ],
+                  "maximum": [
+                    0.5392580032348633,
+                    0.9986050128936768
+                  ]
+                },
+                {
+                  "channel": 1,
+                  "shape": [
+                    4701,
+                    2
+                  ],
+                  "state": "finite",
+                  "minimum": [
+                    0.00788070261478424,
+                    0.0037654638290405273
+                  ],
+                  "maximum": [
+                    0.9935464859008789,
+                    0.9957854151725769
+                  ]
+                }
+              ],
+              "normals": {
+                "shape": [
+                  4701,
+                  3
+                ],
+                "finite": true
+              },
+              "tangents": {
+                "shape": [
+                  4701,
+                  4
+                ],
+                "finite": true
+              },
+              "color_channels": [
+                {
+                  "channel": 0,
+                  "shape": [
+                    4701,
+                    4
+                  ],
+                  "state": "finite",
+                  "minimum": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "maximum": [
+                    0.9999999403953552,
+                    0.9999999403953552,
+                    0.9999999403953552,
+                    1.0
+                  ]
+                }
+              ],
+              "face_groups": [
+                {
+                  "material": "teeth",
+                  "first_triangle": 0,
+                  "triangle_count": 7898
+                }
+              ]
+            },
+            {
+              "mesh": "M_MouthBag",
+              "kind": "mouthbag",
+              "vertices": 352,
+              "problems": [],
+              "warnings": [],
+              "scene_flag": 128,
+              "motion_flag": -1,
+              "game_flag_policy": "observed; no shader or motion flags are forced",
+              "triangles": 616,
+              "uv_channels": [
+                {
+                  "channel": 0,
+                  "shape": [
+                    352,
+                    2
+                  ],
+                  "state": "finite",
+                  "minimum": [
+                    0.12684795260429382,
+                    0.8777092099189758
+                  ],
+                  "maximum": [
+                    0.2484256774187088,
+                    0.9963176846504211
+                  ]
+                }
+              ],
+              "normals": {
+                "shape": [
+                  352,
+                  3
+                ],
+                "finite": true
+              },
+              "tangents": {
+                "shape": [
+                  352,
+                  4
+                ],
+                "finite": true
+              },
+              "color_channels": [],
+              "face_groups": [
+                {
+                  "material": "mouthbag",
+                  "first_triangle": 0,
+                  "triangle_count": 616
+                }
+              ]
+            },
+            {
+              "mesh": "M_EYE",
+              "kind": "eye",
+              "vertices": 578,
+              "problems": [],
+              "warnings": [],
+              "scene_flag": 128,
+              "motion_flag": -1,
+              "game_flag_policy": "observed; no shader or motion flags are forced",
+              "triangles": 1104,
+              "uv_channels": [
+                {
+                  "channel": 0,
+                  "shape": [
+                    578,
+                    2
+                  ],
+                  "state": "finite",
+                  "minimum": [
+                    0.07322049885988235,
+                    0.0732564926147461
+                  ],
+                  "maximum": [
+                    0.9277874231338501,
+                    0.9221752285957336
+                  ]
+                }
+              ],
+              "normals": {
+                "shape": [
+                  578,
+                  3
+                ],
+                "finite": true
+              },
+              "tangents": {
+                "shape": [
+                  578,
+                  4
+                ],
+                "finite": true
+              },
+              "color_channels": [
+                {
+                  "channel": 0,
+                  "shape": [
+                    578,
+                    4
+                  ],
+                  "state": "finite",
+                  "minimum": [
+                    0.9999999403953552,
+                    0.5017734169960022,
+                    0.0,
+                    0.0
+                  ],
+                  "maximum": [
+                    0.9999999403953552,
+                    0.8160400986671448,
+                    0.5017734169960022,
+                    0.501960813999176
+                  ]
+                }
+              ],
+              "face_groups": [
+                {
+                  "material": "eye_r",
+                  "first_triangle": 0,
+                  "triangle_count": 552
+                },
+                {
+                  "material": "eye_l",
+                  "first_triangle": 552,
+                  "triangle_count": 552
+                }
+              ]
+            }
+          ],
+          "materials": [
+            {
+              "binding": "mouthbag",
+              "face_kind": "mouthbag",
+              "state": "payload_inspected",
+              "file": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\BaseModel\\Materials\\mouthbag.jmtl",
+              "sha256": "391c02b1ed300c18a113ba7f8d4f23cb8ba3d30cf9508e63f3f79f6c1af018f4",
+              "shader_byte": 26,
+              "hair_type": null,
+              "texture_references": [
+                {
+                  "field": "colorMap@ref",
+                  "hash": 16953710042267170182
+                },
+                {
+                  "field": "nrMap@ref",
+                  "hash": 7652125905315313718
+                }
+              ],
+              "texture_schema_supported": true,
+              "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+              "shader_and_texture_values": "preserved; read-only inspection",
+              "face_texture_check": {
+                "scope": "reference-writer hash comparison; in-game asset resolution not verified",
+                "color_ref": 16953710042267170182,
+                "normal_ref": 7652125905315313718,
+                "required_color_and_normal_refs_present": true,
+                "reference_color_ref": 8311374115795497328,
+                "reference_normal_ref": 13431178219333049464,
+                "reference_texture_pair_match": false,
+                "custom_or_legacy_refs": "preserved; verify actual textures if reference hashes differ"
+              },
+              "texture_pair_classification": "shared_body_atlas",
+              "face_shader_validation": "native_teeth_layout_inspected",
+              "texture_resolution": [
+                {
+                  "field": "colorMap@ref",
+                  "hash": 16953710042267170182,
+                  "in_game_resolution": "not_verified",
+                  "state": "copied_local_dds_verified",
+                  "files": [
+                    {
+                      "file": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\BaseModel\\Textures\\body_color.dds",
+                      "sha256": "9eea4984b01ca86116212e30ec1ff39faee21dfc26d50d2c84b0a50bbc423c22",
+                      "width": 4096,
+                      "height": 2048,
+                      "mip_count": 1,
+                      "format": "DXT1",
+                      "payload_bytes": 4194304,
+                      "header_and_extents_validated": true,
+                      "capsTextureBitPresent": true,
+                      "header_advisories": [],
+                      "copied_bytes_verified": true
+                    }
+                  ]
+                },
+                {
+                  "field": "nrMap@ref",
+                  "hash": 7652125905315313718,
+                  "in_game_resolution": "not_verified",
+                  "state": "copied_local_dds_verified",
+                  "files": [
+                    {
+                      "file": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\BaseModel\\Textures\\body_nrm.dds",
+                      "sha256": "5d48494b8a8e671cad25909b89bae6383ebc2f8b6274875967630b82a7ea06a0",
+                      "width": 4096,
+                      "height": 2048,
+                      "mip_count": 1,
+                      "format": "DXGI_98",
+                      "payload_bytes": 8388608,
+                      "header_and_extents_validated": true,
+                      "capsTextureBitPresent": true,
+                      "header_advisories": [],
+                      "copied_bytes_verified": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "binding": "teeth",
+              "face_kind": "teeth",
+              "state": "payload_inspected",
+              "file": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\BaseModel\\Materials\\teeth.jmtl",
+              "sha256": "391c02b1ed300c18a113ba7f8d4f23cb8ba3d30cf9508e63f3f79f6c1af018f4",
+              "shader_byte": 26,
+              "hair_type": null,
+              "texture_references": [
+                {
+                  "field": "colorMap@ref",
+                  "hash": 16953710042267170182
+                },
+                {
+                  "field": "nrMap@ref",
+                  "hash": 7652125905315313718
+                }
+              ],
+              "texture_schema_supported": true,
+              "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+              "shader_and_texture_values": "preserved; read-only inspection",
+              "face_texture_check": {
+                "scope": "reference-writer hash comparison; in-game asset resolution not verified",
+                "color_ref": 16953710042267170182,
+                "normal_ref": 7652125905315313718,
+                "required_color_and_normal_refs_present": true,
+                "reference_color_ref": 8311374115795497328,
+                "reference_normal_ref": 13431178219333049464,
+                "reference_texture_pair_match": false,
+                "custom_or_legacy_refs": "preserved; verify actual textures if reference hashes differ"
+              },
+              "texture_pair_classification": "shared_body_atlas",
+              "face_shader_validation": "native_teeth_layout_inspected",
+              "texture_resolution": [
+                {
+                  "field": "colorMap@ref",
+                  "hash": 16953710042267170182,
+                  "in_game_resolution": "not_verified",
+                  "state": "copied_local_dds_verified",
+                  "files": [
+                    {
+                      "file": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\BaseModel\\Textures\\body_color.dds",
+                      "sha256": "9eea4984b01ca86116212e30ec1ff39faee21dfc26d50d2c84b0a50bbc423c22",
+                      "width": 4096,
+                      "height": 2048,
+                      "mip_count": 1,
+                      "format": "DXT1",
+                      "payload_bytes": 4194304,
+                      "header_and_extents_validated": true,
+                      "capsTextureBitPresent": true,
+                      "header_advisories": [],
+                      "copied_bytes_verified": true
+                    }
+                  ]
+                },
+                {
+                  "field": "nrMap@ref",
+                  "hash": 7652125905315313718,
+                  "in_game_resolution": "not_verified",
+                  "state": "copied_local_dds_verified",
+                  "files": [
+                    {
+                      "file": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\BaseModel\\Textures\\body_nrm.dds",
+                      "sha256": "5d48494b8a8e671cad25909b89bae6383ebc2f8b6274875967630b82a7ea06a0",
+                      "width": 4096,
+                      "height": 2048,
+                      "mip_count": 1,
+                      "format": "DXGI_98",
+                      "payload_bytes": 8388608,
+                      "header_and_extents_validated": true,
+                      "capsTextureBitPresent": true,
+                      "header_advisories": [],
+                      "copied_bytes_verified": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "binding": "eye_r",
+              "face_kind": "eye",
+              "state": "payload_inspected",
+              "file": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\BaseModel\\Materials\\eye_r.jmtl",
+              "sha256": "952afb8ac8360ef89876cba23cee85a05333f2ba0becf38d26869af1b5327f40",
+              "shader_byte": 18,
+              "hair_type": null,
+              "texture_references": [
+                {
+                  "field": "colorMap@ref",
+                  "hash": 12857464407004638857
+                },
+                {
+                  "field": "nrMap@ref",
+                  "hash": 17274687911970229909
+                }
+              ],
+              "texture_schema_supported": true,
+              "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+              "shader_and_texture_values": "preserved; read-only inspection",
+              "face_texture_check": {
+                "scope": "reference-writer hash comparison; in-game asset resolution not verified",
+                "color_ref": 12857464407004638857,
+                "normal_ref": 17274687911970229909,
+                "required_color_and_normal_refs_present": true,
+                "reference_normal_ref": 17274687911970229909,
+                "reference_normal_match": true,
+                "custom_or_legacy_refs": "preserved; verify actual textures if reference hashes differ"
+              },
+              "texture_resolution": [
+                {
+                  "field": "colorMap@ref",
+                  "hash": 12857464407004638857,
+                  "in_game_resolution": "not_verified",
+                  "state": "copied_local_dds_verified",
+                  "files": [
+                    {
+                      "file": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\BaseModel\\Textures\\eye_color.dds",
+                      "sha256": "8d39d2cbcc5054ab94b01b7222137de25331244ddc03e04da20245ae0a07c3b0",
+                      "width": 256,
+                      "height": 256,
+                      "mip_count": 1,
+                      "format": "DXT1",
+                      "payload_bytes": 32768,
+                      "header_and_extents_validated": true,
+                      "capsTextureBitPresent": true,
+                      "header_advisories": [],
+                      "copied_bytes_verified": true
+                    }
+                  ]
+                },
+                {
+                  "field": "nrMap@ref",
+                  "hash": 17274687911970229909,
+                  "in_game_resolution": "not_verified",
+                  "state": "known_shared_game_reference",
+                  "scope": "game asset presence not established from selected local output"
+                }
+              ]
+            },
+            {
+              "binding": "eye_l",
+              "face_kind": "eye",
+              "state": "payload_inspected",
+              "file": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\BaseModel\\Materials\\eye_l.jmtl",
+              "sha256": "952afb8ac8360ef89876cba23cee85a05333f2ba0becf38d26869af1b5327f40",
+              "shader_byte": 18,
+              "hair_type": null,
+              "texture_references": [
+                {
+                  "field": "colorMap@ref",
+                  "hash": 12857464407004638857
+                },
+                {
+                  "field": "nrMap@ref",
+                  "hash": 17274687911970229909
+                }
+              ],
+              "texture_schema_supported": true,
+              "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+              "shader_and_texture_values": "preserved; read-only inspection",
+              "face_texture_check": {
+                "scope": "reference-writer hash comparison; in-game asset resolution not verified",
+                "color_ref": 12857464407004638857,
+                "normal_ref": 17274687911970229909,
+                "required_color_and_normal_refs_present": true,
+                "reference_normal_ref": 17274687911970229909,
+                "reference_normal_match": true,
+                "custom_or_legacy_refs": "preserved; verify actual textures if reference hashes differ"
+              },
+              "texture_resolution": [
+                {
+                  "field": "colorMap@ref",
+                  "hash": 12857464407004638857,
+                  "in_game_resolution": "not_verified",
+                  "state": "copied_local_dds_verified",
+                  "files": [
+                    {
+                      "file": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\BaseModel\\Textures\\eye_color.dds",
+                      "sha256": "8d39d2cbcc5054ab94b01b7222137de25331244ddc03e04da20245ae0a07c3b0",
+                      "width": 256,
+                      "height": 256,
+                      "mip_count": 1,
+                      "format": "DXT1",
+                      "payload_bytes": 32768,
+                      "header_and_extents_validated": true,
+                      "capsTextureBitPresent": true,
+                      "header_advisories": [],
+                      "copied_bytes_verified": true
+                    }
+                  ]
+                },
+                {
+                  "field": "nrMap@ref",
+                  "hash": 17274687911970229909,
+                  "in_game_resolution": "not_verified",
+                  "state": "known_shared_game_reference",
+                  "scope": "game asset presence not established from selected local output"
+                }
+              ]
+            }
+          ],
+          "anchors": {
+            "records": [
+              {
+                "name": "_ag_0001",
+                "mesh": "M_Teeth",
+                "slot": 1,
+                "vertex": 3346
+              },
+              {
+                "name": "_ag_0003",
+                "mesh": "M_Head",
+                "slot": 3,
+                "vertex": 1491
+              },
+              {
+                "name": "_ag_0000",
+                "mesh": "M_Teeth",
+                "slot": 0,
+                "vertex": 592
+              },
+              {
+                "name": "_ag_0002",
+                "mesh": "M_Head",
+                "slot": 2,
+                "vertex": 432
+              },
+              {
+                "name": "_ag_0004",
+                "mesh": "M_Tongue",
+                "slot": 4,
+                "vertex": 127
+              },
+              {
+                "name": "_ag_0005",
+                "mesh": "M_Head",
+                "slot": 5,
+                "vertex": 4118
+              },
+              {
+                "name": "_ag_0006",
+                "mesh": "M_Head",
+                "slot": 6,
+                "vertex": 4102
+              },
+              {
+                "name": "_ag_0007",
+                "mesh": "M_Head",
+                "slot": 7,
+                "vertex": 4105
+              },
+              {
+                "name": "_ag_0008",
+                "mesh": "M_Head",
+                "slot": 8,
+                "vertex": 4111
+              },
+              {
+                "name": "_ag_0009",
+                "mesh": "M_Head",
+                "slot": 9,
+                "vertex": 3944
+              },
+              {
+                "name": "_ag_0010",
+                "mesh": "M_Head",
+                "slot": 10,
+                "vertex": 4266
+              },
+              {
+                "name": "_ag_0011",
+                "mesh": "M_Head",
+                "slot": 11,
+                "vertex": 4269
+              },
+              {
+                "name": "_ag_0012",
+                "mesh": "M_Head",
+                "slot": 12,
+                "vertex": 4276
+              }
+            ],
+            "problems": [],
+            "warnings": [],
+            "scope": "mesh/string/index validity; anatomical placement unverified",
+            "count": 13
+          },
+          "material_library": {
+            "file": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\BaseModel\\baseModel.mtls",
+            "state": "native_v6_stub_validated",
+            "entries": 6
+          },
+          "eye_color_policy": "left and right colors may differ; equality is not required or enforced",
+          "state": "selected_output_face_checks_passed"
+        }
+      },
+      {
+        "source": "Z:\\workspace\\formatter-investigation\\bryan25-upload\\159_Bryan_Danielson\\159_Default_Attire\\159_Attire.mcd",
+        "output": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\159_Default_Attire\\159_Attire.mcd",
+        "source_version": "0x29",
+        "notes": [
+          "skeleton: 2K26 male rig (138 bones on the stock pose, 2 moved to their 2K26 stock pose, 26 new)",
+          "hide mask carried over from 159_Attire.hpl (ring: M_Body 4215; entrance: M_Body 4215)",
+          "Restored the original user-supplied hide mask for this exact source pair and exact invalid sidecar; verified paired base indices and topology. Original files retained; in-game coverage requires checking."
+        ],
+        "kind": "attire",
+        "dropped_meshes": [],
+        "rig": "2K25",
+        "bones": "209 -> 175",
+        "skeleton": "male",
+        "reference_body": "male",
+        "bone_report": {
+          "variant": "male",
+          "stock_pose": 138,
+          "moved_to_2k26_pose": [
+            "H_Ebw_Out_L",
+            "H_Ebw_Out_R"
+          ],
+          "own_pose": [],
+          "new": 26
+        },
+        "weights": [
+          {
+            "mesh": "M_Combinations",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_L_Kneepad",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_L_Wrist",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_R_Kneepad",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_R_Wrist",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_Shoes",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_Underwear",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_Hair",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_Hair",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          }
+        ],
+        "attach_points_dropped": 0,
+        "mask_limits": {
+          "M_Combinations": 5320,
+          "M_L_Kneepad": 480,
+          "M_L_Wrist": 204,
+          "M_R_Kneepad": 480,
+          "M_R_Wrist": 204,
+          "M_Shoes": 2552,
+          "M_Underwear": 711,
+          "M_Hair": 8858
+        },
+        "meshes": [
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Combinations"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_L_Kneepad"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_L_Wrist"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_R_Kneepad"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_R_Wrist"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Shoes"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Underwear"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Hair"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Hair"
+          }
+        ],
+        "status": "converted",
+        "mesh_vertex_counts": {
+          "M_Combinations": 5320,
+          "M_L_Kneepad": 480,
+          "M_L_Wrist": 204,
+          "M_R_Kneepad": 480,
+          "M_R_Wrist": 204,
+          "M_Shoes": 2552,
+          "M_Underwear": 711,
+          "M_Hair": 8858
+        },
+        "supplied_hide_mask_recovery": {
+          "version": "verified-existing-and-supplied-legacy-mask-2",
+          "method": "verified_original_user_supplied_hpl_through_original_parser_filter_writer",
+          "source_model": "z:\\workspace\\formatter-investigation\\bryan25-upload\\159_bryan_danielson\\159_default_attire\\159_attire.mcd",
+          "source_model_sha256": "f8116337693256b46c92036132af5c356ec3c70fb745967ba97d3283e7fc986c",
+          "written_hpl_sha256": "95bc341610d3b896ca9e443e7c91cdf18303802d4b6954de49b52bf18748a5d3",
+          "paired_source_base": "z:\\workspace\\formatter-investigation\\bryan25-upload\\159_bryan_danielson\\basemodel\\basemodel.mcd",
+          "paired_source_base_sha256": "343eede12271859708f75b52deb28c92fae9fe5983dcbb7d37cd0684378d4f67",
+          "paired_output_base_sha256": "19956b0ba487d68f90999d86a3837d695b3b14c0c79763d46cebc5814a1ac4ba",
+          "body_head_remap_and_topology": "preserved",
+          "mask_indices": "all_in_actual_paired_base_domains",
+          "original_source_unchanged": true,
+          "coverage_generated": false,
+          "in_game_validation": "required",
+          "profile": "verified-supplied-bryan-roh-hpl-1",
+          "source_supplied_hpl_sha256": "3c4b880b325f1f424d8d0b8dae88f9f38d7263751b23654d2906fa6123dc00be",
+          "source_supplied_hpl_bytes": 67580,
+          "source_invalid_sidecar_sha256": "57abd17dd82782bcd4c1509c311d3f70227af707e7975a2e1b3fcbf1eae2c3dd",
+          "source_invalid_sidecar_bytes": 81408,
+          "supplied_mask_scope": "original user-supplied mask for the verified identical Bryan geometry; no generated coverage",
+          "paired_base_verified_before_anchor_sha256": "9727b9f46c18eb54d4eb11a40fdf98a25d8b3ca4aac135c2b26be2714e9fad60",
+          "paired_base_anchor_only_patch": {
+            "version": "exact-supplied-bryan-and-flip-tongue-anchor-experiment-2",
+            "final_sha256": "19956b0ba487d68f90999d86a3837d695b3b14c0c79763d46cebc5814a1ac4ba",
+            "all_non_target_bytes_preserved": true,
+            "body_head_mask_domains_and_geometry_preserved": true,
+            "scope": "mask verification preceded the four-wire-byte anchor patch; its paired body/head bytes did not change"
+          }
+        },
+        "verify": "pass",
+        "problems": [],
+        "facts": {
+          "bones": 175,
+          "substreams": [
+            "MDL!",
+            "HPL!"
+          ],
+          "anchors": 0,
+          "M_Combinations": {
+            "verts": 5320,
+            "reweighted": 0
+          },
+          "M_L_Kneepad": {
+            "verts": 480,
+            "reweighted": 0
+          },
+          "M_L_Wrist": {
+            "verts": 204,
+            "reweighted": 0
+          },
+          "M_R_Kneepad": {
+            "verts": 480,
+            "reweighted": 0
+          },
+          "M_R_Wrist": {
+            "verts": 204,
+            "reweighted": 0
+          },
+          "M_Shoes": {
+            "verts": 2552,
+            "reweighted": 0
+          },
+          "M_Underwear": {
+            "verts": 711,
+            "reweighted": 0
+          },
+          "M_Hair": {
+            "verts": 8858,
+            "reweighted": 0
+          },
+          "hide_mask": "mask",
+          "supplied_hide_mask_recovery": {
+            "version": "verified-existing-and-supplied-legacy-mask-2",
+            "method": "verified_original_user_supplied_hpl_through_original_parser_filter_writer",
+            "source_model": "z:\\workspace\\formatter-investigation\\bryan25-upload\\159_bryan_danielson\\159_default_attire\\159_attire.mcd",
+            "source_model_sha256": "f8116337693256b46c92036132af5c356ec3c70fb745967ba97d3283e7fc986c",
+            "written_hpl_sha256": "95bc341610d3b896ca9e443e7c91cdf18303802d4b6954de49b52bf18748a5d3",
+            "paired_source_base": "z:\\workspace\\formatter-investigation\\bryan25-upload\\159_bryan_danielson\\basemodel\\basemodel.mcd",
+            "paired_source_base_sha256": "343eede12271859708f75b52deb28c92fae9fe5983dcbb7d37cd0684378d4f67",
+            "paired_output_base_sha256": "19956b0ba487d68f90999d86a3837d695b3b14c0c79763d46cebc5814a1ac4ba",
+            "body_head_remap_and_topology": "preserved",
+            "mask_indices": "all_in_actual_paired_base_domains",
+            "original_source_unchanged": true,
+            "coverage_generated": false,
+            "in_game_validation": "required",
+            "profile": "verified-supplied-bryan-roh-hpl-1",
+            "source_supplied_hpl_sha256": "3c4b880b325f1f424d8d0b8dae88f9f38d7263751b23654d2906fa6123dc00be",
+            "source_supplied_hpl_bytes": 67580,
+            "source_invalid_sidecar_sha256": "57abd17dd82782bcd4c1509c311d3f70227af707e7975a2e1b3fcbf1eae2c3dd",
+            "source_invalid_sidecar_bytes": 81408,
+            "supplied_mask_scope": "original user-supplied mask for the verified identical Bryan geometry; no generated coverage",
+            "paired_base_verified_before_anchor_sha256": "9727b9f46c18eb54d4eb11a40fdf98a25d8b3ca4aac135c2b26be2714e9fad60",
+            "paired_base_anchor_only_patch": {
+              "version": "exact-supplied-bryan-and-flip-tongue-anchor-experiment-2",
+              "final_sha256": "19956b0ba487d68f90999d86a3837d695b3b14c0c79763d46cebc5814a1ac4ba",
+              "all_non_target_bytes_preserved": true,
+              "body_head_mask_domains_and_geometry_preserved": true,
+              "scope": "mask verification preceded the four-wire-byte anchor patch; its paired body/head bytes did not change"
+            }
+          }
+        },
+        "reference_weight_audit": {
+          "version": "supplied-reference-weight-audit-1",
+          "scope": "read_only_weight_data_checks; anatomical correctness unverified",
+          "bone_deform_flags": "not_in_native_records; reference driver-name rules only",
+          "meshes": [
+            {
+              "mesh": "M_Combinations",
+              "vertices": 5320,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_L_Kneepad",
+              "vertices": 480,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_L_Wrist",
+              "vertices": 204,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_R_Kneepad",
+              "vertices": 480,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_R_Wrist",
+              "vertices": 204,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Shoes",
+              "vertices": 2552,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Underwear",
+              "vertices": 711,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Hair",
+              "vertices": 8858,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Hair",
+              "vertices": 8858,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            }
+          ],
+          "suspicious_vertices": 0
+        },
+        "face_output_audit": {
+          "version": "all-recorded-model-output-face-audit-1",
+          "output": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\159_Default_Attire\\159_Attire.mcd",
+          "problems": [],
+          "warnings": [],
+          "file_changes": "none; read-only audit",
+          "reference_scope": "supplied native 2K26 face schema and writer references; identical topology or appearance is not required",
+          "reference_baseline_name": "earlier_supplied_native_2k26_cena_face_schema",
+          "in_game_validation": "not_performed",
+          "original_model_verify": "pass",
+          "output_sha256": "f361c87df54bd8239e218786ee594304f504d3bf9a1bbf21b2f3e8f0343e0911",
+          "output_version": 47,
+          "state": "not_applicable",
+          "applicability": "no_eye_teeth_or_mouthbag_meshes"
+        }
+      }
+    ],
+    "materials": [
+      {
+        "source": "Z:\\workspace\\formatter-investigation\\bryan25-upload\\159_Bryan_Danielson\\BaseModel\\baseModel.mtls",
+        "output": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\BaseModel\\baseModel.mtls",
+        "notes": [
+          "material eye_caruncle is not used by the model and was left out",
+          "material eye_overlay is not used by the model and was left out",
+          "material eyelash is not used by the model and was left out",
+          "eye_l: source eye scalar parameters preserved; in-game eye appearance unverified",
+          "eye_r: source eye scalar parameters preserved; in-game eye appearance unverified",
+          "mouthbag: preserved explicit source teeth irradiance (irradianceR, irradianceG, irradianceB); in-game shading unverified",
+          "teeth: preserved explicit source teeth irradiance (irradianceR, irradianceG, irradianceB); in-game shading unverified",
+          "10 texture bindings matched named existing local DDS files; pixels and source files preserved; in-game resolution not checked"
+        ],
+        "materials": [
+          {
+            "name": "body",
+            "shader_2k25": "yCh_skin / Normal",
+            "shader_2k26": "0x19",
+            "variant": null,
+            "hair_type": null,
+            "textures": [
+              "colorMap@ref",
+              "nrMap@ref"
+            ],
+            "moved_links": []
+          },
+          {
+            "name": "eye_l",
+            "shader_2k25": "yCh_eye / Normal",
+            "shader_2k26": "0x12",
+            "variant": null,
+            "hair_type": null,
+            "textures": [
+              "colorMap@ref"
+            ],
+            "moved_links": []
+          },
+          {
+            "name": "eye_r",
+            "shader_2k25": "yCh_eye / Normal",
+            "shader_2k26": "0x12",
+            "variant": null,
+            "hair_type": null,
+            "textures": [
+              "colorMap@ref"
+            ],
+            "moved_links": []
+          },
+          {
+            "name": "head",
+            "shader_2k25": "yCh_head / Normal",
+            "shader_2k26": "0x17",
+            "variant": null,
+            "hair_type": null,
+            "textures": [
+              "colorMap@ref",
+              "nrMap@ref"
+            ],
+            "moved_links": []
+          },
+          {
+            "name": "mouthbag",
+            "shader_2k25": "yCh_Teeth / Mouthbag",
+            "shader_2k26": "0x1a",
+            "variant": null,
+            "hair_type": null,
+            "textures": [
+              "colorMap@ref",
+              "nrMap@ref"
+            ],
+            "moved_links": []
+          },
+          {
+            "name": "teeth",
+            "shader_2k25": "yCh_Teeth / Normal",
+            "shader_2k26": "0x1a",
+            "variant": null,
+            "hair_type": null,
+            "textures": [
+              "colorMap@ref",
+              "nrMap@ref"
+            ],
+            "moved_links": []
+          }
+        ],
+        "status": "converted",
+        "material_format": {
+          "version": "bounded-material-library-format-classification-1",
+          "classification": "supported_inline_v3",
+          "supported": true,
+          "safe_as_native": false,
+          "bytes": 14124,
+          "sha256": "09fed438ce4917503b60cc59072e22dcc7b89cfb9e3289b467cc309026204e1a",
+          "blocks": [
+            {
+              "name": "body",
+              "offset": 180,
+              "end": 2408,
+              "bytes": 2228,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_skin",
+              "technique": "Normal",
+              "parameter_count": 80,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "eye_caruncle",
+              "offset": 2408,
+              "end": 6000,
+              "bytes": 3592,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_head",
+              "technique": "Caruncle",
+              "parameter_count": 129,
+              "parameter_types": [
+                2,
+                5,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": [
+                5
+              ]
+            },
+            {
+              "name": "eye_l",
+              "offset": 6000,
+              "end": 7084,
+              "bytes": 1084,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_eye",
+              "technique": "Normal",
+              "parameter_count": 33,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "eye_overlay",
+              "offset": 7084,
+              "end": 7272,
+              "bytes": 188,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_eyeOv",
+              "technique": "Normal",
+              "parameter_count": 4,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "eye_r",
+              "offset": 7272,
+              "end": 8356,
+              "bytes": 1084,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_eye",
+              "technique": "Normal",
+              "parameter_count": 33,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "eyelash",
+              "offset": 8356,
+              "end": 8552,
+              "bytes": 196,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_eyeOv",
+              "technique": "Normal",
+              "parameter_count": 4,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "head",
+              "offset": 8552,
+              "end": 12712,
+              "bytes": 4160,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_head",
+              "technique": "Normal",
+              "parameter_count": 152,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "mouthbag",
+              "offset": 12712,
+              "end": 13316,
+              "bytes": 604,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_Teeth",
+              "technique": "Mouthbag",
+              "parameter_count": 17,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "teeth",
+              "offset": 13316,
+              "end": 14124,
+              "bytes": 808,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_Teeth",
+              "technique": "Normal",
+              "parameter_count": 23,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            }
+          ],
+          "observed_block_versions": [
+            3
+          ],
+          "envelope_validated": true,
+          "payload_extents_validated": true,
+          "validation_scope": "format only; shader, texture and in-game validity not established",
+          "library_version": 6,
+          "material_count": 9,
+          "material_names": [
+            "body",
+            "eye_caruncle",
+            "eye_l",
+            "eye_overlay",
+            "eye_r",
+            "eyelash",
+            "head",
+            "mouthbag",
+            "teeth"
+          ],
+          "material_path_hashes": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "blocks_offset": 180,
+          "reason": "all inline v3 blocks and declared extents validated"
+        },
+        "local_texture_bindings": [
+          {
+            "material": "body",
+            "field": "colorMap@ref",
+            "source_texture_name": "body_color",
+            "source": "Z:\\workspace\\formatter-investigation\\bryan25-upload\\159_Bryan_Danielson\\BaseModel\\Textures\\body_color.dds",
+            "output": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\BaseModel\\Textures\\body_color.dds",
+            "source_sha256": "9eea4984b01ca86116212e30ec1ff39faee21dfc26d50d2c84b0a50bbc423c22",
+            "output_sha256": "9eea4984b01ca86116212e30ec1ff39faee21dfc26d50d2c84b0a50bbc423c22",
+            "old_hash": 4090019175661451761,
+            "new_hash": 16953710042267170182,
+            "destination_virtual_path": "Characters/159_Bryan_Danielson/BaseModel/Textures/body_color.tex",
+            "changed": true,
+            "policy": "comparison_formatter_named_existing_local_dds_binding",
+            "dds": {
+              "width": 4096,
+              "height": 2048,
+              "mip_count": 1,
+              "format": "DXT1",
+              "payload_bytes": 4194304,
+              "header_and_extents_validated": true,
+              "capsTextureBitPresent": true,
+              "header_advisories": []
+            },
+            "old_reference_validity": "not inferred; actual named local DDS selected",
+            "in_game_validation": "not_performed"
+          },
+          {
+            "material": "body",
+            "field": "g_nrmMap@ref",
+            "source_texture_name": "body_nrm",
+            "source": "Z:\\workspace\\formatter-investigation\\bryan25-upload\\159_Bryan_Danielson\\BaseModel\\Textures\\body_nrm.dds",
+            "output": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\BaseModel\\Textures\\body_nrm.dds",
+            "source_sha256": "5d48494b8a8e671cad25909b89bae6383ebc2f8b6274875967630b82a7ea06a0",
+            "output_sha256": "5d48494b8a8e671cad25909b89bae6383ebc2f8b6274875967630b82a7ea06a0",
+            "old_hash": 3982337228219315717,
+            "new_hash": 7652125905315313718,
+            "destination_virtual_path": "Characters/159_Bryan_Danielson/BaseModel/Textures/body_nrm.tex",
+            "changed": true,
+            "policy": "comparison_formatter_named_existing_local_dds_binding",
+            "dds": {
+              "width": 4096,
+              "height": 2048,
+              "mip_count": 1,
+              "format": "DXGI_98",
+              "payload_bytes": 8388608,
+              "header_and_extents_validated": true,
+              "capsTextureBitPresent": true,
+              "header_advisories": []
+            },
+            "old_reference_validity": "not inferred; actual named local DDS selected",
+            "in_game_validation": "not_performed"
+          },
+          {
+            "material": "eye_l",
+            "field": "colorMap@ref",
+            "source_texture_name": "eye_color",
+            "source": "Z:\\workspace\\formatter-investigation\\bryan25-upload\\159_Bryan_Danielson\\BaseModel\\Textures\\eye_color.dds",
+            "output": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\BaseModel\\Textures\\eye_color.dds",
+            "source_sha256": "8d39d2cbcc5054ab94b01b7222137de25331244ddc03e04da20245ae0a07c3b0",
+            "output_sha256": "8d39d2cbcc5054ab94b01b7222137de25331244ddc03e04da20245ae0a07c3b0",
+            "old_hash": 1536472062562260360,
+            "new_hash": 12857464407004638857,
+            "destination_virtual_path": "Characters/159_Bryan_Danielson/BaseModel/Textures/eye_color.tex",
+            "changed": true,
+            "policy": "comparison_formatter_named_existing_local_dds_binding",
+            "dds": {
+              "width": 256,
+              "height": 256,
+              "mip_count": 1,
+              "format": "DXT1",
+              "payload_bytes": 32768,
+              "header_and_extents_validated": true,
+              "capsTextureBitPresent": true,
+              "header_advisories": []
+            },
+            "old_reference_validity": "not inferred; actual named local DDS selected",
+            "in_game_validation": "not_performed"
+          },
+          {
+            "material": "eye_r",
+            "field": "colorMap@ref",
+            "source_texture_name": "eye_color",
+            "source": "Z:\\workspace\\formatter-investigation\\bryan25-upload\\159_Bryan_Danielson\\BaseModel\\Textures\\eye_color.dds",
+            "output": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\BaseModel\\Textures\\eye_color.dds",
+            "source_sha256": "8d39d2cbcc5054ab94b01b7222137de25331244ddc03e04da20245ae0a07c3b0",
+            "output_sha256": "8d39d2cbcc5054ab94b01b7222137de25331244ddc03e04da20245ae0a07c3b0",
+            "old_hash": 1536472062562260360,
+            "new_hash": 12857464407004638857,
+            "destination_virtual_path": "Characters/159_Bryan_Danielson/BaseModel/Textures/eye_color.tex",
+            "changed": true,
+            "policy": "comparison_formatter_named_existing_local_dds_binding",
+            "dds": {
+              "width": 256,
+              "height": 256,
+              "mip_count": 1,
+              "format": "DXT1",
+              "payload_bytes": 32768,
+              "header_and_extents_validated": true,
+              "capsTextureBitPresent": true,
+              "header_advisories": []
+            },
+            "old_reference_validity": "not inferred; actual named local DDS selected",
+            "in_game_validation": "not_performed"
+          },
+          {
+            "material": "head",
+            "field": "colorMap@ref",
+            "source_texture_name": "head_color",
+            "source": "Z:\\workspace\\formatter-investigation\\bryan25-upload\\159_Bryan_Danielson\\BaseModel\\Textures\\head_color.dds",
+            "output": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\BaseModel\\Textures\\head_color.dds",
+            "source_sha256": "3fa541ccef8684ef5dd5afe328fe936f23d2c0c27932a112e79c364dbf8cbc2f",
+            "output_sha256": "3fa541ccef8684ef5dd5afe328fe936f23d2c0c27932a112e79c364dbf8cbc2f",
+            "old_hash": 14488455810936352199,
+            "new_hash": 2685386323632386220,
+            "destination_virtual_path": "Characters/159_Bryan_Danielson/BaseModel/Textures/head_color.tex",
+            "changed": true,
+            "policy": "comparison_formatter_named_existing_local_dds_binding",
+            "dds": {
+              "width": 2048,
+              "height": 2048,
+              "mip_count": 1,
+              "format": "DXT1",
+              "payload_bytes": 2097152,
+              "header_and_extents_validated": true,
+              "capsTextureBitPresent": true,
+              "header_advisories": []
+            },
+            "old_reference_validity": "not inferred; actual named local DDS selected",
+            "in_game_validation": "not_performed"
+          },
+          {
+            "material": "head",
+            "field": "g_nrmMap@ref",
+            "source_texture_name": "head_nrm",
+            "source": "Z:\\workspace\\formatter-investigation\\bryan25-upload\\159_Bryan_Danielson\\BaseModel\\Textures\\head_nrm.dds",
+            "output": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\BaseModel\\Textures\\head_nrm.dds",
+            "source_sha256": "c2783f6d55b027305ad449b5610ca41f2af976481d2116e2df218d507b675f83",
+            "output_sha256": "c2783f6d55b027305ad449b5610ca41f2af976481d2116e2df218d507b675f83",
+            "old_hash": 7271507394194805843,
+            "new_hash": 13067814436714612876,
+            "destination_virtual_path": "Characters/159_Bryan_Danielson/BaseModel/Textures/head_nrm.tex",
+            "changed": true,
+            "policy": "comparison_formatter_named_existing_local_dds_binding",
+            "dds": {
+              "width": 2048,
+              "height": 2048,
+              "mip_count": 1,
+              "format": "DXGI_98",
+              "payload_bytes": 4194304,
+              "header_and_extents_validated": true,
+              "capsTextureBitPresent": true,
+              "header_advisories": []
+            },
+            "old_reference_validity": "not inferred; actual named local DDS selected",
+            "in_game_validation": "not_performed"
+          },
+          {
+            "material": "mouthbag",
+            "field": "colorMap@ref",
+            "source_texture_name": "body_color",
+            "source": "Z:\\workspace\\formatter-investigation\\bryan25-upload\\159_Bryan_Danielson\\BaseModel\\Textures\\body_color.dds",
+            "output": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\BaseModel\\Textures\\body_color.dds",
+            "source_sha256": "9eea4984b01ca86116212e30ec1ff39faee21dfc26d50d2c84b0a50bbc423c22",
+            "output_sha256": "9eea4984b01ca86116212e30ec1ff39faee21dfc26d50d2c84b0a50bbc423c22",
+            "old_hash": 4090019175661451761,
+            "new_hash": 16953710042267170182,
+            "destination_virtual_path": "Characters/159_Bryan_Danielson/BaseModel/Textures/body_color.tex",
+            "changed": true,
+            "policy": "comparison_formatter_named_existing_local_dds_binding",
+            "dds": {
+              "width": 4096,
+              "height": 2048,
+              "mip_count": 1,
+              "format": "DXT1",
+              "payload_bytes": 4194304,
+              "header_and_extents_validated": true,
+              "capsTextureBitPresent": true,
+              "header_advisories": []
+            },
+            "old_reference_validity": "not inferred; actual named local DDS selected",
+            "in_game_validation": "not_performed"
+          },
+          {
+            "material": "mouthbag",
+            "field": "g_nrmMap@ref",
+            "source_texture_name": "body_nrm",
+            "source": "Z:\\workspace\\formatter-investigation\\bryan25-upload\\159_Bryan_Danielson\\BaseModel\\Textures\\body_nrm.dds",
+            "output": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\BaseModel\\Textures\\body_nrm.dds",
+            "source_sha256": "5d48494b8a8e671cad25909b89bae6383ebc2f8b6274875967630b82a7ea06a0",
+            "output_sha256": "5d48494b8a8e671cad25909b89bae6383ebc2f8b6274875967630b82a7ea06a0",
+            "old_hash": 3982337228219315717,
+            "new_hash": 7652125905315313718,
+            "destination_virtual_path": "Characters/159_Bryan_Danielson/BaseModel/Textures/body_nrm.tex",
+            "changed": true,
+            "policy": "comparison_formatter_named_existing_local_dds_binding",
+            "dds": {
+              "width": 4096,
+              "height": 2048,
+              "mip_count": 1,
+              "format": "DXGI_98",
+              "payload_bytes": 8388608,
+              "header_and_extents_validated": true,
+              "capsTextureBitPresent": true,
+              "header_advisories": []
+            },
+            "old_reference_validity": "not inferred; actual named local DDS selected",
+            "in_game_validation": "not_performed"
+          },
+          {
+            "material": "teeth",
+            "field": "colorMap@ref",
+            "source_texture_name": "body_color",
+            "source": "Z:\\workspace\\formatter-investigation\\bryan25-upload\\159_Bryan_Danielson\\BaseModel\\Textures\\body_color.dds",
+            "output": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\BaseModel\\Textures\\body_color.dds",
+            "source_sha256": "9eea4984b01ca86116212e30ec1ff39faee21dfc26d50d2c84b0a50bbc423c22",
+            "output_sha256": "9eea4984b01ca86116212e30ec1ff39faee21dfc26d50d2c84b0a50bbc423c22",
+            "old_hash": 4090019175661451761,
+            "new_hash": 16953710042267170182,
+            "destination_virtual_path": "Characters/159_Bryan_Danielson/BaseModel/Textures/body_color.tex",
+            "changed": true,
+            "policy": "comparison_formatter_named_existing_local_dds_binding",
+            "dds": {
+              "width": 4096,
+              "height": 2048,
+              "mip_count": 1,
+              "format": "DXT1",
+              "payload_bytes": 4194304,
+              "header_and_extents_validated": true,
+              "capsTextureBitPresent": true,
+              "header_advisories": []
+            },
+            "old_reference_validity": "not inferred; actual named local DDS selected",
+            "in_game_validation": "not_performed"
+          },
+          {
+            "material": "teeth",
+            "field": "g_nrmMap@ref",
+            "source_texture_name": "body_nrm",
+            "source": "Z:\\workspace\\formatter-investigation\\bryan25-upload\\159_Bryan_Danielson\\BaseModel\\Textures\\body_nrm.dds",
+            "output": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\BaseModel\\Textures\\body_nrm.dds",
+            "source_sha256": "5d48494b8a8e671cad25909b89bae6383ebc2f8b6274875967630b82a7ea06a0",
+            "output_sha256": "5d48494b8a8e671cad25909b89bae6383ebc2f8b6274875967630b82a7ea06a0",
+            "old_hash": 3982337228219315717,
+            "new_hash": 7652125905315313718,
+            "destination_virtual_path": "Characters/159_Bryan_Danielson/BaseModel/Textures/body_nrm.tex",
+            "changed": true,
+            "policy": "comparison_formatter_named_existing_local_dds_binding",
+            "dds": {
+              "width": 4096,
+              "height": 2048,
+              "mip_count": 1,
+              "format": "DXGI_98",
+              "payload_bytes": 8388608,
+              "header_and_extents_validated": true,
+              "capsTextureBitPresent": true,
+              "header_advisories": []
+            },
+            "old_reference_validity": "not inferred; actual named local DDS selected",
+            "in_game_validation": "not_performed"
+          }
+        ],
+        "written_material_payload_audit": [
+          {
+            "name": "body",
+            "file": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\BaseModel\\Materials\\body.jmtl",
+            "shader_byte": 25,
+            "hair_type": null,
+            "texture_references": [
+              {
+                "field": "colorMap@ref",
+                "hash": 16953710042267170182
+              },
+              {
+                "field": "nrMap@ref",
+                "hash": 7652125905315313718
+              }
+            ],
+            "texture_schema_supported": true,
+            "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+            "shader_and_texture_values": "preserved; read-only inspection",
+            "state": "payload_inspected",
+            "sha256": "9af4b200742fd2d874cd73c43c7d8c9291f2a67a28b07f6a0f8efdad470a1692"
+          },
+          {
+            "name": "eye_l",
+            "file": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\BaseModel\\Materials\\eye_l.jmtl",
+            "shader_byte": 18,
+            "hair_type": null,
+            "texture_references": [
+              {
+                "field": "colorMap@ref",
+                "hash": 12857464407004638857
+              },
+              {
+                "field": "nrMap@ref",
+                "hash": 17274687911970229909
+              }
+            ],
+            "texture_schema_supported": true,
+            "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+            "shader_and_texture_values": "preserved; read-only inspection",
+            "face_texture_check": {
+              "scope": "reference-writer hash comparison; in-game asset resolution not verified",
+              "color_ref": 12857464407004638857,
+              "normal_ref": 17274687911970229909,
+              "required_color_and_normal_refs_present": true,
+              "reference_normal_ref": 17274687911970229909,
+              "reference_normal_match": true,
+              "custom_or_legacy_refs": "preserved; verify actual textures if reference hashes differ"
+            },
+            "state": "payload_inspected",
+            "sha256": "952afb8ac8360ef89876cba23cee85a05333f2ba0becf38d26869af1b5327f40"
+          },
+          {
+            "name": "eye_r",
+            "file": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\BaseModel\\Materials\\eye_r.jmtl",
+            "shader_byte": 18,
+            "hair_type": null,
+            "texture_references": [
+              {
+                "field": "colorMap@ref",
+                "hash": 12857464407004638857
+              },
+              {
+                "field": "nrMap@ref",
+                "hash": 17274687911970229909
+              }
+            ],
+            "texture_schema_supported": true,
+            "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+            "shader_and_texture_values": "preserved; read-only inspection",
+            "face_texture_check": {
+              "scope": "reference-writer hash comparison; in-game asset resolution not verified",
+              "color_ref": 12857464407004638857,
+              "normal_ref": 17274687911970229909,
+              "required_color_and_normal_refs_present": true,
+              "reference_normal_ref": 17274687911970229909,
+              "reference_normal_match": true,
+              "custom_or_legacy_refs": "preserved; verify actual textures if reference hashes differ"
+            },
+            "state": "payload_inspected",
+            "sha256": "952afb8ac8360ef89876cba23cee85a05333f2ba0becf38d26869af1b5327f40"
+          },
+          {
+            "name": "head",
+            "file": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\BaseModel\\Materials\\head.jmtl",
+            "shader_byte": 23,
+            "hair_type": null,
+            "texture_references": [
+              {
+                "field": "colorMap@ref",
+                "hash": 2685386323632386220
+              },
+              {
+                "field": "nrMap@ref",
+                "hash": 13067814436714612876
+              }
+            ],
+            "texture_schema_supported": true,
+            "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+            "shader_and_texture_values": "preserved; read-only inspection",
+            "state": "payload_inspected",
+            "sha256": "2f7b33856a191436ce6e0ddb7741baa52ff2949dca35dae6dbc5f6553fff1c5c"
+          },
+          {
+            "name": "mouthbag",
+            "file": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\BaseModel\\Materials\\mouthbag.jmtl",
+            "shader_byte": 26,
+            "hair_type": null,
+            "texture_references": [
+              {
+                "field": "colorMap@ref",
+                "hash": 16953710042267170182
+              },
+              {
+                "field": "nrMap@ref",
+                "hash": 7652125905315313718
+              }
+            ],
+            "texture_schema_supported": true,
+            "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+            "shader_and_texture_values": "preserved; read-only inspection",
+            "face_texture_check": {
+              "scope": "reference-writer hash comparison; in-game asset resolution not verified",
+              "color_ref": 16953710042267170182,
+              "normal_ref": 7652125905315313718,
+              "required_color_and_normal_refs_present": true,
+              "reference_color_ref": 8311374115795497328,
+              "reference_normal_ref": 13431178219333049464,
+              "reference_texture_pair_match": false,
+              "custom_or_legacy_refs": "preserved; verify actual textures if reference hashes differ"
+            },
+            "state": "payload_inspected",
+            "sha256": "391c02b1ed300c18a113ba7f8d4f23cb8ba3d30cf9508e63f3f79f6c1af018f4"
+          },
+          {
+            "name": "teeth",
+            "file": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\BaseModel\\Materials\\teeth.jmtl",
+            "shader_byte": 26,
+            "hair_type": null,
+            "texture_references": [
+              {
+                "field": "colorMap@ref",
+                "hash": 16953710042267170182
+              },
+              {
+                "field": "nrMap@ref",
+                "hash": 7652125905315313718
+              }
+            ],
+            "texture_schema_supported": true,
+            "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+            "shader_and_texture_values": "preserved; read-only inspection",
+            "face_texture_check": {
+              "scope": "reference-writer hash comparison; in-game asset resolution not verified",
+              "color_ref": 16953710042267170182,
+              "normal_ref": 7652125905315313718,
+              "required_color_and_normal_refs_present": true,
+              "reference_color_ref": 8311374115795497328,
+              "reference_normal_ref": 13431178219333049464,
+              "reference_texture_pair_match": false,
+              "custom_or_legacy_refs": "preserved; verify actual textures if reference hashes differ"
+            },
+            "state": "payload_inspected",
+            "sha256": "391c02b1ed300c18a113ba7f8d4f23cb8ba3d30cf9508e63f3f79f6c1af018f4"
+          }
+        ],
+        "material_binding_aliases": []
+      },
+      {
+        "source": "Z:\\workspace\\formatter-investigation\\bryan25-upload\\159_Bryan_Danielson\\159_Default_Attire\\159_Attire.mtls",
+        "output": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\159_Default_Attire\\159_Attire.mtls",
+        "notes": [
+          "material hair2_ALPHA is not used by the model and was left out",
+          "material jacket is not used by the model and was left out",
+          "material Jacket_00566 is not used by the model and was left out",
+          "16 texture bindings matched named existing local DDS files; pixels and source files preserved; in-game resolution not checked"
+        ],
+        "materials": [
+          {
+            "name": "combinations_ALPHA",
+            "shader_2k25": "yCh_hair / NewHair_ColorChanging",
+            "shader_2k26": "0x16",
+            "variant": null,
+            "hair_type": 1,
+            "textures": [
+              "flowMap@ref",
+              "g_comboMap@ref",
+              "g_mPixMsk@ref"
+            ],
+            "moved_links": []
+          },
+          {
+            "name": "hair_ALPHA",
+            "shader_2k25": "yCh_hair / NewHair_ColorChanging",
+            "shader_2k26": "0x16",
+            "variant": null,
+            "hair_type": 1,
+            "textures": [
+              "flowMap@ref",
+              "g_comboMap@ref",
+              "g_mPixMsk@ref"
+            ],
+            "moved_links": []
+          },
+          {
+            "name": "l_kneepad",
+            "shader_2k25": "yCh_gear / Normal",
+            "shader_2k26": "0x15",
+            "variant": null,
+            "hair_type": null,
+            "textures": [
+              "colorMap@ref",
+              "nrMap@ref"
+            ],
+            "moved_links": []
+          },
+          {
+            "name": "l_wrist",
+            "shader_2k25": "yCh_gear / Normal",
+            "shader_2k26": "0x15",
+            "variant": null,
+            "hair_type": null,
+            "textures": [
+              "colorMap@ref",
+              "nrMap@ref"
+            ],
+            "moved_links": []
+          },
+          {
+            "name": "r_kneepad",
+            "shader_2k25": "yCh_gear / Normal",
+            "shader_2k26": "0x15",
+            "variant": null,
+            "hair_type": null,
+            "textures": [
+              "colorMap@ref",
+              "nrMap@ref"
+            ],
+            "moved_links": []
+          },
+          {
+            "name": "r_wrist",
+            "shader_2k25": "yCh_gear / Normal",
+            "shader_2k26": "0x15",
+            "variant": null,
+            "hair_type": null,
+            "textures": [
+              "colorMap@ref",
+              "nrMap@ref"
+            ],
+            "moved_links": []
+          },
+          {
+            "name": "shoes",
+            "shader_2k25": "yCh_gear / Normal",
+            "shader_2k26": "0x15",
+            "variant": null,
+            "hair_type": null,
+            "textures": [
+              "colorMap@ref",
+              "nrMap@ref"
+            ],
+            "moved_links": []
+          },
+          {
+            "name": "underwear",
+            "shader_2k25": "yCh_gear / Normal",
+            "shader_2k26": "0x15",
+            "variant": null,
+            "hair_type": null,
+            "textures": [
+              "colorMap@ref",
+              "nrMap@ref"
+            ],
+            "moved_links": []
+          }
+        ],
+        "status": "converted",
+        "material_format": {
+          "version": "bounded-material-library-format-classification-1",
+          "classification": "supported_inline_v3",
+          "supported": true,
+          "safe_as_native": false,
+          "bytes": 14716,
+          "sha256": "091bb04c8d424002e7b9a6bd0c19d2a9fb0fce05765e88286f4a555e1081eda2",
+          "blocks": [
+            {
+              "name": "underwear",
+              "offset": 244,
+              "end": 1276,
+              "bytes": 1032,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_gear",
+              "technique": "Normal",
+              "parameter_count": 33,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "l_wrist",
+              "offset": 1276,
+              "end": 2300,
+              "bytes": 1024,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_gear",
+              "technique": "Normal",
+              "parameter_count": 33,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "r_wrist",
+              "offset": 2300,
+              "end": 3324,
+              "bytes": 1024,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_gear",
+              "technique": "Normal",
+              "parameter_count": 33,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "hair2_ALPHA",
+              "offset": 3324,
+              "end": 5388,
+              "bytes": 2064,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_hair",
+              "technique": "NewHair_ColorChanging",
+              "parameter_count": 74,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "hair_ALPHA",
+              "offset": 5388,
+              "end": 7448,
+              "bytes": 2060,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_hair",
+              "technique": "NewHair_ColorChanging",
+              "parameter_count": 74,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "l_kneepad",
+              "offset": 7448,
+              "end": 8480,
+              "bytes": 1032,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_gear",
+              "technique": "Normal",
+              "parameter_count": 33,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "r_kneepad",
+              "offset": 8480,
+              "end": 9512,
+              "bytes": 1032,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_gear",
+              "technique": "Normal",
+              "parameter_count": 33,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "shoes",
+              "offset": 9512,
+              "end": 10524,
+              "bytes": 1012,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_gear",
+              "technique": "Normal",
+              "parameter_count": 33,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "combinations_ALPHA",
+              "offset": 10524,
+              "end": 12624,
+              "bytes": 2100,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_hair",
+              "technique": "NewHair_ColorChanging",
+              "parameter_count": 74,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "jacket",
+              "offset": 12624,
+              "end": 13640,
+              "bytes": 1016,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_gear",
+              "technique": "Normal",
+              "parameter_count": 33,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "Jacket_00566",
+              "offset": 13640,
+              "end": 14716,
+              "bytes": 1076,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_gear",
+              "technique": "Normal",
+              "parameter_count": 33,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            }
+          ],
+          "observed_block_versions": [
+            3
+          ],
+          "envelope_validated": true,
+          "payload_extents_validated": true,
+          "validation_scope": "format only; shader, texture and in-game validity not established",
+          "library_version": 6,
+          "material_count": 11,
+          "material_names": [
+            "underwear",
+            "l_wrist",
+            "r_wrist",
+            "hair2_ALPHA",
+            "hair_ALPHA",
+            "l_kneepad",
+            "r_kneepad",
+            "shoes",
+            "combinations_ALPHA",
+            "jacket",
+            "Jacket_00566"
+          ],
+          "material_path_hashes": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "blocks_offset": 244,
+          "reason": "all inline v3 blocks and declared extents validated"
+        },
+        "local_texture_bindings": [
+          {
+            "material": "underwear",
+            "field": "colorMap@ref",
+            "source_texture_name": "underwear_color",
+            "source": "Z:\\workspace\\formatter-investigation\\bryan25-upload\\159_Bryan_Danielson\\159_Default_Attire\\Textures\\underwear_color.dds",
+            "output": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\159_Default_Attire\\Textures\\underwear_color.dds",
+            "source_sha256": "a71ab58260c1e5aa3ee7488a0decad420533ecdf220d24f3ea51d1bd33965807",
+            "output_sha256": "a71ab58260c1e5aa3ee7488a0decad420533ecdf220d24f3ea51d1bd33965807",
+            "old_hash": 16172676850506035333,
+            "new_hash": 15430731357853788160,
+            "destination_virtual_path": "Characters/159_Bryan_Danielson/159_Default_Attire/Textures/underwear_color.tex",
+            "changed": true,
+            "policy": "comparison_formatter_named_existing_local_dds_binding",
+            "dds": {
+              "width": 1280,
+              "height": 512,
+              "mip_count": 11,
+              "format": "DXT1",
+              "payload_bytes": 436936,
+              "header_and_extents_validated": true,
+              "capsTextureBitPresent": true,
+              "header_advisories": []
+            },
+            "old_reference_validity": "not inferred; actual named local DDS selected",
+            "in_game_validation": "not_performed"
+          },
+          {
+            "material": "underwear",
+            "field": "g_nrmMap@ref",
+            "source_texture_name": "underwear_nrm",
+            "source": "Z:\\workspace\\formatter-investigation\\bryan25-upload\\159_Bryan_Danielson\\159_Default_Attire\\Textures\\underwear_nrm.dds",
+            "output": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\159_Default_Attire\\Textures\\underwear_nrm.dds",
+            "source_sha256": "2dc4394f1c6ab20dc22346e5559443fc4d822c07908cc4c50c6d04ee3cf46fa3",
+            "output_sha256": "2dc4394f1c6ab20dc22346e5559443fc4d822c07908cc4c50c6d04ee3cf46fa3",
+            "old_hash": 16610738628647991921,
+            "new_hash": 1237866521663127560,
+            "destination_virtual_path": "Characters/159_Bryan_Danielson/159_Default_Attire/Textures/underwear_nrm.tex",
+            "changed": true,
+            "policy": "comparison_formatter_named_existing_local_dds_binding",
+            "dds": {
+              "width": 1280,
+              "height": 512,
+              "mip_count": 11,
+              "format": "DXGI_98",
+              "payload_bytes": 873872,
+              "header_and_extents_validated": true,
+              "capsTextureBitPresent": true,
+              "header_advisories": []
+            },
+            "old_reference_validity": "not inferred; actual named local DDS selected",
+            "in_game_validation": "not_performed"
+          },
+          {
+            "material": "l_wrist",
+            "field": "colorMap@ref",
+            "source_texture_name": "l_wrist_color",
+            "source": "Z:\\workspace\\formatter-investigation\\bryan25-upload\\159_Bryan_Danielson\\159_Default_Attire\\Textures\\l_wrist_color.dds",
+            "output": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\159_Default_Attire\\Textures\\l_wrist_color.dds",
+            "source_sha256": "ea54f0f76d9836d2503c1e839706d317a27904c765399dc7e1920434d1554982",
+            "output_sha256": "ea54f0f76d9836d2503c1e839706d317a27904c765399dc7e1920434d1554982",
+            "old_hash": 2857542786952599776,
+            "new_hash": 13782905063823619849,
+            "destination_virtual_path": "Characters/159_Bryan_Danielson/159_Default_Attire/Textures/l_wrist_color.tex",
+            "changed": true,
+            "policy": "comparison_formatter_named_existing_local_dds_binding",
+            "dds": {
+              "width": 512,
+              "height": 512,
+              "mip_count": 10,
+              "format": "DXT1",
+              "payload_bytes": 174776,
+              "header_and_extents_validated": true,
+              "capsTextureBitPresent": true,
+              "header_advisories": []
+            },
+            "old_reference_validity": "not inferred; actual named local DDS selected",
+            "in_game_validation": "not_performed"
+          },
+          {
+            "material": "l_wrist",
+            "field": "g_nrmMap@ref",
+            "source_texture_name": "l_wrist_nrm",
+            "source": "Z:\\workspace\\formatter-investigation\\bryan25-upload\\159_Bryan_Danielson\\159_Default_Attire\\Textures\\l_wrist_nrm.dds",
+            "output": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\159_Default_Attire\\Textures\\l_wrist_nrm.dds",
+            "source_sha256": "3ee2fc3d5466535ddba20e9b4991cdedc3c52b29eecf850c4172f4ee0e929493",
+            "output_sha256": "3ee2fc3d5466535ddba20e9b4991cdedc3c52b29eecf850c4172f4ee0e929493",
+            "old_hash": 2271622103257497960,
+            "new_hash": 7395304474989888301,
+            "destination_virtual_path": "Characters/159_Bryan_Danielson/159_Default_Attire/Textures/l_wrist_nrm.tex",
+            "changed": true,
+            "policy": "comparison_formatter_named_existing_local_dds_binding",
+            "dds": {
+              "width": 512,
+              "height": 512,
+              "mip_count": 10,
+              "format": "DXGI_98",
+              "payload_bytes": 349552,
+              "header_and_extents_validated": true,
+              "capsTextureBitPresent": true,
+              "header_advisories": []
+            },
+            "old_reference_validity": "not inferred; actual named local DDS selected",
+            "in_game_validation": "not_performed"
+          },
+          {
+            "material": "r_wrist",
+            "field": "colorMap@ref",
+            "source_texture_name": "r_wrist_color",
+            "source": "Z:\\workspace\\formatter-investigation\\bryan25-upload\\159_Bryan_Danielson\\159_Default_Attire\\Textures\\r_wrist_color.dds",
+            "output": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\159_Default_Attire\\Textures\\r_wrist_color.dds",
+            "source_sha256": "ea54f0f76d9836d2503c1e839706d317a27904c765399dc7e1920434d1554982",
+            "output_sha256": "ea54f0f76d9836d2503c1e839706d317a27904c765399dc7e1920434d1554982",
+            "old_hash": 14528966412080241634,
+            "new_hash": 6027266939519606383,
+            "destination_virtual_path": "Characters/159_Bryan_Danielson/159_Default_Attire/Textures/r_wrist_color.tex",
+            "changed": true,
+            "policy": "comparison_formatter_named_existing_local_dds_binding",
+            "dds": {
+              "width": 512,
+              "height": 512,
+              "mip_count": 10,
+              "format": "DXT1",
+              "payload_bytes": 174776,
+              "header_and_extents_validated": true,
+              "capsTextureBitPresent": true,
+              "header_advisories": []
+            },
+            "old_reference_validity": "not inferred; actual named local DDS selected",
+            "in_game_validation": "not_performed"
+          },
+          {
+            "material": "r_wrist",
+            "field": "g_nrmMap@ref",
+            "source_texture_name": "r_wrist_nrm",
+            "source": "Z:\\workspace\\formatter-investigation\\bryan25-upload\\159_Bryan_Danielson\\159_Default_Attire\\Textures\\r_wrist_nrm.dds",
+            "output": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\159_Default_Attire\\Textures\\r_wrist_nrm.dds",
+            "source_sha256": "d78870f1e9a4e7a17645be029c9de90d3401cb26e8951f3bac04e3d9d40af97c",
+            "output_sha256": "d78870f1e9a4e7a17645be029c9de90d3401cb26e8951f3bac04e3d9d40af97c",
+            "old_hash": 12688937229046942090,
+            "new_hash": 9829747977333943563,
+            "destination_virtual_path": "Characters/159_Bryan_Danielson/159_Default_Attire/Textures/r_wrist_nrm.tex",
+            "changed": true,
+            "policy": "comparison_formatter_named_existing_local_dds_binding",
+            "dds": {
+              "width": 512,
+              "height": 512,
+              "mip_count": 10,
+              "format": "DXGI_98",
+              "payload_bytes": 349552,
+              "header_and_extents_validated": true,
+              "capsTextureBitPresent": true,
+              "header_advisories": []
+            },
+            "old_reference_validity": "not inferred; actual named local DDS selected",
+            "in_game_validation": "not_performed"
+          },
+          {
+            "material": "hair_ALPHA",
+            "field": "flowMap@ref",
+            "source_texture_name": "hair_flow",
+            "source": "Z:\\workspace\\formatter-investigation\\bryan25-upload\\159_Bryan_Danielson\\159_Default_Attire\\Textures\\hair_flow.dds",
+            "output": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\159_Default_Attire\\Textures\\hair_flow.dds",
+            "source_sha256": "c4614af619742c47e5494436fd433c185c31a594639b62504a1afa04211d1a95",
+            "output_sha256": "c4614af619742c47e5494436fd433c185c31a594639b62504a1afa04211d1a95",
+            "old_hash": 11501872438455303249,
+            "new_hash": 10193846474666347780,
+            "destination_virtual_path": "Characters/159_Bryan_Danielson/159_Default_Attire/Textures/hair_flow.tex",
+            "changed": true,
+            "policy": "comparison_formatter_named_existing_local_dds_binding",
+            "dds": {
+              "width": 2048,
+              "height": 2048,
+              "mip_count": 1,
+              "format": "DXT1",
+              "payload_bytes": 2097152,
+              "header_and_extents_validated": true,
+              "capsTextureBitPresent": true,
+              "header_advisories": []
+            },
+            "old_reference_validity": "not inferred; actual named local DDS selected",
+            "in_game_validation": "not_performed"
+          },
+          {
+            "material": "hair_ALPHA",
+            "field": "g_comboMap@ref",
+            "source_texture_name": "hair_rai",
+            "source": "Z:\\workspace\\formatter-investigation\\bryan25-upload\\159_Bryan_Danielson\\159_Default_Attire\\Textures\\hair_rai.dds",
+            "output": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\159_Default_Attire\\Textures\\hair_rai.dds",
+            "source_sha256": "2bb835799b9ded3fecb6f17cb33ad8411b261b7277c541601536af3aca3f6be7",
+            "output_sha256": "2bb835799b9ded3fecb6f17cb33ad8411b261b7277c541601536af3aca3f6be7",
+            "old_hash": 17284815781229104593,
+            "new_hash": 12101650667513608206,
+            "destination_virtual_path": "Characters/159_Bryan_Danielson/159_Default_Attire/Textures/hair_rai.tex",
+            "changed": true,
+            "policy": "comparison_formatter_named_existing_local_dds_binding",
+            "dds": {
+              "width": 2048,
+              "height": 2048,
+              "mip_count": 1,
+              "format": "DXGI_98",
+              "payload_bytes": 4194304,
+              "header_and_extents_validated": true,
+              "capsTextureBitPresent": true,
+              "header_advisories": []
+            },
+            "old_reference_validity": "not inferred; actual named local DDS selected",
+            "in_game_validation": "not_performed"
+          },
+          {
+            "material": "l_kneepad",
+            "field": "colorMap@ref",
+            "source_texture_name": "l_kneepad_color",
+            "source": "Z:\\workspace\\formatter-investigation\\bryan25-upload\\159_Bryan_Danielson\\159_Default_Attire\\Textures\\l_kneepad_color.dds",
+            "output": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\159_Default_Attire\\Textures\\l_kneepad_color.dds",
+            "source_sha256": "2529125344254c89e9be7786ab314eee4040f9a0f457979791b8e3bfd91c76ba",
+            "output_sha256": "2529125344254c89e9be7786ab314eee4040f9a0f457979791b8e3bfd91c76ba",
+            "old_hash": 8316008118470841579,
+            "new_hash": 4816862640444665066,
+            "destination_virtual_path": "Characters/159_Bryan_Danielson/159_Default_Attire/Textures/l_kneepad_color.tex",
+            "changed": true,
+            "policy": "comparison_formatter_named_existing_local_dds_binding",
+            "dds": {
+              "width": 512,
+              "height": 512,
+              "mip_count": 10,
+              "format": "DXT1",
+              "payload_bytes": 174776,
+              "header_and_extents_validated": true,
+              "capsTextureBitPresent": true,
+              "header_advisories": []
+            },
+            "old_reference_validity": "not inferred; actual named local DDS selected",
+            "in_game_validation": "not_performed"
+          },
+          {
+            "material": "l_kneepad",
+            "field": "g_nrmMap@ref",
+            "source_texture_name": "l_kneepad_nrm",
+            "source": "Z:\\workspace\\formatter-investigation\\bryan25-upload\\159_Bryan_Danielson\\159_Default_Attire\\Textures\\l_kneepad_nrm.dds",
+            "output": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\159_Default_Attire\\Textures\\l_kneepad_nrm.dds",
+            "source_sha256": "c3620b7304806752e4dfa1a1e2379547d2c120b0ed43e32f628b872afba9826d",
+            "output_sha256": "c3620b7304806752e4dfa1a1e2379547d2c120b0ed43e32f628b872afba9826d",
+            "old_hash": 3183122325014709935,
+            "new_hash": 5276257630370473922,
+            "destination_virtual_path": "Characters/159_Bryan_Danielson/159_Default_Attire/Textures/l_kneepad_nrm.tex",
+            "changed": true,
+            "policy": "comparison_formatter_named_existing_local_dds_binding",
+            "dds": {
+              "width": 512,
+              "height": 512,
+              "mip_count": 10,
+              "format": "DXGI_98",
+              "payload_bytes": 349552,
+              "header_and_extents_validated": true,
+              "capsTextureBitPresent": true,
+              "header_advisories": []
+            },
+            "old_reference_validity": "not inferred; actual named local DDS selected",
+            "in_game_validation": "not_performed"
+          },
+          {
+            "material": "r_kneepad",
+            "field": "colorMap@ref",
+            "source_texture_name": "r_kneepad_color",
+            "source": "Z:\\workspace\\formatter-investigation\\bryan25-upload\\159_Bryan_Danielson\\159_Default_Attire\\Textures\\r_kneepad_color.dds",
+            "output": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\159_Default_Attire\\Textures\\r_kneepad_color.dds",
+            "source_sha256": "727efcaf7fb5030d1843e8d2702f2c1562fd55fe398229e2e1fb3a1376ccc16f",
+            "output_sha256": "727efcaf7fb5030d1843e8d2702f2c1562fd55fe398229e2e1fb3a1376ccc16f",
+            "old_hash": 3054084989976341633,
+            "new_hash": 4118429651944296356,
+            "destination_virtual_path": "Characters/159_Bryan_Danielson/159_Default_Attire/Textures/r_kneepad_color.tex",
+            "changed": true,
+            "policy": "comparison_formatter_named_existing_local_dds_binding",
+            "dds": {
+              "width": 512,
+              "height": 512,
+              "mip_count": 10,
+              "format": "DXT1",
+              "payload_bytes": 174776,
+              "header_and_extents_validated": true,
+              "capsTextureBitPresent": true,
+              "header_advisories": []
+            },
+            "old_reference_validity": "not inferred; actual named local DDS selected",
+            "in_game_validation": "not_performed"
+          },
+          {
+            "material": "r_kneepad",
+            "field": "g_nrmMap@ref",
+            "source_texture_name": "r_kneepad_nrm",
+            "source": "Z:\\workspace\\formatter-investigation\\bryan25-upload\\159_Bryan_Danielson\\159_Default_Attire\\Textures\\r_kneepad_nrm.dds",
+            "output": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\159_Default_Attire\\Textures\\r_kneepad_nrm.dds",
+            "source_sha256": "1380e87f0d6bdc13dc58f430a00bbe972df238b86b925018e0a6ca2782667520",
+            "output_sha256": "1380e87f0d6bdc13dc58f430a00bbe972df238b86b925018e0a6ca2782667520",
+            "old_hash": 2979976425396171925,
+            "new_hash": 13637208809017120820,
+            "destination_virtual_path": "Characters/159_Bryan_Danielson/159_Default_Attire/Textures/r_kneepad_nrm.tex",
+            "changed": true,
+            "policy": "comparison_formatter_named_existing_local_dds_binding",
+            "dds": {
+              "width": 512,
+              "height": 512,
+              "mip_count": 10,
+              "format": "DXGI_98",
+              "payload_bytes": 349552,
+              "header_and_extents_validated": true,
+              "capsTextureBitPresent": true,
+              "header_advisories": []
+            },
+            "old_reference_validity": "not inferred; actual named local DDS selected",
+            "in_game_validation": "not_performed"
+          },
+          {
+            "material": "shoes",
+            "field": "colorMap@ref",
+            "source_texture_name": "shoes_color",
+            "source": "Z:\\workspace\\formatter-investigation\\bryan25-upload\\159_Bryan_Danielson\\159_Default_Attire\\Textures\\shoes_color.dds",
+            "output": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\159_Default_Attire\\Textures\\shoes_color.dds",
+            "source_sha256": "64df8e4ab11d33e4bc8ea28123411836d46a6ec6241f7fe2810d024158543899",
+            "output_sha256": "64df8e4ab11d33e4bc8ea28123411836d46a6ec6241f7fe2810d024158543899",
+            "old_hash": 3919085862696573588,
+            "new_hash": 4542531957594391473,
+            "destination_virtual_path": "Characters/159_Bryan_Danielson/159_Default_Attire/Textures/shoes_color.tex",
+            "changed": true,
+            "policy": "comparison_formatter_named_existing_local_dds_binding",
+            "dds": {
+              "width": 2048,
+              "height": 2048,
+              "mip_count": 12,
+              "format": "DXT1",
+              "payload_bytes": 2796216,
+              "header_and_extents_validated": true,
+              "capsTextureBitPresent": true,
+              "header_advisories": []
+            },
+            "old_reference_validity": "not inferred; actual named local DDS selected",
+            "in_game_validation": "not_performed"
+          },
+          {
+            "material": "shoes",
+            "field": "g_nrmMap@ref",
+            "source_texture_name": "shoes_nrm",
+            "source": "Z:\\workspace\\formatter-investigation\\bryan25-upload\\159_Bryan_Danielson\\159_Default_Attire\\Textures\\shoes_nrm.dds",
+            "output": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\159_Default_Attire\\Textures\\shoes_nrm.dds",
+            "source_sha256": "74b3050265f6596f8300cb397cbc7d0bfe04f9e06056ad8961036e3f8018303a",
+            "output_sha256": "74b3050265f6596f8300cb397cbc7d0bfe04f9e06056ad8961036e3f8018303a",
+            "old_hash": 7779747794777788708,
+            "new_hash": 6055391854234812869,
+            "destination_virtual_path": "Characters/159_Bryan_Danielson/159_Default_Attire/Textures/shoes_nrm.tex",
+            "changed": true,
+            "policy": "comparison_formatter_named_existing_local_dds_binding",
+            "dds": {
+              "width": 2048,
+              "height": 2048,
+              "mip_count": 12,
+              "format": "DXGI_98",
+              "payload_bytes": 5592432,
+              "header_and_extents_validated": true,
+              "capsTextureBitPresent": true,
+              "header_advisories": []
+            },
+            "old_reference_validity": "not inferred; actual named local DDS selected",
+            "in_game_validation": "not_performed"
+          },
+          {
+            "material": "combinations_ALPHA",
+            "field": "flowMap@ref",
+            "source_texture_name": "combinations_flow",
+            "source": "Z:\\workspace\\formatter-investigation\\bryan25-upload\\159_Bryan_Danielson\\159_Default_Attire\\Textures\\combinations_flow.dds",
+            "output": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\159_Default_Attire\\Textures\\combinations_flow.dds",
+            "source_sha256": "4fafbf04b5325c1abe51a1f5ec84dca53dc2b0af6e0f30bdbfe6f314eb0f7a58",
+            "output_sha256": "4fafbf04b5325c1abe51a1f5ec84dca53dc2b0af6e0f30bdbfe6f314eb0f7a58",
+            "old_hash": 13079942895948792177,
+            "new_hash": 14139347319398159756,
+            "destination_virtual_path": "Characters/159_Bryan_Danielson/159_Default_Attire/Textures/combinations_flow.tex",
+            "changed": true,
+            "policy": "comparison_formatter_named_existing_local_dds_binding",
+            "dds": {
+              "width": 2048,
+              "height": 2048,
+              "mip_count": 1,
+              "format": "DXT1",
+              "payload_bytes": 2097152,
+              "header_and_extents_validated": true,
+              "capsTextureBitPresent": true,
+              "header_advisories": []
+            },
+            "old_reference_validity": "not inferred; actual named local DDS selected",
+            "in_game_validation": "not_performed"
+          },
+          {
+            "material": "combinations_ALPHA",
+            "field": "g_comboMap@ref",
+            "source_texture_name": "combinations_rai",
+            "source": "Z:\\workspace\\formatter-investigation\\bryan25-upload\\159_Bryan_Danielson\\159_Default_Attire\\Textures\\combinations_rai.dds",
+            "output": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\159_Default_Attire\\Textures\\combinations_rai.dds",
+            "source_sha256": "a7519c61bc4b284297b0f675c6bde088a52de5f4043ceb6be778d8c8669708ed",
+            "output_sha256": "a7519c61bc4b284297b0f675c6bde088a52de5f4043ceb6be778d8c8669708ed",
+            "old_hash": 9407289917393135985,
+            "new_hash": 3196781813332684342,
+            "destination_virtual_path": "Characters/159_Bryan_Danielson/159_Default_Attire/Textures/combinations_rai.tex",
+            "changed": true,
+            "policy": "comparison_formatter_named_existing_local_dds_binding",
+            "dds": {
+              "width": 2048,
+              "height": 2048,
+              "mip_count": 1,
+              "format": "DXGI_98",
+              "payload_bytes": 4194304,
+              "header_and_extents_validated": true,
+              "capsTextureBitPresent": true,
+              "header_advisories": []
+            },
+            "old_reference_validity": "not inferred; actual named local DDS selected",
+            "in_game_validation": "not_performed"
+          }
+        ],
+        "written_material_payload_audit": [
+          {
+            "name": "combinations_ALPHA",
+            "file": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\159_Default_Attire\\Materials\\combinations_ALPHA.jmtl",
+            "shader_byte": 22,
+            "hair_type": 1,
+            "texture_references": [
+              {
+                "field": "flowMap@ref",
+                "hash": 14139347319398159756
+              },
+              {
+                "field": "g_comboMap@ref",
+                "hash": 3196781813332684342
+              }
+            ],
+            "texture_schema_supported": true,
+            "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+            "shader_and_texture_values": "preserved; read-only inspection",
+            "state": "payload_inspected",
+            "sha256": "1a765b0ea19ceb5a85a48d7de9bda3e9a6d7818e26c156b1b1ae50e8c692835e"
+          },
+          {
+            "name": "hair_ALPHA",
+            "file": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\159_Default_Attire\\Materials\\hair_ALPHA.jmtl",
+            "shader_byte": 22,
+            "hair_type": 1,
+            "texture_references": [
+              {
+                "field": "flowMap@ref",
+                "hash": 10193846474666347780
+              },
+              {
+                "field": "g_comboMap@ref",
+                "hash": 12101650667513608206
+              }
+            ],
+            "texture_schema_supported": true,
+            "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+            "shader_and_texture_values": "preserved; read-only inspection",
+            "state": "payload_inspected",
+            "sha256": "947c1b7c1fc9b74922e98b9c8142cc8b4d92c692bdb065355e2fa118201b6ce6"
+          },
+          {
+            "name": "l_kneepad",
+            "file": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\159_Default_Attire\\Materials\\l_kneepad.jmtl",
+            "shader_byte": 21,
+            "hair_type": null,
+            "texture_references": [
+              {
+                "field": "colorMap@ref",
+                "hash": 4816862640444665066
+              },
+              {
+                "field": "nrMap@ref",
+                "hash": 5276257630370473922
+              }
+            ],
+            "texture_schema_supported": true,
+            "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+            "shader_and_texture_values": "preserved; read-only inspection",
+            "state": "payload_inspected",
+            "sha256": "9edbc1833a6aa09606ab8a4ed1a75a012fef7d969032ca8f1b951d024845a010"
+          },
+          {
+            "name": "l_wrist",
+            "file": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\159_Default_Attire\\Materials\\l_wrist.jmtl",
+            "shader_byte": 21,
+            "hair_type": null,
+            "texture_references": [
+              {
+                "field": "colorMap@ref",
+                "hash": 13782905063823619849
+              },
+              {
+                "field": "nrMap@ref",
+                "hash": 7395304474989888301
+              }
+            ],
+            "texture_schema_supported": true,
+            "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+            "shader_and_texture_values": "preserved; read-only inspection",
+            "state": "payload_inspected",
+            "sha256": "e9edc1f2893e8594a7d912c2449be09bd0967b35aab9067849a162da8193467c"
+          },
+          {
+            "name": "r_kneepad",
+            "file": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\159_Default_Attire\\Materials\\r_kneepad.jmtl",
+            "shader_byte": 21,
+            "hair_type": null,
+            "texture_references": [
+              {
+                "field": "colorMap@ref",
+                "hash": 4118429651944296356
+              },
+              {
+                "field": "nrMap@ref",
+                "hash": 13637208809017120820
+              }
+            ],
+            "texture_schema_supported": true,
+            "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+            "shader_and_texture_values": "preserved; read-only inspection",
+            "state": "payload_inspected",
+            "sha256": "f28417903da75d34274dd908dc3255e7eed2313203c13ee80b4789193f21779e"
+          },
+          {
+            "name": "r_wrist",
+            "file": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\159_Default_Attire\\Materials\\r_wrist.jmtl",
+            "shader_byte": 21,
+            "hair_type": null,
+            "texture_references": [
+              {
+                "field": "colorMap@ref",
+                "hash": 6027266939519606383
+              },
+              {
+                "field": "nrMap@ref",
+                "hash": 9829747977333943563
+              }
+            ],
+            "texture_schema_supported": true,
+            "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+            "shader_and_texture_values": "preserved; read-only inspection",
+            "state": "payload_inspected",
+            "sha256": "b2d8326cdd43f37f15079936c9768176721f6f88bc0e2045053d2db5e0acb0b2"
+          },
+          {
+            "name": "shoes",
+            "file": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\159_Default_Attire\\Materials\\shoes.jmtl",
+            "shader_byte": 21,
+            "hair_type": null,
+            "texture_references": [
+              {
+                "field": "colorMap@ref",
+                "hash": 4542531957594391473
+              },
+              {
+                "field": "nrMap@ref",
+                "hash": 6055391854234812869
+              }
+            ],
+            "texture_schema_supported": true,
+            "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+            "shader_and_texture_values": "preserved; read-only inspection",
+            "state": "payload_inspected",
+            "sha256": "f41ca2d7bc5b864114f282c9784055380dafd5785001aa328baa3c11dd440d27"
+          },
+          {
+            "name": "underwear",
+            "file": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\159_Default_Attire\\Materials\\underwear.jmtl",
+            "shader_byte": 21,
+            "hair_type": null,
+            "texture_references": [
+              {
+                "field": "colorMap@ref",
+                "hash": 15430731357853788160
+              },
+              {
+                "field": "nrMap@ref",
+                "hash": 1237866521663127560
+              }
+            ],
+            "texture_schema_supported": true,
+            "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+            "shader_and_texture_values": "preserved; read-only inspection",
+            "state": "payload_inspected",
+            "sha256": "be42d35266428f8e9c10628927276fb9ee35650a6ebbf0cd4210d81b5b922ed3"
+          }
+        ],
+        "material_binding_aliases": []
+      }
+    ],
+    "copied": 2,
+    "left_out": [
+      "159_Default_Attire\\159_Attire.hpl (now inside the .mcd)"
+    ],
+    "problems": [
+      "restored supplied matching hide mask requires entrance/gameplay validation",
+      "Experimental Bryan tongue anchor test requires an in-game teeth check; a visual fix has not been established."
+    ],
+    "warnings": [
+      "Experimental supplied Bryan tongue anchor applied; black teeth appearance requires an in-game check."
+    ],
+    "blank_physics": [],
+    "physics_converted": [],
+    "ycl_editor": null,
+    "engine": "Model engine: WWE2K_MDL add-on, inside this app",
+    "seconds": 7.8,
+    "source_inventory_before_conversion": [
+      {
+        "path": "159_Default_Attire/159_Attire.hpl",
+        "bytes": 81408,
+        "sha256": "57abd17dd82782bcd4c1509c311d3f70227af707e7975a2e1b3fcbf1eae2c3dd"
+      },
+      {
+        "path": "159_Default_Attire/159_Attire.mcd",
+        "bytes": 9768676,
+        "sha256": "f8116337693256b46c92036132af5c356ec3c70fb745967ba97d3283e7fc986c"
+      },
+      {
+        "path": "159_Default_Attire/159_Attire.mtls",
+        "bytes": 14716,
+        "sha256": "091bb04c8d424002e7b9a6bd0c19d2a9fb0fce05765e88286f4a555e1081eda2"
+      },
+      {
+        "path": "BaseModel/baseModel.mcd",
+        "bytes": 5881276,
+        "sha256": "343eede12271859708f75b52deb28c92fae9fe5983dcbb7d37cd0684378d4f67"
+      },
+      {
+        "path": "BaseModel/baseModel.mtls",
+        "bytes": 14124,
+        "sha256": "09fed438ce4917503b60cc59072e22dcc7b89cfb9e3289b467cc309026204e1a"
+      }
+    ],
+    "conversion_completeness": "incomplete",
+    "in_game_validation": "not_performed",
+    "repair_patch": "authored-eye-shading-mouth-anchor-trials-flip-mask-and-dds-header-repair-13",
+    "native_2k26_models_preserved": 0,
+    "native_2k26_material_libraries_repaired": 0,
+    "native_2k26_patch": "native-2k26-preservation-and-material-links-1",
+    "reference_source_integration": {
+      "weight_checks": "supplied-reference-weight-audit-1",
+      "geometry_backend": "Gorilla native engine with ported reference components; full Blender workflow not invoked",
+      "wwe2k_mdl_source_supplied": true,
+      "ycl_backend": "original Gorilla converter",
+      "full_reference_engine_rebuilt": false
+    },
+    "ycl_repair_patch": "independent-gorilla-ycl-translation-1",
+    "native_2k26_missing_data_check": {
+      "version": "native-2k26-missing-data-audit-1",
+      "models_checked": 0,
+      "repairs_applied": 0,
+      "findings": [],
+      "in_game_validation": "not_performed",
+      "unavailable_data": "reported; never synthesized",
+      "state": "not_applicable_no_native_inputs"
+    },
+    "legacy_2k24_input_route": {
+      "version": "native-2k24-format-route-with-rig-guards-1",
+      "models_attempted": 0,
+      "model_checks_passed": 0,
+      "input_headers_rewritten": false,
+      "in_game_validation": "not_performed",
+      "validation_scope": "native model structural checks; materials, hide masks and physics reported separately"
+    },
+    "experimental_tongue_anchor_game_check": "required; appearance not validated",
+    "tongue_anchor_experiment": {
+      "version": "exact-supplied-bryan-and-flip-tongue-anchor-experiment-2",
+      "scope": "exact inspected supplied Bryan and Flip Gordon profiles only; each source must match its own output profile",
+      "applied": 1,
+      "already_applied": 0,
+      "in_game_validation": "not_performed",
+      "black_teeth_fixed": "not established; controlled anatomical anchor experiment",
+      "matched_profiles": [
+        "Bryan"
+      ]
+    },
+    "face_output_check": {
+      "version": "all-recorded-model-output-face-audit-1",
+      "records_total": 2,
+      "records_audited": 2,
+      "face_models": 1,
+      "not_applicable": 1,
+      "unavailable_or_unreadable": 0,
+      "problems": [],
+      "warnings": [],
+      "in_game_validation": "not_performed",
+      "file_changes": "none",
+      "reference_baseline": {
+        "name": "earlier_supplied_native_2k26_cena_face_schema",
+        "source_model_sha256": "bb0176e86fc2e74cebc61058acac1fa3103c7a859f2e54a2196947fe95ee4a1c",
+        "source_model_version": 47,
+        "observed_anchor_slots": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "observed_eye_material_roles": {
+          "eye_l": "left",
+          "eye_r": "right"
+        },
+        "observed_eye_shape_names": [
+          "PupilContract",
+          "PupilExpand"
+        ],
+        "observed_eye_weight_bones": [
+          "J_Eye_L",
+          "J_Eye_R"
+        ],
+        "known_global_eye_normal_ref": 17274687911970229909,
+        "normal_reference_provenance": "supplied comparison writer and stored native material observations; game asset resolution not verified",
+        "topology_and_anchor_target_policy": "schema observation only; vertex counts, UVs, shapes and anchor mesh names are not copied or required identical",
+        "additional_139_John_Cena_2019_archive": "not inspected for this baseline"
+      },
+      "coverage_scope": "all recorded model outputs; source models absent from report.models are not claimed inspected",
+      "coverage_complete": true,
+      "state": "recorded_output_checks_passed"
+    },
+    "started_at_utc": "2026-10-12T22:18:12.497237+00:00",
+    "finished_at_utc": "2026-10-12T22:18:22.380854+00:00",
+    "status": "completed_with_problems",
+    "report_paths": [
+      "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\159_Bryan_Danielson - conversion report.json",
+      "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\Characters\\159_Bryan_Danielson\\159_Bryan_Danielson - conversion report.json"
+    ],
+    "report_path": "Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\159_Bryan_Danielson - conversion report.json"
+  },
+  "logs": [
+    "  BaseModel\\baseModel.mcd: base model, 209 -> 175 bones, male rig, check pass",
+    "  BaseModel\\baseModel.mtls: 6 materials",
+    "  159_Default_Attire\\159_Attire.mcd: attire, 209 -> 175 bones, male rig, check pass",
+    "  159_Default_Attire\\159_Attire.mtls: 8 materials",
+    "Experimental supplied Bryan tongue anchor applied; black teeth appearance requires an in-game check.",
+    "Face checks: 2 recorded outputs audited; 1 contain face meshes; in-game appearance not verified.",
+    "Report saved: Z:\\workspace\\formatter-investigation\\bryan13-final-r4\\output\\159_Bryan_Danielson - conversion report.json"
+  ],
+  "all_dds_copies_byte_identical": true,
+  "texture_checks": [
+    {
+      "file": "BaseModel\\Textures\\body_color.dds",
+      "copied_byte_identical": true
+    },
+    {
+      "file": "BaseModel\\Textures\\body_nrm.dds",
+      "copied_byte_identical": true
+    },
+    {
+      "file": "BaseModel\\Textures\\eye_color.dds",
+      "copied_byte_identical": true
+    },
+    {
+      "file": "BaseModel\\Textures\\head_color.dds",
+      "copied_byte_identical": true
+    },
+    {
+      "file": "BaseModel\\Textures\\head_nrm.dds",
+      "copied_byte_identical": true
+    },
+    {
+      "file": "159_Default_Attire\\Textures\\combinations_flow.dds",
+      "copied_byte_identical": true
+    },
+    {
+      "file": "159_Default_Attire\\Textures\\combinations_rai.dds",
+      "copied_byte_identical": true
+    },
+    {
+      "file": "159_Default_Attire\\Textures\\hair2_flow.dds",
+      "copied_byte_identical": true
+    },
+    {
+      "file": "159_Default_Attire\\Textures\\hair2_rai.dds",
+      "copied_byte_identical": true
+    },
+    {
+      "file": "159_Default_Attire\\Textures\\hair_flow.dds",
+      "copied_byte_identical": true
+    },
+    {
+      "file": "159_Default_Attire\\Textures\\hair_rai.dds",
+      "copied_byte_identical": true
+    },
+    {
+      "file": "159_Default_Attire\\Textures\\l_kneepad_color.dds",
+      "copied_byte_identical": true
+    },
+    {
+      "file": "159_Default_Attire\\Textures\\l_kneepad_nrm.dds",
+      "copied_byte_identical": true
+    },
+    {
+      "file": "159_Default_Attire\\Textures\\l_wrist_color.dds",
+      "copied_byte_identical": true
+    },
+    {
+      "file": "159_Default_Attire\\Textures\\l_wrist_nrm.dds",
+      "copied_byte_identical": true
+    },
+    {
+      "file": "159_Default_Attire\\Textures\\r_kneepad_color.dds",
+      "copied_byte_identical": true
+    },
+    {
+      "file": "159_Default_Attire\\Textures\\r_kneepad_nrm.dds",
+      "copied_byte_identical": true
+    },
+    {
+      "file": "159_Default_Attire\\Textures\\r_wrist_color.dds",
+      "copied_byte_identical": true
+    },
+    {
+      "file": "159_Default_Attire\\Textures\\r_wrist_nrm.dds",
+      "copied_byte_identical": true
+    },
+    {
+      "file": "159_Default_Attire\\Textures\\shoes_color.dds",
+      "copied_byte_identical": true
+    },
+    {
+      "file": "159_Default_Attire\\Textures\\shoes_nrm.dds",
+      "copied_byte_identical": true
+    },
+    {
+      "file": "159_Default_Attire\\Textures\\underwear_color.dds",
+      "copied_byte_identical": true
+    },
+    {
+      "file": "159_Default_Attire\\Textures\\underwear_nrm.dds",
+      "copied_byte_identical": true
+    }
+  ],
+  "face_material_checks": [
+    {
+      "name": "eye_l",
+      "shader": 18,
+      "refs": {
+        "colorMap@ref": 12857464407004638857,
+        "nrMap@ref": 17274687911970229909
+      },
+      "actual_local_color_bound": true,
+      "expected_normal_bound": true,
+      "sha256": "952afb8ac8360ef89876cba23cee85a05333f2ba0becf38d26869af1b5327f40"
+    },
+    {
+      "name": "eye_r",
+      "shader": 18,
+      "refs": {
+        "colorMap@ref": 12857464407004638857,
+        "nrMap@ref": 17274687911970229909
+      },
+      "actual_local_color_bound": true,
+      "expected_normal_bound": true,
+      "sha256": "952afb8ac8360ef89876cba23cee85a05333f2ba0becf38d26869af1b5327f40"
+    },
+    {
+      "name": "body",
+      "shader": 25,
+      "refs": {
+        "colorMap@ref": 16953710042267170182,
+        "nrMap@ref": 7652125905315313718
+      },
+      "actual_local_color_bound": true,
+      "expected_normal_bound": true,
+      "sha256": "9af4b200742fd2d874cd73c43c7d8c9291f2a67a28b07f6a0f8efdad470a1692"
+    },
+    {
+      "name": "head",
+      "shader": 23,
+      "refs": {
+        "colorMap@ref": 2685386323632386220,
+        "nrMap@ref": 13067814436714612876
+      },
+      "actual_local_color_bound": true,
+      "expected_normal_bound": true,
+      "sha256": "2f7b33856a191436ce6e0ddb7741baa52ff2949dca35dae6dbc5f6553fff1c5c"
+    },
+    {
+      "name": "teeth",
+      "shader": 26,
+      "refs": {
+        "colorMap@ref": 16953710042267170182,
+        "nrMap@ref": 7652125905315313718
+      },
+      "actual_local_color_bound": true,
+      "expected_normal_bound": true,
+      "sha256": "391c02b1ed300c18a113ba7f8d4f23cb8ba3d30cf9508e63f3f79f6c1af018f4",
+      "exact_reference_writer_source_irradiance_bytes": true,
+      "irradiance_raw_presence_and_values": {
+        "0": {
+          "present": true,
+          "byte_if_present": 255
+        },
+        "1": {
+          "present": true,
+          "byte_if_present": 191
+        },
+        "2": {
+          "present": true,
+          "byte_if_present": 191
+        }
+      }
+    },
+    {
+      "name": "mouthbag",
+      "shader": 26,
+      "refs": {
+        "colorMap@ref": 16953710042267170182,
+        "nrMap@ref": 7652125905315313718
+      },
+      "actual_local_color_bound": true,
+      "expected_normal_bound": true,
+      "sha256": "391c02b1ed300c18a113ba7f8d4f23cb8ba3d30cf9508e63f3f79f6c1af018f4",
+      "exact_reference_writer_source_irradiance_bytes": true,
+      "irradiance_raw_presence_and_values": {
+        "0": {
+          "present": true,
+          "byte_if_present": 255
+        },
+        "1": {
+          "present": true,
+          "byte_if_present": 191
+        },
+        "2": {
+          "present": true,
+          "byte_if_present": 191
+        }
+      }
+    }
+  ],
+  "left_right_eye_jmtls_identical": true,
+  "face_geometry_checks": [
+    {
+      "mesh": "M_EYE",
+      "positions_equal": true,
+      "triangles_equal": true,
+      "remap_equal": true,
+      "uvs_equal": true,
+      "colors_equal": true
+    },
+    {
+      "mesh": "M_Teeth",
+      "positions_equal": true,
+      "triangles_equal": true,
+      "remap_equal": true,
+      "uvs_equal": true,
+      "colors_equal": true
+    },
+    {
+      "mesh": "M_MouthBag",
+      "positions_equal": true,
+      "triangles_equal": true,
+      "remap_equal": true,
+      "uvs_equal": true,
+      "colors_equal": true
+    }
+  ],
+  "mask_whole": true,
+  "mask_flags_and_indices_preserved": true,
+  "foot_toe_dominant_ids": 2109,
+  "foot_ids_hidden_both_flags_all_lods": true,
+  "automatic_supplied_mask_recovery_recorded": true,
+  "reports_saved_and_equal": true,
+  "in_game_visual_fixes_confirmed": false
+}

@@ -1,8 +1,8 @@
-# NewModelFormatter 0.12 experimental
+# NewModelFormatter 0.13 experimental
 
 This build repairs named local texture bindings for supported legacy materials,
 preserves explicitly authored teeth irradiance, and automatically restores the
-original supplied Bryan mask for his exact inspected formatted-2K25 pair. This
+supplied Bryan and Flip masks for their exact inspected formatted-2K25 pairs. This
 covers supported inputs that previously passed through 2K24 -> 2K25 formatting.
 Gorilla-style folder input/output, CakeView, YCL translation, the original UI
 logic and original source files remain preserved. Appearance still requires
@@ -10,7 +10,7 @@ an in-game check; this is not a confirmed universal eyes/teeth/beard repair.
 
 ## Install
 
-1. Extract `NewModelFormatter_0.12_patch_installer.zip` into a fresh folder.
+1. Extract `NewModelFormatter_0.13_patch_installer.zip` into a fresh folder.
 2. Run `Install.cmd` and select your ORIGINAL Gorilla Model Formatter 1.0 EXE.
 3. Open the created `NewModelFormatter.exe`. Convert into a new empty output
    folder using your usual CakeView workflow.
@@ -18,7 +18,104 @@ an in-game check; this is not a confirmed universal eyes/teeth/beard repair.
 Select the original Gorilla EXE, not an older experimental EXE. No Python or
 Blender is needed to run the tool. The installer refuses existing output files.
 
-## New 0.12 checks
+## New 0.13 Flip mask restoration
+
+The new user-supplied `931_Attire.hpl` is readable and fits Flip's actual paired
+Body/Head vertex remaps and topology. It contains 4,378 body IDs for both ring
+and entrance modes, including all 2,097 foot/toe-dominant body vertices.
+The original writer preserves those arrays across all five output LODs.
+The same-stem readable sidecar can be converted normally. For the exact
+inspected legacy Flip base/attire with the exact old invalid sidecar, guarded
+restoration uses these supplied bytes after paired-base verification. Unknown
+models sharing slot 931, missing or changed sidecars, intentional empty masks,
+changed remaps and failed base verification are excluded. Native 2K26 files
+do not receive this legacy fallback. Inspect `supplied_hide_mask_recovery`.
+No mask IDs are estimated, and game coverage still needs checking.
+
+Vynx's HeatSeeking clears/rebuilds selected attire weights; its HPL step is
+separate. Flip's shoe weights already target surviving bones. A read-only
+paired-body projection preview confirms feasible transfer, but does not
+establish a clipping fix. This release restores verified mask data without
+changing his shoes or Danielson's working gear. Broad automatic attire
+reweighting is not supported by the current evidence.
+
+## New 0.13 exact mouth-anchor experiments
+
+The user confirmed that Danielson's gear works but his teeth remain black in
+0.12 after a complete CakeView rebake. The supplied native 2K26 reference puts
+shading-anchor slot 4 on its tongue; Gorilla's reference puts it on teeth.
+Independent topology correspondence maps the native tongue vertex to vertex
+127 of the exact supplied Bryan model. This build tests that anatomical role
+by changing only the slot's mesh-index and vertex fields. Three bytes actually
+change; the other twelve anchors and every other model byte remain identical.
+Gear, masks, bones, weights, UVs, materials and texture pixels are preserved.
+
+Only the exact inspected Bryan source/output fingerprints are eligible. The
+0.12 base output SHA `9727b9f46c18eb54d4eb11a40fdf98a25d8b3ca4aac135c2b26be2714e9fad60`
+becomes `19956b0ba487d68f90999d86a3837d695b3b14c0c79763d46cebc5814a1ac4ba`.
+Already-ported exact matching 2K26 data can receive the same experiment, and
+repeated processing is idempotent. Inspect `experimental_tongue_anchor`.
+Applied or already-applied trials explicitly require an in-game teeth check.
+Reports retain pre/post hashes and paired-mask verification provenance.
+
+Flip has a separate independently verified topology match for the same tongue
+role. Its exact native base SHA
+`1ec8da39b5d85554b6fbcb3aa71782ebbaf665868f35e30734aa6a30c8a128dc`
+becomes `8ef00213999d1921c7b0adea4dc4afa9389ea71579b43556a9ce9f84e2e0ae0b`.
+Only three bytes change in that base model; his gear weights, materials and
+textures stay preserved. A fresh legacy conversion qualifies only if its
+actual output matches that reviewed native fingerprint.
+
+These are guarded experiments, not established black-teeth fixes. Hammerstone
+and unrelated models are excluded. No generic UV swap, teeth whitening or
+shader substitution is applied.
+
+## New 0.13 authored eye shading parameters
+
+The supplied Blender formatter's ordinary WWE bridge uses
+`MaterialGeneratorWorking.cs`. That path preserves matching source eye
+materials, while Gorilla's eye conversion emitted only texture references.
+The supplied MaterialEditor conversion and write schema confirm the same-key
+eye scalar fields. This build retains supported finite, typed source eye
+shading values in the existing shader 0x12 writer, including explicit zeros.
+Unknown keys, unverified pupil aliases, invalid types and nonfinite values are
+excluded. Missing source values remain missing; no brightness or color is
+guessed. The original writer handles explicit zero fields without globally
+changing builder behavior. Texture references, geometry, UVs and vertex colors
+remain preserved. Inspect the eye preservation notes and emitted-field proof.
+In-game eye brightness and left/right appearance still require testing.
+
+Native materials that already lost these values do not contain the original
+authoring data. This preservation applies during supported legacy material
+conversion; it does not guess missing settings for older native ports.
+
+## New 0.13 DDS handling
+
+A valid compressed DDS can omit the DDSCAPS_TEXTURE bit. The supplied Blender
+importer explicitly handles this game-texture header quirk. Earlier binding
+checks rejected such files even when their dimensions and payload were valid.
+The bit is now advisory: actual header sizes, positive dimensions, supported
+formats, single 2D resources, cube/volume restrictions and every mip extent
+still validate. Source and copied output bytes remain identical. Accepted
+files record `capsTextureBitPresent` and `header_advisories`; neither pixels nor
+DDS headers are rewritten by this patch. Actual CakeView baking and game
+resolution remain unverified.
+
+Binding failures now name the exact DDS file and give the rejected dimension
+or flag values. This makes subsequent missing-file requests precise. Invalid,
+truncated and unsupported textures remain problems and retain their old refs.
+
+Hammerstone's supplied 0.12 report converted its base rig and passed the actual
+eye/teeth link checks. It rejected the eyelash overlay and beard combo DDS
+headers, but did not record those failing filenames or header bytes. Their
+actual validity is not established by this report. His attire also has the
+known unreadable 81,408-byte HPL; no original mask or verified embedded fallback
+is available for his source fingerprints. Bryan's matching recovery profile
+does not apply to Hammerstone, despite both using a `159_Attire` filename.
+The original readable Hammerstone mask is still required. This DDS correction
+does not claim an outfit, beard or in-game appearance repair for that case.
+
+## Existing 0.12 checks
 
 Older partial male rigs can pass the source-rig gate when their complete
 animation core and stock bind pose are recognized. Gorilla already builds the

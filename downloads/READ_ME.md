@@ -1,28 +1,32 @@
-# NewModelFormatter 0.12 experimental
+# NewModelFormatter 0.13 experimental
 
-[Download the small installer ZIP](NewModelFormatter_0.12_patch_installer.zip).
+[Download the small installer ZIP](NewModelFormatter_0.13_patch_installer.zip).
 
 1. Extract into a **new empty folder**.
 2. Run `Install.cmd` and select your **original Gorilla Model Formatter 1.0 EXE**.
-3. Open the created `NewModelFormatter.exe`. Keep the complete wrestler folder together; use your usual CakeView workflow and a **new empty output folder**.
+3. Open the created `NewModelFormatter.exe`, convert the complete wrestler folder into a **new empty output**, then rebake the complete output with CakeView.
 4. Click **Open conversion report** when finished.
 
-No Python or Blender is required. Original files stay unchanged. Use the original Gorilla EXE for installation, not an older experimental EXE. Existing 2K26 inputs can be audited using **Keep the mod's own folder name**.
+Original inputs and the original EXE stay unchanged. Input/output and Gorilla's YCL workflow remain. No Python or Blender installation is required.
 
-0.12 adds guarded support for recognized compact **male** legacy rigs. It preserves Gorilla's full target builder and mapped weights, then checks core pose, every written bone/parent/matrix and every skin influence. Sample 576's 130-bone base and 97-bone attire each wrote 175 stock bones plus six custom bones; 35,838 vertices were checked. The base now passes; the attire keeps its unreadable-HPL failure. Both MCDs are byte-identical to 0.11, proving no additional geometry, shape or weight changes. Missing animation joints and malformed rigs stay unsupported.
+0.13 restores the newly supplied readable **Flip HPL** for the exact inspected legacy base/attire pair with the exact old invalid sidecar. All 4,378 supplied body IDs are preserved in both ring and entrance modes across five output LODs, including all 2,097 foot/toe-dominant body vertices. His shoe weights stay unchanged. Already-native 2K26 attire can recover the same mask from a matching readable sidecar; incomplete native folders keep their missing-material problems. This is verified mask conversion, not an in-game clipping guarantee.
 
-Every recorded output gets **face_output_audit**, with coverage in **face_output_check**. Checks inspect actual eye/teeth geometry, UV/color domains, anchors, MTLS/JMTL bindings and available textures. Custom eye colors and tooth atlases are preserved. Unavailable external game assets remain unverified. The earlier native 2K26 sample informs the schema; the later 139 Cena archive remains unread.
+**Bryan and Flip get separate, exact mouth-anchor experiments.** A native 2K26 tongue anchor was matched by independently verified topology. Only three base-model bytes change for each eligible model; other anchors, gear, masks, weights, UVs, materials and texture pixels are preserved. Reports explicitly require an in-game teeth check. Unknown models and incomplete model checks are excluded. Native reuse is guarded and idempotent. **Black teeth are not established fixed.**
 
-Existing named local DDS binding, source teeth irradiance preservation, matching authored-mask recovery, BC1 alpha checks and material-case repairs remain. Vynx/PWM surface math supports the opt-in Rey gear path. Gorilla UI logic, input/output, CakeView gate and original YCL translator remain; the full Blender pipeline is not active.
+The Blender formatter's ordinary WWE material path preserves authored eye settings that Gorilla discarded. This build retains proven same-key, typed finite eye scalars in the original shader writer, including explicit zero wetness and supported boolean refraction. Both actual Bryan eyes retain all 14 eligible settings. Only their two eye JMTLs change; shader, texture references, geometry and other assets stay unchanged. Missing values and unverified aliases remain absent. This is supported authoring-data preservation; in-game dark/mismatched-eye appearance is unverified. Native materials that already lost the settings need their original authoring data to recover them.
 
-**242 tests passed**, including the extracted source ZIP. Final native DLL/Wine checks passed for all six uploaded sample models, actual Bryan materials/textures/mask, Rey gear/mask, Billie YCL, report copies, format guards and UI. The wrapper-order regression has test coverage. Installer reconstruction and ZIP CRC checks passed. Windows PowerShell installation and in-game appearance remain untested here.
+For the exact already-ported Flip model, the installer ZIP includes `Optional_Flip_HPL/931_Attire.hpl`. Make a **copy** of the complete input folder and put that file beside `931_Default_Attire/931_Attire.mcd` in the copy. Convert into a fresh output with **Keep the mod's own folder name**. Preserve the original folder/HPL. Use this mask only for the inspected Flip pair, with its complete materials/textures.
 
-Dark eyes, black teeth, beards, general clothing/belt clipping and motion still need entrance/gameplay validation. Invalid/unavailable authored HPLs are not replaced with invented masks. Flip's original readable `931_Default_Attire/931_Attire.hpl` remains unavailable. Billie YCL translates, but WDF/YWA companions remain unsupported. Bryan's reported loading crash has not been reproduced or established fixed.
+Valid compressed DDS files may omit an advisory cap bit that the earlier binding check rejected. Complete dimensions, resource formats and every mip payload still validate. Copied DDS pixels/headers remain unchanged; rejected files now have precise filenames and header values in the report. Hammerstone's actual rejected textures are unavailable, so his specific errors remain unconfirmed.
 
-Characters.7z and 139_John_Cena_2019.7z exceed the 32 MiB transfer limit and remain unread. Complete 30M split volumes are needed to inspect those archives.
+Vynx's HeatSeeking rebuilds selected attire weights; its HPL step handles hidden skin separately. Flip's shoe bones already survive conversion. A read-only projection preview demonstrates feasibility, with some donor distances as large as 5.77 cm; no broad automatic attire reweighting is shipped. Danielson's working gear is preserved. Vynx/PWM math remains in the optional Rey gear path; attribution is retained.
 
-[Full installation and limits](NEW_FORMATTER.md). [Source/build/test ZIP](NewModelFormatter_0.12_source_patch.zip). [Package validation](NewModelFormatter_0.12_Package_Validation.json).
+**287 tests passed**, including the extracted source ZIP. Exact final EXE payloads passed native DLL/Wine checks for legacy samples, current Bryan conversion/repair/idempotence, Flip mask routes, Rey gear/mask, Billie YCL, reports, format guards and UI. Installer reconstruction and ZIP CRCs passed. The original 1,066 CArchive payloads and 423 PYZ modules are retained. Windows PowerShell execution and in-game appearance were not tested here.
+
+Beard appearance, dark/mismatched eyes, blood/belt clipping and motion still need game validation. Eye material/texture-reference checks preserve custom colors and atlases; those checks do not certify eye brightness. Unavailable masks are not invented or copied from unrelated models. Billie YCL translates, but WDF/YWA companion conversion remains unsupported. Bryan's earlier loading crash has not been reproduced or established fixed.
+
+[Full installation and limits](NEW_FORMATTER.md). [Source/build/test ZIP](NewModelFormatter_0.13_source_patch.zip). [Package validation](NewModelFormatter_0.13_Package_Validation.json).
 
 Older downloads remain available; main is unchanged.
 
-EXE SHA-256: `00b4fb55e8f3b476e3deb941850aefe42b61cf44f7ad4b75a1f2b3c3c8f65fc2`
+EXE SHA-256: `fce692b1f25f3d71436bf9bf50c2427e69a1603d310703bb55105dc956ba9f98`

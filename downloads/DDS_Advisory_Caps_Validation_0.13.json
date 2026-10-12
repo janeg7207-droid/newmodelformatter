@@ -1,0 +1,590 @@
+{
+  "scope": "controlled sparse-caps copies of supplied Grix formatted2K25 source; Hammerstone DDS not supplied; no in-game test",
+  "candidate_sha256": "fce692b1f25f3d71436bf9bf50c2427e69a1603d310703bb55105dc956ba9f98",
+  "runtime_patch_version": "authored-eye-shading-mouth-anchor-trials-flip-mask-and-dds-header-repair-13",
+  "entrypoint_only_diagnostic": {
+    "candidate_sha256": "fce692b1f25f3d71436bf9bf50c2427e69a1603d310703bb55105dc956ba9f98",
+    "diagnostic_sha256": "61f9d58b861217218217b6f84f68925f06418ff8d3608208ad4edce5683fbb65",
+    "only_gmf_gui_script_replaced": true,
+    "all_other_payloads_and_prefix_byte_identical": true,
+    "unchanged_archive_payloads": 1067
+  },
+  "original_source_and_uploaded_archive_unchanged": true,
+  "controlled_source_unchanged_by_conversion": true,
+  "all_nonselected_source_files_initially_byte_identical": true,
+  "original_archive_sha256": "0ce540c3305479b6d6a979e8b65d565671ababd939bbcd84f6a3b575b0644c9c",
+  "source_files_checked": 28,
+  "models": [
+    {
+      "source_file": "BaseModel/baseModel.mcd",
+      "reported_source_version": "0x29",
+      "output_version": 47,
+      "verify": "pass",
+      "status": "converted",
+      "face_audit_state": "selected_output_face_checks_passed",
+      "face_audit_problems": [],
+      "face_audit_warnings": [],
+      "output_sha256": "19956b0ba487d68f90999d86a3837d695b3b14c0c79763d46cebc5814a1ac4ba",
+      "experimental_tongue_anchor": {
+        "version": "exact-supplied-bryan-and-flip-tongue-anchor-experiment-2",
+        "profile": "Bryan",
+        "provenance": {
+          "native_reference_sha256": "bb0176e86fc2e74cebc61058acac1fa3103c7a859f2e54a2196947fe95ee4a1c",
+          "native_reference_slot": 4,
+          "native_reference_mesh": "M_Tongue",
+          "native_reference_vertex": 167,
+          "matched_supplied_mesh": "M_Tongue",
+          "matched_supplied_vertex": 127,
+          "render_vertices_both": 341,
+          "unique_position_vertices_both": 302,
+          "oriented_triangles_both": 584,
+          "all_oriented_triangles_and_edges_matched": true,
+          "match_method": "20 topology-label refinements; mirrored pairs resolved by anatomical X side; full oriented triangle and edge bijection independently verified",
+          "anchor_target_class": "unique one-node topology class; unique render vertex; target selection does not depend on mirrored-pair resolution",
+          "current_anchor_distance_to_matched_tongue_cm": 1.4352437257766724,
+          "scope": "exact inspected supplied Bryan input/output only; no universal anchor-role assumption"
+        },
+        "source_sha256": "343eede12271859708f75b52deb28c92fae9fe5983dcbb7d37cd0684378d4f67",
+        "before_sha256": "9727b9f46c18eb54d4eb11a40fdf98a25d8b3ca4aac135c2b26be2714e9fad60",
+        "after_sha256": "19956b0ba487d68f90999d86a3837d695b3b14c0c79763d46cebc5814a1ac4ba",
+        "old_point": [
+          "_ag_0004",
+          "M_Teeth",
+          4,
+          1605
+        ],
+        "profile_original_point": [
+          "_ag_0004",
+          "M_Teeth",
+          4,
+          1605
+        ],
+        "new_point": [
+          "_ag_0004",
+          "M_Tongue",
+          4,
+          127
+        ],
+        "wire_format": "four unsigned 16-bit fields per record",
+        "fields_written": [
+          "mesh_string_index",
+          "vertex_index"
+        ],
+        "permitted_wire_bytes": 4,
+        "changed_byte_offsets": [
+          104294,
+          104298,
+          104299
+        ],
+        "all_non_target_bytes_preserved": true,
+        "other_twelve_records_preserved": true,
+        "geometry_weights_masks_and_other_substreams_preserved": true,
+        "original_verification_scope": "original model/gear/mask checks preceded the anchor-only patch; native record syntax and matched tongue domain were separately checked",
+        "in_game_validation": "not_performed",
+        "black_teeth_fixed": "not established",
+        "state": "applied_experimental_anchor_test"
+      }
+    },
+    {
+      "source_file": "159_Default_Attire/159_Attire.mcd",
+      "reported_source_version": "0x29",
+      "output_version": 47,
+      "verify": "pass",
+      "status": "converted",
+      "face_audit_state": "not_applicable",
+      "face_audit_problems": [],
+      "face_audit_warnings": [],
+      "output_sha256": "f361c87df54bd8239e218786ee594304f504d3bf9a1bbf21b2f3e8f0343e0911",
+      "experimental_tongue_anchor": null
+    }
+  ],
+  "models_verified": true,
+  "selected_dds_checks": [
+    {
+      "relative_file": "BaseModel/Textures/eye_color.dds",
+      "format": "DXT1",
+      "dxgi_format": null,
+      "original_sha256": "8d39d2cbcc5054ab94b01b7222137de25331244ddc03e04da20245ae0a07c3b0",
+      "controlled_sha256": "5eed5a5b6550aa272baf0e6c24ea088902c19c3f3ae92b378bd83f33098c5345",
+      "original_caps": 4096,
+      "controlled_caps": 0,
+      "only_caps_texture_bit_changed": true,
+      "pillow_pixels_before": {
+        "mode": "RGBA",
+        "size": [
+          256,
+          256
+        ],
+        "pixel_sha256": "43233fe2d7b38e6b02cbe46b8ee85dbf9c6607a6c05fe64e5431615d48c09bdf"
+      },
+      "pillow_pixels_after": {
+        "mode": "RGBA",
+        "size": [
+          256,
+          256
+        ],
+        "pixel_sha256": "43233fe2d7b38e6b02cbe46b8ee85dbf9c6607a6c05fe64e5431615d48c09bdf"
+      },
+      "independently_decoded_pixels_equal": true,
+      "bindings_found": 2,
+      "copied_controlled_source_byte_identical": true,
+      "copied_caps_texture_bit_remains_absent": true
+    },
+    {
+      "relative_file": "BaseModel/Textures/body_nrm.dds",
+      "format": "DX10",
+      "dxgi_format": 98,
+      "original_sha256": "5d48494b8a8e671cad25909b89bae6383ebc2f8b6274875967630b82a7ea06a0",
+      "controlled_sha256": "4891ddf623f5c993c9496d0c2aed71d9e1872ada51a9259c4c7bd2675b9060aa",
+      "original_caps": 4096,
+      "controlled_caps": 0,
+      "only_caps_texture_bit_changed": true,
+      "pillow_pixels_before": {
+        "mode": "RGBA",
+        "size": [
+          4096,
+          2048
+        ],
+        "pixel_sha256": "03e2bd83f71f98b8f0b42d7e00bc158442b148fca85cf8e556d886a5f96ecc06"
+      },
+      "pillow_pixels_after": {
+        "mode": "RGBA",
+        "size": [
+          4096,
+          2048
+        ],
+        "pixel_sha256": "03e2bd83f71f98b8f0b42d7e00bc158442b148fca85cf8e556d886a5f96ecc06"
+      },
+      "independently_decoded_pixels_equal": true,
+      "bindings_found": 3,
+      "copied_controlled_source_byte_identical": true,
+      "copied_caps_texture_bit_remains_absent": true
+    },
+    {
+      "relative_file": "159_Default_Attire/Textures/combinations_rai.dds",
+      "format": "DX10",
+      "dxgi_format": 98,
+      "original_sha256": "a7519c61bc4b284297b0f675c6bde088a52de5f4043ceb6be778d8c8669708ed",
+      "controlled_sha256": "a537b2fafee37d42f89c7fabf033270bb0bd5c761c5b1f248610241e2583a3b6",
+      "original_caps": 4096,
+      "controlled_caps": 0,
+      "only_caps_texture_bit_changed": true,
+      "pillow_pixels_before": {
+        "mode": "RGBA",
+        "size": [
+          2048,
+          2048
+        ],
+        "pixel_sha256": "a390c5a4f7038e47ef0cf64c102a44f933b61ce269ad302f8b8ed785d436c502"
+      },
+      "pillow_pixels_after": {
+        "mode": "RGBA",
+        "size": [
+          2048,
+          2048
+        ],
+        "pixel_sha256": "a390c5a4f7038e47ef0cf64c102a44f933b61ce269ad302f8b8ed785d436c502"
+      },
+      "independently_decoded_pixels_equal": true,
+      "bindings_found": 1,
+      "copied_controlled_source_byte_identical": true,
+      "copied_caps_texture_bit_remains_absent": true
+    }
+  ],
+  "selected_binding_checks": [
+    {
+      "material": "eye_l",
+      "source_field": "colorMap@ref",
+      "written_field": "colorMap@ref",
+      "source_file": "BaseModel/Textures/eye_color.dds",
+      "destination_virtual_path": "Characters/159_Bryan_Danielson/BaseModel/Textures/eye_color.tex",
+      "expected_path_hash": 12857464407004638857,
+      "reported_new_hash": 12857464407004638857,
+      "written_hash": 12857464407004638857,
+      "exact_virtual_path_hash_and_written_reference_match": true,
+      "caps_texture_bit_false_recorded": true,
+      "missing_caps_advisory_recorded": true,
+      "binding_copied_bytes_verified": true,
+      "format": "DXT1",
+      "mip_count": 1
+    },
+    {
+      "material": "eye_r",
+      "source_field": "colorMap@ref",
+      "written_field": "colorMap@ref",
+      "source_file": "BaseModel/Textures/eye_color.dds",
+      "destination_virtual_path": "Characters/159_Bryan_Danielson/BaseModel/Textures/eye_color.tex",
+      "expected_path_hash": 12857464407004638857,
+      "reported_new_hash": 12857464407004638857,
+      "written_hash": 12857464407004638857,
+      "exact_virtual_path_hash_and_written_reference_match": true,
+      "caps_texture_bit_false_recorded": true,
+      "missing_caps_advisory_recorded": true,
+      "binding_copied_bytes_verified": true,
+      "format": "DXT1",
+      "mip_count": 1
+    },
+    {
+      "material": "body",
+      "source_field": "g_nrmMap@ref",
+      "written_field": "nrMap@ref",
+      "source_file": "BaseModel/Textures/body_nrm.dds",
+      "destination_virtual_path": "Characters/159_Bryan_Danielson/BaseModel/Textures/body_nrm.tex",
+      "expected_path_hash": 7652125905315313718,
+      "reported_new_hash": 7652125905315313718,
+      "written_hash": 7652125905315313718,
+      "exact_virtual_path_hash_and_written_reference_match": true,
+      "caps_texture_bit_false_recorded": true,
+      "missing_caps_advisory_recorded": true,
+      "binding_copied_bytes_verified": true,
+      "format": "DXGI_98",
+      "mip_count": 1
+    },
+    {
+      "material": "mouthbag",
+      "source_field": "g_nrmMap@ref",
+      "written_field": "nrMap@ref",
+      "source_file": "BaseModel/Textures/body_nrm.dds",
+      "destination_virtual_path": "Characters/159_Bryan_Danielson/BaseModel/Textures/body_nrm.tex",
+      "expected_path_hash": 7652125905315313718,
+      "reported_new_hash": 7652125905315313718,
+      "written_hash": 7652125905315313718,
+      "exact_virtual_path_hash_and_written_reference_match": true,
+      "caps_texture_bit_false_recorded": true,
+      "missing_caps_advisory_recorded": true,
+      "binding_copied_bytes_verified": true,
+      "format": "DXGI_98",
+      "mip_count": 1
+    },
+    {
+      "material": "teeth",
+      "source_field": "g_nrmMap@ref",
+      "written_field": "nrMap@ref",
+      "source_file": "BaseModel/Textures/body_nrm.dds",
+      "destination_virtual_path": "Characters/159_Bryan_Danielson/BaseModel/Textures/body_nrm.tex",
+      "expected_path_hash": 7652125905315313718,
+      "reported_new_hash": 7652125905315313718,
+      "written_hash": 7652125905315313718,
+      "exact_virtual_path_hash_and_written_reference_match": true,
+      "caps_texture_bit_false_recorded": true,
+      "missing_caps_advisory_recorded": true,
+      "binding_copied_bytes_verified": true,
+      "format": "DXGI_98",
+      "mip_count": 1
+    },
+    {
+      "material": "combinations_ALPHA",
+      "source_field": "g_comboMap@ref",
+      "written_field": "g_comboMap@ref",
+      "source_file": "159_Default_Attire/Textures/combinations_rai.dds",
+      "destination_virtual_path": "Characters/159_Bryan_Danielson/159_Default_Attire/Textures/combinations_rai.tex",
+      "expected_path_hash": 3196781813332684342,
+      "reported_new_hash": 3196781813332684342,
+      "written_hash": 3196781813332684342,
+      "exact_virtual_path_hash_and_written_reference_match": true,
+      "caps_texture_bit_false_recorded": true,
+      "missing_caps_advisory_recorded": true,
+      "binding_copied_bytes_verified": true,
+      "format": "DXGI_98",
+      "mip_count": 1
+    }
+  ],
+  "all_selected_dds_bound": true,
+  "all_selected_copies_byte_identical": true,
+  "all_selected_written_refs_and_metadata_verified": true,
+  "all_independently_decoded_pixels_unchanged": true,
+  "face_audit_coverage_complete": true,
+  "face_audit_state": "recorded_output_checks_passed",
+  "face_audit_problems": [],
+  "conversion_problems": [
+    "restored supplied matching hide mask requires entrance/gameplay validation",
+    "Experimental Bryan tongue anchor test requires an in-game teeth check; a visual fix has not been established."
+  ],
+  "conversion_warnings": [
+    "Experimental supplied Bryan tongue anchor applied; black teeth appearance requires an in-game check."
+  ],
+  "tongue_anchor_experiment": {
+    "version": "exact-supplied-bryan-and-flip-tongue-anchor-experiment-2",
+    "scope": "exact inspected supplied Bryan and Flip Gordon profiles only; each source must match its own output profile",
+    "applied": 1,
+    "already_applied": 0,
+    "in_game_validation": "not_performed",
+    "black_teeth_fixed": "not established; controlled anatomical anchor experiment",
+    "matched_profiles": [
+      "Bryan"
+    ]
+  },
+  "authored_eye_scalar_checks": [
+    {
+      "material": "eye_l",
+      "authored_fields_checked": 14,
+      "all_authored_values_preserved": true,
+      "fields": [
+        {
+          "key": "caustic",
+          "slot": 4,
+          "source_value": 1.0,
+          "written_value": 1.0,
+          "wire_field_present": true,
+          "source_f32_equal": true
+        },
+        {
+          "key": "g_eyeRoughness",
+          "slot": 5,
+          "source_value": 1.0,
+          "written_value": 1.0,
+          "wire_field_present": true,
+          "source_f32_equal": true
+        },
+        {
+          "key": "g_fFresnel",
+          "slot": 6,
+          "source_value": 0.8500000238418579,
+          "written_value": 0.8500000238418579,
+          "wire_field_present": true,
+          "source_f32_equal": true
+        },
+        {
+          "key": "g_specIntensity",
+          "slot": 10,
+          "source_value": 2.0,
+          "written_value": 2.0,
+          "wire_field_present": true,
+          "source_f32_equal": true
+        },
+        {
+          "key": "g_eyeWetness",
+          "slot": 11,
+          "source_value": 0.0,
+          "written_value": 0.0,
+          "wire_field_present": true,
+          "source_f32_equal": true
+        },
+        {
+          "key": "eyeLidShadowDarkness",
+          "slot": 12,
+          "source_value": 0.10000000149011612,
+          "written_value": 0.10000000149011612,
+          "wire_field_present": true,
+          "source_f32_equal": true
+        },
+        {
+          "key": "eyeLidShadowFallOff",
+          "slot": 13,
+          "source_value": 0.15000000596046448,
+          "written_value": 0.15000000596046448,
+          "wire_field_present": true,
+          "source_f32_equal": true
+        },
+        {
+          "key": "eyeShadowConeSharpness",
+          "slot": 14,
+          "source_value": 0.10000000149011612,
+          "written_value": 0.10000000149011612,
+          "wire_field_present": true,
+          "source_f32_equal": true
+        },
+        {
+          "key": "eyeShadowConeBgLevel",
+          "slot": 15,
+          "source_value": 0.10000000149011612,
+          "written_value": 0.10000000149011612,
+          "wire_field_present": true,
+          "source_f32_equal": true
+        },
+        {
+          "key": "eyeShadowHorizontalFit",
+          "slot": 16,
+          "source_value": 1.7999999523162842,
+          "written_value": 1.7999999523162842,
+          "wire_field_present": true,
+          "source_f32_equal": true
+        },
+        {
+          "key": "eyeShadowLidZBias",
+          "slot": 17,
+          "source_value": 0.5,
+          "written_value": 0.5,
+          "wire_field_present": true,
+          "source_f32_equal": true
+        },
+        {
+          "key": "eyeShadowVerticalBias",
+          "slot": 18,
+          "source_value": 0.12999999523162842,
+          "written_value": 0.12999999523162842,
+          "wire_field_present": true,
+          "source_f32_equal": true
+        },
+        {
+          "key": "eyeShadowVerticalFit",
+          "slot": 19,
+          "source_value": 0.4000000059604645,
+          "written_value": 0.4000000059604645,
+          "wire_field_present": true,
+          "source_f32_equal": true
+        },
+        {
+          "key": "g_refraction",
+          "slot": 9,
+          "source_value": true,
+          "written_value": 1,
+          "wire_field_present": true,
+          "source_f32_equal": true
+        }
+      ]
+    },
+    {
+      "material": "eye_r",
+      "authored_fields_checked": 14,
+      "all_authored_values_preserved": true,
+      "fields": [
+        {
+          "key": "caustic",
+          "slot": 4,
+          "source_value": 1.0,
+          "written_value": 1.0,
+          "wire_field_present": true,
+          "source_f32_equal": true
+        },
+        {
+          "key": "g_eyeRoughness",
+          "slot": 5,
+          "source_value": 1.0,
+          "written_value": 1.0,
+          "wire_field_present": true,
+          "source_f32_equal": true
+        },
+        {
+          "key": "g_fFresnel",
+          "slot": 6,
+          "source_value": 0.8500000238418579,
+          "written_value": 0.8500000238418579,
+          "wire_field_present": true,
+          "source_f32_equal": true
+        },
+        {
+          "key": "g_specIntensity",
+          "slot": 10,
+          "source_value": 2.0,
+          "written_value": 2.0,
+          "wire_field_present": true,
+          "source_f32_equal": true
+        },
+        {
+          "key": "g_eyeWetness",
+          "slot": 11,
+          "source_value": 0.0,
+          "written_value": 0.0,
+          "wire_field_present": true,
+          "source_f32_equal": true
+        },
+        {
+          "key": "eyeLidShadowDarkness",
+          "slot": 12,
+          "source_value": 0.10000000149011612,
+          "written_value": 0.10000000149011612,
+          "wire_field_present": true,
+          "source_f32_equal": true
+        },
+        {
+          "key": "eyeLidShadowFallOff",
+          "slot": 13,
+          "source_value": 0.15000000596046448,
+          "written_value": 0.15000000596046448,
+          "wire_field_present": true,
+          "source_f32_equal": true
+        },
+        {
+          "key": "eyeShadowConeSharpness",
+          "slot": 14,
+          "source_value": 0.10000000149011612,
+          "written_value": 0.10000000149011612,
+          "wire_field_present": true,
+          "source_f32_equal": true
+        },
+        {
+          "key": "eyeShadowConeBgLevel",
+          "slot": 15,
+          "source_value": 0.10000000149011612,
+          "written_value": 0.10000000149011612,
+          "wire_field_present": true,
+          "source_f32_equal": true
+        },
+        {
+          "key": "eyeShadowHorizontalFit",
+          "slot": 16,
+          "source_value": 1.7999999523162842,
+          "written_value": 1.7999999523162842,
+          "wire_field_present": true,
+          "source_f32_equal": true
+        },
+        {
+          "key": "eyeShadowLidZBias",
+          "slot": 17,
+          "source_value": 0.5,
+          "written_value": 0.5,
+          "wire_field_present": true,
+          "source_f32_equal": true
+        },
+        {
+          "key": "eyeShadowVerticalBias",
+          "slot": 18,
+          "source_value": 0.12999999523162842,
+          "written_value": 0.12999999523162842,
+          "wire_field_present": true,
+          "source_f32_equal": true
+        },
+        {
+          "key": "eyeShadowVerticalFit",
+          "slot": 19,
+          "source_value": 0.4000000059604645,
+          "written_value": 0.4000000059604645,
+          "wire_field_present": true,
+          "source_f32_equal": true
+        },
+        {
+          "key": "g_refraction",
+          "slot": 9,
+          "source_value": true,
+          "written_value": 1,
+          "wire_field_present": true,
+          "source_f32_equal": true
+        }
+      ]
+    }
+  ],
+  "final_report_status": "completed_with_problems",
+  "reports_saved_and_equal": true,
+  "in_game_visual_fixes_confirmed": false,
+  "actual_hammerstone_dds_examined": false,
+  "local_dds_binding_problems": [],
+  "known_in_game_validation_notices_only": true,
+  "no_dds_binding_or_face_errors": true,
+  "prior_candidate_base_comparison": {
+    "r1_base_sha256": "9727b9f46c18eb54d4eb11a40fdf98a25d8b3ca4aac135c2b26be2714e9fad60",
+    "current_base_sha256": "19956b0ba487d68f90999d86a3837d695b3b14c0c79763d46cebc5814a1ac4ba",
+    "r1_matches_original_profile": true,
+    "current_matches_patched_profile": true,
+    "only_reviewed_anchor_field_bytes_changed": true,
+    "changed_byte_offsets": [
+      104294,
+      104298,
+      104299
+    ]
+  },
+  "attire_model_byte_identical_to_r1": true,
+  "all_model_bytes_identical_to_r2_anchor_candidate": true,
+  "r3_output_asset_comparison": {
+    "asset_file_count": 41,
+    "identical_asset_count": 39,
+    "changed_assets": [
+      "BaseModel/Materials/eye_r.jmtl",
+      "BaseModel/Materials/eye_l.jmtl"
+    ],
+    "only_authored_eye_jmtls_changed": true,
+    "all_mcd_mtls_dds_and_other_jmtl_bytes_identical": true,
+    "reports_excluded_from_asset_comparison": true
+  },
+  "authored_eye_values_preserved": true
+}

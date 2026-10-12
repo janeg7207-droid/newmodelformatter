@@ -1,0 +1,595 @@
+{
+  "candidate": {
+    "path": "/workspace/artifacts/NewModelFormatter_0.13_experimental_r4.exe",
+    "bytes": 44262520,
+    "sha256": "fce692b1f25f3d71436bf9bf50c2427e69a1603d310703bb55105dc956ba9f98",
+    "all_non_gui_candidate_payloads_retained": true,
+    "retained_carchive_payload_count": 1067
+  },
+  "scope": "fresh final-r4 payload; exact Flip legacy direct-readable HPL, exact legacy automatic supplied-mask profile, and already-native old-invalid-sidecar guard plus readable same-stem HPL repair; no in-game check",
+  "uploaded_fingerprints": {
+    "source_base": {
+      "bytes": 6043100,
+      "sha256": "6670af89dc43b0d95e44d70f715bb9033cf449010f3430de2978fd63884b495c"
+    },
+    "source_attire": {
+      "bytes": 1204548,
+      "sha256": "017a44865267d32d99b639d5b245d5ea3afde60f3c46852721420e18c3e1b2ec"
+    },
+    "native_base": {
+      "bytes": 6800912,
+      "sha256": "1ec8da39b5d85554b6fbcb3aa71782ebbaf665868f35e30734aa6a30c8a128dc"
+    },
+    "native_attire": {
+      "bytes": 1521412,
+      "sha256": "545bedc750010db9334aae6e984ed8bb20bedbf56c260286e13114c0e1721ac0"
+    },
+    "authored_hpl": {
+      "bytes": 70188,
+      "sha256": "8a280ab3add1727a763796e9556d7a99b55cfae8ead98448fc82fd2183b927fc"
+    },
+    "old_invalid_hpl": {
+      "bytes": 81408,
+      "sha256": "57abd17dd82782bcd4c1509c311d3f70227af707e7975a2e1b3fcbf1eae2c3dd"
+    }
+  },
+  "bundled_authored_hpl_exact_supplied_bytes": true,
+  "new_hpl_whole": true,
+  "new_hpl_lods": [
+    0,
+    1
+  ],
+  "new_hpl_flags": [
+    0,
+    1
+  ],
+  "new_hpl_body_ids_per_flag": {
+    "0": 4378,
+    "1": 4378
+  },
+  "source_native_body_head_remap_topology_equal": true,
+  "actual_mask_domains": {
+    "M_Body": {
+      "count": 12755,
+      "min": 0,
+      "max": 12754
+    },
+    "M_Head": {
+      "count": 4382,
+      "min": 0,
+      "max": 4381
+    }
+  },
+  "jobs": {
+    "direct_readable": {
+      "source_copies_byte_identical_to_uploaded_assets": true,
+      "source_copies_unchanged_after_conversion": true,
+      "model_verification": [
+        {
+          "input": "Z:\\workspace\\formatter-investigation\\flip-mask13-final-r4\\direct_readable-source\\931_Flip_Gordon\\BaseModel\\baseModel.mcd",
+          "verify": "pass",
+          "problems": []
+        },
+        {
+          "input": "Z:\\workspace\\formatter-investigation\\flip-mask13-final-r4\\direct_readable-source\\931_Flip_Gordon\\931_Default_Attire\\931_Attire.mcd",
+          "verify": "pass",
+          "problems": []
+        }
+      ],
+      "written_fingerprints": {
+        "base": {
+          "bytes": 6800912,
+          "sha256": "8ef00213999d1921c7b0adea4dc4afa9389ea71579b43556a9ce9f84e2e0ae0b"
+        },
+        "attire": {
+          "bytes": 1696852,
+          "sha256": "c27a87f9fab7b5604dd2f308bcda69a4467c76f89cb8a3a8fdfb6075cfb211fd"
+        }
+      },
+      "native_versions": [
+        47,
+        47
+      ],
+      "output_base_only_expected_three_anchor_bytes_changed": true,
+      "base_changed_byte_offsets": [
+        104118,
+        104122,
+        104123
+      ],
+      "slot4_after": [
+        "_ag_0004",
+        "M_Tongue",
+        4,
+        127
+      ],
+      "other_twelve_anchor_records_unchanged": true,
+      "paired_body_head_remap_topology_preserved": true,
+      "base_mesh_data_preserved": {
+        "mesh_count_equal": true,
+        "all_checked_geometry_weights_uvs_materials_flags_shapes_equal": true,
+        "checked_mesh_records": 6
+      },
+      "attire_mesh_data_preserved": {
+        "mesh_count_equal": true,
+        "all_checked_geometry_weights_uvs_materials_flags_shapes_equal": true,
+        "checked_mesh_records": 10
+      },
+      "output_hpl_count": 1,
+      "output_hpl_bytes": 175452,
+      "output_hpl_whole": true,
+      "output_mask_nonempty": true,
+      "preserves_exact_authored_mask_arrays_every_written_lod": true,
+      "all_written_indices_in_actual_paired_domains": true,
+      "foot_coverage": {
+        "criterion": "sum of J_Foot_L/J_Toe_L/J_Foot_R/J_Toe_R weights >0.5",
+        "foot_toe_dominant_vertices": 2097,
+        "lod_flag_coverage": {
+          "0": {
+            "0": {
+              "masked": 2097,
+              "visible": 0
+            },
+            "1": {
+              "masked": 2097,
+              "visible": 0
+            }
+          },
+          "1": {
+            "0": {
+              "masked": 2097,
+              "visible": 0
+            },
+            "1": {
+              "masked": 2097,
+              "visible": 0
+            }
+          },
+          "2": {
+            "0": {
+              "masked": 2097,
+              "visible": 0
+            },
+            "1": {
+              "masked": 2097,
+              "visible": 0
+            }
+          },
+          "3": {
+            "0": {
+              "masked": 2097,
+              "visible": 0
+            },
+            "1": {
+              "masked": 2097,
+              "visible": 0
+            }
+          },
+          "4": {
+            "0": {
+              "masked": 2097,
+              "visible": 0
+            },
+            "1": {
+              "masked": 2097,
+              "visible": 0
+            }
+          }
+        }
+      },
+      "supplied_profile_recoveries": [],
+      "report_copies_saved_equal": {
+        "Z:\\workspace\\formatter-investigation\\flip-mask13-final-r4\\direct_readable-output\\931_Flip_Gordon - conversion report.json": true,
+        "Z:\\workspace\\formatter-investigation\\flip-mask13-final-r4\\direct_readable-output\\Characters\\931_Flip_Gordon\\931_Flip_Gordon - conversion report.json": true
+      }
+    },
+    "automatic_profile": {
+      "source_copies_byte_identical_to_uploaded_assets": true,
+      "source_copies_unchanged_after_conversion": true,
+      "model_verification": [
+        {
+          "input": "Z:\\workspace\\formatter-investigation\\flip-mask13-final-r4\\automatic_profile-source\\931_Flip_Gordon\\BaseModel\\baseModel.mcd",
+          "verify": "pass",
+          "problems": []
+        },
+        {
+          "input": "Z:\\workspace\\formatter-investigation\\flip-mask13-final-r4\\automatic_profile-source\\931_Flip_Gordon\\931_Default_Attire\\931_Attire.mcd",
+          "verify": "pass",
+          "problems": []
+        }
+      ],
+      "written_fingerprints": {
+        "base": {
+          "bytes": 6800912,
+          "sha256": "8ef00213999d1921c7b0adea4dc4afa9389ea71579b43556a9ce9f84e2e0ae0b"
+        },
+        "attire": {
+          "bytes": 1696852,
+          "sha256": "c27a87f9fab7b5604dd2f308bcda69a4467c76f89cb8a3a8fdfb6075cfb211fd"
+        }
+      },
+      "native_versions": [
+        47,
+        47
+      ],
+      "output_base_only_expected_three_anchor_bytes_changed": true,
+      "base_changed_byte_offsets": [
+        104118,
+        104122,
+        104123
+      ],
+      "slot4_after": [
+        "_ag_0004",
+        "M_Tongue",
+        4,
+        127
+      ],
+      "other_twelve_anchor_records_unchanged": true,
+      "paired_body_head_remap_topology_preserved": true,
+      "base_mesh_data_preserved": {
+        "mesh_count_equal": true,
+        "all_checked_geometry_weights_uvs_materials_flags_shapes_equal": true,
+        "checked_mesh_records": 6
+      },
+      "attire_mesh_data_preserved": {
+        "mesh_count_equal": true,
+        "all_checked_geometry_weights_uvs_materials_flags_shapes_equal": true,
+        "checked_mesh_records": 10
+      },
+      "output_hpl_count": 1,
+      "output_hpl_bytes": 175452,
+      "output_hpl_whole": true,
+      "output_mask_nonempty": true,
+      "preserves_exact_authored_mask_arrays_every_written_lod": true,
+      "all_written_indices_in_actual_paired_domains": true,
+      "foot_coverage": {
+        "criterion": "sum of J_Foot_L/J_Toe_L/J_Foot_R/J_Toe_R weights >0.5",
+        "foot_toe_dominant_vertices": 2097,
+        "lod_flag_coverage": {
+          "0": {
+            "0": {
+              "masked": 2097,
+              "visible": 0
+            },
+            "1": {
+              "masked": 2097,
+              "visible": 0
+            }
+          },
+          "1": {
+            "0": {
+              "masked": 2097,
+              "visible": 0
+            },
+            "1": {
+              "masked": 2097,
+              "visible": 0
+            }
+          },
+          "2": {
+            "0": {
+              "masked": 2097,
+              "visible": 0
+            },
+            "1": {
+              "masked": 2097,
+              "visible": 0
+            }
+          },
+          "3": {
+            "0": {
+              "masked": 2097,
+              "visible": 0
+            },
+            "1": {
+              "masked": 2097,
+              "visible": 0
+            }
+          },
+          "4": {
+            "0": {
+              "masked": 2097,
+              "visible": 0
+            },
+            "1": {
+              "masked": 2097,
+              "visible": 0
+            }
+          }
+        }
+      },
+      "supplied_profile_recoveries": [
+        {
+          "version": "verified-existing-and-supplied-legacy-mask-2",
+          "method": "verified_original_user_supplied_hpl_through_original_parser_filter_writer",
+          "source_model": "z:\\workspace\\formatter-investigation\\flip-mask13-final-r4\\automatic_profile-source\\931_flip_gordon\\931_default_attire\\931_attire.mcd",
+          "source_model_sha256": "017a44865267d32d99b639d5b245d5ea3afde60f3c46852721420e18c3e1b2ec",
+          "written_hpl_sha256": "9dcde5d700159ca5b50cceefef6d77e3550d2a90bb55e4e41fb8831b19f5ccd8",
+          "paired_source_base": "z:\\workspace\\formatter-investigation\\flip-mask13-final-r4\\automatic_profile-source\\931_flip_gordon\\basemodel\\basemodel.mcd",
+          "paired_source_base_sha256": "6670af89dc43b0d95e44d70f715bb9033cf449010f3430de2978fd63884b495c",
+          "paired_output_base_sha256": "8ef00213999d1921c7b0adea4dc4afa9389ea71579b43556a9ce9f84e2e0ae0b",
+          "body_head_remap_and_topology": "preserved",
+          "mask_indices": "all_in_actual_paired_base_domains",
+          "original_source_unchanged": true,
+          "coverage_generated": false,
+          "in_game_validation": "required",
+          "profile": "verified-supplied-flip-gordon-hpl-1",
+          "source_supplied_hpl_sha256": "8a280ab3add1727a763796e9556d7a99b55cfae8ead98448fc82fd2183b927fc",
+          "source_supplied_hpl_bytes": 70188,
+          "source_invalid_sidecar_sha256": "57abd17dd82782bcd4c1509c311d3f70227af707e7975a2e1b3fcbf1eae2c3dd",
+          "source_invalid_sidecar_bytes": 81408,
+          "supplied_mask_scope": "original user-supplied Flip mask verified against the exact paired Body/Head remap and topology; no generated coverage",
+          "paired_base_verified_before_anchor_sha256": "1ec8da39b5d85554b6fbcb3aa71782ebbaf665868f35e30734aa6a30c8a128dc",
+          "paired_base_anchor_only_patch": {
+            "version": "exact-supplied-bryan-and-flip-tongue-anchor-experiment-2",
+            "final_sha256": "8ef00213999d1921c7b0adea4dc4afa9389ea71579b43556a9ce9f84e2e0ae0b",
+            "all_non_target_bytes_preserved": true,
+            "body_head_mask_domains_and_geometry_preserved": true,
+            "scope": "mask verification preceded the four-wire-byte anchor patch; its paired body/head bytes did not change"
+          }
+        },
+        {
+          "version": "verified-existing-and-supplied-legacy-mask-2",
+          "method": "verified_original_user_supplied_hpl_through_original_parser_filter_writer",
+          "source_model": "z:\\workspace\\formatter-investigation\\flip-mask13-final-r4\\automatic_profile-source\\931_flip_gordon\\931_default_attire\\931_attire.mcd",
+          "source_model_sha256": "017a44865267d32d99b639d5b245d5ea3afde60f3c46852721420e18c3e1b2ec",
+          "written_hpl_sha256": "9dcde5d700159ca5b50cceefef6d77e3550d2a90bb55e4e41fb8831b19f5ccd8",
+          "paired_source_base": "z:\\workspace\\formatter-investigation\\flip-mask13-final-r4\\automatic_profile-source\\931_flip_gordon\\basemodel\\basemodel.mcd",
+          "paired_source_base_sha256": "6670af89dc43b0d95e44d70f715bb9033cf449010f3430de2978fd63884b495c",
+          "paired_output_base_sha256": "8ef00213999d1921c7b0adea4dc4afa9389ea71579b43556a9ce9f84e2e0ae0b",
+          "body_head_remap_and_topology": "preserved",
+          "mask_indices": "all_in_actual_paired_base_domains",
+          "original_source_unchanged": true,
+          "coverage_generated": false,
+          "in_game_validation": "required",
+          "profile": "verified-supplied-flip-gordon-hpl-1",
+          "source_supplied_hpl_sha256": "8a280ab3add1727a763796e9556d7a99b55cfae8ead98448fc82fd2183b927fc",
+          "source_supplied_hpl_bytes": 70188,
+          "source_invalid_sidecar_sha256": "57abd17dd82782bcd4c1509c311d3f70227af707e7975a2e1b3fcbf1eae2c3dd",
+          "source_invalid_sidecar_bytes": 81408,
+          "supplied_mask_scope": "original user-supplied Flip mask verified against the exact paired Body/Head remap and topology; no generated coverage",
+          "paired_base_verified_before_anchor_sha256": "1ec8da39b5d85554b6fbcb3aa71782ebbaf665868f35e30734aa6a30c8a128dc",
+          "paired_base_anchor_only_patch": {
+            "version": "exact-supplied-bryan-and-flip-tongue-anchor-experiment-2",
+            "final_sha256": "8ef00213999d1921c7b0adea4dc4afa9389ea71579b43556a9ce9f84e2e0ae0b",
+            "all_non_target_bytes_preserved": true,
+            "body_head_mask_domains_and_geometry_preserved": true,
+            "scope": "mask verification preceded the four-wire-byte anchor patch; its paired body/head bytes did not change"
+          }
+        }
+      ],
+      "report_copies_saved_equal": {
+        "Z:\\workspace\\formatter-investigation\\flip-mask13-final-r4\\automatic_profile-output\\931_Flip_Gordon - conversion report.json": true,
+        "Z:\\workspace\\formatter-investigation\\flip-mask13-final-r4\\automatic_profile-output\\Characters\\931_Flip_Gordon\\931_Flip_Gordon - conversion report.json": true
+      },
+      "recovery_final_paired_base_hash_chain_correct": true
+    },
+    "native47_guard": {
+      "source_copies_byte_identical_to_uploaded_assets": true,
+      "source_copies_unchanged_after_conversion": true,
+      "model_verification": [
+        {
+          "input": "Z:\\workspace\\formatter-investigation\\flip-mask13-final-r4\\native47_guard-source\\931_Flip_Gordon\\931_Default_Attire\\931_Attire.mcd",
+          "verify": "fail",
+          "problems": [
+            "native material library: [Errno 2] No such file or directory: 'Z:\\\\workspace\\\\formatter-investigation\\\\flip-mask13-final-r4\\\\native47_guard-source\\\\931_Flip_Gordon\\\\931_Default_Attire\\\\931_Attire.mtls'",
+            "931_Attire.mcd: native missing-data check: missing_material_definition",
+            "931_Attire.mcd: native missing-data check: missing_mtls"
+          ]
+        },
+        {
+          "input": "Z:\\workspace\\formatter-investigation\\flip-mask13-final-r4\\native47_guard-source\\931_Flip_Gordon\\BaseModel\\baseModel.mcd",
+          "verify": "fail",
+          "problems": [
+            "native material library: [Errno 2] No such file or directory: 'Z:\\\\workspace\\\\formatter-investigation\\\\flip-mask13-final-r4\\\\native47_guard-source\\\\931_Flip_Gordon\\\\BaseModel\\\\baseModel.mtls'",
+            "baseModel.mcd: native missing-data check: missing_material_definition",
+            "baseModel.mcd: native missing-data check: missing_mtls"
+          ]
+        }
+      ],
+      "written_fingerprints": {
+        "base": {
+          "bytes": 6800912,
+          "sha256": "1ec8da39b5d85554b6fbcb3aa71782ebbaf665868f35e30734aa6a30c8a128dc"
+        },
+        "attire": {
+          "bytes": 1521412,
+          "sha256": "545bedc750010db9334aae6e984ed8bb20bedbf56c260286e13114c0e1721ac0"
+        }
+      },
+      "native_versions": [
+        47,
+        47
+      ],
+      "output_base_only_expected_three_anchor_bytes_changed": false,
+      "base_changed_byte_offsets": [],
+      "slot4_after": [
+        "_ag_0004",
+        "M_Teeth",
+        4,
+        1603
+      ],
+      "other_twelve_anchor_records_unchanged": true,
+      "paired_body_head_remap_topology_preserved": true,
+      "base_mesh_data_preserved": {
+        "mesh_count_equal": true,
+        "all_checked_geometry_weights_uvs_materials_flags_shapes_equal": true,
+        "checked_mesh_records": 6
+      },
+      "attire_mesh_data_preserved": {
+        "mesh_count_equal": true,
+        "all_checked_geometry_weights_uvs_materials_flags_shapes_equal": true,
+        "checked_mesh_records": 10
+      },
+      "output_hpl_count": 1,
+      "output_hpl_bytes": 12,
+      "output_hpl_whole": true,
+      "output_mask_nonempty": false,
+      "preserves_exact_authored_mask_arrays_every_written_lod": false,
+      "all_written_indices_in_actual_paired_domains": true,
+      "foot_coverage": {
+        "criterion": "sum of J_Foot_L/J_Toe_L/J_Foot_R/J_Toe_R weights >0.5",
+        "foot_toe_dominant_vertices": 2097,
+        "lod_flag_coverage": {}
+      },
+      "supplied_profile_recoveries": [],
+      "report_copies_saved_equal": {
+        "Z:\\workspace\\formatter-investigation\\flip-mask13-final-r4\\native47_guard-output\\931_Flip_Gordon - conversion report.json": true,
+        "Z:\\workspace\\formatter-investigation\\flip-mask13-final-r4\\native47_guard-output\\Characters\\931_Flip_Gordon\\931_Flip_Gordon - conversion report.json": true
+      },
+      "legacy_supplied_profile_not_applied_and_no_mask_invented": true,
+      "missing_material_validation_reported_and_not_hidden": true,
+      "anchor_not_applied_after_failed_native_material_validation": true
+    },
+    "native47_readable": {
+      "source_copies_byte_identical_to_uploaded_assets": true,
+      "source_copies_unchanged_after_conversion": true,
+      "model_verification": [
+        {
+          "input": "Z:\\workspace\\formatter-investigation\\flip-mask13-final-r4\\native47_readable-source\\931_Flip_Gordon\\931_Default_Attire\\931_Attire.mcd",
+          "verify": "fail",
+          "problems": [
+            "native material library: [Errno 2] No such file or directory: 'Z:\\\\workspace\\\\formatter-investigation\\\\flip-mask13-final-r4\\\\native47_readable-source\\\\931_Flip_Gordon\\\\931_Default_Attire\\\\931_Attire.mtls'",
+            "931_Attire.mcd: native missing-data check: missing_material_definition",
+            "931_Attire.mcd: native missing-data check: missing_mtls"
+          ]
+        },
+        {
+          "input": "Z:\\workspace\\formatter-investigation\\flip-mask13-final-r4\\native47_readable-source\\931_Flip_Gordon\\BaseModel\\baseModel.mcd",
+          "verify": "fail",
+          "problems": [
+            "native material library: [Errno 2] No such file or directory: 'Z:\\\\workspace\\\\formatter-investigation\\\\flip-mask13-final-r4\\\\native47_readable-source\\\\931_Flip_Gordon\\\\BaseModel\\\\baseModel.mtls'",
+            "baseModel.mcd: native missing-data check: missing_material_definition",
+            "baseModel.mcd: native missing-data check: missing_mtls"
+          ]
+        }
+      ],
+      "written_fingerprints": {
+        "base": {
+          "bytes": 6800912,
+          "sha256": "1ec8da39b5d85554b6fbcb3aa71782ebbaf665868f35e30734aa6a30c8a128dc"
+        },
+        "attire": {
+          "bytes": 1696852,
+          "sha256": "c27a87f9fab7b5604dd2f308bcda69a4467c76f89cb8a3a8fdfb6075cfb211fd"
+        }
+      },
+      "native_versions": [
+        47,
+        47
+      ],
+      "output_base_only_expected_three_anchor_bytes_changed": false,
+      "base_changed_byte_offsets": [],
+      "slot4_after": [
+        "_ag_0004",
+        "M_Teeth",
+        4,
+        1603
+      ],
+      "other_twelve_anchor_records_unchanged": true,
+      "paired_body_head_remap_topology_preserved": true,
+      "base_mesh_data_preserved": {
+        "mesh_count_equal": true,
+        "all_checked_geometry_weights_uvs_materials_flags_shapes_equal": true,
+        "checked_mesh_records": 6
+      },
+      "attire_mesh_data_preserved": {
+        "mesh_count_equal": true,
+        "all_checked_geometry_weights_uvs_materials_flags_shapes_equal": true,
+        "checked_mesh_records": 10
+      },
+      "output_hpl_count": 1,
+      "output_hpl_bytes": 175452,
+      "output_hpl_whole": true,
+      "output_mask_nonempty": true,
+      "preserves_exact_authored_mask_arrays_every_written_lod": true,
+      "all_written_indices_in_actual_paired_domains": true,
+      "foot_coverage": {
+        "criterion": "sum of J_Foot_L/J_Toe_L/J_Foot_R/J_Toe_R weights >0.5",
+        "foot_toe_dominant_vertices": 2097,
+        "lod_flag_coverage": {
+          "0": {
+            "0": {
+              "masked": 2097,
+              "visible": 0
+            },
+            "1": {
+              "masked": 2097,
+              "visible": 0
+            }
+          },
+          "1": {
+            "0": {
+              "masked": 2097,
+              "visible": 0
+            },
+            "1": {
+              "masked": 2097,
+              "visible": 0
+            }
+          },
+          "2": {
+            "0": {
+              "masked": 2097,
+              "visible": 0
+            },
+            "1": {
+              "masked": 2097,
+              "visible": 0
+            }
+          },
+          "3": {
+            "0": {
+              "masked": 2097,
+              "visible": 0
+            },
+            "1": {
+              "masked": 2097,
+              "visible": 0
+            }
+          },
+          "4": {
+            "0": {
+              "masked": 2097,
+              "visible": 0
+            },
+            "1": {
+              "masked": 2097,
+              "visible": 0
+            }
+          }
+        }
+      },
+      "supplied_profile_recoveries": [],
+      "report_copies_saved_equal": {
+        "Z:\\workspace\\formatter-investigation\\flip-mask13-final-r4\\native47_readable-output\\931_Flip_Gordon - conversion report.json": true,
+        "Z:\\workspace\\formatter-investigation\\flip-mask13-final-r4\\native47_readable-output\\Characters\\931_Flip_Gordon\\931_Flip_Gordon - conversion report.json": true
+      },
+      "missing_material_validation_reported_and_not_hidden": true,
+      "anchor_not_applied_after_failed_native_material_validation": true
+    }
+  },
+  "all_original_uploaded_assets_unchanged": true,
+  "material_texture_validation_complete": false,
+  "missing_for_black_teeth_pixels": "exact Flip baseModel.mtls and referenced DDS textures; no face color or texture replacement claimed",
+  "in_game_boot_or_tooth_appearance_confirmed": false,
+  "r3_to_r4_output_mcds_byte_identical": {
+    "direct_readable": true,
+    "automatic_profile": true,
+    "native47_guard": true,
+    "native47_readable": true
+  },
+  "checks": {
+    "all_original_uploaded_assets_unchanged": true,
+    "bundled_authored_payload_exact": true,
+    "direct_readable_expected_route_passed": true,
+    "automatic_profile_expected_route_passed": true,
+    "native47_guard_expected_route_passed": true,
+    "native47_readable_expected_route_passed": true,
+    "r3_to_r4_all_output_mcds_byte_identical": true
+  },
+  "all_checks_passed": true,
+  "route_specific_all_checks_passed": true,
+  "all_model_rows_verify_pass": false,
+  "native_case_limit": "Native mask restoration and unchanged-byte checks pass; full native job verification remains failed because actual MTLS/material definitions are missing. Anchor correction correctly skipped these failed native rows.",
+  "route_specific_validation_scope": "Expected mask restoration, safety refusal, byte preservation and reporting checks passed; full native material validation remains incomplete and in-game appearance is unverified."
+}
