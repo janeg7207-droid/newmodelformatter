@@ -1,0 +1,466 @@
+{
+  "scope": "actual supplied base/attire/bad HPL, bundled native reader/writer under Wine; no material libraries supplied to this isolated diagnostic; no in-game test",
+  "original_source_base_bytes": 6248492,
+  "original_source_base_sha256": "6ac7de4ecdc79c598c3bfb6b1ea96679e5f656bae2e372053ba487eb3513155f",
+  "uploaded_reference_base_bytes": 7077676,
+  "uploaded_reference_base_sha256": "d8d3767d9747bc2403f51f52b3210a7c25c7e9922fe3822a6f60342d95262e9a",
+  "source_unchanged": true,
+  "base_checks": {
+    "source_version": 41,
+    "output_version": 47,
+    "body_head_mapping_and_topology_equal": true,
+    "source_limits": {
+      "M_EYE": 626,
+      "M_Body": 12755,
+      "M_Tongue": 341,
+      "M_Teeth": 4701,
+      "M_Head": 4483,
+      "M_MouthBag": 352,
+      "M_transB_eyeshadow": 194,
+      "M_transB_eyelash": 458
+    },
+    "output_limits": {
+      "M_EYE": 626,
+      "M_Body": 12755,
+      "M_Tongue": 341,
+      "M_Teeth": 4701,
+      "M_Head": 4483,
+      "M_MouthBag": 352,
+      "M_transB_eyelash": 458
+    },
+    "mask_indices_in_actual_base_domains": true
+  },
+  "embedded_output_masks": [
+    {
+      "bytes": 490532,
+      "sha256": "815e32471f0a5d4aded6f5edc88cfa4f15da3db64b88186742a2fa27ec1be6f5",
+      "whole": true,
+      "lods": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "all_lods_equal_supplied_lod0": true,
+      "counts": {
+        "0": {
+          "0": {
+            "M_Body": 10977,
+            "M_Head": 1273
+          },
+          "1": {
+            "M_Body": 10977,
+            "M_Head": 1273
+          }
+        },
+        "1": {
+          "0": {
+            "M_Body": 10977,
+            "M_Head": 1273
+          },
+          "1": {
+            "M_Body": 10977,
+            "M_Head": 1273
+          }
+        },
+        "2": {
+          "0": {
+            "M_Body": 10977,
+            "M_Head": 1273
+          },
+          "1": {
+            "M_Body": 10977,
+            "M_Head": 1273
+          }
+        },
+        "3": {
+          "0": {
+            "M_Body": 10977,
+            "M_Head": 1273
+          },
+          "1": {
+            "M_Body": 10977,
+            "M_Head": 1273
+          }
+        },
+        "4": {
+          "0": {
+            "M_Body": 10977,
+            "M_Head": 1273
+          },
+          "1": {
+            "M_Body": 10977,
+            "M_Head": 1273
+          }
+        }
+      }
+    }
+  ],
+  "model_checks": [
+    {
+      "kind": "base model",
+      "verify": "pass",
+      "problems": [],
+      "reference_weight_audit": {
+        "version": "supplied-reference-weight-audit-1",
+        "scope": "read_only_weight_data_checks; anatomical correctness unverified",
+        "bone_deform_flags": "not_in_native_records; reference driver-name rules only",
+        "meshes": [
+          {
+            "mesh": "M_EYE",
+            "vertices": 626,
+            "suspicious_vertices": 0,
+            "counts": {
+              "unweighted": 0,
+              "nonunit": 0,
+              "excessive": 0,
+              "driver": 0,
+              "missing_bone": 0,
+              "invalid": 0
+            },
+            "sample_vertex_indices": [],
+            "positive_weight_groups_absent_from_rig": []
+          },
+          {
+            "mesh": "M_Body",
+            "vertices": 12755,
+            "suspicious_vertices": 0,
+            "counts": {
+              "unweighted": 0,
+              "nonunit": 0,
+              "excessive": 0,
+              "driver": 0,
+              "missing_bone": 0,
+              "invalid": 0
+            },
+            "sample_vertex_indices": [],
+            "positive_weight_groups_absent_from_rig": []
+          },
+          {
+            "mesh": "M_Tongue",
+            "vertices": 341,
+            "suspicious_vertices": 0,
+            "counts": {
+              "unweighted": 0,
+              "nonunit": 0,
+              "excessive": 0,
+              "driver": 0,
+              "missing_bone": 0,
+              "invalid": 0
+            },
+            "sample_vertex_indices": [],
+            "positive_weight_groups_absent_from_rig": []
+          },
+          {
+            "mesh": "M_Teeth",
+            "vertices": 4701,
+            "suspicious_vertices": 0,
+            "counts": {
+              "unweighted": 0,
+              "nonunit": 0,
+              "excessive": 0,
+              "driver": 0,
+              "missing_bone": 0,
+              "invalid": 0
+            },
+            "sample_vertex_indices": [],
+            "positive_weight_groups_absent_from_rig": []
+          },
+          {
+            "mesh": "M_Head",
+            "vertices": 4483,
+            "suspicious_vertices": 0,
+            "counts": {
+              "unweighted": 0,
+              "nonunit": 0,
+              "excessive": 0,
+              "driver": 0,
+              "missing_bone": 0,
+              "invalid": 0
+            },
+            "sample_vertex_indices": [],
+            "positive_weight_groups_absent_from_rig": []
+          },
+          {
+            "mesh": "M_MouthBag",
+            "vertices": 352,
+            "suspicious_vertices": 0,
+            "counts": {
+              "unweighted": 0,
+              "nonunit": 0,
+              "excessive": 0,
+              "driver": 0,
+              "missing_bone": 0,
+              "invalid": 0
+            },
+            "sample_vertex_indices": [],
+            "positive_weight_groups_absent_from_rig": []
+          },
+          {
+            "mesh": "M_transB_eyelash",
+            "vertices": 458,
+            "suspicious_vertices": 0,
+            "counts": {
+              "unweighted": 0,
+              "nonunit": 0,
+              "excessive": 0,
+              "driver": 0,
+              "missing_bone": 0,
+              "invalid": 0
+            },
+            "sample_vertex_indices": [],
+            "positive_weight_groups_absent_from_rig": []
+          }
+        ],
+        "suspicious_vertices": 0
+      }
+    },
+    {
+      "kind": "attire",
+      "verify": "pass",
+      "problems": [],
+      "reference_weight_audit": {
+        "version": "supplied-reference-weight-audit-1",
+        "scope": "read_only_weight_data_checks; anatomical correctness unverified",
+        "bone_deform_flags": "not_in_native_records; reference driver-name rules only",
+        "meshes": [
+          {
+            "mesh": "M_L_A_Acce",
+            "vertices": 2275,
+            "suspicious_vertices": 0,
+            "counts": {
+              "unweighted": 0,
+              "nonunit": 0,
+              "excessive": 0,
+              "driver": 0,
+              "missing_bone": 0,
+              "invalid": 0
+            },
+            "sample_vertex_indices": [],
+            "positive_weight_groups_absent_from_rig": []
+          },
+          {
+            "mesh": "M_R_A_Acce",
+            "vertices": 2275,
+            "suspicious_vertices": 0,
+            "counts": {
+              "unweighted": 0,
+              "nonunit": 0,
+              "excessive": 0,
+              "driver": 0,
+              "missing_bone": 0,
+              "invalid": 0
+            },
+            "sample_vertex_indices": [],
+            "positive_weight_groups_absent_from_rig": []
+          },
+          {
+            "mesh": "M_Mask",
+            "vertices": 1559,
+            "suspicious_vertices": 0,
+            "counts": {
+              "unweighted": 0,
+              "nonunit": 0,
+              "excessive": 0,
+              "driver": 0,
+              "missing_bone": 0,
+              "invalid": 0
+            },
+            "sample_vertex_indices": [],
+            "positive_weight_groups_absent_from_rig": []
+          },
+          {
+            "mesh": "M_BlueGem",
+            "vertices": 13056,
+            "suspicious_vertices": 0,
+            "counts": {
+              "unweighted": 0,
+              "nonunit": 0,
+              "excessive": 0,
+              "driver": 0,
+              "missing_bone": 0,
+              "invalid": 0
+            },
+            "sample_vertex_indices": [],
+            "positive_weight_groups_absent_from_rig": []
+          },
+          {
+            "mesh": "M_Redgem",
+            "vertices": 344,
+            "suspicious_vertices": 0,
+            "counts": {
+              "unweighted": 0,
+              "nonunit": 0,
+              "excessive": 0,
+              "driver": 0,
+              "missing_bone": 0,
+              "invalid": 0
+            },
+            "sample_vertex_indices": [],
+            "positive_weight_groups_absent_from_rig": []
+          },
+          {
+            "mesh": "M_L_Boot",
+            "vertices": 730,
+            "suspicious_vertices": 0,
+            "counts": {
+              "unweighted": 0,
+              "nonunit": 0,
+              "excessive": 0,
+              "driver": 0,
+              "missing_bone": 0,
+              "invalid": 0
+            },
+            "sample_vertex_indices": [],
+            "positive_weight_groups_absent_from_rig": []
+          },
+          {
+            "mesh": "M_R_Boot",
+            "vertices": 730,
+            "suspicious_vertices": 0,
+            "counts": {
+              "unweighted": 0,
+              "nonunit": 0,
+              "excessive": 0,
+              "driver": 0,
+              "missing_bone": 0,
+              "invalid": 0
+            },
+            "sample_vertex_indices": [],
+            "positive_weight_groups_absent_from_rig": []
+          },
+          {
+            "mesh": "M_Tights",
+            "vertices": 11850,
+            "suspicious_vertices": 0,
+            "counts": {
+              "unweighted": 0,
+              "nonunit": 0,
+              "excessive": 0,
+              "driver": 0,
+              "missing_bone": 0,
+              "invalid": 0
+            },
+            "sample_vertex_indices": [],
+            "positive_weight_groups_absent_from_rig": []
+          },
+          {
+            "mesh": "M_Tops",
+            "vertices": 2511,
+            "suspicious_vertices": 0,
+            "counts": {
+              "unweighted": 0,
+              "nonunit": 0,
+              "excessive": 0,
+              "driver": 0,
+              "missing_bone": 0,
+              "invalid": 0
+            },
+            "sample_vertex_indices": [],
+            "positive_weight_groups_absent_from_rig": []
+          },
+          {
+            "mesh": "M_Outfit",
+            "vertices": 698,
+            "suspicious_vertices": 0,
+            "counts": {
+              "unweighted": 0,
+              "nonunit": 0,
+              "excessive": 0,
+              "driver": 0,
+              "missing_bone": 0,
+              "invalid": 0
+            },
+            "sample_vertex_indices": [],
+            "positive_weight_groups_absent_from_rig": []
+          },
+          {
+            "mesh": "M_Cross",
+            "vertices": 7287,
+            "suspicious_vertices": 0,
+            "counts": {
+              "unweighted": 0,
+              "nonunit": 0,
+              "excessive": 0,
+              "driver": 0,
+              "missing_bone": 0,
+              "invalid": 0
+            },
+            "sample_vertex_indices": [],
+            "positive_weight_groups_absent_from_rig": []
+          },
+          {
+            "mesh": "M_ShoulderPad",
+            "vertices": 1954,
+            "suspicious_vertices": 0,
+            "counts": {
+              "unweighted": 0,
+              "nonunit": 0,
+              "excessive": 0,
+              "driver": 0,
+              "missing_bone": 0,
+              "invalid": 0
+            },
+            "sample_vertex_indices": [],
+            "positive_weight_groups_absent_from_rig": []
+          },
+          {
+            "mesh": "M_Wings",
+            "vertices": 4560,
+            "suspicious_vertices": 0,
+            "counts": {
+              "unweighted": 0,
+              "nonunit": 0,
+              "excessive": 0,
+              "driver": 0,
+              "missing_bone": 0,
+              "invalid": 0
+            },
+            "sample_vertex_indices": [],
+            "positive_weight_groups_absent_from_rig": []
+          },
+          {
+            "mesh": "M_Wolv",
+            "vertices": 4210,
+            "suspicious_vertices": 0,
+            "counts": {
+              "unweighted": 0,
+              "nonunit": 0,
+              "excessive": 0,
+              "driver": 0,
+              "missing_bone": 0,
+              "invalid": 0
+            },
+            "sample_vertex_indices": [],
+            "positive_weight_groups_absent_from_rig": []
+          }
+        ],
+        "suspicious_vertices": 0
+      }
+    }
+  ],
+  "hide_mask_recovery": {
+    "profile": "supplied-rey-hpl-1",
+    "source_sha256": "57abd17dd82782bcd4c1509c311d3f70227af707e7975a2e1b3fcbf1eae2c3dd",
+    "source_bytes": 81408,
+    "replacement_sha256": "b00ba528b83157ff028cd85f542734b3e46780ebfcde68c708f6c56934d1bbf7",
+    "replacement_bytes": 196220,
+    "source_model_sha256": "c181b2889e01a8ebb76f020457de7466a099ae327d87514e1cd44b36b3f6245c",
+    "paired_source_base_sha256": "6ac7de4ecdc79c598c3bfb6b1ea96679e5f656bae2e372053ba487eb3513155f",
+    "selected_converted_base_sha256": "93a23be121ba16dfdc2ea6ff3b366de9da42fa5427eed3eec336c64f87b6b2de",
+    "runtime_mask_limits": {
+      "M_Body": 12755,
+      "M_Head": 4483
+    },
+    "source_to_converted_vertex_remap": "all_body_head_mappings_and_topology_equal",
+    "supplied_mask_lod_arrays": "LOD0_and_LOD1_all_flags_all_indices_equal",
+    "original_source_unchanged": true,
+    "method": "verified_supplied_hpl_through_original_parser_filter_writer",
+    "in_game_validation": "required"
+  },
+  "diagnostic_missing_material_libraries": true,
+  "complete_installable_mod_tested": false,
+  "in_game_validation": "not_performed",
+  "reference_base_topology_matches": true
+}
