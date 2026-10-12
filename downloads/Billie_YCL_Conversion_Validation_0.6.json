@@ -1,0 +1,55 @@
+{
+  "scope": "actual Billie model/material/HPL/YCL/companions in isolated folder under Wine; no base model supplied for this diagnostic; no in-game check",
+  "source_unchanged": true,
+  "target_ycl_sha256": "b3560ad5cb4450e2fdc54f2c01ff6befcff2679e4ba211f88e646197ea4e2ec9",
+  "target_ycl_bytes": 1254192,
+  "matches_previously_reference_validated_ycl": true,
+  "joint_and_mesh_names_preserved": true,
+  "unresolved_attire_mesh_references": [
+    "M_Outfit",
+    "M_Outfit_withBelt",
+    "S_Outfit",
+    "S_Outfit_withBelt"
+  ],
+  "unsupported_companions_not_copied": [
+    ".wdf",
+    ".hair_ywa",
+    ".hair_corr_ywa",
+    ".other_ywa",
+    ".other_corr_ywa"
+  ],
+  "independent_editor_roundtrip": {
+    "executed_under": "Wine",
+    "editor": "supplied reference YclEditor.exe",
+    "bytes_equal": true,
+    "sha256": "b3560ad5cb4450e2fdc54f2c01ff6befcff2679e4ba211f88e646197ea4e2ec9"
+  },
+  "original_gorilla_ycl_modules_unchanged": true,
+  "conversion_completeness": "incomplete",
+  "remaining_problems": [
+    "873_Default_Attire\\873_Attire.ycl: YCL converted; WDF/YWA companion conversion is incomplete (.hair_corr_ywa, .hair_ywa, .other_corr_ywa, .other_ywa, .wdf); hair/cloth motion still requires validation"
+  ],
+  "ycl_conversion": [
+    {
+      "file": "873_Default_Attire\\873_Attire.ycl",
+      "how": "converted to the 2K26 format",
+      "source_bytes": 1253728,
+      "output_bytes": 1254192,
+      "source_sha256": "4c24d15c8204c06662b6c85f3ea71d0881789325f92afbcd5e2713fe2c5d5a93",
+      "output_sha256": "b3560ad5cb4450e2fdc54f2c01ff6befcff2679e4ba211f88e646197ea4e2ec9",
+      "source_version": [
+        1,
+        25
+      ],
+      "output_version": 26,
+      "original_gorilla_translator": true,
+      "names_preserved": true,
+      "target_tree_parsed": true,
+      "target_root_node_count": 42,
+      "stable_2k26_roundtrip": null,
+      "roundtrip_method": "not performed by this source-only translator",
+      "source_unchanged": true,
+      "scope": "YCL format translation; companion compatibility and motion unverified"
+    }
+  ]
+}
