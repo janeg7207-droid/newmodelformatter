@@ -1,0 +1,22 @@
+{
+  "installer": {
+    "original_sha256": "ece4729f2ac3fc707c69550d4a79df7866c11a61463d8eb529ae927e04f377f2",
+    "target_sha256": "a5ddc9c25930b376d1c1cd4379f03c07a1d964fecfafe8116ce98fc1d6ace126",
+    "original_bytes": 44019860,
+    "target_bytes": 44129617,
+    "operation_count": 7,
+    "raw_carchive_payloads_reused": 1066,
+    "original_pyz_module_prefix_reused": true,
+    "python_reconstruction_verified": true,
+    "windows_powershell_installer_tested": false,
+    "compressed_patch_bytes": 154782,
+    "zip_crc_verified": true,
+    "zip_bytes": 159945
+  },
+  "source_zip_bytes": 1103127,
+  "source_files": 143,
+  "source_zip_sha256": "662129771d361749d0d4185398277fd1708d5fc11a93273dec80b27241378d62",
+  "regression_tests": 89,
+  "native_checks": "Wine/Xvfb; original bundled DLL",
+  "in_game_tested": false
+}

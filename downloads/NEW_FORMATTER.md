@@ -1,94 +1,110 @@
-# NewModelFormatter 0.6 experimental — independent Gorilla YCL translation
+# NewModelFormatter 0.7 experimental
 
-Version 0.6 fixes the folder rule that skipped readable YCL files whenever
-WDF/YWA companions were present. It keeps Gorilla's actual YCL translator
-unchanged. Source files, CakeView, folder input/output, stock-slot mapping and
-Gorilla-style UI remain. Convert into a new empty output folder.
+This build adds reliable final/error reports and an optional new Rey gear
+weight test. Folder input/output, CakeView, the Gorilla-style UI and Gorilla's
+YCL translator remain. Original files are preserved.
 
-## Install and use
+## Install
 
-1. Extract `NewModelFormatter_0.6_patch_installer.zip` into a fresh folder.
+1. Extract `NewModelFormatter_0.7_patch_installer.zip` into a fresh folder.
 2. Run `Install.cmd` and select your ORIGINAL Gorilla Model Formatter 1.0 EXE.
-3. Open the created `NewModelFormatter.exe`. Use your existing CakeView and
-   convert the original Billie folder again into a new empty output folder.
+3. Open the created `NewModelFormatter.exe`. Convert into a new empty output
+   folder using your usual CakeView workflow.
 
-No YCL checkbox or new input method is needed. The output should contain
-`873_Default_Attire/873_Attire.ycl`; the JSON report records it in
-`physics_converted` with `original_gorilla_translator: true` and header version 26.
-The patch identifier is `material-mask-native26-reference-ycl-6`.
+Select the original Gorilla EXE, not an older experimental EXE. No Python or
+Blender is needed to run the tool. The installer refuses existing output files.
 
-The installer creates a separate EXE and refuses to overwrite an existing
-output. Do not select the older experimental EXE as installer input. No Python
-or Blender installation is needed to run this repair tool.
+## Reports
 
-## YCL evidence and limits
+After conversion, use **Open conversion report**. The log prints the saved path.
+`<source folder> - conversion report.json` is saved at the selected output root
+and inside the converted mod folder. Both copies include final model, material
+and YCL results. Conversions with failed checks still produce a report. Fatal
+errors produce a failure report retaining completed records when available.
+Writes are atomic. If the output is unwritable, the tool uses
+`%TEMP%\NewModelFormatter\Reports` and prints that path. If neither location is
+writable, it prints the report-write error and preserves the conversion error.
+The report button falls back to Notepad when JSON has no file association.
+Forced process termination cannot guarantee a completed report.
 
-59 regression tests passed under Python 3.14, including original Gorilla YCL
-bytecode fixtures, failure preservation, companion omission, source/output
-separation and stock-slot exclusions. An isolated folder conversion of the
-actual supplied Billie MCD, MTLS, HPL, YCL and all five companions ran under
-Wine. Model verification passed, the 13 nonsimulation materials were emitted,
-and source files stayed unchanged. The output YCL is 1,254,192 bytes, version
-26, with the original joint/mesh names. SHA-256:
+## Rey test
+
+For the supplied original 2K25 Rey folder, enable **Rey gear: match paired body
+weights (experimental)**. This replaces the earlier ancestor-remap test. It
+projects weights from the verified converted paired body onto tights, tops,
+belt, shoulder pads and wings. The 1% cleanup and nearest-triangle math come
+from the inspected reference source; native output has at most eight influences.
+It is not claimed equivalent to the complete Blender Heat Seek workflow.
+
+This profile accepts only the exact inspected attire/base pair. The base must
+pass the original verifier. Every written gear influence is independently
+checked against the requested projection, in addition to the original geometry,
+rig, material-binding, flag and mask checks. No Rey physics is created.
+
+Actual-file conversion under Wine passed base/attire verification. All 14
+attire meshes retained positions, triangles, UVs, remaps and material bindings.
+21,573 projected gear vertices passed written-weight checks, with maximum
+error below 0.001961; normalized weights intentionally assigned to the wrong
+bone were rejected on each of the five meshes. The guarded restored hide mask
+still preserves ring/entrance data and all Body/Head indices are valid.
+This establishes conversion behavior, not that the see-through issue is fixed
+in game. Check boots/tights, belt, shoulders and wings during entrance/movement.
+
+## Billie YCL and remaining limits
+
+Readable YCL converts even with unsupported WDF/YWA companions. The original
+Gorilla translator is unchanged. The supplied Billie conversion retained the
+same verified YCL SHA-256 as 0.6:
 `b3560ad5cb4450e2fdc54f2c01ff6befcff2679e4ba211f88e646197ea4e2ec9`.
-It matches the earlier reference-validated output. A fresh independent
-YclEditor read/write under Wine also produced byte-identical 2K26 output.
+Model checks passed and the material case mismatch remains repaired.
 
-The runtime wrapper checks version, header size, source/target names and root
-tree parsing before committing output. It does not require an external editor;
-the independent editor round-trip was a separate packaging test. UI startup
-passed under Wine/Xvfb with CakeView still required and the gear option off.
-The Windows PowerShell installer and in-game motion have not independently
-been tested here. These isolated Billie checks lacked her paired base model.
+Her five WDF/YWA companions remain omitted: their mesh/vertex references do
+not match the supplied attire, and her paired base is absent. YCL format
+translation does not prove compatible cloth/hair movement. Reports remain
+incomplete. No unchanged 2K25 companion is treated as compatible 2K26 physics.
 
-**YCL format translation does not complete Billie's physics conversion.** Her
-YCL also contains outfit references absent from the supplied attire. The five
-WDF/YWA files remain omitted and the report stays incomplete. The supplied
-PWM parser confirms WDF `M_Pierce` is absent from the model; hair corrective
-data declares M_Hair 10,014 / S_Hair 1,059 vertices while the model has
-6,719 / 363. Do not copy those 2K25 bytes into output as assumed compatible
-2K26 physics. To continue collision rebinding, the exact original Billie
-`873_Billie_Starkz/BaseModel/baseModel.mcd` is needed.
+Billie's dark eyes remain unresolved. The stock reference supplied is Cena's
+native model/material table; it contains no actual eye shader payloads. Her
+original `BaseModel/baseModel.mcd` and `baseModel.mtls` are still needed for
+her eye/collider investigation. No eye, teeth or general blood/belt shader
+repair is claimed.
 
-## Retained repairs
+The supplied AJ pair is native 2K26 with empty embedded hide masks. This build
+adds a hash-guarded, automatic **foot-only mask test** for that exact pair.
+Keep the normal wrestler folder structure with `BaseModel/baseModel.mcd` and
+`610_Default_Attire/610_Attire.mcd`, and select **Keep the mod's own folder name**.
+No separate HPL is needed. The 2,108 selected body indices have more than 50%
+combined foot/toe influence and belong to the real paired-body remap domain.
+Both ring/entrance flags are emitted at all five LODs. Only the exact empty-HPL
+tail is replaced; the complete model payload, rig, shapes, weights and physics
+are retained byte-for-byte. Existing nonempty/sidecar masks are preserved.
+This repairs a specific missing foot-mask case; it is not a whole-outfit HPL
+reconstruction. Native reader checks are required before committing output,
+and boot coverage still needs an in-game check. The report records
+`aj_foot_mask` and `repaired_2k26_foot_mask`.
 
-* Unique case reconciliation for Billie's `hair_ALPHA` / `hair_alpha` material
-  binding; ambiguous collisions fail rather than choosing a definition.
-* Guarded Rey mask recovery with his now-supplied original paired base:
-  native verification passed, Body/Head remap/topology retained, every mask
-  index valid, complete 490,532-byte HPL preserving ring/entrance arrays.
-  The optional ancestor-remap gear profile remains off by default. Coverage
-  and movement still need entrance/gameplay tests. No Rey physics is invented.
-* Existing native 2K26 models are accepted in a preservation/material-audit
-  path. Select **Keep the mod's own folder name**. Opaque JMTL texture hashes
-  cannot safely be relocated to another stock slot. Models/material payloads
-  and native companions are preserved; geometry and old physics are not rebuilt.
-* Copied reference weight checks remain read-only report diagnostics. Valid
-  numeric weights can still be anatomically wrong. No new teeth/blood/belt
-  repair is claimed.
+AJ's beard remains unresolved. Its `M_Combinations` mesh binds to
+`combinations_ALPHA`. The missing shader file is
+`610_Default_Attire/Materials/combinations_ALPHA.jmtl`; the supplied base MTLS
+contains reference stubs without beard shader parameters. No beard fix is
+claimed until that actual material can be inspected.
 
-## Supplied reference source
+## Existing 2K26 inputs and source
 
-All 100 supplied source/configuration files are preserved with hashes in
-`reference_source/`. The newly supplied WWE2K_MDL includes import/export,
-Heat Seek, hair alignment, HPL and physics code. Its VCModel.dll is identical
-to Gorilla's bundled DLL. The missing-add-on source blocker is resolved.
+Existing 2K26 models are accepted for preservation/material audit. Select
+**Keep the mod's own folder name**; moving opaque material texture hashes to
+another stock slot is unsupported. This path preserves native model and
+physics bytes, except for the explicitly reported exact-AJ foot-mask repair.
+It does not rebuild unsupported old skinning/physics.
 
-The current shipped tool uses the original native engine plus tested repairs;
-the full Blender scene workflow has not replaced that engine. The reference
-physics embedder passes existing companion bytes through, and its remapping
-paths need matched geometry/colliders. Source availability alone is not proof
-of compatible physics. An optional surface-weight prototype failed a native
-verification check and is retained outside this release, rather than shipped
-as a validated gear repair. The supplied Blender YCL workflow is not substituted
-for Gorilla's translator.
+The source ZIP includes runtime repairs, build code, tests and all 100 supplied
+source/configuration snapshots with hashes. The full Blender scene pipeline
+has not replaced the original native engine. Original Gorilla EXE/mod assets
+are excluded. See `SOURCE_REBUILD.md`.
 
-## New dark-eye report
-
-The screenshot shows dark Billie eye surfaces. Her eye geometry/material
-inputs have not yet been uploaded: available BaseModel files are Rey's.
-Investigation requires Billie's original `BaseModel/baseModel.mcd`, original
-`BaseModel/baseModel.mtls`, and converted `BaseModel/Materials/eye_l.jmtl`.
-The reference includes texture-binding fixes, but none is enabled for her eyes
-without inspecting those inputs. This build includes the YCL skip correction,
-not a claimed dark-eye fix.
+89 regression tests passed under Python 3.14 with NumPy. Wine/Xvfb tests covered
+Rey, Billie YCL/materials, existing 2K26 byte preservation, AJ foot-mask
+embedding, fatal-error Temp reporting, and the GUI report button. Sources stayed unchanged, and root/mod report copies matched the final
+returned reports. CakeView remained required. The PowerShell installer was
+checked by exact binary reconstruction and ZIP CRCs; it was not independently
+executed on Windows here. In-game appearance/movement tests remain required.

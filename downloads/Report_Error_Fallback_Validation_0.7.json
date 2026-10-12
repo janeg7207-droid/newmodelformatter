@@ -1,0 +1,17 @@
+{
+  "scope": "original bundled folder function failure under Wine; no game test",
+  "conversion_failed_as_expected": true,
+  "conversion_error": {
+    "type": "ValueError",
+    "message": "output must be outside and separate from the source folder"
+  },
+  "fallback_report_exists": true,
+  "fallback_location": "Z:\\tmp\\NewModelFormatter\\Reports\\source - f07f72d69264 - conversion report.json",
+  "report_status": "failed",
+  "report_fallback": "output report location unavailable; saved in Temp",
+  "blocked_output_unchanged": true,
+  "source_unchanged": true,
+  "saved_path_logged": true,
+  "report_button_enabled_after_error": true,
+  "notepad_fallback_received_report_path": true
+}

@@ -1,27 +1,37 @@
-# Experimental NewModelFormatter 0.6 — YCL skip correction
+# NewModelFormatter 0.7 experimental
 
-Download `NewModelFormatter_0.6_patch_installer.zip` and extract into a fresh folder.
-Run `Install.cmd` and select your ORIGINAL **Gorilla Model Formatter.exe**.
-Open the created EXE and convert Billie into a new empty output folder.
-CakeView, folder input/output and the original Gorilla YCL translator remain.
+[Download the small installer ZIP](NewModelFormatter_0.7_patch_installer.zip).
+Extract into a fresh folder, run Install.cmd, and select your ORIGINAL Gorilla
+Model Formatter.exe. Open the newly created NewModelFormatter.exe. Use the same
+folder input/output and CakeView workflow; convert into a new empty output.
 
-Readable YCL now translates even when WDF/YWA companions are unsupported.
-The actual Billie result is 1,254,192 bytes and preserves its names; a fresh
-independent supplied YclEditor round-trip under Wine was byte-identical.
-59 regression tests and UI/native model checks passed. See
-[Billie YCL validation](Billie_YCL_Conversion_Validation_0.6.json) and
-[details](NEW_FORMATTER.md).
+This release includes:
 
-Companion conversion is still incomplete, and movement needs an in-game test.
-The report will say YCL converted and retain the companion limitation. Billie's
-new dark-eye report requires her original BaseModel MCD/MTLS and converted
-eye_l JMTL; this build does not claim an eye fix. Rey mask repair and material
-case reconciliation remain. Older downloads are retained.
+- Atomic final/error reports at the output root and inside the converted mod,
+  a Temp fallback, and an Open conversion report button.
+- A new optional paired-body gear-weight test for the exact supplied Rey model:
+  tights, belt, tops, pads and wings. Enable the Rey gear checkbox to try it.
+- An automatic foot-only mask for the exact supplied native AJ base/attire pair,
+  without a separate HPL. Keep normal BaseModel/attire folder structure and
+  select Keep the mod's own folder name.
+- Retained Billie material-case repair and unchanged original Gorilla YCL
+  translator. Incompatible WDF/YWA companions remain omitted.
 
-`NewModelFormatter_0.6_source_patch.zip` includes the repair/build code, tests
-and all supplied source/configuration snapshots, including the newly uploaded
-WWE2K_MDL. The unvalidated surface-weight prototype is excluded. Full Blender
-scene processing has not replaced the original native engine.
+89 regression tests passed, including from the extracted source ZIP. Actual-file
+Wine checks covered the model repairs, source preservation, final report copies,
+Temp error reporting, Notepad fallback and UI. The patch reconstructs the tested
+EXE byte-for-byte and verifies both SHA-256 hashes. ZIP CRCs passed. The Windows
+PowerShell installer was not independently executed here.
 
-Experimental EXE SHA-256:
-`7c996eeaa35a8b9cf18b0720b47bac971e9bd2c75455af582a94c8e37cbce8b7`
+Rey movement and AJ boot coverage still require in-game checks. This is not a
+universal guarantee against clipping. A belt mesh that intersects its body can
+need a geometry-specific repair. AJ beard and Billie dark eyes remain unresolved.
+For AJ beard, the next missing file is Materials/combinations_ALPHA.jmtl. Billie
+needs her original paired BaseModel MCD/MTLS. No missing Rey physics is invented.
+
+[Full evidence and limitations](NEW_FORMATTER.md).
+[Source/build/test ZIP](NewModelFormatter_0.7_source_patch.zip).
+Older downloads are retained; main is unchanged.
+
+EXE SHA-256:
+a5ddc9c25930b376d1c1cd4379f03c07a1d964fecfafe8116ce98fc1d6ace126

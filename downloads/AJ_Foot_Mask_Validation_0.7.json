@@ -1,0 +1,579 @@
+{
+  "scope": "actual AJ native pair under Wine; no source material payloads or in-game check",
+  "source_unchanged": true,
+  "model_payload_byte_identical": true,
+  "base_model_byte_identical": true,
+  "native_version": 47,
+  "only_one_embedded_hpl": true,
+  "mask_whole": true,
+  "both_flags_all_five_lods_equal_expected": true,
+  "foot_body_indices": 2108,
+  "all_ids_in_real_paired_domain": true,
+  "report": {
+    "source": "Z:\\workspace\\formatter-investigation\\aj-mask07-native\\source\\610_AJ_Styles",
+    "output": "Z:\\workspace\\formatter-investigation\\aj-mask07-native\\output\\Characters\\610_AJ_Styles",
+    "game_path": "Characters/610_AJ_Styles",
+    "models": [
+      {
+        "source": "Z:\\workspace\\formatter-investigation\\aj-mask07-native\\source\\610_AJ_Styles\\610_Default_Attire\\610_Attire.mcd",
+        "output": "Z:\\workspace\\formatter-investigation\\aj-mask07-native\\output\\Characters\\610_AJ_Styles\\610_Default_Attire\\610_Attire.mcd",
+        "source_version": 47,
+        "status": "repaired_2k26_foot_mask",
+        "notes": [
+          "Exact-pair experimental AJ foot-only hide mask generated; model geometry, rig, shapes and weights unchanged. No full outfit mask or beard repair."
+        ],
+        "problems": [
+          "native material library: [Errno 2] No such file or directory: 'Z:\\\\workspace\\\\formatter-investigation\\\\aj-mask07-native\\\\source\\\\610_AJ_Styles\\\\610_Default_Attire\\\\610_Attire.mtls'"
+        ],
+        "verification_scope": "byte_preserved_model_payload_and_native_mask_reader",
+        "in_game_validation": "not_performed",
+        "repairs": [
+          "exact_aj_foot_mask"
+        ],
+        "facts": {
+          "source_sha256": "3e8097ef504724d688fe526868f876f27c3174ed6f574cc3239ada5eb7c80ceb",
+          "output_sha256": "65601542b3e9a8f1bd710ba43827cc15fba43959d3216cda25131f0ce1f38856",
+          "byte_identical": false,
+          "mesh_count": 17,
+          "bone_count": 175,
+          "vertices": 34006,
+          "triangles": 43440,
+          "geometry_weights_bones_and_embedded_streams": "model payload byte-identical; empty HPL replaced"
+        },
+        "native_physics_companions": [],
+        "verify": "fail",
+        "reference_weight_audit": {
+          "version": "supplied-reference-weight-audit-1",
+          "scope": "read_only_weight_data_checks; anatomical correctness unverified",
+          "bone_deform_flags": "not_in_native_records; reference driver-name rules only",
+          "meshes": [
+            {
+              "mesh": "Object1",
+              "vertices": 694,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "Object8",
+              "vertices": 189,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "Object2",
+              "vertices": 694,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "Object9",
+              "vertices": 189,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "Object3",
+              "vertices": 2610,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "Object6",
+              "vertices": 196,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "Object4",
+              "vertices": 516,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "Object5",
+              "vertices": 516,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Hair",
+              "vertices": 2135,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Hair",
+              "vertices": 10416,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Tights",
+              "vertices": 3020,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Combinations",
+              "vertices": 3808,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_HoodUp",
+              "vertices": 1940,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_HoodDown",
+              "vertices": 1914,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Jacket",
+              "vertices": 3527,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "S_HoodUp",
+              "vertices": 1204,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "S_Jacket",
+              "vertices": 438,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            }
+          ],
+          "suspicious_vertices": 0
+        },
+        "aj_foot_mask": {
+          "patch": "exact-aj-foot-mask-1",
+          "body_indices": 2108,
+          "flags": [
+            0,
+            1
+          ],
+          "lods": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "paired_base_sha256": "765e2c10231bb5a15920b85cc4a3959ac90e0c7f527133a8ba3d5f0aa843f0f7",
+          "indices_sha256": "a44eb2f78ee8d9e32c97e1394ac1a6c7552569a16410abeeb4f601614e615150",
+          "mask_sha256": "d0b409bf3f85cd65de7a27960c8057557253c22facfeef4ed01b9b66e505428d",
+          "mask_bytes": 84652,
+          "model_payload_byte_identical": true,
+          "native_reader_passed": true,
+          "in_game_validation": "required"
+        }
+      },
+      {
+        "source": "Z:\\workspace\\formatter-investigation\\aj-mask07-native\\source\\610_AJ_Styles\\BaseModel\\baseModel.mcd",
+        "output": "Z:\\workspace\\formatter-investigation\\aj-mask07-native\\output\\Characters\\610_AJ_Styles\\BaseModel\\baseModel.mcd",
+        "source_version": 47,
+        "status": "preserved_2k26",
+        "notes": [
+          "Native model bytes preserved; geometry, weights, bones, and embedded physics were not rewritten. Native physics compatibility and in-game behavior remain unverified."
+        ],
+        "problems": [
+          "native material library: [WinError 3] Path not found: 'Z:\\\\workspace\\\\formatter-investigation\\\\aj-mask07-native\\\\source\\\\610_AJ_Styles\\\\BaseModel\\\\Materials'"
+        ],
+        "verification_scope": "native_reader_and_byte_preservation",
+        "in_game_validation": "not_performed",
+        "repairs": [],
+        "facts": {
+          "source_sha256": "765e2c10231bb5a15920b85cc4a3959ac90e0c7f527133a8ba3d5f0aa843f0f7",
+          "output_sha256": "765e2c10231bb5a15920b85cc4a3959ac90e0c7f527133a8ba3d5f0aa843f0f7",
+          "byte_identical": true,
+          "mesh_count": 8,
+          "bone_count": 175,
+          "vertices": 23988,
+          "triangles": 42278,
+          "geometry_weights_bones_and_embedded_streams": "byte_identical"
+        },
+        "native_physics_companions": [],
+        "verify": "fail",
+        "reference_weight_audit": {
+          "version": "supplied-reference-weight-audit-1",
+          "scope": "read_only_weight_data_checks; anatomical correctness unverified",
+          "bone_deform_flags": "not_in_native_records; reference driver-name rules only",
+          "meshes": [
+            {
+              "mesh": "M_Body",
+              "vertices": 12763,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Tongue",
+              "vertices": 341,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Head_Caruncle",
+              "vertices": 446,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_EYE",
+              "vertices": 626,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_transB_eyelash",
+              "vertices": 458,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Head",
+              "vertices": 4042,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_MouthBag",
+              "vertices": 352,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Teeth",
+              "vertices": 4960,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            }
+          ],
+          "suspicious_vertices": 0
+        }
+      }
+    ],
+    "materials": [
+      {
+        "source": "Z:\\workspace\\formatter-investigation\\aj-mask07-native\\source\\610_AJ_Styles\\610_Default_Attire\\610_Attire.mtls",
+        "output": "Z:\\workspace\\formatter-investigation\\aj-mask07-native\\output\\Characters\\610_AJ_Styles\\610_Default_Attire\\610_Attire.mtls",
+        "status": "unsupported_native_materials",
+        "notes": [],
+        "materials": [],
+        "jmtl_payloads": "byte_identical",
+        "problems": [
+          "native material library: [Errno 2] No such file or directory: 'Z:\\\\workspace\\\\formatter-investigation\\\\aj-mask07-native\\\\source\\\\610_AJ_Styles\\\\610_Default_Attire\\\\610_Attire.mtls'"
+        ]
+      },
+      {
+        "source": "Z:\\workspace\\formatter-investigation\\aj-mask07-native\\source\\610_AJ_Styles\\BaseModel\\baseModel.mtls",
+        "output": "Z:\\workspace\\formatter-investigation\\aj-mask07-native\\output\\Characters\\610_AJ_Styles\\BaseModel\\baseModel.mtls",
+        "status": "unsupported_native_materials",
+        "notes": [],
+        "materials": [],
+        "jmtl_payloads": "byte_identical",
+        "problems": [
+          "native material library: [WinError 3] Path not found: 'Z:\\\\workspace\\\\formatter-investigation\\\\aj-mask07-native\\\\source\\\\610_AJ_Styles\\\\BaseModel\\\\Materials'"
+        ]
+      }
+    ],
+    "copied": 3,
+    "left_out": [],
+    "problems": [
+      "610_Default_Attire\\610_Attire.mcd: native material library: [Errno 2] No such file or directory: 'Z:\\\\workspace\\\\formatter-investigation\\\\aj-mask07-native\\\\source\\\\610_AJ_Styles\\\\610_Default_Attire\\\\610_Attire.mtls'",
+      "BaseModel\\baseModel.mcd: native material library: [WinError 3] Path not found: 'Z:\\\\workspace\\\\formatter-investigation\\\\aj-mask07-native\\\\source\\\\610_AJ_Styles\\\\BaseModel\\\\Materials'",
+      "610_Attire.mcd: experimental AJ foot mask generated; in-game boot coverage check required"
+    ],
+    "warnings": [
+      "Native 2K26 model and physics preservation does not validate an older port in game. Unsupported skeleton, weight, and physics repairs were not inferred."
+    ],
+    "blank_physics": [],
+    "physics_converted": [],
+    "ycl_editor": null,
+    "engine": "Model engine: WWE2K_MDL add-on, inside this app",
+    "seconds": 0.0,
+    "source_inventory_before_conversion": [
+      {
+        "path": "610_Default_Attire/610_Attire.mcd",
+        "bytes": 9121648,
+        "sha256": "3e8097ef504724d688fe526868f876f27c3174ed6f574cc3239ada5eb7c80ceb"
+      },
+      {
+        "path": "BaseModel/baseModel.mcd",
+        "bytes": 7132932,
+        "sha256": "765e2c10231bb5a15920b85cc4a3959ac90e0c7f527133a8ba3d5f0aa843f0f7"
+      },
+      {
+        "path": "BaseModel/baseModel.mtls",
+        "bytes": 444,
+        "sha256": "40791b1ecd29a0bb1b373d2c1fb2f360e38a10e96ff905ea3d13b24cdd4e01db"
+      }
+    ],
+    "conversion_completeness": "incomplete",
+    "in_game_validation": "not_performed",
+    "repair_patch": "material-mask-native26-ycl-paired-gear-7",
+    "native_2k26_models_preserved": 1,
+    "native_2k26_material_libraries_repaired": 0,
+    "native_2k26_patch": "native-2k26-preservation-and-material-links-1",
+    "reference_source_integration": {
+      "weight_checks": "supplied-reference-weight-audit-1",
+      "geometry_backend": "Gorilla native engine with ported reference components; full Blender workflow not invoked",
+      "wwe2k_mdl_source_supplied": true,
+      "ycl_backend": "original Gorilla converter",
+      "full_reference_engine_rebuilt": false
+    },
+    "ycl_repair_patch": "independent-gorilla-ycl-translation-1",
+    "native_2k26_masks_repaired": 1,
+    "started_at_utc": "2026-10-12T15:17:40.369656+00:00",
+    "finished_at_utc": "2026-10-12T15:17:42.122979+00:00",
+    "status": "completed_with_problems",
+    "report_paths": [
+      "Z:\\workspace\\formatter-investigation\\aj-mask07-native\\output\\610_AJ_Styles - conversion report.json",
+      "Z:\\workspace\\formatter-investigation\\aj-mask07-native\\output\\Characters\\610_AJ_Styles\\610_AJ_Styles - conversion report.json"
+    ],
+    "report_path": "Z:\\workspace\\formatter-investigation\\aj-mask07-native\\output\\610_AJ_Styles - conversion report.json"
+  },
+  "logs": [
+    "  BaseModel\\baseModel.mcd: already 2K26, copied",
+    "  610_Default_Attire\\610_Attire.mcd: already 2K26, copied",
+    "  610_Default_Attire\\610_Attire.mcd: native 2K26 model bytes preserved; material links audited",
+    "  BaseModel\\baseModel.mcd: native 2K26 model bytes preserved; material links audited",
+    "  610_Attire.mcd: experimental AJ foot mask generated; in-game boot coverage check required",
+    "Report saved: Z:\\workspace\\formatter-investigation\\aj-mask07-native\\output\\610_AJ_Styles - conversion report.json"
+  ],
+  "reports_saved_and_equal": {
+    "Z:\\workspace\\formatter-investigation\\aj-mask07-native\\output\\610_AJ_Styles - conversion report.json": true,
+    "Z:\\workspace\\formatter-investigation\\aj-mask07-native\\output\\Characters\\610_AJ_Styles\\610_AJ_Styles - conversion report.json": true
+  }
+}
