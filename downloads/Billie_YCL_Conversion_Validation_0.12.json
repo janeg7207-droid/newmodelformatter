@@ -1,0 +1,1469 @@
+{
+  "scope": "actual Billie model/material/HPL/YCL/companions in isolated folder under Wine; no base model supplied for this diagnostic; no in-game check",
+  "source_unchanged": true,
+  "report": {
+    "source": "Z:\\workspace\\formatter-investigation\\billie-ycl12-final-r2\\source\\873_Billie_Starkz",
+    "output": "Z:\\workspace\\formatter-investigation\\billie-ycl12-final-r2\\output\\Characters\\873_Billie_Starkz",
+    "game_path": "Characters/873_Billie_Starkz",
+    "models": [
+      {
+        "source": "Z:\\workspace\\formatter-investigation\\billie-ycl12-final-r2\\source\\873_Billie_Starkz\\873_Default_Attire\\873_Attire.mcd",
+        "output": "Z:\\workspace\\formatter-investigation\\billie-ycl12-final-r2\\output\\Characters\\873_Billie_Starkz\\873_Default_Attire\\873_Attire.mcd",
+        "source_version": "0x29",
+        "notes": [
+          "skeleton: 2K26 female rig (138 bones on the stock pose, 4 moved to their 2K26 stock pose, 24 new)",
+          "33577 vertices used the old muscle bones and were re-weighted",
+          "hide mask carried over from 873_Attire.hpl (ring: M_Body 4226; entrance: M_Body 4226)"
+        ],
+        "kind": "attire",
+        "dropped_meshes": [],
+        "rig": "2K25",
+        "bones": "334 -> 298",
+        "skeleton": "female",
+        "reference_body": "female",
+        "bone_report": {
+          "variant": "female",
+          "stock_pose": 138,
+          "moved_to_2k26_pose": [
+            "H_Ebw_Out_L",
+            "H_Ebw_Out_R",
+            "H_Pec_Jig_L",
+            "H_Pec_Jig_R"
+          ],
+          "own_pose": [],
+          "new": 24
+        },
+        "weights": [
+          {
+            "mesh": "M_Hair",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "S_Hair",
+            "old_groups": 8,
+            "verts_changed": 249,
+            "kept_own_part": 0,
+            "max_distance_to_stock_skin": 13.75
+          },
+          {
+            "mesh": "M_Bra",
+            "old_groups": 12,
+            "verts_changed": 6622,
+            "kept_own_part": 0,
+            "max_distance_to_stock_skin": 3.31
+          },
+          {
+            "mesh": "M_Bra_Base",
+            "old_groups": 6,
+            "verts_changed": 1339,
+            "kept_own_part": 0,
+            "max_distance_to_stock_skin": 3.3
+          },
+          {
+            "mesh": "M_Bra_X",
+            "old_groups": 12,
+            "verts_changed": 10049,
+            "kept_own_part": 0,
+            "max_distance_to_stock_skin": 2.93
+          },
+          {
+            "mesh": "M_Circles",
+            "old_groups": 4,
+            "verts_changed": 1323,
+            "kept_own_part": 0,
+            "max_distance_to_stock_skin": 1.63
+          },
+          {
+            "mesh": "M_Gems",
+            "old_groups": 12,
+            "verts_changed": 13521,
+            "kept_own_part": 0,
+            "max_distance_to_stock_skin": 3.2
+          },
+          {
+            "mesh": "M_L_Kneepad",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_Legs_Straps",
+            "old_groups": 2,
+            "verts_changed": 194,
+            "kept_own_part": 0,
+            "max_distance_to_stock_skin": 4.58
+          },
+          {
+            "mesh": "M_R_Kneepad",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_Shoes",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_Underwear",
+            "old_groups": 2,
+            "verts_changed": 280,
+            "kept_own_part": 0,
+            "max_distance_to_stock_skin": 2.52
+          },
+          {
+            "mesh": "M_Hair2",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_Hair3",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          }
+        ],
+        "attach_points_dropped": 0,
+        "mask_limits": {
+          "M_Hair": 6719,
+          "S_Hair": 363,
+          "M_Bra": 9050,
+          "M_Bra_Base": 1530,
+          "M_Bra_X": 10057,
+          "M_Circles": 1323,
+          "M_Gems": 27560,
+          "M_L_Kneepad": 627,
+          "M_Legs_Straps": 5247,
+          "M_R_Kneepad": 627,
+          "M_Shoes": 2269,
+          "M_Underwear": 5920,
+          "M_Hair2": 2222,
+          "M_Hair3": 4050
+        },
+        "meshes": [
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Hair"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "S_Hair"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Bra"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Bra_Base"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Bra_X"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Circles"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Gems"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_L_Kneepad"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Legs_Straps"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_R_Kneepad"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Shoes"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Underwear"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Hair2"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Hair3"
+          }
+        ],
+        "status": "converted",
+        "mesh_vertex_counts": {
+          "M_Hair": 6719,
+          "S_Hair": 363,
+          "M_Bra": 9050,
+          "M_Bra_Base": 1530,
+          "M_Bra_X": 10057,
+          "M_Circles": 1323,
+          "M_Gems": 27560,
+          "M_L_Kneepad": 627,
+          "M_Legs_Straps": 5247,
+          "M_R_Kneepad": 627,
+          "M_Shoes": 2269,
+          "M_Underwear": 5920,
+          "M_Hair2": 2222,
+          "M_Hair3": 4050
+        },
+        "verify": "pass",
+        "problems": [],
+        "facts": {
+          "bones": 298,
+          "substreams": [
+            "MDL!",
+            "HPL!"
+          ],
+          "anchors": 0,
+          "M_Hair": {
+            "verts": 6719,
+            "reweighted": 0
+          },
+          "S_Hair": {
+            "verts": 363,
+            "reweighted": 249
+          },
+          "M_Bra": {
+            "verts": 9050,
+            "reweighted": 6622
+          },
+          "M_Bra_Base": {
+            "verts": 1530,
+            "reweighted": 1339
+          },
+          "M_Bra_X": {
+            "verts": 10057,
+            "reweighted": 10049
+          },
+          "M_Circles": {
+            "verts": 1323,
+            "reweighted": 1323
+          },
+          "M_Gems": {
+            "verts": 27560,
+            "reweighted": 13521
+          },
+          "M_L_Kneepad": {
+            "verts": 627,
+            "reweighted": 0
+          },
+          "M_Legs_Straps": {
+            "verts": 5247,
+            "reweighted": 194
+          },
+          "M_R_Kneepad": {
+            "verts": 627,
+            "reweighted": 0
+          },
+          "M_Shoes": {
+            "verts": 2269,
+            "reweighted": 0
+          },
+          "M_Underwear": {
+            "verts": 5920,
+            "reweighted": 280
+          },
+          "M_Hair2": {
+            "verts": 2222,
+            "reweighted": 0
+          },
+          "M_Hair3": {
+            "verts": 4050,
+            "reweighted": 0
+          },
+          "hide_mask": "mask"
+        },
+        "reference_weight_audit": {
+          "version": "supplied-reference-weight-audit-1",
+          "scope": "read_only_weight_data_checks; anatomical correctness unverified",
+          "bone_deform_flags": "not_in_native_records; reference driver-name rules only",
+          "meshes": [
+            {
+              "mesh": "M_Hair",
+              "vertices": 6719,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "S_Hair",
+              "vertices": 363,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Bra",
+              "vertices": 9050,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Bra_Base",
+              "vertices": 1530,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Bra_X",
+              "vertices": 10057,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Circles",
+              "vertices": 1323,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Gems",
+              "vertices": 27560,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_L_Kneepad",
+              "vertices": 627,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Legs_Straps",
+              "vertices": 5247,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_R_Kneepad",
+              "vertices": 627,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Shoes",
+              "vertices": 2269,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Underwear",
+              "vertices": 5920,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Hair2",
+              "vertices": 2222,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Hair3",
+              "vertices": 4050,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            }
+          ],
+          "suspicious_vertices": 0
+        },
+        "face_output_audit": {
+          "version": "all-recorded-model-output-face-audit-1",
+          "output": "Z:\\workspace\\formatter-investigation\\billie-ycl12-final-r2\\output\\Characters\\873_Billie_Starkz\\873_Default_Attire\\873_Attire.mcd",
+          "problems": [],
+          "warnings": [],
+          "file_changes": "none; read-only audit",
+          "reference_scope": "supplied native 2K26 face schema and writer references; identical topology or appearance is not required",
+          "reference_baseline_name": "earlier_supplied_native_2k26_cena_face_schema",
+          "in_game_validation": "not_performed",
+          "original_model_verify": "pass",
+          "output_sha256": "6ab7ebf2fc3a98bbe48e79c7e997f08094f6ca7c98f2e113615f0ebd495a7a9c",
+          "output_version": 47,
+          "state": "not_applicable",
+          "applicability": "no_eye_teeth_or_mouthbag_meshes"
+        }
+      }
+    ],
+    "materials": [
+      {
+        "source": "Z:\\workspace\\formatter-investigation\\billie-ycl12-final-r2\\source\\873_Billie_Starkz\\873_Default_Attire\\873_Attire.mtls",
+        "output": "Z:\\workspace\\formatter-investigation\\billie-ycl12-final-r2\\output\\Characters\\873_Billie_Starkz\\873_Default_Attire\\873_Attire.mtls",
+        "notes": [
+          "material case reconciled: hair_ALPHA -> hair_alpha; source textures and shader parameters retained"
+        ],
+        "materials": [
+          {
+            "name": "bra",
+            "shader_2k25": "yCh_gear / Normal",
+            "shader_2k26": "0x15",
+            "variant": null,
+            "hair_type": null,
+            "textures": [
+              "colorMap@ref",
+              "nrMap@ref"
+            ],
+            "moved_links": []
+          },
+          {
+            "name": "bra_base",
+            "shader_2k25": "yCh_gear / Normal",
+            "shader_2k26": "0x15",
+            "variant": null,
+            "hair_type": null,
+            "textures": [
+              "colorMap@ref",
+              "nrMap@ref"
+            ],
+            "moved_links": []
+          },
+          {
+            "name": "bra_x",
+            "shader_2k25": "yCh_gear / Normal",
+            "shader_2k26": "0x15",
+            "variant": null,
+            "hair_type": null,
+            "textures": [
+              "colorMap@ref",
+              "nrMap@ref"
+            ],
+            "moved_links": []
+          },
+          {
+            "name": "circles",
+            "shader_2k25": "yCh_gear / Normal",
+            "shader_2k26": "0x15",
+            "variant": null,
+            "hair_type": null,
+            "textures": [
+              "colorMap@ref",
+              "nrMap@ref"
+            ],
+            "moved_links": []
+          },
+          {
+            "name": "gems",
+            "shader_2k25": "yCh_gear / Normal",
+            "shader_2k26": "0x15",
+            "variant": null,
+            "hair_type": null,
+            "textures": [
+              "colorMap@ref",
+              "nrMap@ref"
+            ],
+            "moved_links": []
+          },
+          {
+            "name": "hair2_ALPHA",
+            "shader_2k25": "yCh_hair / NewHair_ColorChanging",
+            "shader_2k26": "0x16",
+            "variant": null,
+            "hair_type": 1,
+            "textures": [
+              "flowMap@ref",
+              "g_comboMap@ref",
+              "g_mPixMsk@ref"
+            ],
+            "moved_links": []
+          },
+          {
+            "name": "hair3_ALPHA",
+            "shader_2k25": "yCh_hair / NewHair_ColorChanging",
+            "shader_2k26": "0x16",
+            "variant": null,
+            "hair_type": 1,
+            "textures": [
+              "flowMap@ref",
+              "g_comboMap@ref",
+              "g_mPixMsk@ref"
+            ],
+            "moved_links": []
+          },
+          {
+            "name": "hair_alpha",
+            "shader_2k25": "yCh_hair / NewHair_ColorChanging",
+            "shader_2k26": "0x16",
+            "variant": null,
+            "hair_type": 1,
+            "textures": [
+              "flowMap@ref",
+              "g_comboMap@ref",
+              "g_mPixMsk@ref"
+            ],
+            "moved_links": []
+          },
+          {
+            "name": "l_kneepad",
+            "shader_2k25": "yCh_gear / Normal",
+            "shader_2k26": "0x15",
+            "variant": null,
+            "hair_type": null,
+            "textures": [
+              "colorMap@ref",
+              "nrMap@ref"
+            ],
+            "moved_links": []
+          },
+          {
+            "name": "legs_straps",
+            "shader_2k25": "yCh_gear / Normal",
+            "shader_2k26": "0x15",
+            "variant": null,
+            "hair_type": null,
+            "textures": [
+              "colorMap@ref",
+              "nrMap@ref"
+            ],
+            "moved_links": []
+          },
+          {
+            "name": "r_kneepad",
+            "shader_2k25": "yCh_gear / Normal",
+            "shader_2k26": "0x15",
+            "variant": null,
+            "hair_type": null,
+            "textures": [
+              "colorMap@ref",
+              "nrMap@ref"
+            ],
+            "moved_links": []
+          },
+          {
+            "name": "shoes",
+            "shader_2k25": "yCh_gear / Normal",
+            "shader_2k26": "0x15",
+            "variant": null,
+            "hair_type": null,
+            "textures": [
+              "colorMap@ref",
+              "nrMap@ref"
+            ],
+            "moved_links": []
+          },
+          {
+            "name": "underwear",
+            "shader_2k25": "yCh_gear / Normal",
+            "shader_2k26": "0x15",
+            "variant": null,
+            "hair_type": null,
+            "textures": [
+              "colorMap@ref",
+              "nrMap@ref"
+            ],
+            "moved_links": []
+          }
+        ],
+        "status": "converted",
+        "material_format": {
+          "version": "bounded-material-library-format-classification-1",
+          "classification": "supported_inline_v3",
+          "supported": true,
+          "safe_as_native": false,
+          "bytes": 16784,
+          "sha256": "fba5f0a65653a8327f53482ce01e9241db8d477ec90985cfb5c3cca0580ed8ab",
+          "blocks": [
+            {
+              "name": "hair_ALPHA:skinned",
+              "offset": 368,
+              "end": 2428,
+              "bytes": 2060,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_hair",
+              "technique": "NewHair_ColorChanging",
+              "parameter_count": 74,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "shoes:skinned",
+              "offset": 2428,
+              "end": 3440,
+              "bytes": 1012,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_gear",
+              "technique": "Normal",
+              "parameter_count": 33,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "r_kneepad:skinned",
+              "offset": 3440,
+              "end": 4472,
+              "bytes": 1032,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_gear",
+              "technique": "Normal",
+              "parameter_count": 33,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "l_kneepad:skinned",
+              "offset": 4472,
+              "end": 5504,
+              "bytes": 1032,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_gear",
+              "technique": "Normal",
+              "parameter_count": 33,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "bra:skinned",
+              "offset": 5504,
+              "end": 6508,
+              "bytes": 1004,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_gear",
+              "technique": "Normal",
+              "parameter_count": 33,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "legs_straps:skinned",
+              "offset": 6508,
+              "end": 7552,
+              "bytes": 1044,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_gear",
+              "technique": "Normal",
+              "parameter_count": 33,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "underwear:skinned",
+              "offset": 7552,
+              "end": 8584,
+              "bytes": 1032,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_gear",
+              "technique": "Normal",
+              "parameter_count": 33,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "bra_base:skinned",
+              "offset": 8584,
+              "end": 9612,
+              "bytes": 1028,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_gear",
+              "technique": "Normal",
+              "parameter_count": 33,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "bra_x:skinned",
+              "offset": 9612,
+              "end": 10624,
+              "bytes": 1012,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_gear",
+              "technique": "Normal",
+              "parameter_count": 33,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "circles:skinned",
+              "offset": 10624,
+              "end": 11648,
+              "bytes": 1024,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_gear",
+              "technique": "Normal",
+              "parameter_count": 33,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "hair3_ALPHA:skinned",
+              "offset": 11648,
+              "end": 13712,
+              "bytes": 2064,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_hair",
+              "technique": "NewHair_ColorChanging",
+              "parameter_count": 74,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "hair2_ALPHA:skinned",
+              "offset": 13712,
+              "end": 15776,
+              "bytes": 2064,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_hair",
+              "technique": "NewHair_ColorChanging",
+              "parameter_count": 74,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "gems:skinned",
+              "offset": 15776,
+              "end": 16784,
+              "bytes": 1008,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_gear",
+              "technique": "Normal",
+              "parameter_count": 33,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            }
+          ],
+          "observed_block_versions": [
+            3
+          ],
+          "envelope_validated": true,
+          "payload_extents_validated": true,
+          "validation_scope": "format only; shader, texture and in-game validity not established",
+          "library_version": 6,
+          "material_count": 13,
+          "material_names": [
+            "hair_ALPHA:skinned",
+            "shoes:skinned",
+            "r_kneepad:skinned",
+            "l_kneepad:skinned",
+            "bra:skinned",
+            "legs_straps:skinned",
+            "underwear:skinned",
+            "bra_base:skinned",
+            "bra_x:skinned",
+            "circles:skinned",
+            "hair3_ALPHA:skinned",
+            "hair2_ALPHA:skinned",
+            "gems:skinned"
+          ],
+          "material_path_hashes": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "blocks_offset": 368,
+          "reason": "all inline v3 blocks and declared extents validated"
+        },
+        "local_texture_bindings": [],
+        "written_material_payload_audit": [
+          {
+            "name": "bra",
+            "file": "Z:\\workspace\\formatter-investigation\\billie-ycl12-final-r2\\output\\Characters\\873_Billie_Starkz\\873_Default_Attire\\Materials\\bra.jmtl",
+            "shader_byte": 21,
+            "hair_type": null,
+            "texture_references": [
+              {
+                "field": "colorMap@ref",
+                "hash": 308083811200528165
+              },
+              {
+                "field": "nrMap@ref",
+                "hash": 14365923155270849809
+              }
+            ],
+            "texture_schema_supported": true,
+            "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+            "shader_and_texture_values": "preserved; read-only inspection",
+            "state": "payload_inspected",
+            "sha256": "6e12ac19a865e76e625f52cefde9f56d818c2dca42566ebab3ad5b95775af226"
+          },
+          {
+            "name": "bra_base",
+            "file": "Z:\\workspace\\formatter-investigation\\billie-ycl12-final-r2\\output\\Characters\\873_Billie_Starkz\\873_Default_Attire\\Materials\\bra_base.jmtl",
+            "shader_byte": 21,
+            "hair_type": null,
+            "texture_references": [
+              {
+                "field": "colorMap@ref",
+                "hash": 17652082859000671685
+              },
+              {
+                "field": "nrMap@ref",
+                "hash": 10066870073626768305
+              }
+            ],
+            "texture_schema_supported": true,
+            "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+            "shader_and_texture_values": "preserved; read-only inspection",
+            "state": "payload_inspected",
+            "sha256": "8c46b7d4d1c6688fcaf32405f889eb27dec3ef5d5db1385d458272bc1b888ab2"
+          },
+          {
+            "name": "bra_x",
+            "file": "Z:\\workspace\\formatter-investigation\\billie-ycl12-final-r2\\output\\Characters\\873_Billie_Starkz\\873_Default_Attire\\Materials\\bra_x.jmtl",
+            "shader_byte": 21,
+            "hair_type": null,
+            "texture_references": [
+              {
+                "field": "colorMap@ref",
+                "hash": 13838986927687723578
+              },
+              {
+                "field": "nrMap@ref",
+                "hash": 12610314947424180754
+              }
+            ],
+            "texture_schema_supported": true,
+            "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+            "shader_and_texture_values": "preserved; read-only inspection",
+            "state": "payload_inspected",
+            "sha256": "5182cfa65526403469fd95e2a1264773d83a9e5f082eaa2daeb26151438af2dc"
+          },
+          {
+            "name": "circles",
+            "file": "Z:\\workspace\\formatter-investigation\\billie-ycl12-final-r2\\output\\Characters\\873_Billie_Starkz\\873_Default_Attire\\Materials\\circles.jmtl",
+            "shader_byte": 21,
+            "hair_type": null,
+            "texture_references": [
+              {
+                "field": "colorMap@ref",
+                "hash": 2693611077595656063
+              },
+              {
+                "field": "nrMap@ref",
+                "hash": 11385711058326555611
+              }
+            ],
+            "texture_schema_supported": true,
+            "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+            "shader_and_texture_values": "preserved; read-only inspection",
+            "state": "payload_inspected",
+            "sha256": "4b94ad064462c3a23e6947b5356cf8209d8ef36ea7a1e196113bd5c07cb85de8"
+          },
+          {
+            "name": "gems",
+            "file": "Z:\\workspace\\formatter-investigation\\billie-ycl12-final-r2\\output\\Characters\\873_Billie_Starkz\\873_Default_Attire\\Materials\\gems.jmtl",
+            "shader_byte": 21,
+            "hair_type": null,
+            "texture_references": [
+              {
+                "field": "colorMap@ref",
+                "hash": 9805683758998641428
+              },
+              {
+                "field": "nrMap@ref",
+                "hash": 3117071851192966564
+              }
+            ],
+            "texture_schema_supported": true,
+            "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+            "shader_and_texture_values": "preserved; read-only inspection",
+            "state": "payload_inspected",
+            "sha256": "5c257475a4534900d03ab57ccc6bfd1cee27e3058f3040c3e039277bf0038e0c"
+          },
+          {
+            "name": "hair2_ALPHA",
+            "file": "Z:\\workspace\\formatter-investigation\\billie-ycl12-final-r2\\output\\Characters\\873_Billie_Starkz\\873_Default_Attire\\Materials\\hair2_ALPHA.jmtl",
+            "shader_byte": 22,
+            "hair_type": 1,
+            "texture_references": [
+              {
+                "field": "flowMap@ref",
+                "hash": 17203229003057086531
+              },
+              {
+                "field": "g_comboMap@ref",
+                "hash": 12883878050282783215
+              }
+            ],
+            "texture_schema_supported": true,
+            "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+            "shader_and_texture_values": "preserved; read-only inspection",
+            "state": "payload_inspected",
+            "sha256": "9dedf8d228b33de336d73ad4b8b63d140382c61e1ac74df060d00b73dd5d5715"
+          },
+          {
+            "name": "hair3_ALPHA",
+            "file": "Z:\\workspace\\formatter-investigation\\billie-ycl12-final-r2\\output\\Characters\\873_Billie_Starkz\\873_Default_Attire\\Materials\\hair3_ALPHA.jmtl",
+            "shader_byte": 22,
+            "hair_type": 1,
+            "texture_references": [
+              {
+                "field": "flowMap@ref",
+                "hash": 5155631687805459434
+              },
+              {
+                "field": "g_comboMap@ref",
+                "hash": 17729638974898076352
+              }
+            ],
+            "texture_schema_supported": true,
+            "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+            "shader_and_texture_values": "preserved; read-only inspection",
+            "state": "payload_inspected",
+            "sha256": "dc5e7483e69895c66a968350b98e778f53a5ec6e4fc2c8ae0150592fa47b68b0"
+          },
+          {
+            "name": "hair_alpha",
+            "file": "Z:\\workspace\\formatter-investigation\\billie-ycl12-final-r2\\output\\Characters\\873_Billie_Starkz\\873_Default_Attire\\Materials\\hair_alpha.jmtl",
+            "shader_byte": 22,
+            "hair_type": 1,
+            "texture_references": [
+              {
+                "field": "flowMap@ref",
+                "hash": 11546100955208516995
+              },
+              {
+                "field": "g_comboMap@ref",
+                "hash": 883834979938207791
+              }
+            ],
+            "texture_schema_supported": true,
+            "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+            "shader_and_texture_values": "preserved; read-only inspection",
+            "state": "payload_inspected",
+            "sha256": "f31fd47595c87b7eca6b6f3837bfaca70663c3d722da8bf51adef2f953c17765"
+          },
+          {
+            "name": "l_kneepad",
+            "file": "Z:\\workspace\\formatter-investigation\\billie-ycl12-final-r2\\output\\Characters\\873_Billie_Starkz\\873_Default_Attire\\Materials\\l_kneepad.jmtl",
+            "shader_byte": 21,
+            "hair_type": null,
+            "texture_references": [
+              {
+                "field": "colorMap@ref",
+                "hash": 10076859590434785865
+              },
+              {
+                "field": "nrMap@ref",
+                "hash": 3446535610690935405
+              }
+            ],
+            "texture_schema_supported": true,
+            "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+            "shader_and_texture_values": "preserved; read-only inspection",
+            "state": "payload_inspected",
+            "sha256": "32096e3f64d9751a6cca45af1e308b2597b6632edfacf83dcc664558db3d205d"
+          },
+          {
+            "name": "legs_straps",
+            "file": "Z:\\workspace\\formatter-investigation\\billie-ycl12-final-r2\\output\\Characters\\873_Billie_Starkz\\873_Default_Attire\\Materials\\legs_straps.jmtl",
+            "shader_byte": 21,
+            "hair_type": null,
+            "texture_references": [
+              {
+                "field": "colorMap@ref",
+                "hash": 1000501816557120451
+              },
+              {
+                "field": "nrMap@ref",
+                "hash": 12085542792186727703
+              }
+            ],
+            "texture_schema_supported": true,
+            "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+            "shader_and_texture_values": "preserved; read-only inspection",
+            "state": "payload_inspected",
+            "sha256": "8e4c791cecca3c8903630029629083df05f44263d49f60b14118e4ea4426d042"
+          },
+          {
+            "name": "r_kneepad",
+            "file": "Z:\\workspace\\formatter-investigation\\billie-ycl12-final-r2\\output\\Characters\\873_Billie_Starkz\\873_Default_Attire\\Materials\\r_kneepad.jmtl",
+            "shader_byte": 21,
+            "hair_type": null,
+            "texture_references": [
+              {
+                "field": "colorMap@ref",
+                "hash": 14815708233339670691
+              },
+              {
+                "field": "nrMap@ref",
+                "hash": 14895675023419210999
+              }
+            ],
+            "texture_schema_supported": true,
+            "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+            "shader_and_texture_values": "preserved; read-only inspection",
+            "state": "payload_inspected",
+            "sha256": "fb5d6c94e6079b5802de449a69d3ebbb14413e41c0ce39a0fa26b8e2afe21aff"
+          },
+          {
+            "name": "shoes",
+            "file": "Z:\\workspace\\formatter-investigation\\billie-ycl12-final-r2\\output\\Characters\\873_Billie_Starkz\\873_Default_Attire\\Materials\\shoes.jmtl",
+            "shader_byte": 21,
+            "hair_type": null,
+            "texture_references": [
+              {
+                "field": "colorMap@ref",
+                "hash": 7624481480044181114
+              },
+              {
+                "field": "nrMap@ref",
+                "hash": 10911917535914911570
+              }
+            ],
+            "texture_schema_supported": true,
+            "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+            "shader_and_texture_values": "preserved; read-only inspection",
+            "state": "payload_inspected",
+            "sha256": "9a3f8fd97df5d4cdfbf44a7f76485b07007198e563d5a6548c75313107ec86b0"
+          },
+          {
+            "name": "underwear",
+            "file": "Z:\\workspace\\formatter-investigation\\billie-ycl12-final-r2\\output\\Characters\\873_Billie_Starkz\\873_Default_Attire\\Materials\\underwear.jmtl",
+            "shader_byte": 21,
+            "hair_type": null,
+            "texture_references": [
+              {
+                "field": "colorMap@ref",
+                "hash": 3998705468348654655
+              },
+              {
+                "field": "nrMap@ref",
+                "hash": 4480626613762346139
+              }
+            ],
+            "texture_schema_supported": true,
+            "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+            "shader_and_texture_values": "preserved; read-only inspection",
+            "state": "payload_inspected",
+            "sha256": "f3bb269d9e6a10d0c3e4c32621b7715bbcca41135645a340c3a5cf18ffb76007"
+          }
+        ],
+        "material_binding_aliases": [
+          {
+            "source": "hair_ALPHA",
+            "binding": "hair_alpha"
+          }
+        ]
+      }
+    ],
+    "copied": 0,
+    "left_out": [
+      "873_Default_Attire\\873_Attire.hpl (now inside the .mcd)",
+      "873_Default_Attire\\873_Attire.hair_corr_ywa (2K25 physics data)",
+      "873_Default_Attire\\873_Attire.hair_ywa (2K25 physics data)",
+      "873_Default_Attire\\873_Attire.other_corr_ywa (2K25 physics data)",
+      "873_Default_Attire\\873_Attire.other_ywa (2K25 physics data)",
+      "873_Default_Attire\\873_Attire.wdf (2K25 physics data)"
+    ],
+    "problems": [
+      "873_Default_Attire\\873_Attire.ycl: YCL converted; WDF/YWA companion conversion is incomplete (.hair_corr_ywa, .hair_ywa, .other_corr_ywa, .other_ywa, .wdf); hair/cloth motion still requires validation"
+    ],
+    "warnings": [],
+    "blank_physics": [],
+    "physics_converted": [
+      {
+        "file": "873_Default_Attire\\873_Attire.ycl",
+        "source": "Z:\\workspace\\formatter-investigation\\billie-ycl12-final-r2\\source\\873_Billie_Starkz\\873_Default_Attire\\873_Attire.ycl",
+        "how": "converted to the 2K26 format",
+        "source_bytes": 1253728,
+        "output_bytes": 1254192,
+        "source_sha256": "4c24d15c8204c06662b6c85f3ea71d0881789325f92afbcd5e2713fe2c5d5a93",
+        "output_sha256": "b3560ad5cb4450e2fdc54f2c01ff6befcff2679e4ba211f88e646197ea4e2ec9",
+        "source_version": [
+          1,
+          25
+        ],
+        "output_version": 26,
+        "original_gorilla_translator": true,
+        "names_preserved": true,
+        "target_tree_parsed": true,
+        "target_root_node_count": 42,
+        "stable_2k26_roundtrip": null,
+        "roundtrip_method": "not performed by this source-only translator",
+        "source_unchanged": true,
+        "scope": "YCL format translation; companion compatibility and motion unverified"
+      }
+    ],
+    "ycl_editor": null,
+    "engine": "Model engine: WWE2K_MDL add-on, inside this app",
+    "seconds": 9.8,
+    "source_inventory_before_conversion": [
+      {
+        "path": "873_Default_Attire/873_Attire.hair_corr_ywa",
+        "bytes": 432556,
+        "sha256": "595fc1fe8145e8ff1573384bba3103b50a57e69b61fb99ac1d3dbe239b5476a1"
+      },
+      {
+        "path": "873_Default_Attire/873_Attire.hair_ywa",
+        "bytes": 4138388,
+        "sha256": "52f1837a40f62e4bec51102009e981052e831661fcadb62fdb424fd1f2b8a3aa"
+      },
+      {
+        "path": "873_Default_Attire/873_Attire.hpl",
+        "bytes": 169372,
+        "sha256": "35edf64dad7d87bc466f2ddd22056aab780320cf0118acb6a1a421820cc3983a"
+      },
+      {
+        "path": "873_Default_Attire/873_Attire.mcd",
+        "bytes": 7386464,
+        "sha256": "f304899095dbc9a7b9c5a6fae0ad7cce2c84b48f92e445c2a75fc9425756f6b0"
+      },
+      {
+        "path": "873_Default_Attire/873_Attire.mtls",
+        "bytes": 16784,
+        "sha256": "fba5f0a65653a8327f53482ce01e9241db8d477ec90985cfb5c3cca0580ed8ab"
+      },
+      {
+        "path": "873_Default_Attire/873_Attire.other_corr_ywa",
+        "bytes": 200,
+        "sha256": "f9d3d6d148b7902023d29f24fed3d7f94e29c957c61bd1b777dd09028146825f"
+      },
+      {
+        "path": "873_Default_Attire/873_Attire.other_ywa",
+        "bytes": 351112,
+        "sha256": "d272afe67db7c06a34520a1d7a0ed091367486410f5cb4fa6cad90f6106ab503"
+      },
+      {
+        "path": "873_Default_Attire/873_Attire.wdf",
+        "bytes": 12996,
+        "sha256": "e0d6ff5d30aa5d34d2e4b87a3c5360304962ebae5ce015f6e0031f541d6075c3"
+      },
+      {
+        "path": "873_Default_Attire/873_Attire.ycl",
+        "bytes": 1253728,
+        "sha256": "4c24d15c8204c06662b6c85f3ea71d0881789325f92afbcd5e2713fe2c5d5a93"
+      }
+    ],
+    "conversion_completeness": "incomplete",
+    "in_game_validation": "not_performed",
+    "repair_patch": "verified-legacy-rigs-and-all-model-face-checks-12",
+    "native_2k26_models_preserved": 0,
+    "native_2k26_material_libraries_repaired": 0,
+    "native_2k26_patch": "native-2k26-preservation-and-material-links-1",
+    "reference_source_integration": {
+      "weight_checks": "supplied-reference-weight-audit-1",
+      "geometry_backend": "Gorilla native engine with ported reference components; full Blender workflow not invoked",
+      "wwe2k_mdl_source_supplied": true,
+      "ycl_backend": "original Gorilla converter",
+      "full_reference_engine_rebuilt": false
+    },
+    "ycl_repair_patch": "independent-gorilla-ycl-translation-1",
+    "native_2k26_missing_data_check": {
+      "version": "native-2k26-missing-data-audit-1",
+      "models_checked": 0,
+      "repairs_applied": 0,
+      "findings": [],
+      "in_game_validation": "not_performed",
+      "unavailable_data": "reported; never synthesized",
+      "state": "not_applicable_no_native_inputs"
+    },
+    "legacy_2k24_input_route": {
+      "version": "native-2k24-format-route-with-rig-guards-1",
+      "models_attempted": 0,
+      "model_checks_passed": 0,
+      "input_headers_rewritten": false,
+      "in_game_validation": "not_performed",
+      "validation_scope": "native model structural checks; materials, hide masks and physics reported separately"
+    },
+    "face_output_check": {
+      "version": "all-recorded-model-output-face-audit-1",
+      "records_total": 1,
+      "records_audited": 1,
+      "face_models": 0,
+      "not_applicable": 1,
+      "unavailable_or_unreadable": 0,
+      "problems": [],
+      "warnings": [],
+      "in_game_validation": "not_performed",
+      "file_changes": "none",
+      "reference_baseline": {
+        "name": "earlier_supplied_native_2k26_cena_face_schema",
+        "source_model_sha256": "bb0176e86fc2e74cebc61058acac1fa3103c7a859f2e54a2196947fe95ee4a1c",
+        "source_model_version": 47,
+        "observed_anchor_slots": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "observed_eye_material_roles": {
+          "eye_l": "left",
+          "eye_r": "right"
+        },
+        "observed_eye_shape_names": [
+          "PupilContract",
+          "PupilExpand"
+        ],
+        "observed_eye_weight_bones": [
+          "J_Eye_L",
+          "J_Eye_R"
+        ],
+        "known_global_eye_normal_ref": 17274687911970229909,
+        "normal_reference_provenance": "supplied comparison writer and stored native material observations; game asset resolution not verified",
+        "topology_and_anchor_target_policy": "schema observation only; vertex counts, UVs, shapes and anchor mesh names are not copied or required identical",
+        "additional_139_John_Cena_2019_archive": "not inspected for this baseline"
+      },
+      "coverage_scope": "all recorded model outputs; source models absent from report.models are not claimed inspected",
+      "coverage_complete": true,
+      "state": "recorded_output_checks_passed"
+    },
+    "started_at_utc": "2026-10-12T20:15:19.140677+00:00",
+    "finished_at_utc": "2026-10-12T20:15:30.589163+00:00",
+    "status": "completed_with_problems",
+    "report_paths": [
+      "Z:\\workspace\\formatter-investigation\\billie-ycl12-final-r2\\output\\873_Billie_Starkz - conversion report.json",
+      "Z:\\workspace\\formatter-investigation\\billie-ycl12-final-r2\\output\\Characters\\873_Billie_Starkz\\873_Billie_Starkz - conversion report.json"
+    ],
+    "report_path": "Z:\\workspace\\formatter-investigation\\billie-ycl12-final-r2\\output\\873_Billie_Starkz - conversion report.json"
+  },
+  "logs": [
+    "  873_Default_Attire\\873_Attire.mcd: attire, 334 -> 298 bones, female rig, check pass",
+    "  873_Default_Attire\\873_Attire.mtls: 13 materials",
+    "  873_Default_Attire\\873_Attire.ycl: YCL translated by original Gorilla converter; companion physics remains incomplete",
+    "Face checks: 1 recorded outputs audited; 0 contain face meshes; in-game appearance not verified.",
+    "Report saved: Z:\\workspace\\formatter-investigation\\billie-ycl12-final-r2\\output\\873_Billie_Starkz - conversion report.json"
+  ],
+  "target_ycl_sha256": "b3560ad5cb4450e2fdc54f2c01ff6befcff2679e4ba211f88e646197ea4e2ec9",
+  "target_ycl_bytes": 1254192,
+  "matches_previously_reference_validated_ycl": true,
+  "joint_and_mesh_names_preserved": true,
+  "unresolved_attire_mesh_references": [
+    "M_Outfit",
+    "M_Outfit_withBelt",
+    "S_Outfit",
+    "S_Outfit_withBelt"
+  ],
+  "unsupported_companions_not_copied": [
+    ".wdf",
+    ".hair_ywa",
+    ".hair_corr_ywa",
+    ".other_ywa",
+    ".other_corr_ywa"
+  ],
+  "reports_saved_and_equal": {
+    "Z:\\workspace\\formatter-investigation\\billie-ycl12-final-r2\\output\\873_Billie_Starkz - conversion report.json": true,
+    "Z:\\workspace\\formatter-investigation\\billie-ycl12-final-r2\\output\\Characters\\873_Billie_Starkz\\873_Billie_Starkz - conversion report.json": true
+  }
+}

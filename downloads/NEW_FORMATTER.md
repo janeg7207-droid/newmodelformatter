@@ -1,4 +1,4 @@
-# NewModelFormatter 0.11 experimental
+# NewModelFormatter 0.12 experimental
 
 This build repairs named local texture bindings for supported legacy materials,
 preserves explicitly authored teeth irradiance, and automatically restores the
@@ -10,7 +10,7 @@ an in-game check; this is not a confirmed universal eyes/teeth/beard repair.
 
 ## Install
 
-1. Extract `NewModelFormatter_0.11_patch_installer.zip` into a fresh folder.
+1. Extract `NewModelFormatter_0.12_patch_installer.zip` into a fresh folder.
 2. Run `Install.cmd` and select your ORIGINAL Gorilla Model Formatter 1.0 EXE.
 3. Open the created `NewModelFormatter.exe`. Convert into a new empty output
    folder using your usual CakeView workflow.
@@ -18,7 +18,44 @@ an in-game check; this is not a confirmed universal eyes/teeth/beard repair.
 Select the original Gorilla EXE, not an older experimental EXE. No Python or
 Blender is needed to run the tool. The installer refuses existing output files.
 
-## New 0.11 repairs
+## New 0.12 checks
+
+Older partial male rigs can pass the source-rig gate when their complete
+animation core and stock bind pose are recognized. Gorilla already builds the
+175-bone target rig; this extension preserves its bone builder, original
+mapped weights and custom bones. Admission additionally verifies every written
+bone name/order, parent, bind matrix and skin influence, including normalized
+weights attached to the wrong bone. Missing animation joints, malformed rigs,
+unrecognized poses and failed geometry checks stay unsupported. Inspect
+`partial_legacy_rig`. A separately unreadable HPL still leaves the model check
+failed; this is not a mask repair or a general body/cloth clipping guarantee.
+No extra stock-body projection, new physics or altered input/output method is
+introduced for this route. The actual supported sample and regression evidence
+are recorded in the package validation. The actual sample 576 base (130 source
+bones) and attire (97 source bones) each wrote 175 stock bones plus six custom
+bones. The base now passes the original model verifier; the attire keeps its
+unreadable-mask failure. Every skin weight was checked across 35,838 vertices.
+Both MCDs are byte-identical to the prior 0.11 output, proving no additional
+geometry, shape or weight changes from this admission extension.
+
+Every recorded output, including preserved native 2K26 files and failed
+conversion outputs, receives `face_output_audit`. `face_output_check` records
+coverage and distinguishes face models, attire without face meshes and
+unavailable outputs. It reads the actual model domains, UVs, vertex colors,
+normals/tangents, material triangle ranges and shading-anchor references. It
+then resolves MTLS path hashes to actual available JMTLs and texture paths.
+Missing required local links are problems; unavailable external game assets
+remain explicitly unverified. Eye colors may legitimately differ. Teeth using
+custom atlases remain preserved; a comparison-style skin shader is supported
+when its references match an inspected body atlas. No stock UVs, textures or
+anatomical anchor positions are copied over custom models.
+
+The earlier supplied native 2K26 Cena model is a schema reference, not a
+replacement mesh. Its provenance appears in the report. The later
+`139_John_Cena_2019.7z` upload exceeds the transfer limit and was not inspected.
+The audit does not certify brightness, tooth appearance, baking or game lookup.
+
+## Existing 0.11 repairs
 
 The actual formatted-2K25 Bryan archive was supplied and converted with the
 bundled native engine. Its body atlas contains tooth/gum pixels and its UV0
