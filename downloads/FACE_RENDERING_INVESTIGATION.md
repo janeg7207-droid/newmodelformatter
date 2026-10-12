@@ -89,3 +89,27 @@ Inspect the actual material/texture references, channels and model shading
 data before selecting a repair. Check the current game-baked files if the
 converted folder proves valid. Test any supported correction structurally,
 then require an in-game comparison before claiming the appearance is fixed.
+
+## Actual formatted-2K25 Bryan archive and 0.11
+
+The subsequently supplied 20 MiB 159_Bryan_Danielson.7z contains the actual
+formatted model pair, inline v3 material libraries and 23 DDS files. Native
+conversion reproduced the old unresolved named-local hashes. The DDS pixels
+include tooth/gum islands and visible eye whites; tooth UV0 aligns with its
+body atlas, and sampled triangle centroids are not black. Body/head normal
+alpha near zero is expected metallic-channel data, not proof of corruption.
+
+0.11 now binds those uniquely named valid local DDS assets as the supplied
+comparison importer/exporter does, retaining pixels and calculating actual
+output `.tex` path hashes. Globals without authoritative local assets remain.
+The converter's fixed teeth RGB override also erased the original
+1.0/0.75/0.75 source values; these valid per-character values are now preserved.
+Exact native output verified all local eye/body/head/teeth references and the
+reference-writer teeth/mouthbag bytes at RGB255/191/191. UVs, geometry and
+colours remain unchanged. Beard/hair local maps participate when available,
+but no beard appearance repair is confirmed.
+
+These are supported data-conversion corrections. CakeView's baked texture
+lookup, game shader sampling, anatomical shading and the photographed dark
+appearance have not been reproduced in game here. The next evidence is a
+fresh 0.11 bake/check using the complete original formatted source folder.

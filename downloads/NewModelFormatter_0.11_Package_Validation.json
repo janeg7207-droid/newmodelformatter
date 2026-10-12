@@ -1,0 +1,42 @@
+{
+  "installer": {
+    "original_sha256": "ece4729f2ac3fc707c69550d4a79df7866c11a61463d8eb529ae927e04f377f2",
+    "target_sha256": "a01b79b8230eb79a01fe3f326323d22b6eb42b493029543e4a85c56b515ba7a1",
+    "original_bytes": 44019860,
+    "target_bytes": 44207573,
+    "operation_count": 7,
+    "raw_carchive_payloads_reused": 1066,
+    "original_pyz_module_prefix_reused": true,
+    "python_reconstruction_verified": true,
+    "windows_powershell_installer_tested": false,
+    "compressed_patch_bytes": 233223,
+    "zip_crc_verified": true,
+    "zip_bytes": 239691
+  },
+  "source_zip_bytes": 1177717,
+  "source_files": 167,
+  "source_zip_sha256": "272673e33d1472d23328583535cbc8b86823e2a23f6cc69d197bac193dbee9a9",
+  "regression_tests": 196,
+  "native_checks": "Wine/Xvfb; original bundled DLL; exact final EXE byte-identical to tested candidate",
+  "native_validation_files": [
+    "Bryan_Local_Texture_Teeth_And_Mask_Validation_0.11.json",
+    "Material_And_Embedded_Mask_Validation_0.11.json",
+    "Rey_Paired_Gear_Validation_0.11.json",
+    "Billie_YCL_Conversion_Validation_0.11.json",
+    "NewModelFormatter_UI_Validation_0.11.json",
+    "Bryan_Teeth_DDS_UV_Inspection_0.11.json"
+  ],
+  "in_game_tested": false,
+  "bryan_actual_formatted25_archive_inspected": true,
+  "named_local_bindings_verified": 26,
+  "source_teeth_irradiance_preserved": true,
+  "original_supplied_bryan_mask_indices_verified": 4215,
+  "foot_toe_dominant_body_indices_hidden": 2109,
+  "texture_pixels_geometry_and_uvs_preserved": true,
+  "characters_collection_inspected": false,
+  "characters_collection_blocker": "uploaded archive exceeds 32MiB executor transfer limit; complete30Mvolumes needed",
+  "eyes_teeth_beards_and_outfit_appearance_confirmed_fixed": false,
+  "flip_original_mask_still_unavailable": true,
+  "blood_belt_and_complex_physics_gameplay_not_verified": true,
+  "extracted_source_zip_regression_tests": 196
+}

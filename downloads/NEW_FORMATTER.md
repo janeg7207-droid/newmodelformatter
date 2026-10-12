@@ -1,25 +1,73 @@
-# NewModelFormatter 0.10 experimental
+# NewModelFormatter 0.11 experimental
 
-This build rejects unsupported material libraries previously copied with the
-misleading label "already 2K26". It also checks for an intact embedded source
-hide mask when a legacy sidecar cannot be used. It retains DXT1/BC1 alpha
-detection and actual emitted material hashes, including eye/teeth reference
-comparisons. It retains missing-data
-checks and supported recovery for already-ported 2K26 models, and admits
-actual 2K24 model files through the native reader.
-It retains final/error reports and the optional Rey gear weight test.
-Folder input/output, CakeView, the Gorilla-style UI and Gorilla's
-YCL translator remain. Original files are preserved.
+This build repairs named local texture bindings for supported legacy materials,
+preserves explicitly authored teeth irradiance, and automatically restores the
+original supplied Bryan mask for his exact inspected formatted-2K25 pair. This
+covers supported inputs that previously passed through 2K24 -> 2K25 formatting.
+Gorilla-style folder input/output, CakeView, YCL translation, the original UI
+logic and original source files remain preserved. Appearance still requires
+an in-game check; this is not a confirmed universal eyes/teeth/beard repair.
 
 ## Install
 
-1. Extract `NewModelFormatter_0.10_patch_installer.zip` into a fresh folder.
+1. Extract `NewModelFormatter_0.11_patch_installer.zip` into a fresh folder.
 2. Run `Install.cmd` and select your ORIGINAL Gorilla Model Formatter 1.0 EXE.
 3. Open the created `NewModelFormatter.exe`. Convert into a new empty output
    folder using your usual CakeView workflow.
 
 Select the original Gorilla EXE, not an older experimental EXE. No Python or
 Blender is needed to run the tool. The installer refuses existing output files.
+
+## New 0.11 repairs
+
+The actual formatted-2K25 Bryan archive was supplied and converted with the
+bundled native engine. Its body atlas contains tooth/gum pixels and its UV0
+samples those islands correctly. Source/output teeth and eye geometry, remaps,
+UVs and vertex colors remained identical. No UV swap or texture whitening is
+justified by this data.
+
+All named local eye/body/head/teeth/hair/gear texture references retained old
+hashes that differ from the copied destination paths. The comparison formatter
+binds the actual DDS files named by its source materials and then hashes their
+destination `.tex` paths. 0.11 follows that local binding policy when a unique
+valid named DDS exists in the matching source Textures directory. It copies
+unchanged texture bytes and emits the actual destination reference. Global,
+null and unavailable local references are retained. Ambiguous or invalid local
+data produces explicit problems; no guessed substitute texture is made.
+Inspect `local_texture_bindings` and its findings in each material report.
+This proves emitted local bindings, not CakeView bake or in-game resolution.
+
+Gorilla also overwrote Bryan's explicit source teeth irradiance RGB
+`1.0 / 0.75 / 0.75` with `0.0 / 0.7490196 / 0.7490196`. 0.11 retains finite
+explicit source components in the normalized 0..1 range for teeth/mouthbag.
+Missing or unsupported values retain existing defaults. The shader and UVs
+remain the original teeth conversion. This repairs source-value loss without
+claiming that the black rendering cause has been established in game.
+
+The earlier supplied readable Bryan HPL is valid for this exact archive pair:
+native inspection proved original-v40 and formatted-v41 Body/Head positions,
+triangles, remaps and UVs identical. Automatic restoration requires exact
+source base/attire and invalid-sidecar fingerprints, successful converted-base
+verification, unchanged remap topology and every mask ID in the real domain.
+The report uses `supplied_hide_mask_recovery`. Valid sidecars, intentional empty
+masks and readable embedded masks retain priority. No arbitrary mask is created.
+All 4,215 original Body mask IDs are retained for ring/entrance at five output
+LODs, including all 2,109 foot/toe-dominant IDs. Boot coverage still requires
+an in-game movement check. This automatic profile does not apply to unrelated
+Bryan models or Flip; Flip's intact original mask remains unavailable.
+
+Named local hair/beard texture bindings are included in the repair when the
+actual files exist. Shader variants, hair geometry and texture pixels are
+preserved; speckled beard appearance has not been confirmed repaired.
+
+Vynx's actual default Heat Seek uses Blender `DATA_TRANSFER` with
+`POLYINTERP_NEAREST`, matching all bone groups, object transforms, <1% cleanup,
+normalization and reparenting. The comparison formatter prepares a joined stock
+Body+Head donor. The current paired-body Rey projection is a related native
+policy, not the complete Blender workflow. For this Bryan archive the missing
+mask was proven independently of the weights; his shoes originally remained
+unreweighted while body weights changed. A general Heat Seek replacement is
+not claimed or activated from those observations alone.
 
 ## Reports
 
@@ -289,3 +337,36 @@ known-invalid-mask diagnosis without claiming a recovery, and his already
 converted files stayed byte-identical. Rey's original recovery/gear checks,
 Billie's YCL/material output, representative face/BC1 checks and the UI passed.
 Original uploads and isolated source copies remained unchanged.
+
+## 0.11 validation and remaining scope
+
+196 regression tests passed. Exact 0.11 Wine conversion of the untouched
+uploaded Bryan archive passed both native model verifiers. All 26 named local
+texture bindings matched actual copied destination paths; all 23 DDS files
+were byte-identical. Both eye materials bound the supplied eye color and kept
+the reference global normal. Teeth/mouthbag JMTLs exactly matched the supplied
+reference writer with the original RGB irradiance (serialized 255/191/191),
+using the matching body atlas color and normal paths. Eye/teeth/mouthbag
+positions, triangles, remaps, UVs and colors remained equal to the source.
+Automatic supplied-mask recovery retained all flags and 4,215 Body indices at
+five LODs, masking all 2,109 foot/toe-dominant indices. Both final report copies
+matched the returned result. The only Bryan report problem is the explicit
+requirement to check restored-mask coverage in game; both model checks passed.
+
+Original Rey mask/gear behavior, Billie material/YCL behavior, unsupported
+material withholding, embedded-mask recovery, native Flip preservation and
+the CakeView-gated UI passed their native regression checks. The exact final
+EXE matches the tested candidate; binary reconstruction and ZIP integrity are
+checked. Windows PowerShell installation and in-game appearance remain unrun.
+
+This repair covers supported named local texture/lighting loss in formatted
+2K25 inputs, including the supplied 2K24 -> 2K25 -> formatter path. It does not
+certify arbitrary creator models. Different eye textures keep their individual
+bindings; no forced matching iris colour, UV swap or texture repaint is applied.
+Different clothes retain source shaders and valid masks; missing mask coverage,
+unsupported DDS layouts and geometry/weight problems remain explicit limits.
+Flip's missing original mask remains unresolved. The supplied Characters.7z
+collection exceeds the executor's 32 MiB transfer limit; complete 30M volumes
+are needed before its models can be inspected. No result is claimed for those
+unread files. Actual appearance, blood/belt behaviour and complex physics
+still require targeted files and game validation.
