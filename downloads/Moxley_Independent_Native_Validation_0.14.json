@@ -1,0 +1,84 @@
+{
+  "scope": "Independent exact r5 full-folder bytes, authored records, storage and report verification; no repair helper imported",
+  "candidate_sha256": "e144d758ada9a73ab908c09fd8a5b9a4324887dfa3637c9281b1efc8741855a7",
+  "candidate_bytes": 44347818,
+  "target_model_sha256": "1320ed4f6f4f5290117c5ad483aa242dcba0ffab5073b466419cb3fedd5cb936",
+  "target_model_bytes": 15134996,
+  "target_wdf_sha256": "50e52ae05c1ff6fe03203e242d3bbfab18dcf7483bb935004c7936fb24a116f8",
+  "target_wdf_bytes": 836780,
+  "records_per_lod": 4358,
+  "actual_model_lods": 4,
+  "output_wdf_records": 17432,
+  "all_original_complete_envelopes_byte_identical": true,
+  "all_four_actual_model_lod_segments_byte_identical": true,
+  "level_sha256": "aa7653f3947073f2641dd86d7f121cd6681a0db35a2a2c729195ea1d14ec633a",
+  "all_authored_lod0_record_bytes_preserved_per_level": true,
+  "authored_hpl_byte_identical": true,
+  "original_gorilla_target_ycl_sha256": "75c2b41d0c6105651bd5ce8caed5d0e6f6f62537122c56d3e2e7ac7d51462c41",
+  "all_ten_uploaded_and_staged_originals_unchanged": true,
+  "input_checks": [
+    {
+      "file": "BaseModel/baseModel.mcd",
+      "sha256": "b1a52a2f77bf5fc3cbec7e04eba1f83a1cd3c7ecee6740316c55ac04013f343a",
+      "uploaded_and_both_staged_copies_unchanged": true
+    },
+    {
+      "file": "881_Default_Attire/881_Attire.mtls",
+      "sha256": "8a08ea03adcf92ea4cedff83e6dae87a4e1a3a31b76bb4e8fe8212e87be29428",
+      "uploaded_and_both_staged_copies_unchanged": true
+    },
+    {
+      "file": "881_Default_Attire/881_Attire.ycl",
+      "sha256": "463b86a16584681ebf6b069dc9535249d26d26415446d5c5abe280b17b34048d",
+      "uploaded_and_both_staged_copies_unchanged": true
+    },
+    {
+      "file": "881_Default_Attire/881_Attire.hpl",
+      "sha256": "40fa6740b2d45c6d097c8078b4995a690f050b7646d06be50c54b1562163e664",
+      "uploaded_and_both_staged_copies_unchanged": true
+    },
+    {
+      "file": "881_Default_Attire/881_Attire.hair_corr_ywa",
+      "sha256": "b28f787632b381ce9cf90f91aa9b766b8e500bec36e53c4daed6a1db26424f1a",
+      "uploaded_and_both_staged_copies_unchanged": true
+    },
+    {
+      "file": "881_Default_Attire/881_Attire.other_corr_ywa",
+      "sha256": "be1a669bfac306b5812ac1b62974fbfe49a66136b961a8dc374e797147fec329",
+      "uploaded_and_both_staged_copies_unchanged": true
+    },
+    {
+      "file": "881_Default_Attire/881_Attire.hair_ywa",
+      "sha256": "abe7783b77e7c328b62ac6c49728128998544aa7c27f28f62d458736726434d3",
+      "uploaded_and_both_staged_copies_unchanged": true
+    },
+    {
+      "file": "881_Default_Attire/881_Attire.other_ywa",
+      "sha256": "e419544e550eb529cc145c39672b593b645c6f917395152f82dad9c41b35c061",
+      "uploaded_and_both_staged_copies_unchanged": true
+    },
+    {
+      "file": "881_Default_Attire/881_Attire.mcd",
+      "sha256": "b5ecca7b5e15a9820f866e33922d091b3f837e64d873ba9b24bd69925953085a",
+      "uploaded_and_both_staged_copies_unchanged": true
+    },
+    {
+      "file": "881_Default_Attire/881_Attire.wdf",
+      "sha256": "0ede85be46899dfbbae361fa1a2c1c81c972f09d96fd8604a02fad04b965e59b",
+      "uploaded_and_both_staged_copies_unchanged": true
+    }
+  ],
+  "all_model_verifiers_pass": true,
+  "remaining_four_ywa_not_injected_or_copied": true,
+  "all_four_source_ywa_domain_problems_remain_reported": true,
+  "missing_base_materials_remain_reported": true,
+  "embedded_wdf_delivery_hashes_verified": true,
+  "wdf_solver_schema_still_not_audited": true,
+  "reports_saved_and_equal": [
+    "/workspace/formatter-investigation/moxley-folder14-r5/output/881_Jon_Moxley - conversion report.json",
+    "/workspace/formatter-investigation/moxley-folder14-r5/output/Characters/881_Jon_Moxley/881_Jon_Moxley - conversion report.json"
+  ],
+  "conversion_completeness": "incomplete",
+  "in_game_validation": "not_performed",
+  "result": "structural WDF repair verified; complete physics, facial deformation and appearance remain unverified"
+}

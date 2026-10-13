@@ -1,0 +1,981 @@
+{
+  "scope": "Diagnostic writer controls only; no in-game validation, no authored physics compatibility or motion claim",
+  "cases": [
+    {
+      "label": "source25_to25_full_5",
+      "source": "Z:\\workspace\\formatter-investigation\\moxley-physics14-input\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mcd",
+      "target_version_argument": 41,
+      "num_lods_argument": 5,
+      "injected_payload_bytes": 391100,
+      "injected_payload_sha256": "0ede85be46899dfbbae361fa1a2c1c81c972f09d96fd8604a02fad04b965e59b",
+      "accepted_for_release": false,
+      "writer_stats": [
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Hair"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Bottoms"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Boots"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M0009_04_Jon_Moxley"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Combinations"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Hair2"
+        }
+      ],
+      "output": "Z:\\workspace\\formatter-investigation\\physics-native-api14\\controls\\source25_to25_full_5\\881_Attire.mcd",
+      "output_fingerprint": {
+        "bytes": 13827004,
+        "sha256": "f14f22a9713a994cf9eb22cdf0c55002574dcd32d4ca36b719067d9c2c60fd9d"
+      },
+      "wire_substreams": [
+        [
+          "MDL!",
+          13827004,
+          41
+        ]
+      ],
+      "reread_version": 41,
+      "meshes": [
+        {
+          "name": "M_Hair",
+          "vertices": 1060,
+          "triangles": 942
+        },
+        {
+          "name": "M_Bottoms",
+          "vertices": 4079,
+          "triangles": 6962
+        },
+        {
+          "name": "M_Boots",
+          "vertices": 6382,
+          "triangles": 9856
+        },
+        {
+          "name": "M0009_04_Jon_Moxley",
+          "vertices": 3280,
+          "triangles": 5661
+        },
+        {
+          "name": "M_Combinations",
+          "vertices": 4358,
+          "triangles": 3544
+        },
+        {
+          "name": "M_Hair2",
+          "vertices": 10615,
+          "triangles": 9110
+        }
+      ],
+      "lod0_mesh_geometry_preserved": true,
+      "written_wdf_stream_count": 0,
+      "outcome": "dropped",
+      "written_wdf": [],
+      "sibling_files": [
+        {
+          "name": "881_Attire.mcd",
+          "bytes": 13827004,
+          "sha256": "f14f22a9713a994cf9eb22cdf0c55002574dcd32d4ca36b719067d9c2c60fd9d"
+        }
+      ]
+    },
+    {
+      "label": "source25_to26_full_1",
+      "source": "Z:\\workspace\\formatter-investigation\\moxley-physics14-input\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mcd",
+      "target_version_argument": 47,
+      "num_lods_argument": 1,
+      "injected_payload_bytes": 391100,
+      "injected_payload_sha256": "0ede85be46899dfbbae361fa1a2c1c81c972f09d96fd8604a02fad04b965e59b",
+      "accepted_for_release": false,
+      "writer_stats": [
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Hair"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Bottoms"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Boots"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M0009_04_Jon_Moxley"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Combinations"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Hair2"
+        }
+      ],
+      "output": "Z:\\workspace\\formatter-investigation\\physics-native-api14\\controls\\source25_to26_full_1\\881_Attire.mcd",
+      "output_fingerprint": {
+        "bytes": 13646256,
+        "sha256": "6d737dc27773db59dd3b1aadaec496dcf09f66f24c02d1053df3a5bc21fc10aa"
+      },
+      "wire_substreams": [
+        [
+          "MDL!",
+          13436988,
+          47
+        ],
+        [
+          "WDF!",
+          209228,
+          null
+        ]
+      ],
+      "reread_version": 47,
+      "meshes": [
+        {
+          "name": "M_Hair",
+          "vertices": 1060,
+          "triangles": 942
+        },
+        {
+          "name": "M_Bottoms",
+          "vertices": 4079,
+          "triangles": 6962
+        },
+        {
+          "name": "M_Boots",
+          "vertices": 6382,
+          "triangles": 9856
+        },
+        {
+          "name": "M0009_04_Jon_Moxley",
+          "vertices": 3280,
+          "triangles": 5661
+        },
+        {
+          "name": "M_Combinations",
+          "vertices": 4358,
+          "triangles": 3544
+        },
+        {
+          "name": "M_Hair2",
+          "vertices": 10615,
+          "triangles": 9110
+        }
+      ],
+      "lod0_mesh_geometry_preserved": true,
+      "written_wdf_stream_count": 1,
+      "outcome": "rebuilt_or_modified",
+      "written_wdf": [
+        {
+          "path": "Z:\\workspace\\formatter-investigation\\physics-native-api14\\controls\\source25_to26_full_1\\written_wdf_0.wdf",
+          "bytes": 209228,
+          "sha256": "e82cc464416922f8676423d34f84e4b2d764c009bb90c42c0c7a8d7b57491d05",
+          "byte_identical_to_injected": false,
+          "parsed": {
+            "version": 1,
+            "meshes": [
+              {
+                "name": "M_Combinations",
+                "entries": 4358,
+                "records_sha256": "04e8ed684457e69330ac2ad8212c72b06dfce6021af43cf3b28ffd7a3e447473",
+                "first_4358_records_sha256": "04e8ed684457e69330ac2ad8212c72b06dfce6021af43cf3b28ffd7a3e447473"
+              }
+            ],
+            "whole": true
+          }
+        }
+      ],
+      "sibling_files": [
+        {
+          "name": "881_Attire.mcd",
+          "bytes": 13646256,
+          "sha256": "6d737dc27773db59dd3b1aadaec496dcf09f66f24c02d1053df3a5bc21fc10aa"
+        },
+        {
+          "name": "written_wdf_0.wdf",
+          "bytes": 209228,
+          "sha256": "e82cc464416922f8676423d34f84e4b2d764c009bb90c42c0c7a8d7b57491d05"
+        }
+      ]
+    },
+    {
+      "label": "source25_to26_full_5",
+      "source": "Z:\\workspace\\formatter-investigation\\moxley-physics14-input\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mcd",
+      "target_version_argument": 47,
+      "num_lods_argument": 5,
+      "injected_payload_bytes": 391100,
+      "injected_payload_sha256": "0ede85be46899dfbbae361fa1a2c1c81c972f09d96fd8604a02fad04b965e59b",
+      "accepted_for_release": false,
+      "writer_stats": [
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Hair"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Bottoms"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Boots"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M0009_04_Jon_Moxley"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Combinations"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Hair2"
+        }
+      ],
+      "output": "Z:\\workspace\\formatter-investigation\\physics-native-api14\\controls\\source25_to26_full_5\\881_Attire.mcd",
+      "output_fingerprint": {
+        "bytes": 15350240,
+        "sha256": "402712def43ca4e954277b20e7b6b41c59096b262bb78737f183a3269da36e0f"
+      },
+      "wire_substreams": [
+        [
+          "MDL!",
+          14304236,
+          47
+        ],
+        [
+          "WDF!",
+          1045964,
+          null
+        ]
+      ],
+      "reread_version": 47,
+      "meshes": [
+        {
+          "name": "M_Hair",
+          "vertices": 1060,
+          "triangles": 942
+        },
+        {
+          "name": "M_Bottoms",
+          "vertices": 4079,
+          "triangles": 6962
+        },
+        {
+          "name": "M_Boots",
+          "vertices": 6382,
+          "triangles": 9856
+        },
+        {
+          "name": "M0009_04_Jon_Moxley",
+          "vertices": 3280,
+          "triangles": 5661
+        },
+        {
+          "name": "M_Combinations",
+          "vertices": 4358,
+          "triangles": 3544
+        },
+        {
+          "name": "M_Hair2",
+          "vertices": 10615,
+          "triangles": 9110
+        }
+      ],
+      "lod0_mesh_geometry_preserved": true,
+      "written_wdf_stream_count": 1,
+      "outcome": "rebuilt_or_modified",
+      "written_wdf": [
+        {
+          "path": "Z:\\workspace\\formatter-investigation\\physics-native-api14\\controls\\source25_to26_full_5\\written_wdf_0.wdf",
+          "bytes": 1045964,
+          "sha256": "a7bfad1922b0b1c60df279f36a714179db20a19935790385a95ec5b6d95e912d",
+          "byte_identical_to_injected": false,
+          "parsed": {
+            "version": 1,
+            "meshes": [
+              {
+                "name": "M_Combinations",
+                "entries": 21790,
+                "records_sha256": "e515af9978b701d40cc09973ad7664a869163ae673d5582a44d6463d95447e18",
+                "first_4358_records_sha256": "04e8ed684457e69330ac2ad8212c72b06dfce6021af43cf3b28ffd7a3e447473"
+              }
+            ],
+            "whole": true
+          }
+        }
+      ],
+      "sibling_files": [
+        {
+          "name": "881_Attire.mcd",
+          "bytes": 15350240,
+          "sha256": "402712def43ca4e954277b20e7b6b41c59096b262bb78737f183a3269da36e0f"
+        },
+        {
+          "name": "written_wdf_0.wdf",
+          "bytes": 1045964,
+          "sha256": "a7bfad1922b0b1c60df279f36a714179db20a19935790385a95ec5b6d95e912d"
+        }
+      ]
+    },
+    {
+      "label": "target26_to26_full_5",
+      "source": "Z:\\workspace\\formatter-investigation\\moxley-models14\\model-only-target\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mcd",
+      "target_version_argument": 47,
+      "num_lods_argument": 5,
+      "injected_payload_bytes": 391100,
+      "injected_payload_sha256": "0ede85be46899dfbbae361fa1a2c1c81c972f09d96fd8604a02fad04b965e59b",
+      "accepted_for_release": false,
+      "writer_stats": [
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Hair"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Bottoms"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Boots"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M0009_04_Jon_Moxley"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Combinations"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Hair2"
+        }
+      ],
+      "output": "Z:\\workspace\\formatter-investigation\\physics-native-api14\\controls\\target26_to26_full_5\\881_Attire.mcd",
+      "output_fingerprint": {
+        "bytes": 15560992,
+        "sha256": "725ca1790cc12986408461b655d7e64ec7912a2bf6c7aef60c51d2369eb1213d"
+      },
+      "wire_substreams": [
+        [
+          "MDL!",
+          14302244,
+          47
+        ],
+        [
+          "HPL!",
+          212732,
+          null
+        ],
+        [
+          "WDF!",
+          1045964,
+          null
+        ]
+      ],
+      "reread_version": 47,
+      "meshes": [
+        {
+          "name": "M_Hair",
+          "vertices": 1060,
+          "triangles": 942
+        },
+        {
+          "name": "M_Bottoms",
+          "vertices": 4079,
+          "triangles": 6962
+        },
+        {
+          "name": "M_Boots",
+          "vertices": 6382,
+          "triangles": 9856
+        },
+        {
+          "name": "M0009_04_Jon_Moxley",
+          "vertices": 3280,
+          "triangles": 5661
+        },
+        {
+          "name": "M_Combinations",
+          "vertices": 4358,
+          "triangles": 3544
+        },
+        {
+          "name": "M_Hair2",
+          "vertices": 10615,
+          "triangles": 9110
+        }
+      ],
+      "lod0_mesh_geometry_preserved": true,
+      "written_wdf_stream_count": 1,
+      "outcome": "rebuilt_or_modified",
+      "written_wdf": [
+        {
+          "path": "Z:\\workspace\\formatter-investigation\\physics-native-api14\\controls\\target26_to26_full_5\\written_wdf_0.wdf",
+          "bytes": 1045964,
+          "sha256": "a7bfad1922b0b1c60df279f36a714179db20a19935790385a95ec5b6d95e912d",
+          "byte_identical_to_injected": false,
+          "parsed": {
+            "version": 1,
+            "meshes": [
+              {
+                "name": "M_Combinations",
+                "entries": 21790,
+                "records_sha256": "e515af9978b701d40cc09973ad7664a869163ae673d5582a44d6463d95447e18",
+                "first_4358_records_sha256": "04e8ed684457e69330ac2ad8212c72b06dfce6021af43cf3b28ffd7a3e447473"
+              }
+            ],
+            "whole": true
+          }
+        }
+      ],
+      "sibling_files": [
+        {
+          "name": "881_Attire.mcd",
+          "bytes": 15560992,
+          "sha256": "725ca1790cc12986408461b655d7e64ec7912a2bf6c7aef60c51d2369eb1213d"
+        },
+        {
+          "name": "written_wdf_0.wdf",
+          "bytes": 1045964,
+          "sha256": "a7bfad1922b0b1c60df279f36a714179db20a19935790385a95ec5b6d95e912d"
+        }
+      ]
+    },
+    {
+      "label": "source25_to26_lod0_candidate_5",
+      "source": "Z:\\workspace\\formatter-investigation\\moxley-physics14-input\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mcd",
+      "target_version_argument": 47,
+      "num_lods_argument": 5,
+      "injected_payload_bytes": 209228,
+      "injected_payload_sha256": "e82cc464416922f8676423d34f84e4b2d764c009bb90c42c0c7a8d7b57491d05",
+      "accepted_for_release": false,
+      "writer_stats": [
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Hair"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Bottoms"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Boots"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M0009_04_Jon_Moxley"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Combinations"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Hair2"
+        }
+      ],
+      "output": "Z:\\workspace\\formatter-investigation\\physics-native-api14\\controls\\source25_to26_lod0_candidate_5\\881_Attire.mcd",
+      "output_fingerprint": {
+        "bytes": 15350240,
+        "sha256": "402712def43ca4e954277b20e7b6b41c59096b262bb78737f183a3269da36e0f"
+      },
+      "wire_substreams": [
+        [
+          "MDL!",
+          14304236,
+          47
+        ],
+        [
+          "WDF!",
+          1045964,
+          null
+        ]
+      ],
+      "reread_version": 47,
+      "meshes": [
+        {
+          "name": "M_Hair",
+          "vertices": 1060,
+          "triangles": 942
+        },
+        {
+          "name": "M_Bottoms",
+          "vertices": 4079,
+          "triangles": 6962
+        },
+        {
+          "name": "M_Boots",
+          "vertices": 6382,
+          "triangles": 9856
+        },
+        {
+          "name": "M0009_04_Jon_Moxley",
+          "vertices": 3280,
+          "triangles": 5661
+        },
+        {
+          "name": "M_Combinations",
+          "vertices": 4358,
+          "triangles": 3544
+        },
+        {
+          "name": "M_Hair2",
+          "vertices": 10615,
+          "triangles": 9110
+        }
+      ],
+      "lod0_mesh_geometry_preserved": true,
+      "written_wdf_stream_count": 1,
+      "outcome": "rebuilt_or_modified",
+      "written_wdf": [
+        {
+          "path": "Z:\\workspace\\formatter-investigation\\physics-native-api14\\controls\\source25_to26_lod0_candidate_5\\written_wdf_0.wdf",
+          "bytes": 1045964,
+          "sha256": "a7bfad1922b0b1c60df279f36a714179db20a19935790385a95ec5b6d95e912d",
+          "byte_identical_to_injected": false,
+          "parsed": {
+            "version": 1,
+            "meshes": [
+              {
+                "name": "M_Combinations",
+                "entries": 21790,
+                "records_sha256": "e515af9978b701d40cc09973ad7664a869163ae673d5582a44d6463d95447e18",
+                "first_4358_records_sha256": "04e8ed684457e69330ac2ad8212c72b06dfce6021af43cf3b28ffd7a3e447473"
+              }
+            ],
+            "whole": true
+          }
+        }
+      ],
+      "sibling_files": [
+        {
+          "name": "881_Attire.mcd",
+          "bytes": 15350240,
+          "sha256": "402712def43ca4e954277b20e7b6b41c59096b262bb78737f183a3269da36e0f"
+        },
+        {
+          "name": "written_wdf_0.wdf",
+          "bytes": 1045964,
+          "sha256": "a7bfad1922b0b1c60df279f36a714179db20a19935790385a95ec5b6d95e912d"
+        }
+      ]
+    },
+    {
+      "label": "target26_to26_missing_driven_mesh",
+      "source": "Z:\\workspace\\formatter-investigation\\moxley-models14\\model-only-target\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mcd",
+      "target_version_argument": 47,
+      "num_lods_argument": 5,
+      "injected_payload_bytes": 391100,
+      "injected_payload_sha256": "ccb6ff9bf71d1a0f1339c014afca2161d768ea5387a4704640fabc15bb4f06ca",
+      "accepted_for_release": false,
+      "writer_stats": [
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Hair"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Bottoms"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Boots"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M0009_04_Jon_Moxley"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Combinations"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Hair2"
+        }
+      ],
+      "output": "Z:\\workspace\\formatter-investigation\\physics-native-api14\\controls\\target26_to26_missing_driven_mesh\\881_Attire.mcd",
+      "output_fingerprint": {
+        "bytes": 14515016,
+        "sha256": "f7b5a0123c678ba7d94e77b3df11e0daa84ebe6101fd44527fbec7aeb83eb69f"
+      },
+      "wire_substreams": [
+        [
+          "MDL!",
+          14302244,
+          47
+        ],
+        [
+          "HPL!",
+          212732,
+          null
+        ]
+      ],
+      "reread_version": 47,
+      "meshes": [
+        {
+          "name": "M_Hair",
+          "vertices": 1060,
+          "triangles": 942
+        },
+        {
+          "name": "M_Bottoms",
+          "vertices": 4079,
+          "triangles": 6962
+        },
+        {
+          "name": "M_Boots",
+          "vertices": 6382,
+          "triangles": 9856
+        },
+        {
+          "name": "M0009_04_Jon_Moxley",
+          "vertices": 3280,
+          "triangles": 5661
+        },
+        {
+          "name": "M_Combinations",
+          "vertices": 4358,
+          "triangles": 3544
+        },
+        {
+          "name": "M_Hair2",
+          "vertices": 10615,
+          "triangles": 9110
+        }
+      ],
+      "lod0_mesh_geometry_preserved": true,
+      "written_wdf_stream_count": 0,
+      "outcome": "dropped",
+      "written_wdf": [],
+      "sibling_files": [
+        {
+          "name": "881_Attire.mcd",
+          "bytes": 14515016,
+          "sha256": "f7b5a0123c678ba7d94e77b3df11e0daa84ebe6101fd44527fbec7aeb83eb69f"
+        }
+      ]
+    },
+    {
+      "label": "target26_to26_unsupported_version",
+      "source": "Z:\\workspace\\formatter-investigation\\moxley-models14\\model-only-target\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mcd",
+      "target_version_argument": 47,
+      "num_lods_argument": 5,
+      "injected_payload_bytes": 391100,
+      "injected_payload_sha256": "022d6d19a831405cf887d25d9744c97db2dcd1e2aa336812b345d6b90c172afd",
+      "accepted_for_release": false,
+      "writer_stats": [
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Hair"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Bottoms"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Boots"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M0009_04_Jon_Moxley"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Combinations"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Hair2"
+        }
+      ],
+      "output": "Z:\\workspace\\formatter-investigation\\physics-native-api14\\controls\\target26_to26_unsupported_version\\881_Attire.mcd",
+      "output_fingerprint": {
+        "bytes": 14906128,
+        "sha256": "be8643942bc7636390ff2eaa6b740cbb2224532ed42f5df7b60ec9de4d7cffc4"
+      },
+      "wire_substreams": [
+        [
+          "MDL!",
+          14302244,
+          47
+        ],
+        [
+          "HPL!",
+          212732,
+          null
+        ],
+        [
+          "WDF!",
+          391100,
+          null
+        ]
+      ],
+      "reread_version": 47,
+      "meshes": [
+        {
+          "name": "M_Hair",
+          "vertices": 1060,
+          "triangles": 942
+        },
+        {
+          "name": "M_Bottoms",
+          "vertices": 4079,
+          "triangles": 6962
+        },
+        {
+          "name": "M_Boots",
+          "vertices": 6382,
+          "triangles": 9856
+        },
+        {
+          "name": "M0009_04_Jon_Moxley",
+          "vertices": 3280,
+          "triangles": 5661
+        },
+        {
+          "name": "M_Combinations",
+          "vertices": 4358,
+          "triangles": 3544
+        },
+        {
+          "name": "M_Hair2",
+          "vertices": 10615,
+          "triangles": 9110
+        }
+      ],
+      "lod0_mesh_geometry_preserved": true,
+      "written_wdf_stream_count": 1,
+      "outcome": "raw_fallback",
+      "written_wdf": [
+        {
+          "path": "Z:\\workspace\\formatter-investigation\\physics-native-api14\\controls\\target26_to26_unsupported_version\\written_wdf_0.wdf",
+          "bytes": 391100,
+          "sha256": "022d6d19a831405cf887d25d9744c97db2dcd1e2aa336812b345d6b90c172afd",
+          "byte_identical_to_injected": true,
+          "parsed": {
+            "version": 1250,
+            "meshes": [
+              {
+                "name": "M_Combinations",
+                "entries": 8147,
+                "records_sha256": "513aaaf0041b630522bc5f46cb8032a829925244e09ad34763779e97df82928d",
+                "first_4358_records_sha256": "04e8ed684457e69330ac2ad8212c72b06dfce6021af43cf3b28ffd7a3e447473"
+              }
+            ],
+            "whole": true
+          }
+        }
+      ],
+      "sibling_files": [
+        {
+          "name": "881_Attire.mcd",
+          "bytes": 14906128,
+          "sha256": "be8643942bc7636390ff2eaa6b740cbb2224532ed42f5df7b60ec9de4d7cffc4"
+        },
+        {
+          "name": "written_wdf_0.wdf",
+          "bytes": 391100,
+          "sha256": "022d6d19a831405cf887d25d9744c97db2dcd1e2aa336812b345d6b90c172afd"
+        }
+      ]
+    },
+    {
+      "label": "target26_to26_truncated",
+      "source": "Z:\\workspace\\formatter-investigation\\moxley-models14\\model-only-target\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mcd",
+      "target_version_argument": 47,
+      "num_lods_argument": 5,
+      "injected_payload_bytes": 391084,
+      "injected_payload_sha256": "2d36d3f14bcee542a78fb9cacbd455e525d3ec4a30b2fb4346d2ce7a343d5188",
+      "accepted_for_release": false,
+      "writer_stats": [
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Hair"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Bottoms"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Boots"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M0009_04_Jon_Moxley"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Combinations"
+        },
+        {
+          "unweighted": 0,
+          "dropped_groups": [],
+          "mesh": "M_Hair2"
+        }
+      ],
+      "output": "Z:\\workspace\\formatter-investigation\\physics-native-api14\\controls\\target26_to26_truncated\\881_Attire.mcd",
+      "output_fingerprint": {
+        "bytes": 14906112,
+        "sha256": "59cd9d5def2c03fafc264bd718c1ecf775cc3ef01e48b30db1ae85f47ee01830"
+      },
+      "wire_substreams": [
+        [
+          "MDL!",
+          14302244,
+          47
+        ],
+        [
+          "HPL!",
+          212732,
+          null
+        ],
+        [
+          "WDF!",
+          391084,
+          null
+        ]
+      ],
+      "reread_version": 47,
+      "meshes": [
+        {
+          "name": "M_Hair",
+          "vertices": 1060,
+          "triangles": 942
+        },
+        {
+          "name": "M_Bottoms",
+          "vertices": 4079,
+          "triangles": 6962
+        },
+        {
+          "name": "M_Boots",
+          "vertices": 6382,
+          "triangles": 9856
+        },
+        {
+          "name": "M0009_04_Jon_Moxley",
+          "vertices": 3280,
+          "triangles": 5661
+        },
+        {
+          "name": "M_Combinations",
+          "vertices": 4358,
+          "triangles": 3544
+        },
+        {
+          "name": "M_Hair2",
+          "vertices": 10615,
+          "triangles": 9110
+        }
+      ],
+      "lod0_mesh_geometry_preserved": true,
+      "written_wdf_stream_count": 1,
+      "outcome": "raw_fallback",
+      "written_wdf": [
+        {
+          "path": "Z:\\workspace\\formatter-investigation\\physics-native-api14\\controls\\target26_to26_truncated\\written_wdf_0.wdf",
+          "bytes": 391084,
+          "sha256": "2d36d3f14bcee542a78fb9cacbd455e525d3ec4a30b2fb4346d2ce7a343d5188",
+          "byte_identical_to_injected": true,
+          "parse_error": "invalid WDF record extent"
+        }
+      ],
+      "sibling_files": [
+        {
+          "name": "881_Attire.mcd",
+          "bytes": 14906112,
+          "sha256": "59cd9d5def2c03fafc264bd718c1ecf775cc3ef01e48b30db1ae85f47ee01830"
+        },
+        {
+          "name": "written_wdf_0.wdf",
+          "bytes": 391084,
+          "sha256": "2d36d3f14bcee542a78fb9cacbd455e525d3ec4a30b2fb4346d2ce7a343d5188"
+        }
+      ]
+    }
+  ],
+  "source_wdf": {
+    "fingerprint": {
+      "bytes": 391100,
+      "sha256": "0ede85be46899dfbbae361fa1a2c1c81c972f09d96fd8604a02fad04b965e59b"
+    },
+    "version": 1,
+    "meshes": [
+      {
+        "name": "M_Combinations",
+        "entries": 8147,
+        "records_sha256": "513aaaf0041b630522bc5f46cb8032a829925244e09ad34763779e97df82928d",
+        "first_4358_records_sha256": "04e8ed684457e69330ac2ad8212c72b06dfce6021af43cf3b28ffd7a3e447473"
+      }
+    ],
+    "whole": true
+  },
+  "source_inputs_unchanged": true
+}

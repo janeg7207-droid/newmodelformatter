@@ -1,0 +1,17 @@
+{
+  "title": "NewModelFormatter \u2014 experimental",
+  "root_geometry": "880x800+0+0",
+  "default_gear_profile": false,
+  "gear_check_visible": true,
+  "report_button_visible": true,
+  "report_button_initial_state": "disabled",
+  "cakeview_unlock_required": true,
+  "cakeview_unlocked": false,
+  "source_prefill": "Z:\\workspace\\formatter-investigation\\rey-model-source",
+  "logo_label_text": "NEW",
+  "logo_label_image": "",
+  "scope": "Wine/Xvfb original-entrypoint UI smoke; not native Windows or game",
+  "actual_tested_candidate_sha256": "e144d758ada9a73ab908c09fd8a5b9a4324887dfa3637c9281b1efc8741855a7",
+  "entrypoint_substitution_only": true,
+  "all_other_candidate_payloads_identical": true
+}

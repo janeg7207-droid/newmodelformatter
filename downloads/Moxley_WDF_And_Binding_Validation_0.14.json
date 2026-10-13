@@ -1,0 +1,3352 @@
+{
+  "scope": "actual Moxley originals, exact candidate native folder conversion, WDF structural and exposed-binding checks; BaseModel MTLS/textures unavailable; no in-game test",
+  "originals_unchanged": true,
+  "staged_source_unchanged": true,
+  "report": {
+    "source": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\source\\881_Jon_Moxley",
+    "output": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley",
+    "game_path": "Characters/881_Jon_Moxley",
+    "models": [
+      {
+        "source": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\source\\881_Jon_Moxley\\BaseModel\\baseModel.mcd",
+        "output": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\BaseModel\\baseModel.mcd",
+        "source_version": "0x29",
+        "notes": [
+          "M_EYE split into eye_r (552 tris) and eye_l (552 tris)",
+          "skeleton: 2K26 male rig (138 bones on the stock pose, 2 moved to their 2K26 stock pose, 26 new)",
+          "2671 vertices used the old muscle bones and were re-weighted",
+          "M_Body had no vertex colour: stock 2K26 colours filled in",
+          "13 eye/mouth shading anchors placed (0 by texture position, furthest 4.29 cm from its stock spot)"
+        ],
+        "kind": "base model",
+        "dropped_meshes": [],
+        "rig": "2K25",
+        "bones": "209 -> 175",
+        "skeleton": "male",
+        "reference_body": "male",
+        "bone_report": {
+          "variant": "male",
+          "stock_pose": 138,
+          "moved_to_2k26_pose": [
+            "H_Ebw_Out_L",
+            "H_Ebw_Out_R"
+          ],
+          "own_pose": [],
+          "new": 26
+        },
+        "weights": [
+          {
+            "mesh": "M_Tongue",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_Teeth",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_MouthBag",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_transB_eyelash",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_Body",
+            "old_groups": 16,
+            "verts_changed": 2549,
+            "kept_own_part": 0,
+            "max_distance_to_stock_skin": 2.36
+          },
+          {
+            "mesh": "M_EYE",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_Head",
+            "old_groups": 8,
+            "verts_changed": 122,
+            "kept_own_part": 0,
+            "max_distance_to_stock_skin": 1.95
+          }
+        ],
+        "attach_points_dropped": 0,
+        "mask_limits": {
+          "M_Tongue": 341,
+          "M_Teeth": 4700,
+          "M_MouthBag": 352,
+          "M_transB_eyelash": 458,
+          "M_Body": 12727,
+          "M_EYE": 578,
+          "M_Head": 4382
+        },
+        "meshes": [
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Tongue"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Teeth"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_MouthBag"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_transB_eyelash"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Body"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_EYE"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Head"
+          }
+        ],
+        "status": "converted",
+        "mesh_vertex_counts": {
+          "M_Tongue": 341,
+          "M_Teeth": 4700,
+          "M_MouthBag": 352,
+          "M_transB_eyelash": 458,
+          "M_Body": 12727,
+          "M_EYE": 578,
+          "M_Head": 4382
+        },
+        "verify": "pass",
+        "problems": [],
+        "facts": {
+          "bones": 175,
+          "substreams": [
+            "CTG!",
+            "MDL!",
+            "HPL!"
+          ],
+          "anchors": 13,
+          "M_Tongue": {
+            "verts": 341,
+            "reweighted": 0
+          },
+          "M_Teeth": {
+            "verts": 4700,
+            "reweighted": 0
+          },
+          "M_MouthBag": {
+            "verts": 352,
+            "reweighted": 0
+          },
+          "M_transB_eyelash": {
+            "verts": 458,
+            "reweighted": 0
+          },
+          "M_Body": {
+            "verts": 12727,
+            "reweighted": 2549
+          },
+          "M_EYE": {
+            "verts": 578,
+            "reweighted": 0
+          },
+          "M_Head": {
+            "verts": 4382,
+            "reweighted": 122
+          },
+          "hide_mask": "none"
+        },
+        "reference_weight_audit": {
+          "version": "supplied-reference-weight-audit-1",
+          "scope": "read_only_weight_data_checks; anatomical correctness unverified",
+          "bone_deform_flags": "not_in_native_records; reference driver-name rules only",
+          "meshes": [
+            {
+              "mesh": "M_Tongue",
+              "vertices": 341,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Teeth",
+              "vertices": 4700,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_MouthBag",
+              "vertices": 352,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_transB_eyelash",
+              "vertices": 458,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Body",
+              "vertices": 12727,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_EYE",
+              "vertices": 578,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Head",
+              "vertices": 4382,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            }
+          ],
+          "suspicious_vertices": 0
+        },
+        "face_output_audit": {
+          "version": "all-recorded-model-output-face-audit-1",
+          "output": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\BaseModel\\baseModel.mcd",
+          "problems": [
+            "face material link table is unavailable or not a supported native layout"
+          ],
+          "warnings": [],
+          "file_changes": "none; read-only audit",
+          "reference_scope": "supplied native 2K26 face schema and writer references; identical topology or appearance is not required",
+          "reference_baseline_name": "earlier_supplied_native_2k26_cena_face_schema",
+          "in_game_validation": "not_performed",
+          "original_model_verify": "pass",
+          "output_sha256": "8f0f50818d0ed160fcbb059b242299e835a3cdc86a9734f1525392eec07f3dec",
+          "output_version": 47,
+          "applicability": "face_meshes_present",
+          "meshes": [
+            {
+              "mesh": "M_Tongue",
+              "kind": "mouthbag",
+              "vertices": 341,
+              "problems": [],
+              "warnings": [],
+              "scene_flag": 128,
+              "motion_flag": -1,
+              "game_flag_policy": "observed; no shader or motion flags are forced",
+              "triangles": 584,
+              "uv_channels": [
+                {
+                  "channel": 0,
+                  "shape": [
+                    341,
+                    2
+                  ],
+                  "state": "finite",
+                  "minimum": [
+                    0.800468385219574,
+                    0.016865253448486328
+                  ],
+                  "maximum": [
+                    0.9816960692405701,
+                    0.635215163230896
+                  ]
+                }
+              ],
+              "normals": {
+                "shape": [
+                  341,
+                  3
+                ],
+                "finite": true
+              },
+              "tangents": {
+                "shape": [
+                  341,
+                  4
+                ],
+                "finite": true
+              },
+              "color_channels": [],
+              "face_groups": [
+                {
+                  "material": "mouthbag",
+                  "first_triangle": 0,
+                  "triangle_count": 584
+                }
+              ]
+            },
+            {
+              "mesh": "M_Teeth",
+              "kind": "teeth",
+              "vertices": 4700,
+              "problems": [],
+              "warnings": [],
+              "scene_flag": 128,
+              "motion_flag": -1,
+              "game_flag_policy": "observed; no shader or motion flags are forced",
+              "triangles": 7898,
+              "uv_channels": [
+                {
+                  "channel": 0,
+                  "shape": [
+                    4700,
+                    2
+                  ],
+                  "state": "finite",
+                  "minimum": [
+                    0.0052472976967692375,
+                    0.008594930171966553
+                  ],
+                  "maximum": [
+                    0.9935460090637207,
+                    0.9957849979400635
+                  ]
+                }
+              ],
+              "normals": {
+                "shape": [
+                  4700,
+                  3
+                ],
+                "finite": true
+              },
+              "tangents": {
+                "shape": [
+                  4700,
+                  4
+                ],
+                "finite": true
+              },
+              "color_channels": [
+                {
+                  "channel": 0,
+                  "shape": [
+                    4700,
+                    4
+                  ],
+                  "state": "finite",
+                  "minimum": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "maximum": [
+                    0.9999999403953552,
+                    0.9999999403953552,
+                    0.9999999403953552,
+                    1.0
+                  ]
+                }
+              ],
+              "face_groups": [
+                {
+                  "material": "teeth",
+                  "first_triangle": 0,
+                  "triangle_count": 7898
+                }
+              ]
+            },
+            {
+              "mesh": "M_MouthBag",
+              "kind": "mouthbag",
+              "vertices": 352,
+              "problems": [],
+              "warnings": [],
+              "scene_flag": 128,
+              "motion_flag": -1,
+              "game_flag_policy": "observed; no shader or motion flags are forced",
+              "triangles": 614,
+              "uv_channels": [
+                {
+                  "channel": 0,
+                  "shape": [
+                    352,
+                    2
+                  ],
+                  "state": "finite",
+                  "minimum": [
+                    0.3877669870853424,
+                    0.28842711448669434
+                  ],
+                  "maximum": [
+                    0.7522247433662415,
+                    0.6439844369888306
+                  ]
+                }
+              ],
+              "normals": {
+                "shape": [
+                  352,
+                  3
+                ],
+                "finite": true
+              },
+              "tangents": {
+                "shape": [
+                  352,
+                  4
+                ],
+                "finite": true
+              },
+              "color_channels": [],
+              "face_groups": [
+                {
+                  "material": "mouthbag",
+                  "first_triangle": 0,
+                  "triangle_count": 614
+                }
+              ]
+            },
+            {
+              "mesh": "M_EYE",
+              "kind": "eye",
+              "vertices": 578,
+              "problems": [],
+              "warnings": [],
+              "scene_flag": 128,
+              "motion_flag": -1,
+              "game_flag_policy": "observed; no shader or motion flags are forced",
+              "triangles": 1104,
+              "uv_channels": [
+                {
+                  "channel": 0,
+                  "shape": [
+                    578,
+                    2
+                  ],
+                  "state": "finite",
+                  "minimum": [
+                    0.07322049885988235,
+                    0.0732564926147461
+                  ],
+                  "maximum": [
+                    0.9277874231338501,
+                    0.9221752285957336
+                  ]
+                }
+              ],
+              "normals": {
+                "shape": [
+                  578,
+                  3
+                ],
+                "finite": true
+              },
+              "tangents": {
+                "shape": [
+                  578,
+                  4
+                ],
+                "finite": true
+              },
+              "color_channels": [
+                {
+                  "channel": 0,
+                  "shape": [
+                    578,
+                    4
+                  ],
+                  "state": "finite",
+                  "minimum": [
+                    0.9999999403953552,
+                    0.9999999403953552,
+                    0.9999999403953552,
+                    1.0
+                  ],
+                  "maximum": [
+                    0.9999999403953552,
+                    0.9999999403953552,
+                    0.9999999403953552,
+                    1.0
+                  ]
+                }
+              ],
+              "face_groups": [
+                {
+                  "material": "eye_r",
+                  "first_triangle": 0,
+                  "triangle_count": 552
+                },
+                {
+                  "material": "eye_l",
+                  "first_triangle": 552,
+                  "triangle_count": 552
+                }
+              ]
+            }
+          ],
+          "materials": [],
+          "anchors": {
+            "records": [
+              {
+                "name": "_ag_0001",
+                "mesh": "M_Teeth",
+                "slot": 1,
+                "vertex": 3167
+              },
+              {
+                "name": "_ag_0003",
+                "mesh": "M_Head",
+                "slot": 3,
+                "vertex": 1739
+              },
+              {
+                "name": "_ag_0000",
+                "mesh": "M_Teeth",
+                "slot": 0,
+                "vertex": 3166
+              },
+              {
+                "name": "_ag_0002",
+                "mesh": "M_Head",
+                "slot": 2,
+                "vertex": 2641
+              },
+              {
+                "name": "_ag_0004",
+                "mesh": "M_Teeth",
+                "slot": 4,
+                "vertex": 1432
+              },
+              {
+                "name": "_ag_0005",
+                "mesh": "M_Head",
+                "slot": 5,
+                "vertex": 4026
+              },
+              {
+                "name": "_ag_0006",
+                "mesh": "M_Head",
+                "slot": 6,
+                "vertex": 4014
+              },
+              {
+                "name": "_ag_0007",
+                "mesh": "M_Head",
+                "slot": 7,
+                "vertex": 4001
+              },
+              {
+                "name": "_ag_0008",
+                "mesh": "M_Head",
+                "slot": 8,
+                "vertex": 4021
+              },
+              {
+                "name": "_ag_0009",
+                "mesh": "M_Head",
+                "slot": 9,
+                "vertex": 4234
+              },
+              {
+                "name": "_ag_0010",
+                "mesh": "M_Head",
+                "slot": 10,
+                "vertex": 4153
+              },
+              {
+                "name": "_ag_0011",
+                "mesh": "M_Head",
+                "slot": 11,
+                "vertex": 4153
+              },
+              {
+                "name": "_ag_0012",
+                "mesh": "M_Head",
+                "slot": 12,
+                "vertex": 4162
+              }
+            ],
+            "problems": [],
+            "warnings": [],
+            "scope": "mesh/string/index validity; anatomical placement unverified",
+            "count": 13
+          },
+          "material_library": {
+            "file": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\BaseModel\\baseModel.mtls",
+            "state": "unavailable_or_unsupported",
+            "reason": "[Errno 2] No such file or directory: 'Z:\\\\workspace\\\\formatter-investigation\\\\moxley-folder14-r5\\\\output\\\\Characters\\\\881_Jon_Moxley\\\\BaseModel\\\\baseModel.mtls'"
+          },
+          "state": "requires_attention"
+        }
+      },
+      {
+        "source": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\source\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mcd",
+        "output": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mcd",
+        "source_version": "0x29",
+        "notes": [
+          "skeleton: 2K26 large rig (140 bones on the stock pose, 2 moved to their 2K26 stock pose, 24 new)",
+          "1983 vertices used the old muscle bones and were re-weighted",
+          "hide mask carried over from 881_Attire.hpl (ring: M_Body 5310; entrance: M_Body 5310)"
+        ],
+        "kind": "attire",
+        "dropped_meshes": [],
+        "rig": "2K25",
+        "bones": "292 -> 256",
+        "skeleton": "large",
+        "reference_body": "large",
+        "bone_report": {
+          "variant": "large",
+          "stock_pose": 140,
+          "moved_to_2k26_pose": [
+            "H_Ebw_Out_L",
+            "H_Ebw_Out_R"
+          ],
+          "own_pose": [],
+          "new": 24
+        },
+        "weights": [
+          {
+            "mesh": "M_Hair",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_Bottoms",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_Boots",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M0009_04_Jon_Moxley",
+            "old_groups": 16,
+            "verts_changed": 1983,
+            "kept_own_part": 0,
+            "max_distance_to_stock_skin": 8.5
+          },
+          {
+            "mesh": "M_Combinations",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_Hair2",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          }
+        ],
+        "attach_points_dropped": 0,
+        "mask_limits": {
+          "M_Hair": 1060,
+          "M_Bottoms": 4079,
+          "M_Boots": 6382,
+          "M0009_04_Jon_Moxley": 3280,
+          "M_Combinations": 4358,
+          "M_Hair2": 10615
+        },
+        "meshes": [
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Hair"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Bottoms"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Boots"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M0009_04_Jon_Moxley"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Combinations"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Hair2"
+          }
+        ],
+        "status": "converted",
+        "mesh_vertex_counts": {
+          "M_Hair": 1060,
+          "M_Bottoms": 4079,
+          "M_Boots": 6382,
+          "M0009_04_Jon_Moxley": 3280,
+          "M_Combinations": 4358,
+          "M_Hair2": 10615
+        },
+        "verify": "pass",
+        "problems": [],
+        "facts": {
+          "bones": 256,
+          "substreams": [
+            "MDL!",
+            "HPL!",
+            "WDF!"
+          ],
+          "anchors": 0,
+          "M_Hair": {
+            "verts": 1060,
+            "reweighted": 0
+          },
+          "M_Bottoms": {
+            "verts": 4079,
+            "reweighted": 0
+          },
+          "M_Boots": {
+            "verts": 6382,
+            "reweighted": 0
+          },
+          "M0009_04_Jon_Moxley": {
+            "verts": 3280,
+            "reweighted": 1983
+          },
+          "M_Combinations": {
+            "verts": 4358,
+            "reweighted": 0
+          },
+          "M_Hair2": {
+            "verts": 10615,
+            "reweighted": 0
+          },
+          "hide_mask": "mask",
+          "attire_mesh_matching": {
+            "patch": "identity-paired-attire-original-verifier-1",
+            "scope": "explicit attire filename; original geometry candidates",
+            "source_records": 6,
+            "matching_calls": 6,
+            "consumed_output_records": 6,
+            "weights_used_for_selection": false,
+            "records": [
+              {
+                "source_index": 0,
+                "source_name": "M_Hair",
+                "geometry_candidates": 1,
+                "selected_name": "M_Hair",
+                "selection_rule": "unique_expected_name"
+              },
+              {
+                "source_index": 1,
+                "source_name": "M_Bottoms",
+                "geometry_candidates": 1,
+                "selected_name": "M_Bottoms",
+                "selection_rule": "unique_expected_name"
+              },
+              {
+                "source_index": 2,
+                "source_name": "M_Boots",
+                "geometry_candidates": 1,
+                "selected_name": "M_Boots",
+                "selection_rule": "unique_expected_name"
+              },
+              {
+                "source_index": 3,
+                "source_name": "M0009_04_Jon_Moxley",
+                "geometry_candidates": 1,
+                "selected_name": "M0009_04_Jon_Moxley",
+                "selection_rule": "unique_expected_name"
+              },
+              {
+                "source_index": 4,
+                "source_name": "M_Combinations",
+                "geometry_candidates": 1,
+                "selected_name": "M_Combinations",
+                "selection_rule": "unique_expected_name"
+              },
+              {
+                "source_index": 5,
+                "source_name": "M_Hair2",
+                "geometry_candidates": 1,
+                "selected_name": "M_Hair2",
+                "selection_rule": "unique_expected_name"
+              }
+            ],
+            "problems": []
+          },
+          "output_sha256_before_wdf_layout_repair": "a8f71547f04f69cc7b347a00f5dd9109bd5e09fbb1caeb03d585d426d619a2b6",
+          "output_sha256": "1320ed4f6f4f5290117c5ad483aa242dcba0ffab5073b466419cb3fedd5cb936",
+          "byte_identical": false,
+          "model_payload_and_hpl_preserved_by_wdf_layout_repair": true,
+          "wdf_layout_repair": {
+            "source": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\source\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mcd",
+            "output": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mcd",
+            "state": "authored_wdf_clone_lod_layout_restored",
+            "file_changes": "one rebuilt WDF envelope added; all original envelopes retained",
+            "version": "exact-moxley-authored-wdf-clone-lod-layout-1",
+            "profile": "supplied Jon Moxley AEW Debut",
+            "source_wdf_sha256": "0ede85be46899dfbbae361fa1a2c1c81c972f09d96fd8604a02fad04b965e59b",
+            "source_model_sha256": "b5ecca7b5e15a9820f866e33922d091b3f837e64d873ba9b24bd69925953085a",
+            "output_model_sha256_before": "a8f71547f04f69cc7b347a00f5dd9109bd5e09fbb1caeb03d585d426d619a2b6",
+            "output_model_sha256": "1320ed4f6f4f5290117c5ad483aa242dcba0ffab5073b466419cb3fedd5cb936",
+            "output_wdf_sha256": "50e52ae05c1ff6fe03203e242d3bbfab18dcf7483bb935004c7936fb24a116f8",
+            "authored_lod0_records_sha256": "04e8ed684457e69330ac2ad8212c72b06dfce6021af43cf3b28ffd7a3e447473",
+            "source_records": 8147,
+            "records_per_lod": 4358,
+            "target_model_lods": 4,
+            "output_records": 17432,
+            "all_target_lod_geometry_bytes_identical": true,
+            "all_authored_lod0_record_bytes_preserved": true,
+            "paired_head_geometry_topology_and_remap_correspondence": "exact byte profiles backed by actual native source/target array comparison",
+            "model_hpl_and_all_other_substreams_byte_identical": true,
+            "native_writer_control": "bounded v47 serializer WDF rebuild; one/five level controls match these authored records",
+            "ycl_and_four_ywa_files_changed": false,
+            "synthetic_binding_records_created": false,
+            "compatibility_scope": "WDF clone-LOD layout only; authored binding semantics and in-game facial deformation unverified",
+            "in_game_validation": "not_performed",
+            "source_files_unchanged": true,
+            "native_reader_passed": true
+          }
+        },
+        "reference_weight_audit": {
+          "version": "supplied-reference-weight-audit-1",
+          "scope": "read_only_weight_data_checks; anatomical correctness unverified",
+          "bone_deform_flags": "not_in_native_records; reference driver-name rules only",
+          "meshes": [
+            {
+              "mesh": "M_Hair",
+              "vertices": 1060,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Bottoms",
+              "vertices": 4079,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Boots",
+              "vertices": 6382,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M0009_04_Jon_Moxley",
+              "vertices": 3280,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Combinations",
+              "vertices": 4358,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Hair2",
+              "vertices": 10615,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            }
+          ],
+          "suspicious_vertices": 0
+        },
+        "wdf_layout_repair": {
+          "source": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\source\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mcd",
+          "output": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mcd",
+          "state": "authored_wdf_clone_lod_layout_restored",
+          "file_changes": "one rebuilt WDF envelope added; all original envelopes retained",
+          "version": "exact-moxley-authored-wdf-clone-lod-layout-1",
+          "profile": "supplied Jon Moxley AEW Debut",
+          "source_wdf_sha256": "0ede85be46899dfbbae361fa1a2c1c81c972f09d96fd8604a02fad04b965e59b",
+          "source_model_sha256": "b5ecca7b5e15a9820f866e33922d091b3f837e64d873ba9b24bd69925953085a",
+          "output_model_sha256_before": "a8f71547f04f69cc7b347a00f5dd9109bd5e09fbb1caeb03d585d426d619a2b6",
+          "output_model_sha256": "1320ed4f6f4f5290117c5ad483aa242dcba0ffab5073b466419cb3fedd5cb936",
+          "output_wdf_sha256": "50e52ae05c1ff6fe03203e242d3bbfab18dcf7483bb935004c7936fb24a116f8",
+          "authored_lod0_records_sha256": "04e8ed684457e69330ac2ad8212c72b06dfce6021af43cf3b28ffd7a3e447473",
+          "source_records": 8147,
+          "records_per_lod": 4358,
+          "target_model_lods": 4,
+          "output_records": 17432,
+          "all_target_lod_geometry_bytes_identical": true,
+          "all_authored_lod0_record_bytes_preserved": true,
+          "paired_head_geometry_topology_and_remap_correspondence": "exact byte profiles backed by actual native source/target array comparison",
+          "model_hpl_and_all_other_substreams_byte_identical": true,
+          "native_writer_control": "bounded v47 serializer WDF rebuild; one/five level controls match these authored records",
+          "ycl_and_four_ywa_files_changed": false,
+          "synthetic_binding_records_created": false,
+          "compatibility_scope": "WDF clone-LOD layout only; authored binding semantics and in-game facial deformation unverified",
+          "in_game_validation": "not_performed",
+          "source_files_unchanged": true,
+          "native_reader_passed": true
+        },
+        "face_output_audit": {
+          "version": "all-recorded-model-output-face-audit-1",
+          "output": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mcd",
+          "problems": [],
+          "warnings": [],
+          "file_changes": "none; read-only audit",
+          "reference_scope": "supplied native 2K26 face schema and writer references; identical topology or appearance is not required",
+          "reference_baseline_name": "earlier_supplied_native_2k26_cena_face_schema",
+          "in_game_validation": "not_performed",
+          "original_model_verify": "pass",
+          "output_sha256": "1320ed4f6f4f5290117c5ad483aa242dcba0ffab5073b466419cb3fedd5cb936",
+          "output_version": 47,
+          "state": "not_applicable",
+          "applicability": "no_eye_teeth_or_mouthbag_meshes"
+        }
+      }
+    ],
+    "materials": [
+      {
+        "source": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\source\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mtls",
+        "output": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mtls",
+        "notes": [
+          "jacket: 2K25 see-through shader and the colour texture could not be checked for transparency: written as see-through gear - check how it looks"
+        ],
+        "materials": [
+          {
+            "name": "bottoms",
+            "shader_2k25": "yCh_gear / Normal",
+            "shader_2k26": "0x15",
+            "variant": null,
+            "hair_type": null,
+            "textures": [
+              "colorMap@ref",
+              "nrMap@ref"
+            ],
+            "moved_links": []
+          },
+          {
+            "name": "combinations_ALPHA",
+            "shader_2k25": "yCh_hair / NewHair_ColorChanging",
+            "shader_2k26": "0x16",
+            "variant": null,
+            "hair_type": 1,
+            "textures": [
+              "flowMap@ref",
+              "g_comboMap@ref",
+              "g_mPixMsk@ref"
+            ],
+            "moved_links": []
+          },
+          {
+            "name": "hair2_ALPHA",
+            "shader_2k25": "yCh_hair / NewHair_ColorChanging",
+            "shader_2k26": "0x16",
+            "variant": null,
+            "hair_type": 1,
+            "textures": [
+              "flowMap@ref",
+              "g_comboMap@ref",
+              "g_mPixMsk@ref"
+            ],
+            "moved_links": []
+          },
+          {
+            "name": "hair_ALPHA",
+            "shader_2k25": "yCh_hair / NewHair_ColorChanging",
+            "shader_2k26": "0x16",
+            "variant": null,
+            "hair_type": 1,
+            "textures": [
+              "flowMap@ref",
+              "g_comboMap@ref",
+              "g_mPixMsk@ref"
+            ],
+            "moved_links": []
+          },
+          {
+            "name": "jacket",
+            "shader_2k25": "yCh_trans / Normal",
+            "shader_2k26": "0x15",
+            "variant": 2,
+            "hair_type": null,
+            "textures": [
+              "colorMap@ref",
+              "nrMap@ref"
+            ],
+            "moved_links": []
+          },
+          {
+            "name": "shoes",
+            "shader_2k25": "yCh_gear / Normal",
+            "shader_2k26": "0x15",
+            "variant": null,
+            "hair_type": null,
+            "textures": [
+              "colorMap@ref",
+              "nrMap@ref"
+            ],
+            "moved_links": []
+          }
+        ],
+        "status": "converted",
+        "material_format": {
+          "version": "bounded-material-library-format-classification-1",
+          "classification": "supported_inline_v3",
+          "supported": true,
+          "safe_as_native": false,
+          "bytes": 8620,
+          "sha256": "8a08ea03adcf92ea4cedff83e6dae87a4e1a3a31b76bb4e8fe8212e87be29428",
+          "blocks": [
+            {
+              "name": "bottoms",
+              "offset": 140,
+              "end": 1160,
+              "bytes": 1020,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_gear",
+              "technique": "Normal",
+              "parameter_count": 33,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "combinations_ALPHA",
+              "offset": 1160,
+              "end": 3260,
+              "bytes": 2100,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_hair",
+              "technique": "NewHair_ColorChanging",
+              "parameter_count": 74,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "hair_ALPHA",
+              "offset": 3260,
+              "end": 5088,
+              "bytes": 1828,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_hair",
+              "technique": "NewHair_ColorChanging",
+              "parameter_count": 66,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "shoes",
+              "offset": 5088,
+              "end": 6100,
+              "bytes": 1012,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_gear",
+              "technique": "Normal",
+              "parameter_count": 33,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "jacket",
+              "offset": 6100,
+              "end": 6792,
+              "bytes": 692,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_trans",
+              "technique": "Normal",
+              "parameter_count": 20,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            },
+            {
+              "name": "hair2_ALPHA",
+              "offset": 6792,
+              "end": 8620,
+              "bytes": 1828,
+              "block_version": 3,
+              "extent_validated": true,
+              "shader": "yCh_hair",
+              "technique": "NewHair_ColorChanging",
+              "parameter_count": 66,
+              "parameter_types": [
+                2,
+                6,
+                7
+              ],
+              "uninterpreted_parameter_types": []
+            }
+          ],
+          "observed_block_versions": [
+            3
+          ],
+          "envelope_validated": true,
+          "payload_extents_validated": true,
+          "validation_scope": "format only; shader, texture and in-game validity not established",
+          "library_version": 6,
+          "material_count": 6,
+          "material_names": [
+            "bottoms",
+            "combinations_ALPHA",
+            "hair_ALPHA",
+            "shoes",
+            "jacket",
+            "hair2_ALPHA"
+          ],
+          "material_path_hashes": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "blocks_offset": 140,
+          "reason": "all inline v3 blocks and declared extents validated"
+        },
+        "local_texture_bindings": [],
+        "written_material_payload_audit": [
+          {
+            "name": "bottoms",
+            "file": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\881_Default_Attire\\Materials\\bottoms.jmtl",
+            "shader_byte": 21,
+            "hair_type": null,
+            "texture_references": [
+              {
+                "field": "colorMap@ref",
+                "hash": 11618172138305326060
+              },
+              {
+                "field": "nrMap@ref",
+                "hash": 6116355338441873100
+              }
+            ],
+            "texture_schema_supported": true,
+            "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+            "shader_and_texture_values": "preserved; read-only inspection",
+            "state": "payload_inspected",
+            "sha256": "d9ed87ba91c79cc70579f0a0661e89ce0550f5ed0dc537312ba2f254fca192a8"
+          },
+          {
+            "name": "combinations_ALPHA",
+            "file": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\881_Default_Attire\\Materials\\combinations_ALPHA.jmtl",
+            "shader_byte": 22,
+            "hair_type": 1,
+            "texture_references": [
+              {
+                "field": "flowMap@ref",
+                "hash": 2055323848972734112
+              },
+              {
+                "field": "g_comboMap@ref",
+                "hash": 1480637581074202914
+              }
+            ],
+            "texture_schema_supported": true,
+            "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+            "shader_and_texture_values": "preserved; read-only inspection",
+            "state": "payload_inspected",
+            "sha256": "89c6cbb48a1e9272702270fd387accd65315291562e0ea46303fc96b7b10195a"
+          },
+          {
+            "name": "hair2_ALPHA",
+            "file": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\881_Default_Attire\\Materials\\hair2_ALPHA.jmtl",
+            "shader_byte": 22,
+            "hair_type": 1,
+            "texture_references": [
+              {
+                "field": "flowMap@ref",
+                "hash": 18445174514977829526
+              },
+              {
+                "field": "g_comboMap@ref",
+                "hash": 9869917434494372292
+              }
+            ],
+            "texture_schema_supported": true,
+            "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+            "shader_and_texture_values": "preserved; read-only inspection",
+            "state": "payload_inspected",
+            "sha256": "149f903c9bb84c0b9c493d2e464a3a0af129a2077fbe900723a5cc7764ce8d8d"
+          },
+          {
+            "name": "hair_ALPHA",
+            "file": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\881_Default_Attire\\Materials\\hair_ALPHA.jmtl",
+            "shader_byte": 22,
+            "hair_type": 1,
+            "texture_references": [
+              {
+                "field": "flowMap@ref",
+                "hash": 7189813287877036744
+              },
+              {
+                "field": "g_comboMap@ref",
+                "hash": 17676859076825423690
+              }
+            ],
+            "texture_schema_supported": true,
+            "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+            "shader_and_texture_values": "preserved; read-only inspection",
+            "state": "payload_inspected",
+            "sha256": "c17e7bf9d2652f6d03644327d7ff4d21e99a70a9acf79a9c7c1bf8c0e02403ad"
+          },
+          {
+            "name": "jacket",
+            "file": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\881_Default_Attire\\Materials\\jacket.jmtl",
+            "shader_byte": 21,
+            "hair_type": null,
+            "texture_references": [
+              {
+                "field": "colorMap@ref",
+                "hash": 1414381948718688747
+              },
+              {
+                "field": "nrMap@ref",
+                "hash": 15973247986999169967
+              }
+            ],
+            "texture_schema_supported": true,
+            "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+            "shader_and_texture_values": "preserved; read-only inspection",
+            "state": "payload_inspected",
+            "sha256": "799705269db7507ef35abc03f3291a7a3d5a92a86c759f6d3d5704562e600906"
+          },
+          {
+            "name": "shoes",
+            "file": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\881_Default_Attire\\Materials\\shoes.jmtl",
+            "shader_byte": 21,
+            "hair_type": null,
+            "texture_references": [
+              {
+                "field": "colorMap@ref",
+                "hash": 14387584376289762317
+              },
+              {
+                "field": "nrMap@ref",
+                "hash": 2214295162139475241
+              }
+            ],
+            "texture_schema_supported": true,
+            "schema_source_sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944",
+            "shader_and_texture_values": "preserved; read-only inspection",
+            "state": "payload_inspected",
+            "sha256": "e08099aafe84536cae2ab9c7b6972d7b2ce172b0923126a52f68e54bcac07277"
+          }
+        ],
+        "material_binding_aliases": []
+      }
+    ],
+    "copied": 0,
+    "left_out": [
+      "881_Default_Attire\\881_Attire.hpl (now inside the .mcd)",
+      "881_Default_Attire\\881_Attire.hair_corr_ywa (2K25 physics data)",
+      "881_Default_Attire\\881_Attire.hair_ywa (2K25 physics data)",
+      "881_Default_Attire\\881_Attire.other_corr_ywa (2K25 physics data)",
+      "881_Default_Attire\\881_Attire.other_ywa (2K25 physics data)"
+    ],
+    "problems": [
+      "BaseModel\\baseModel.mcd: no material file next to the model",
+      "881_Default_Attire\\881_Attire.ycl: YCL converted; YWA companion conversion is incomplete (.hair_corr_ywa, .hair_ywa, .other_corr_ywa, .other_ywa); hair/cloth motion still requires validation",
+      "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\source\\881_Jon_Moxley\\BaseModel\\baseModel.mcd: face audit: face material link table is unavailable or not a supported native layout",
+      "881_Default_Attire\\881_Attire.hair_corr_ywa: source physics binding: M_Hair: exposed vertex index range through 6571 exceeds both paired render and remap domains (maxima 1059/1059); authored binding is inconsistent with the exposed mesh domains",
+      "881_Default_Attire\\881_Attire.hair_ywa: source physics binding: M_Hair: exposed vertex index range through 6571 exceeds both paired render and remap domains (maxima 1059/1059); authored binding is inconsistent with the exposed mesh domains",
+      "881_Default_Attire\\881_Attire.other_corr_ywa: source physics binding: M_Combinations: exposed vertex index range through 6451 exceeds both paired render and remap domains (maxima 4357/4357); authored binding is inconsistent with the exposed mesh domains",
+      "881_Default_Attire\\881_Attire.other_ywa: source physics binding: M_Combinations: exposed vertex index range through 6451 exceeds both paired render and remap domains (maxima 4357/4357); authored binding is inconsistent with the exposed mesh domains"
+    ],
+    "warnings": [
+      "881_Default_Attire\\881_Attire.mtls: jacket: 2K25 see-through shader and the colour texture could not be checked for transparency: written as see-through gear - check how it looks",
+      "881_Default_Attire\\881_Attire.mcd: WDF authored records restored for four verified model LODs; YWA conversion and facial deformation remain unverified",
+      "881_Default_Attire\\881_Attire.hair_corr_ywa: source physics binding needs review: M_Head: declared vertex count 4037 differs from paired render count 4382; count alone does not prove an invalid remap or LOD binding",
+      "881_Default_Attire\\881_Attire.hair_corr_ywa: source physics binding needs review: M_Body: declared vertex count 12699 differs from paired render count 12727; count alone does not prove an invalid remap or LOD binding",
+      "881_Default_Attire\\881_Attire.hair_ywa: source physics binding needs review: M_Head: declared vertex count 4037 differs from paired render count 4382; count alone does not prove an invalid remap or LOD binding",
+      "881_Default_Attire\\881_Attire.hair_ywa: source physics binding needs review: M_Body: declared vertex count 12699 differs from paired render count 12727; count alone does not prove an invalid remap or LOD binding",
+      "881_Default_Attire\\881_Attire.other_corr_ywa: source physics binding needs review: M_Head: declared vertex count 4037 differs from paired render count 4382; count alone does not prove an invalid remap or LOD binding",
+      "881_Default_Attire\\881_Attire.other_corr_ywa: source physics binding needs review: M_Body: declared vertex count 12699 differs from paired render count 12727; count alone does not prove an invalid remap or LOD binding",
+      "881_Default_Attire\\881_Attire.other_ywa: source physics binding needs review: M_Head: declared vertex count 4037 differs from paired render count 4382; count alone does not prove an invalid remap or LOD binding",
+      "881_Default_Attire\\881_Attire.other_ywa: source physics binding needs review: M_Body: declared vertex count 12699 differs from paired render count 12727; count alone does not prove an invalid remap or LOD binding",
+      "881_Default_Attire\\881_Attire.ycl: source physics binding needs review: YCL object S_Hair is absent from the available paired named meshes; embedded or unused solver-name semantics are unverified",
+      "881_Default_Attire\\881_Attire.ycl: output physics binding needs review: YCL object S_Hair is absent from the available paired named meshes; embedded or unused solver-name semantics are unverified"
+    ],
+    "blank_physics": [],
+    "physics_converted": [
+      {
+        "file": "881_Default_Attire\\881_Attire.ycl",
+        "source": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\source\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.ycl",
+        "how": "converted to the 2K26 format",
+        "source_bytes": 55248,
+        "output_bytes": 55568,
+        "source_sha256": "463b86a16584681ebf6b069dc9535249d26d26415446d5c5abe280b17b34048d",
+        "output_sha256": "75c2b41d0c6105651bd5ce8caed5d0e6f6f62537122c56d3e2e7ac7d51462c41",
+        "source_version": [
+          0,
+          1
+        ],
+        "output_version": 26,
+        "original_gorilla_translator": true,
+        "names_preserved": true,
+        "target_tree_parsed": true,
+        "target_root_node_count": 32,
+        "stable_2k26_roundtrip": null,
+        "roundtrip_method": "not performed by this source-only translator",
+        "source_unchanged": true,
+        "scope": "YCL format translation; companion compatibility and motion unverified"
+      },
+      {
+        "source": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\source\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.wdf",
+        "output": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mcd",
+        "file": "881_Default_Attire\\881_Attire.mcd",
+        "kind": "wrap_deformation_layout",
+        "embedded_tag": "WDF!",
+        "version": "exact-moxley-authored-wdf-clone-lod-layout-1",
+        "profile": "supplied Jon Moxley AEW Debut",
+        "state": "authored_wdf_clone_lod_layout_restored",
+        "source_wdf_sha256": "0ede85be46899dfbbae361fa1a2c1c81c972f09d96fd8604a02fad04b965e59b",
+        "source_model_sha256": "b5ecca7b5e15a9820f866e33922d091b3f837e64d873ba9b24bd69925953085a",
+        "output_model_sha256_before": "a8f71547f04f69cc7b347a00f5dd9109bd5e09fbb1caeb03d585d426d619a2b6",
+        "output_model_sha256": "1320ed4f6f4f5290117c5ad483aa242dcba0ffab5073b466419cb3fedd5cb936",
+        "output_wdf_sha256": "50e52ae05c1ff6fe03203e242d3bbfab18dcf7483bb935004c7936fb24a116f8",
+        "authored_lod0_records_sha256": "04e8ed684457e69330ac2ad8212c72b06dfce6021af43cf3b28ffd7a3e447473",
+        "source_records": 8147,
+        "records_per_lod": 4358,
+        "target_model_lods": 4,
+        "output_records": 17432,
+        "all_target_lod_geometry_bytes_identical": true,
+        "all_authored_lod0_record_bytes_preserved": true,
+        "paired_head_geometry_topology_and_remap_correspondence": "exact byte profiles backed by actual native source/target array comparison",
+        "model_hpl_and_all_other_substreams_byte_identical": true,
+        "native_writer_control": "bounded v47 serializer WDF rebuild; one/five level controls match these authored records",
+        "ycl_and_four_ywa_files_changed": false,
+        "synthetic_binding_records_created": false,
+        "compatibility_scope": "WDF clone-LOD layout only; authored binding semantics and in-game facial deformation unverified",
+        "in_game_validation": "not_performed",
+        "native_reader_passed": true
+      }
+    ],
+    "ycl_editor": null,
+    "engine": "Model engine: WWE2K_MDL add-on, inside this app",
+    "seconds": 6.0,
+    "source_inventory_before_conversion": [
+      {
+        "path": "881_Default_Attire/881_Attire.hair_corr_ywa",
+        "bytes": 166548,
+        "sha256": "b28f787632b381ce9cf90f91aa9b766b8e500bec36e53c4daed6a1db26424f1a"
+      },
+      {
+        "path": "881_Default_Attire/881_Attire.hair_ywa",
+        "bytes": 2248164,
+        "sha256": "abe7783b77e7c328b62ac6c49728128998544aa7c27f28f62d458736726434d3"
+      },
+      {
+        "path": "881_Default_Attire/881_Attire.hpl",
+        "bytes": 212732,
+        "sha256": "40fa6740b2d45c6d097c8078b4995a690f050b7646d06be50c54b1562163e664"
+      },
+      {
+        "path": "881_Default_Attire/881_Attire.mcd",
+        "bytes": 13856864,
+        "sha256": "b5ecca7b5e15a9820f866e33922d091b3f837e64d873ba9b24bd69925953085a"
+      },
+      {
+        "path": "881_Default_Attire/881_Attire.mtls",
+        "bytes": 8620,
+        "sha256": "8a08ea03adcf92ea4cedff83e6dae87a4e1a3a31b76bb4e8fe8212e87be29428"
+      },
+      {
+        "path": "881_Default_Attire/881_Attire.other_corr_ywa",
+        "bytes": 161676,
+        "sha256": "be1a669bfac306b5812ac1b62974fbfe49a66136b961a8dc374e797147fec329"
+      },
+      {
+        "path": "881_Default_Attire/881_Attire.other_ywa",
+        "bytes": 2207124,
+        "sha256": "e419544e550eb529cc145c39672b593b645c6f917395152f82dad9c41b35c061"
+      },
+      {
+        "path": "881_Default_Attire/881_Attire.wdf",
+        "bytes": 391100,
+        "sha256": "0ede85be46899dfbbae361fa1a2c1c81c972f09d96fd8604a02fad04b965e59b"
+      },
+      {
+        "path": "881_Default_Attire/881_Attire.ycl",
+        "bytes": 55248,
+        "sha256": "463b86a16584681ebf6b069dc9535249d26d26415446d5c5abe280b17b34048d"
+      },
+      {
+        "path": "BaseModel/baseModel.mcd",
+        "bytes": 6660548,
+        "sha256": "b1a52a2f77bf5fc3cbec7e04eba1f83a1cd3c7ecee6740316c55ac04013f343a"
+      }
+    ],
+    "conversion_completeness": "incomplete",
+    "in_game_validation": "not_performed",
+    "repair_patch": "requested-eye-shadow-defaults-and-verified-writer-normalization-14",
+    "native_2k26_models_preserved": 0,
+    "native_2k26_material_libraries_repaired": 0,
+    "native_2k26_patch": "native-2k26-preservation-and-material-links-1",
+    "reference_source_integration": {
+      "weight_checks": "supplied-reference-weight-audit-1",
+      "geometry_backend": "Gorilla native engine with ported reference components; full Blender workflow not invoked",
+      "wwe2k_mdl_source_supplied": true,
+      "ycl_backend": "original Gorilla converter",
+      "full_reference_engine_rebuilt": false
+    },
+    "ycl_repair_patch": "independent-gorilla-ycl-translation-1",
+    "wdf_layout_repair": {
+      "version": "exact-moxley-authored-wdf-clone-lod-layout-1",
+      "scope": "exact supplied Moxley WDF layout; no YWA conversion",
+      "applied": 1,
+      "refused": 0,
+      "rows": [
+        {
+          "source": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\source\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mcd",
+          "output": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mcd",
+          "state": "authored_wdf_clone_lod_layout_restored",
+          "file_changes": "one rebuilt WDF envelope added; all original envelopes retained",
+          "version": "exact-moxley-authored-wdf-clone-lod-layout-1",
+          "profile": "supplied Jon Moxley AEW Debut",
+          "source_wdf_sha256": "0ede85be46899dfbbae361fa1a2c1c81c972f09d96fd8604a02fad04b965e59b",
+          "source_model_sha256": "b5ecca7b5e15a9820f866e33922d091b3f837e64d873ba9b24bd69925953085a",
+          "output_model_sha256_before": "a8f71547f04f69cc7b347a00f5dd9109bd5e09fbb1caeb03d585d426d619a2b6",
+          "output_model_sha256": "1320ed4f6f4f5290117c5ad483aa242dcba0ffab5073b466419cb3fedd5cb936",
+          "output_wdf_sha256": "50e52ae05c1ff6fe03203e242d3bbfab18dcf7483bb935004c7936fb24a116f8",
+          "authored_lod0_records_sha256": "04e8ed684457e69330ac2ad8212c72b06dfce6021af43cf3b28ffd7a3e447473",
+          "source_records": 8147,
+          "records_per_lod": 4358,
+          "target_model_lods": 4,
+          "output_records": 17432,
+          "all_target_lod_geometry_bytes_identical": true,
+          "all_authored_lod0_record_bytes_preserved": true,
+          "paired_head_geometry_topology_and_remap_correspondence": "exact byte profiles backed by actual native source/target array comparison",
+          "model_hpl_and_all_other_substreams_byte_identical": true,
+          "native_writer_control": "bounded v47 serializer WDF rebuild; one/five level controls match these authored records",
+          "ycl_and_four_ywa_files_changed": false,
+          "synthetic_binding_records_created": false,
+          "compatibility_scope": "WDF clone-LOD layout only; authored binding semantics and in-game facial deformation unverified",
+          "in_game_validation": "not_performed",
+          "source_files_unchanged": true,
+          "native_reader_passed": true
+        }
+      ],
+      "in_game_validation": "not_performed"
+    },
+    "native_2k26_missing_data_check": {
+      "version": "native-2k26-missing-data-audit-1",
+      "models_checked": 0,
+      "repairs_applied": 0,
+      "findings": [],
+      "in_game_validation": "not_performed",
+      "unavailable_data": "reported; never synthesized",
+      "state": "not_applicable_no_native_inputs"
+    },
+    "legacy_2k24_input_route": {
+      "version": "native-2k24-format-route-with-rig-guards-1",
+      "models_attempted": 0,
+      "model_checks_passed": 0,
+      "input_headers_rewritten": false,
+      "in_game_validation": "not_performed",
+      "validation_scope": "native model structural checks; materials, hide masks and physics reported separately"
+    },
+    "dds_header_normalization": {
+      "version": "verified-output-only-complete-mip-header-normalization-1",
+      "scope": "existing equivalent output paths; full physical chain only",
+      "source_files_changed": false,
+      "in_game_validation": "not_performed",
+      "repaired": 0,
+      "already_normalized": 0,
+      "output_not_present": 0,
+      "failed": 0,
+      "rows": [],
+      "state": "recorded_output_header_checks"
+    },
+    "eye_scalar_policy": {
+      "version": "user-ordinary-eye-shadow-output-policy-1",
+      "policy": {
+        "eyeLidShadowDarkness": 1.0,
+        "eyeLidShadowFallOff": 0.5
+      },
+      "provenance": "explicit user request and supplied scalar screenshot; not a harvested Cena material default",
+      "scope": "supported ordinary-eye shader 0x12 JMTLs already present in the recorded output; missing materials are not synthesized",
+      "source_files_changed": false,
+      "in_game_validation": "not_performed",
+      "changed": 0,
+      "already_policy_values": 0,
+      "not_ordinary_eye": 6,
+      "failed": 0,
+      "rows": [],
+      "state": "recorded_output_eye_policy"
+    },
+    "tongue_anchor_experiment": {
+      "version": "exact-supplied-bryan-and-flip-tongue-anchor-experiment-2",
+      "scope": "exact inspected supplied Bryan and Flip Gordon profiles only; each source must match its own output profile",
+      "applied": 0,
+      "already_applied": 0,
+      "in_game_validation": "not_performed",
+      "black_teeth_fixed": "not established; controlled anatomical anchor experiment",
+      "matched_profiles": []
+    },
+    "ocular_anchor_correction": {
+      "version": "exact-supplied-bryan-flip-cena-ocular-anchors-1",
+      "scope": "exact supplied Bryan/Flip source-output pairs only; existing caruncle chart correspondence",
+      "applied": 0,
+      "already_applied": 0,
+      "matched_profiles": [],
+      "dark_eyes_fixed": "not established",
+      "in_game_validation": "not_performed"
+    },
+    "face_output_check": {
+      "version": "all-recorded-model-output-face-audit-1",
+      "records_total": 2,
+      "records_audited": 2,
+      "face_models": 1,
+      "not_applicable": 1,
+      "unavailable_or_unreadable": 0,
+      "problems": [
+        "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\source\\881_Jon_Moxley\\BaseModel\\baseModel.mcd: face audit: face material link table is unavailable or not a supported native layout"
+      ],
+      "warnings": [],
+      "in_game_validation": "not_performed",
+      "file_changes": "none",
+      "reference_baseline": {
+        "name": "earlier_supplied_native_2k26_cena_face_schema",
+        "source_model_sha256": "bb0176e86fc2e74cebc61058acac1fa3103c7a859f2e54a2196947fe95ee4a1c",
+        "source_model_version": 47,
+        "observed_anchor_slots": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "observed_eye_material_roles": {
+          "eye_l": "left",
+          "eye_r": "right"
+        },
+        "observed_eye_shape_names": [
+          "PupilContract",
+          "PupilExpand"
+        ],
+        "observed_eye_weight_bones": [
+          "J_Eye_L",
+          "J_Eye_R"
+        ],
+        "known_global_eye_normal_ref": 17274687911970229909,
+        "normal_reference_provenance": "supplied comparison writer and stored native material observations; game asset resolution not verified",
+        "topology_and_anchor_target_policy": "schema observation only; vertex counts, UVs, shapes and anchor mesh names are not copied or required identical",
+        "additional_139_John_Cena_2019_archive": "not inspected for this baseline"
+      },
+      "coverage_scope": "all recorded model outputs; source models absent from report.models are not claimed inspected",
+      "coverage_complete": true,
+      "state": "requires_attention"
+    },
+    "physics_binding_audit": {
+      "version": "read-only-exposed-physics-bindings-1",
+      "scope": "Exposed names and index domains only; opaque physics, active solver semantics and in-game motion compatibility are not validated.",
+      "rows": [
+        {
+          "file": "881_Default_Attire\\881_Attire.hair_corr_ywa",
+          "mapped_file": "881_Default_Attire\\881_Attire.hair_corr_ywa",
+          "source": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\source\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.hair_corr_ywa",
+          "output": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.hair_corr_ywa",
+          "in_game_validation": "not_performed",
+          "file_changes": "none",
+          "source_format": {
+            "state": "exposed_declarations_inspected",
+            "sha256": "b28f787632b381ce9cf90f91aa9b766b8e500bec36e53c4daed6a1db26424f1a",
+            "bytes": 166548,
+            "scope": "measured leading SIZ!/MOD mesh declarations and exposed index list only",
+            "compatibility": "not established",
+            "collider_index_ranges": [
+              {
+                "name": "M_Head",
+                "slot": 0,
+                "minimum": 51,
+                "maximum": 3993
+              }
+            ],
+            "render_declarations": [
+              {
+                "name": "M_Hair",
+                "vertex_count": 6572,
+                "offset": 0
+              }
+            ],
+            "collider_declarations": [
+              {
+                "name": "M_Head",
+                "vertex_count": 4037,
+                "offset": 0
+              },
+              {
+                "name": "M_Body",
+                "vertex_count": 12699,
+                "offset": 0
+              }
+            ],
+            "primary_indices": {
+              "name": "M_Hair",
+              "count": 6572,
+              "minimum": 0,
+              "maximum": 6571,
+              "exact_sequential": true
+            },
+            "full_MOD_count_and_opaque_payloads_validated": false,
+            "remaining_MOD4_MOD6_MOD7_auxiliary_semantics": "not decoded",
+            "schema_provenance": "supplied reference_source/WWE2K_MDL/Serialize/physics_patcher.py _read_mod1 and _pack_primary_record; measured Moxley offsets independently reviewed; no solver activity inferred"
+          },
+          "source_sha256": "b28f787632b381ce9cf90f91aa9b766b8e500bec36e53c4daed6a1db26424f1a",
+          "output_format": {
+            "state": "not_audited",
+            "reason": "mapped output physics file is missing"
+          },
+          "paired_models": [
+            {
+              "role": "attire",
+              "path": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\source\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mcd",
+              "sha256": "b5ecca7b5e15a9820f866e33922d091b3f837e64d873ba9b24bd69925953085a",
+              "bytes": 13856864,
+              "side": "source"
+            },
+            {
+              "role": "attire",
+              "path": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mcd",
+              "sha256": "1320ed4f6f4f5290117c5ad483aa242dcba0ffab5073b466419cb3fedd5cb936",
+              "bytes": 15134996,
+              "side": "output"
+            },
+            {
+              "role": "base",
+              "path": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\source\\881_Jon_Moxley\\BaseModel\\baseModel.mcd",
+              "sha256": "b1a52a2f77bf5fc3cbec7e04eba1f83a1cd3c7ecee6740316c55ac04013f343a",
+              "bytes": 6660548,
+              "side": "source"
+            },
+            {
+              "role": "base",
+              "path": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\BaseModel\\baseModel.mcd",
+              "sha256": "8f0f50818d0ed160fcbb059b242299e835a3cdc86a9734f1525392eec07f3dec",
+              "bytes": 7039964,
+              "side": "output"
+            }
+          ],
+          "paired_model_gaps": [],
+          "source_bindings": {
+            "state": "requires_attention",
+            "scope": "Exposed names and index domains only; opaque physics, active solver semantics and in-game motion compatibility are not validated.",
+            "observations": [
+              {
+                "name": "M_Hair",
+                "vertex_count": 6572,
+                "offset": 0,
+                "model_role": "attire",
+                "model_domain": {
+                  "render_count": 1060,
+                  "render_minimum": 0,
+                  "render_maximum": 1059,
+                  "remap_count": 1060,
+                  "remap_minimum": 0,
+                  "remap_maximum": 1059,
+                  "remap_explicit": true,
+                  "domain_dense": true
+                },
+                "exposed_index_range": {
+                  "name": "M_Hair",
+                  "count": 6572,
+                  "minimum": 0,
+                  "maximum": 6571,
+                  "exact_sequential": true
+                },
+                "declared_vertex_range_maximum": 6571,
+                "declared_range_exceeds_both_exposed_domains": true,
+                "state": "outside_exposed_domains"
+              },
+              {
+                "name": "M_Head",
+                "vertex_count": 4037,
+                "offset": 0,
+                "model_role": "base",
+                "model_domain": {
+                  "render_count": 4382,
+                  "render_minimum": 0,
+                  "render_maximum": 4381,
+                  "remap_count": 4382,
+                  "remap_minimum": 0,
+                  "remap_maximum": 4381,
+                  "remap_explicit": true,
+                  "domain_dense": true
+                },
+                "exposed_index_range": {
+                  "name": "M_Head",
+                  "slot": 0,
+                  "minimum": 51,
+                  "maximum": 3993
+                },
+                "declared_vertex_range_maximum": 4036,
+                "declared_range_exceeds_both_exposed_domains": false,
+                "state": "within_exposed_bounds_only"
+              },
+              {
+                "name": "M_Body",
+                "vertex_count": 12699,
+                "offset": 0,
+                "model_role": "base",
+                "model_domain": {
+                  "render_count": 12727,
+                  "render_minimum": 0,
+                  "render_maximum": 12726,
+                  "remap_count": 12727,
+                  "remap_minimum": 0,
+                  "remap_maximum": 12726,
+                  "remap_explicit": true,
+                  "domain_dense": true
+                },
+                "exposed_index_range": null,
+                "declared_vertex_range_maximum": 12698,
+                "declared_range_exceeds_both_exposed_domains": null,
+                "state": "declarations_only_bounds_unverified"
+              }
+            ],
+            "problems": [
+              "M_Hair: exposed vertex index range through 6571 exceeds both paired render and remap domains (maxima 1059/1059); authored binding is inconsistent with the exposed mesh domains"
+            ],
+            "warnings": [
+              "M_Head: declared vertex count 4037 differs from paired render count 4382; count alone does not prove an invalid remap or LOD binding",
+              "M_Body: declared vertex count 12699 differs from paired render count 12727; count alone does not prove an invalid remap or LOD binding"
+            ]
+          },
+          "output_bindings": {
+            "state": "not_audited",
+            "scope": "Exposed names and index domains only; opaque physics, active solver semantics and in-game motion compatibility are not validated.",
+            "observations": [],
+            "problems": [],
+            "warnings": [],
+            "reason": "mapped output physics file is missing"
+          },
+          "unchanged_source_declarations_against_output_models": {
+            "state": "requires_attention",
+            "scope": "Exposed names and index domains only; opaque physics, active solver semantics and in-game motion compatibility are not validated.",
+            "observations": [
+              {
+                "name": "M_Hair",
+                "vertex_count": 6572,
+                "offset": 0,
+                "model_role": "attire",
+                "model_domain": {
+                  "render_count": 1060,
+                  "render_minimum": 0,
+                  "render_maximum": 1059,
+                  "remap_count": 1060,
+                  "remap_minimum": 0,
+                  "remap_maximum": 1059,
+                  "remap_explicit": true,
+                  "domain_dense": true
+                },
+                "exposed_index_range": {
+                  "name": "M_Hair",
+                  "count": 6572,
+                  "minimum": 0,
+                  "maximum": 6571,
+                  "exact_sequential": true
+                },
+                "declared_vertex_range_maximum": 6571,
+                "declared_range_exceeds_both_exposed_domains": true,
+                "state": "outside_exposed_domains"
+              },
+              {
+                "name": "M_Head",
+                "vertex_count": 4037,
+                "offset": 0,
+                "model_role": "base",
+                "model_domain": {
+                  "render_count": 4382,
+                  "render_minimum": 0,
+                  "render_maximum": 4381,
+                  "remap_count": 4382,
+                  "remap_minimum": 0,
+                  "remap_maximum": 4381,
+                  "remap_explicit": true,
+                  "domain_dense": true
+                },
+                "exposed_index_range": {
+                  "name": "M_Head",
+                  "slot": 0,
+                  "minimum": 51,
+                  "maximum": 3993
+                },
+                "declared_vertex_range_maximum": 4036,
+                "declared_range_exceeds_both_exposed_domains": false,
+                "state": "within_exposed_bounds_only"
+              },
+              {
+                "name": "M_Body",
+                "vertex_count": 12699,
+                "offset": 0,
+                "model_role": "base",
+                "model_domain": {
+                  "render_count": 12727,
+                  "render_minimum": 0,
+                  "render_maximum": 12726,
+                  "remap_count": 12727,
+                  "remap_minimum": 0,
+                  "remap_maximum": 12726,
+                  "remap_explicit": true,
+                  "domain_dense": true
+                },
+                "exposed_index_range": null,
+                "declared_vertex_range_maximum": 12698,
+                "declared_range_exceeds_both_exposed_domains": null,
+                "state": "declarations_only_bounds_unverified"
+              }
+            ],
+            "problems": [
+              "M_Hair: exposed vertex index range through 6571 exceeds both paired render and remap domains (maxima 1059/1059); authored binding is inconsistent with the exposed mesh domains"
+            ],
+            "warnings": [
+              "M_Head: declared vertex count 4037 differs from paired render count 4382; count alone does not prove an invalid remap or LOD binding",
+              "M_Body: declared vertex count 12699 differs from paired render count 12727; count alone does not prove an invalid remap or LOD binding"
+            ]
+          },
+          "format_translation_scope": "format translation not established by this audit",
+          "state": "partially_audited",
+          "unavailable_binding_sides": [
+            "output"
+          ]
+        },
+        {
+          "file": "881_Default_Attire\\881_Attire.hair_ywa",
+          "mapped_file": "881_Default_Attire\\881_Attire.hair_ywa",
+          "source": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\source\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.hair_ywa",
+          "output": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.hair_ywa",
+          "in_game_validation": "not_performed",
+          "file_changes": "none",
+          "source_format": {
+            "state": "exposed_declarations_inspected",
+            "sha256": "abe7783b77e7c328b62ac6c49728128998544aa7c27f28f62d458736726434d3",
+            "bytes": 2248164,
+            "scope": "measured leading SIZ!/MOD mesh declarations and exposed index list only",
+            "compatibility": "not established",
+            "render_declarations": [
+              {
+                "name": "M_Hair",
+                "vertex_count": 6572,
+                "offset": 0
+              }
+            ],
+            "collider_declarations": [
+              {
+                "name": "M_Head",
+                "vertex_count": 4037,
+                "offset": 0
+              },
+              {
+                "name": "M_Body",
+                "vertex_count": 12699,
+                "offset": 0
+              }
+            ],
+            "primary_indices": {
+              "name": "M_Hair",
+              "count": 6572,
+              "minimum": 0,
+              "maximum": 6571,
+              "exact_sequential": true
+            },
+            "full_MOD_count_and_opaque_payloads_validated": false,
+            "remaining_MOD4_MOD6_MOD7_auxiliary_semantics": "not decoded",
+            "schema_provenance": "supplied reference_source/WWE2K_MDL/Serialize/physics_patcher.py _read_mod1 and _pack_primary_record; measured Moxley offsets independently reviewed; no solver activity inferred"
+          },
+          "source_sha256": "abe7783b77e7c328b62ac6c49728128998544aa7c27f28f62d458736726434d3",
+          "output_format": {
+            "state": "not_audited",
+            "reason": "mapped output physics file is missing"
+          },
+          "paired_models": [
+            {
+              "role": "attire",
+              "path": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\source\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mcd",
+              "sha256": "b5ecca7b5e15a9820f866e33922d091b3f837e64d873ba9b24bd69925953085a",
+              "bytes": 13856864,
+              "side": "source"
+            },
+            {
+              "role": "attire",
+              "path": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mcd",
+              "sha256": "1320ed4f6f4f5290117c5ad483aa242dcba0ffab5073b466419cb3fedd5cb936",
+              "bytes": 15134996,
+              "side": "output"
+            },
+            {
+              "role": "base",
+              "path": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\source\\881_Jon_Moxley\\BaseModel\\baseModel.mcd",
+              "sha256": "b1a52a2f77bf5fc3cbec7e04eba1f83a1cd3c7ecee6740316c55ac04013f343a",
+              "bytes": 6660548,
+              "side": "source"
+            },
+            {
+              "role": "base",
+              "path": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\BaseModel\\baseModel.mcd",
+              "sha256": "8f0f50818d0ed160fcbb059b242299e835a3cdc86a9734f1525392eec07f3dec",
+              "bytes": 7039964,
+              "side": "output"
+            }
+          ],
+          "paired_model_gaps": [],
+          "source_bindings": {
+            "state": "requires_attention",
+            "scope": "Exposed names and index domains only; opaque physics, active solver semantics and in-game motion compatibility are not validated.",
+            "observations": [
+              {
+                "name": "M_Hair",
+                "vertex_count": 6572,
+                "offset": 0,
+                "model_role": "attire",
+                "model_domain": {
+                  "render_count": 1060,
+                  "render_minimum": 0,
+                  "render_maximum": 1059,
+                  "remap_count": 1060,
+                  "remap_minimum": 0,
+                  "remap_maximum": 1059,
+                  "remap_explicit": true,
+                  "domain_dense": true
+                },
+                "exposed_index_range": {
+                  "name": "M_Hair",
+                  "count": 6572,
+                  "minimum": 0,
+                  "maximum": 6571,
+                  "exact_sequential": true
+                },
+                "declared_vertex_range_maximum": 6571,
+                "declared_range_exceeds_both_exposed_domains": true,
+                "state": "outside_exposed_domains"
+              },
+              {
+                "name": "M_Head",
+                "vertex_count": 4037,
+                "offset": 0,
+                "model_role": "base",
+                "model_domain": {
+                  "render_count": 4382,
+                  "render_minimum": 0,
+                  "render_maximum": 4381,
+                  "remap_count": 4382,
+                  "remap_minimum": 0,
+                  "remap_maximum": 4381,
+                  "remap_explicit": true,
+                  "domain_dense": true
+                },
+                "exposed_index_range": null,
+                "declared_vertex_range_maximum": 4036,
+                "declared_range_exceeds_both_exposed_domains": null,
+                "state": "declarations_only_bounds_unverified"
+              },
+              {
+                "name": "M_Body",
+                "vertex_count": 12699,
+                "offset": 0,
+                "model_role": "base",
+                "model_domain": {
+                  "render_count": 12727,
+                  "render_minimum": 0,
+                  "render_maximum": 12726,
+                  "remap_count": 12727,
+                  "remap_minimum": 0,
+                  "remap_maximum": 12726,
+                  "remap_explicit": true,
+                  "domain_dense": true
+                },
+                "exposed_index_range": null,
+                "declared_vertex_range_maximum": 12698,
+                "declared_range_exceeds_both_exposed_domains": null,
+                "state": "declarations_only_bounds_unverified"
+              }
+            ],
+            "problems": [
+              "M_Hair: exposed vertex index range through 6571 exceeds both paired render and remap domains (maxima 1059/1059); authored binding is inconsistent with the exposed mesh domains"
+            ],
+            "warnings": [
+              "M_Head: declared vertex count 4037 differs from paired render count 4382; count alone does not prove an invalid remap or LOD binding",
+              "M_Body: declared vertex count 12699 differs from paired render count 12727; count alone does not prove an invalid remap or LOD binding"
+            ]
+          },
+          "output_bindings": {
+            "state": "not_audited",
+            "scope": "Exposed names and index domains only; opaque physics, active solver semantics and in-game motion compatibility are not validated.",
+            "observations": [],
+            "problems": [],
+            "warnings": [],
+            "reason": "mapped output physics file is missing"
+          },
+          "unchanged_source_declarations_against_output_models": {
+            "state": "requires_attention",
+            "scope": "Exposed names and index domains only; opaque physics, active solver semantics and in-game motion compatibility are not validated.",
+            "observations": [
+              {
+                "name": "M_Hair",
+                "vertex_count": 6572,
+                "offset": 0,
+                "model_role": "attire",
+                "model_domain": {
+                  "render_count": 1060,
+                  "render_minimum": 0,
+                  "render_maximum": 1059,
+                  "remap_count": 1060,
+                  "remap_minimum": 0,
+                  "remap_maximum": 1059,
+                  "remap_explicit": true,
+                  "domain_dense": true
+                },
+                "exposed_index_range": {
+                  "name": "M_Hair",
+                  "count": 6572,
+                  "minimum": 0,
+                  "maximum": 6571,
+                  "exact_sequential": true
+                },
+                "declared_vertex_range_maximum": 6571,
+                "declared_range_exceeds_both_exposed_domains": true,
+                "state": "outside_exposed_domains"
+              },
+              {
+                "name": "M_Head",
+                "vertex_count": 4037,
+                "offset": 0,
+                "model_role": "base",
+                "model_domain": {
+                  "render_count": 4382,
+                  "render_minimum": 0,
+                  "render_maximum": 4381,
+                  "remap_count": 4382,
+                  "remap_minimum": 0,
+                  "remap_maximum": 4381,
+                  "remap_explicit": true,
+                  "domain_dense": true
+                },
+                "exposed_index_range": null,
+                "declared_vertex_range_maximum": 4036,
+                "declared_range_exceeds_both_exposed_domains": null,
+                "state": "declarations_only_bounds_unverified"
+              },
+              {
+                "name": "M_Body",
+                "vertex_count": 12699,
+                "offset": 0,
+                "model_role": "base",
+                "model_domain": {
+                  "render_count": 12727,
+                  "render_minimum": 0,
+                  "render_maximum": 12726,
+                  "remap_count": 12727,
+                  "remap_minimum": 0,
+                  "remap_maximum": 12726,
+                  "remap_explicit": true,
+                  "domain_dense": true
+                },
+                "exposed_index_range": null,
+                "declared_vertex_range_maximum": 12698,
+                "declared_range_exceeds_both_exposed_domains": null,
+                "state": "declarations_only_bounds_unverified"
+              }
+            ],
+            "problems": [
+              "M_Hair: exposed vertex index range through 6571 exceeds both paired render and remap domains (maxima 1059/1059); authored binding is inconsistent with the exposed mesh domains"
+            ],
+            "warnings": [
+              "M_Head: declared vertex count 4037 differs from paired render count 4382; count alone does not prove an invalid remap or LOD binding",
+              "M_Body: declared vertex count 12699 differs from paired render count 12727; count alone does not prove an invalid remap or LOD binding"
+            ]
+          },
+          "format_translation_scope": "format translation not established by this audit",
+          "state": "partially_audited",
+          "unavailable_binding_sides": [
+            "output"
+          ]
+        },
+        {
+          "file": "881_Default_Attire\\881_Attire.other_corr_ywa",
+          "mapped_file": "881_Default_Attire\\881_Attire.other_corr_ywa",
+          "source": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\source\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.other_corr_ywa",
+          "output": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.other_corr_ywa",
+          "in_game_validation": "not_performed",
+          "file_changes": "none",
+          "source_format": {
+            "state": "exposed_declarations_inspected",
+            "sha256": "be1a669bfac306b5812ac1b62974fbfe49a66136b961a8dc374e797147fec329",
+            "bytes": 161676,
+            "scope": "measured leading SIZ!/MOD mesh declarations and exposed index list only",
+            "compatibility": "not established",
+            "collider_index_ranges": [
+              {
+                "name": "M_Head",
+                "slot": 0,
+                "minimum": 11,
+                "maximum": 4033
+              }
+            ],
+            "render_declarations": [
+              {
+                "name": "M_Combinations",
+                "vertex_count": 6452,
+                "offset": 0
+              }
+            ],
+            "collider_declarations": [
+              {
+                "name": "M_Head",
+                "vertex_count": 4037,
+                "offset": 0
+              },
+              {
+                "name": "M_Body",
+                "vertex_count": 12699,
+                "offset": 0
+              }
+            ],
+            "primary_indices": {
+              "name": "M_Combinations",
+              "count": 6452,
+              "minimum": 0,
+              "maximum": 6451,
+              "exact_sequential": true
+            },
+            "full_MOD_count_and_opaque_payloads_validated": false,
+            "remaining_MOD4_MOD6_MOD7_auxiliary_semantics": "not decoded",
+            "schema_provenance": "supplied reference_source/WWE2K_MDL/Serialize/physics_patcher.py _read_mod1 and _pack_primary_record; measured Moxley offsets independently reviewed; no solver activity inferred"
+          },
+          "source_sha256": "be1a669bfac306b5812ac1b62974fbfe49a66136b961a8dc374e797147fec329",
+          "output_format": {
+            "state": "not_audited",
+            "reason": "mapped output physics file is missing"
+          },
+          "paired_models": [
+            {
+              "role": "attire",
+              "path": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\source\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mcd",
+              "sha256": "b5ecca7b5e15a9820f866e33922d091b3f837e64d873ba9b24bd69925953085a",
+              "bytes": 13856864,
+              "side": "source"
+            },
+            {
+              "role": "attire",
+              "path": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mcd",
+              "sha256": "1320ed4f6f4f5290117c5ad483aa242dcba0ffab5073b466419cb3fedd5cb936",
+              "bytes": 15134996,
+              "side": "output"
+            },
+            {
+              "role": "base",
+              "path": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\source\\881_Jon_Moxley\\BaseModel\\baseModel.mcd",
+              "sha256": "b1a52a2f77bf5fc3cbec7e04eba1f83a1cd3c7ecee6740316c55ac04013f343a",
+              "bytes": 6660548,
+              "side": "source"
+            },
+            {
+              "role": "base",
+              "path": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\BaseModel\\baseModel.mcd",
+              "sha256": "8f0f50818d0ed160fcbb059b242299e835a3cdc86a9734f1525392eec07f3dec",
+              "bytes": 7039964,
+              "side": "output"
+            }
+          ],
+          "paired_model_gaps": [],
+          "source_bindings": {
+            "state": "requires_attention",
+            "scope": "Exposed names and index domains only; opaque physics, active solver semantics and in-game motion compatibility are not validated.",
+            "observations": [
+              {
+                "name": "M_Combinations",
+                "vertex_count": 6452,
+                "offset": 0,
+                "model_role": "attire",
+                "model_domain": {
+                  "render_count": 4358,
+                  "render_minimum": 0,
+                  "render_maximum": 4357,
+                  "remap_count": 4358,
+                  "remap_minimum": 0,
+                  "remap_maximum": 4357,
+                  "remap_explicit": true,
+                  "domain_dense": true
+                },
+                "exposed_index_range": {
+                  "name": "M_Combinations",
+                  "count": 6452,
+                  "minimum": 0,
+                  "maximum": 6451,
+                  "exact_sequential": true
+                },
+                "declared_vertex_range_maximum": 6451,
+                "declared_range_exceeds_both_exposed_domains": true,
+                "state": "outside_exposed_domains"
+              },
+              {
+                "name": "M_Head",
+                "vertex_count": 4037,
+                "offset": 0,
+                "model_role": "base",
+                "model_domain": {
+                  "render_count": 4382,
+                  "render_minimum": 0,
+                  "render_maximum": 4381,
+                  "remap_count": 4382,
+                  "remap_minimum": 0,
+                  "remap_maximum": 4381,
+                  "remap_explicit": true,
+                  "domain_dense": true
+                },
+                "exposed_index_range": {
+                  "name": "M_Head",
+                  "slot": 0,
+                  "minimum": 11,
+                  "maximum": 4033
+                },
+                "declared_vertex_range_maximum": 4036,
+                "declared_range_exceeds_both_exposed_domains": false,
+                "state": "within_exposed_bounds_only"
+              },
+              {
+                "name": "M_Body",
+                "vertex_count": 12699,
+                "offset": 0,
+                "model_role": "base",
+                "model_domain": {
+                  "render_count": 12727,
+                  "render_minimum": 0,
+                  "render_maximum": 12726,
+                  "remap_count": 12727,
+                  "remap_minimum": 0,
+                  "remap_maximum": 12726,
+                  "remap_explicit": true,
+                  "domain_dense": true
+                },
+                "exposed_index_range": null,
+                "declared_vertex_range_maximum": 12698,
+                "declared_range_exceeds_both_exposed_domains": null,
+                "state": "declarations_only_bounds_unverified"
+              }
+            ],
+            "problems": [
+              "M_Combinations: exposed vertex index range through 6451 exceeds both paired render and remap domains (maxima 4357/4357); authored binding is inconsistent with the exposed mesh domains"
+            ],
+            "warnings": [
+              "M_Head: declared vertex count 4037 differs from paired render count 4382; count alone does not prove an invalid remap or LOD binding",
+              "M_Body: declared vertex count 12699 differs from paired render count 12727; count alone does not prove an invalid remap or LOD binding"
+            ]
+          },
+          "output_bindings": {
+            "state": "not_audited",
+            "scope": "Exposed names and index domains only; opaque physics, active solver semantics and in-game motion compatibility are not validated.",
+            "observations": [],
+            "problems": [],
+            "warnings": [],
+            "reason": "mapped output physics file is missing"
+          },
+          "unchanged_source_declarations_against_output_models": {
+            "state": "requires_attention",
+            "scope": "Exposed names and index domains only; opaque physics, active solver semantics and in-game motion compatibility are not validated.",
+            "observations": [
+              {
+                "name": "M_Combinations",
+                "vertex_count": 6452,
+                "offset": 0,
+                "model_role": "attire",
+                "model_domain": {
+                  "render_count": 4358,
+                  "render_minimum": 0,
+                  "render_maximum": 4357,
+                  "remap_count": 4358,
+                  "remap_minimum": 0,
+                  "remap_maximum": 4357,
+                  "remap_explicit": true,
+                  "domain_dense": true
+                },
+                "exposed_index_range": {
+                  "name": "M_Combinations",
+                  "count": 6452,
+                  "minimum": 0,
+                  "maximum": 6451,
+                  "exact_sequential": true
+                },
+                "declared_vertex_range_maximum": 6451,
+                "declared_range_exceeds_both_exposed_domains": true,
+                "state": "outside_exposed_domains"
+              },
+              {
+                "name": "M_Head",
+                "vertex_count": 4037,
+                "offset": 0,
+                "model_role": "base",
+                "model_domain": {
+                  "render_count": 4382,
+                  "render_minimum": 0,
+                  "render_maximum": 4381,
+                  "remap_count": 4382,
+                  "remap_minimum": 0,
+                  "remap_maximum": 4381,
+                  "remap_explicit": true,
+                  "domain_dense": true
+                },
+                "exposed_index_range": {
+                  "name": "M_Head",
+                  "slot": 0,
+                  "minimum": 11,
+                  "maximum": 4033
+                },
+                "declared_vertex_range_maximum": 4036,
+                "declared_range_exceeds_both_exposed_domains": false,
+                "state": "within_exposed_bounds_only"
+              },
+              {
+                "name": "M_Body",
+                "vertex_count": 12699,
+                "offset": 0,
+                "model_role": "base",
+                "model_domain": {
+                  "render_count": 12727,
+                  "render_minimum": 0,
+                  "render_maximum": 12726,
+                  "remap_count": 12727,
+                  "remap_minimum": 0,
+                  "remap_maximum": 12726,
+                  "remap_explicit": true,
+                  "domain_dense": true
+                },
+                "exposed_index_range": null,
+                "declared_vertex_range_maximum": 12698,
+                "declared_range_exceeds_both_exposed_domains": null,
+                "state": "declarations_only_bounds_unverified"
+              }
+            ],
+            "problems": [
+              "M_Combinations: exposed vertex index range through 6451 exceeds both paired render and remap domains (maxima 4357/4357); authored binding is inconsistent with the exposed mesh domains"
+            ],
+            "warnings": [
+              "M_Head: declared vertex count 4037 differs from paired render count 4382; count alone does not prove an invalid remap or LOD binding",
+              "M_Body: declared vertex count 12699 differs from paired render count 12727; count alone does not prove an invalid remap or LOD binding"
+            ]
+          },
+          "format_translation_scope": "format translation not established by this audit",
+          "state": "partially_audited",
+          "unavailable_binding_sides": [
+            "output"
+          ]
+        },
+        {
+          "file": "881_Default_Attire\\881_Attire.other_ywa",
+          "mapped_file": "881_Default_Attire\\881_Attire.other_ywa",
+          "source": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\source\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.other_ywa",
+          "output": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.other_ywa",
+          "in_game_validation": "not_performed",
+          "file_changes": "none",
+          "source_format": {
+            "state": "exposed_declarations_inspected",
+            "sha256": "e419544e550eb529cc145c39672b593b645c6f917395152f82dad9c41b35c061",
+            "bytes": 2207124,
+            "scope": "measured leading SIZ!/MOD mesh declarations and exposed index list only",
+            "compatibility": "not established",
+            "render_declarations": [
+              {
+                "name": "M_Combinations",
+                "vertex_count": 6452,
+                "offset": 0
+              }
+            ],
+            "collider_declarations": [
+              {
+                "name": "M_Head",
+                "vertex_count": 4037,
+                "offset": 0
+              },
+              {
+                "name": "M_Body",
+                "vertex_count": 12699,
+                "offset": 0
+              }
+            ],
+            "primary_indices": {
+              "name": "M_Combinations",
+              "count": 6452,
+              "minimum": 0,
+              "maximum": 6451,
+              "exact_sequential": true
+            },
+            "full_MOD_count_and_opaque_payloads_validated": false,
+            "remaining_MOD4_MOD6_MOD7_auxiliary_semantics": "not decoded",
+            "schema_provenance": "supplied reference_source/WWE2K_MDL/Serialize/physics_patcher.py _read_mod1 and _pack_primary_record; measured Moxley offsets independently reviewed; no solver activity inferred"
+          },
+          "source_sha256": "e419544e550eb529cc145c39672b593b645c6f917395152f82dad9c41b35c061",
+          "output_format": {
+            "state": "not_audited",
+            "reason": "mapped output physics file is missing"
+          },
+          "paired_models": [
+            {
+              "role": "attire",
+              "path": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\source\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mcd",
+              "sha256": "b5ecca7b5e15a9820f866e33922d091b3f837e64d873ba9b24bd69925953085a",
+              "bytes": 13856864,
+              "side": "source"
+            },
+            {
+              "role": "attire",
+              "path": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mcd",
+              "sha256": "1320ed4f6f4f5290117c5ad483aa242dcba0ffab5073b466419cb3fedd5cb936",
+              "bytes": 15134996,
+              "side": "output"
+            },
+            {
+              "role": "base",
+              "path": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\source\\881_Jon_Moxley\\BaseModel\\baseModel.mcd",
+              "sha256": "b1a52a2f77bf5fc3cbec7e04eba1f83a1cd3c7ecee6740316c55ac04013f343a",
+              "bytes": 6660548,
+              "side": "source"
+            },
+            {
+              "role": "base",
+              "path": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\BaseModel\\baseModel.mcd",
+              "sha256": "8f0f50818d0ed160fcbb059b242299e835a3cdc86a9734f1525392eec07f3dec",
+              "bytes": 7039964,
+              "side": "output"
+            }
+          ],
+          "paired_model_gaps": [],
+          "source_bindings": {
+            "state": "requires_attention",
+            "scope": "Exposed names and index domains only; opaque physics, active solver semantics and in-game motion compatibility are not validated.",
+            "observations": [
+              {
+                "name": "M_Combinations",
+                "vertex_count": 6452,
+                "offset": 0,
+                "model_role": "attire",
+                "model_domain": {
+                  "render_count": 4358,
+                  "render_minimum": 0,
+                  "render_maximum": 4357,
+                  "remap_count": 4358,
+                  "remap_minimum": 0,
+                  "remap_maximum": 4357,
+                  "remap_explicit": true,
+                  "domain_dense": true
+                },
+                "exposed_index_range": {
+                  "name": "M_Combinations",
+                  "count": 6452,
+                  "minimum": 0,
+                  "maximum": 6451,
+                  "exact_sequential": true
+                },
+                "declared_vertex_range_maximum": 6451,
+                "declared_range_exceeds_both_exposed_domains": true,
+                "state": "outside_exposed_domains"
+              },
+              {
+                "name": "M_Head",
+                "vertex_count": 4037,
+                "offset": 0,
+                "model_role": "base",
+                "model_domain": {
+                  "render_count": 4382,
+                  "render_minimum": 0,
+                  "render_maximum": 4381,
+                  "remap_count": 4382,
+                  "remap_minimum": 0,
+                  "remap_maximum": 4381,
+                  "remap_explicit": true,
+                  "domain_dense": true
+                },
+                "exposed_index_range": null,
+                "declared_vertex_range_maximum": 4036,
+                "declared_range_exceeds_both_exposed_domains": null,
+                "state": "declarations_only_bounds_unverified"
+              },
+              {
+                "name": "M_Body",
+                "vertex_count": 12699,
+                "offset": 0,
+                "model_role": "base",
+                "model_domain": {
+                  "render_count": 12727,
+                  "render_minimum": 0,
+                  "render_maximum": 12726,
+                  "remap_count": 12727,
+                  "remap_minimum": 0,
+                  "remap_maximum": 12726,
+                  "remap_explicit": true,
+                  "domain_dense": true
+                },
+                "exposed_index_range": null,
+                "declared_vertex_range_maximum": 12698,
+                "declared_range_exceeds_both_exposed_domains": null,
+                "state": "declarations_only_bounds_unverified"
+              }
+            ],
+            "problems": [
+              "M_Combinations: exposed vertex index range through 6451 exceeds both paired render and remap domains (maxima 4357/4357); authored binding is inconsistent with the exposed mesh domains"
+            ],
+            "warnings": [
+              "M_Head: declared vertex count 4037 differs from paired render count 4382; count alone does not prove an invalid remap or LOD binding",
+              "M_Body: declared vertex count 12699 differs from paired render count 12727; count alone does not prove an invalid remap or LOD binding"
+            ]
+          },
+          "output_bindings": {
+            "state": "not_audited",
+            "scope": "Exposed names and index domains only; opaque physics, active solver semantics and in-game motion compatibility are not validated.",
+            "observations": [],
+            "problems": [],
+            "warnings": [],
+            "reason": "mapped output physics file is missing"
+          },
+          "unchanged_source_declarations_against_output_models": {
+            "state": "requires_attention",
+            "scope": "Exposed names and index domains only; opaque physics, active solver semantics and in-game motion compatibility are not validated.",
+            "observations": [
+              {
+                "name": "M_Combinations",
+                "vertex_count": 6452,
+                "offset": 0,
+                "model_role": "attire",
+                "model_domain": {
+                  "render_count": 4358,
+                  "render_minimum": 0,
+                  "render_maximum": 4357,
+                  "remap_count": 4358,
+                  "remap_minimum": 0,
+                  "remap_maximum": 4357,
+                  "remap_explicit": true,
+                  "domain_dense": true
+                },
+                "exposed_index_range": {
+                  "name": "M_Combinations",
+                  "count": 6452,
+                  "minimum": 0,
+                  "maximum": 6451,
+                  "exact_sequential": true
+                },
+                "declared_vertex_range_maximum": 6451,
+                "declared_range_exceeds_both_exposed_domains": true,
+                "state": "outside_exposed_domains"
+              },
+              {
+                "name": "M_Head",
+                "vertex_count": 4037,
+                "offset": 0,
+                "model_role": "base",
+                "model_domain": {
+                  "render_count": 4382,
+                  "render_minimum": 0,
+                  "render_maximum": 4381,
+                  "remap_count": 4382,
+                  "remap_minimum": 0,
+                  "remap_maximum": 4381,
+                  "remap_explicit": true,
+                  "domain_dense": true
+                },
+                "exposed_index_range": null,
+                "declared_vertex_range_maximum": 4036,
+                "declared_range_exceeds_both_exposed_domains": null,
+                "state": "declarations_only_bounds_unverified"
+              },
+              {
+                "name": "M_Body",
+                "vertex_count": 12699,
+                "offset": 0,
+                "model_role": "base",
+                "model_domain": {
+                  "render_count": 12727,
+                  "render_minimum": 0,
+                  "render_maximum": 12726,
+                  "remap_count": 12727,
+                  "remap_minimum": 0,
+                  "remap_maximum": 12726,
+                  "remap_explicit": true,
+                  "domain_dense": true
+                },
+                "exposed_index_range": null,
+                "declared_vertex_range_maximum": 12698,
+                "declared_range_exceeds_both_exposed_domains": null,
+                "state": "declarations_only_bounds_unverified"
+              }
+            ],
+            "problems": [
+              "M_Combinations: exposed vertex index range through 6451 exceeds both paired render and remap domains (maxima 4357/4357); authored binding is inconsistent with the exposed mesh domains"
+            ],
+            "warnings": [
+              "M_Head: declared vertex count 4037 differs from paired render count 4382; count alone does not prove an invalid remap or LOD binding",
+              "M_Body: declared vertex count 12699 differs from paired render count 12727; count alone does not prove an invalid remap or LOD binding"
+            ]
+          },
+          "format_translation_scope": "format translation not established by this audit",
+          "state": "partially_audited",
+          "unavailable_binding_sides": [
+            "output"
+          ]
+        },
+        {
+          "file": "881_Default_Attire\\881_Attire.wdf",
+          "mapped_file": "881_Default_Attire\\881_Attire.wdf",
+          "source": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\source\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.wdf",
+          "output": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mcd",
+          "in_game_validation": "not_performed",
+          "file_changes": "none",
+          "source_format": {
+            "state": "not_audited",
+            "sha256": "0ede85be46899dfbbae361fa1a2c1c81c972f09d96fd8604a02fad04b965e59b",
+            "bytes": 391100,
+            "reason": "WDF solver schema is not audited"
+          },
+          "source_sha256": "0ede85be46899dfbbae361fa1a2c1c81c972f09d96fd8604a02fad04b965e59b",
+          "delivery": {
+            "state": "embedded_payload_delivery_verified",
+            "embedded_tag": "WDF!",
+            "storage": "embedded_MCD_substream",
+            "model": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mcd",
+            "output_model_sha256": "1320ed4f6f4f5290117c5ad483aa242dcba0ffab5073b466419cb3fedd5cb936",
+            "output_model_bytes": 15134996,
+            "output_wdf_sha256": "50e52ae05c1ff6fe03203e242d3bbfab18dcf7483bb935004c7936fb24a116f8",
+            "output_wdf_bytes": 836780,
+            "solver_and_motion_compatibility": "not established"
+          },
+          "output_sha256": "50e52ae05c1ff6fe03203e242d3bbfab18dcf7483bb935004c7936fb24a116f8",
+          "output_format": {
+            "state": "not_audited",
+            "reason": "WDF solver schema is not audited; embedded payload delivery was independently verified",
+            "sha256": "50e52ae05c1ff6fe03203e242d3bbfab18dcf7483bb935004c7936fb24a116f8",
+            "bytes": 836780,
+            "embedded_tag": "WDF!"
+          },
+          "physics_payload_byte_identical": false,
+          "paired_models": [],
+          "paired_model_gaps": [
+            "format does not expose supported bindings; paired model reads skipped"
+          ],
+          "source_bindings": {
+            "state": "not_audited",
+            "scope": "Exposed names and index domains only; opaque physics, active solver semantics and in-game motion compatibility are not validated.",
+            "observations": [],
+            "problems": [],
+            "warnings": [],
+            "reason": "WDF solver schema is not audited"
+          },
+          "output_bindings": {
+            "state": "not_audited",
+            "scope": "Exposed names and index domains only; opaque physics, active solver semantics and in-game motion compatibility are not validated.",
+            "observations": [],
+            "problems": [],
+            "warnings": [],
+            "reason": "WDF solver schema is not audited; embedded payload delivery was independently verified"
+          },
+          "unchanged_source_declarations_against_output_models": {
+            "state": "not_audited",
+            "scope": "Exposed names and index domains only; opaque physics, active solver semantics and in-game motion compatibility are not validated.",
+            "observations": [],
+            "problems": [],
+            "warnings": [],
+            "reason": "WDF solver schema is not audited"
+          },
+          "format_translation_scope": "format translation not established by this audit",
+          "state": "not_audited",
+          "unavailable_binding_sides": [
+            "source",
+            "output"
+          ]
+        },
+        {
+          "file": "881_Default_Attire\\881_Attire.ycl",
+          "mapped_file": "881_Default_Attire\\881_Attire.ycl",
+          "source": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\source\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.ycl",
+          "output": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.ycl",
+          "in_game_validation": "not_performed",
+          "file_changes": "none",
+          "source_format": {
+            "state": "exposed_names_inspected",
+            "scope": "bounded header/tree and exposed names",
+            "sha256": "463b86a16584681ebf6b069dc9535249d26d26415446d5c5abe280b17b34048d",
+            "bytes": 55248,
+            "compatibility": "not established",
+            "version_words": [
+              0,
+              1
+            ],
+            "root_node_count": 32,
+            "objects": [
+              {
+                "name": "S_Hair",
+                "model_name": "746_Attire",
+                "declared_count_word": 264,
+                "count_semantics": "not inferred",
+                "node_kind": 5,
+                "node_head": 48
+              }
+            ],
+            "joint_names": [
+              "Hair_b26",
+              "Hair_b26_00",
+              "Hair_b26_01",
+              "null",
+              "Hair_b25",
+              "Hair_b25_00",
+              "Hair_b25_01",
+              "Hair_b25_02",
+              "Hair_b24",
+              "Hair_b24_00",
+              "Hair_b24_01",
+              "Hair_b23",
+              "Hair_b23_00",
+              "Hair_b23_01",
+              "Hair_b23_02",
+              "Hair_b22",
+              "Hair_b22_00",
+              "Hair_b22_01",
+              "Hair_b22_02",
+              "Hair_b21",
+              "Hair_b21_00",
+              "Hair_b21_01",
+              "Hair_b20",
+              "Hair_b20_00",
+              "Hair_b20_01",
+              "Hair_b20_02",
+              "Hair_b19",
+              "Hair_b19_00",
+              "Hair_b19_01",
+              "Hair_b19_02",
+              "Hair_b18",
+              "Hair_b18_00",
+              "Hair_b18_01",
+              "Hair_b18_02",
+              "Hair_b17",
+              "Hair_b17_00",
+              "Hair_b17_01",
+              "Hair_b17_02",
+              "Hair_b16",
+              "Hair_b16_00",
+              "Hair_b16_01",
+              "Hair_b15",
+              "Hair_b15_00",
+              "Hair_b15_01",
+              "Hair_b14",
+              "Hair_b14_00",
+              "Hair_b14_01",
+              "Hair_b12",
+              "Hair_b12_00",
+              "Hair_b12_01",
+              "Hair_b12_02",
+              "Hair_b09",
+              "Hair_b09_00",
+              "Hair_b09_01",
+              "Hair_b07",
+              "Hair_b07_00",
+              "Hair_b07_01",
+              "Hair_b06",
+              "Hair_b06_00",
+              "Hair_b06_01",
+              "Hair_b05",
+              "Hair_b05_00",
+              "Hair_b05_01",
+              "Hair_b04",
+              "Hair_b04_00",
+              "Hair_b04_01",
+              "Hair_b03",
+              "Hair_b03_00",
+              "Hair_b03_01",
+              "Hair_b02",
+              "Hair_b02_00",
+              "Hair_b02_01",
+              "Hair_b01",
+              "Hair_b01_00",
+              "Hair_b01_01",
+              "Hair_b01_02",
+              "Hair_b00",
+              "Hair_b00_00",
+              "Hair_b00_01",
+              "Hair_b00_02",
+              "J_Foot_L",
+              "J_Knee_L",
+              "J_Knee_R",
+              "J_Leg_L",
+              "J_Elbow_L",
+              "J_Elbow_R",
+              "J_Foot_R",
+              "J_Leg_R",
+              "J_Hips",
+              "J_Spine1",
+              "J_Spine2",
+              "J_Chest",
+              "J_Neck",
+              "J_Head",
+              "J_Clavicle_L",
+              "J_Shoulder_L",
+              "J_Wrist_L",
+              "J_Wrist_R",
+              "J_Shoulder_R",
+              "J_Clavicle_R"
+            ],
+            "payload_semantics": "not decoded",
+            "output_2k26_version_observed": false,
+            "legacy_year": "unidentified measured 0/1 layout"
+          },
+          "source_sha256": "463b86a16584681ebf6b069dc9535249d26d26415446d5c5abe280b17b34048d",
+          "output_format": {
+            "state": "exposed_names_inspected",
+            "scope": "bounded header/tree and exposed names",
+            "sha256": "75c2b41d0c6105651bd5ce8caed5d0e6f6f62537122c56d3e2e7ac7d51462c41",
+            "bytes": 55568,
+            "compatibility": "not established",
+            "version_words": [
+              1,
+              26
+            ],
+            "root_node_count": 32,
+            "objects": [
+              {
+                "name": "S_Hair",
+                "model_name": "746_Attire",
+                "declared_count_word": 264,
+                "count_semantics": "not inferred",
+                "node_kind": 5,
+                "node_head": 48
+              }
+            ],
+            "joint_names": [
+              "Hair_b26",
+              "Hair_b26_00",
+              "Hair_b26_01",
+              "null",
+              "Hair_b25",
+              "Hair_b25_00",
+              "Hair_b25_01",
+              "Hair_b25_02",
+              "Hair_b24",
+              "Hair_b24_00",
+              "Hair_b24_01",
+              "Hair_b23",
+              "Hair_b23_00",
+              "Hair_b23_01",
+              "Hair_b23_02",
+              "Hair_b22",
+              "Hair_b22_00",
+              "Hair_b22_01",
+              "Hair_b22_02",
+              "Hair_b21",
+              "Hair_b21_00",
+              "Hair_b21_01",
+              "Hair_b20",
+              "Hair_b20_00",
+              "Hair_b20_01",
+              "Hair_b20_02",
+              "Hair_b19",
+              "Hair_b19_00",
+              "Hair_b19_01",
+              "Hair_b19_02",
+              "Hair_b18",
+              "Hair_b18_00",
+              "Hair_b18_01",
+              "Hair_b18_02",
+              "Hair_b17",
+              "Hair_b17_00",
+              "Hair_b17_01",
+              "Hair_b17_02",
+              "Hair_b16",
+              "Hair_b16_00",
+              "Hair_b16_01",
+              "Hair_b15",
+              "Hair_b15_00",
+              "Hair_b15_01",
+              "Hair_b14",
+              "Hair_b14_00",
+              "Hair_b14_01",
+              "Hair_b12",
+              "Hair_b12_00",
+              "Hair_b12_01",
+              "Hair_b12_02",
+              "Hair_b09",
+              "Hair_b09_00",
+              "Hair_b09_01",
+              "Hair_b07",
+              "Hair_b07_00",
+              "Hair_b07_01",
+              "Hair_b06",
+              "Hair_b06_00",
+              "Hair_b06_01",
+              "Hair_b05",
+              "Hair_b05_00",
+              "Hair_b05_01",
+              "Hair_b04",
+              "Hair_b04_00",
+              "Hair_b04_01",
+              "Hair_b03",
+              "Hair_b03_00",
+              "Hair_b03_01",
+              "Hair_b02",
+              "Hair_b02_00",
+              "Hair_b02_01",
+              "Hair_b01",
+              "Hair_b01_00",
+              "Hair_b01_01",
+              "Hair_b01_02",
+              "Hair_b00",
+              "Hair_b00_00",
+              "Hair_b00_01",
+              "Hair_b00_02",
+              "J_Foot_L",
+              "J_Knee_L",
+              "J_Knee_R",
+              "J_Leg_L",
+              "J_Elbow_L",
+              "J_Elbow_R",
+              "J_Foot_R",
+              "J_Leg_R",
+              "J_Hips",
+              "J_Spine1",
+              "J_Spine2",
+              "J_Chest",
+              "J_Neck",
+              "J_Head",
+              "J_Clavicle_L",
+              "J_Shoulder_L",
+              "J_Wrist_L",
+              "J_Wrist_R",
+              "J_Shoulder_R",
+              "J_Clavicle_R"
+            ],
+            "payload_semantics": "not decoded",
+            "output_2k26_version_observed": true,
+            "legacy_year": 26
+          },
+          "output_sha256": "75c2b41d0c6105651bd5ce8caed5d0e6f6f62537122c56d3e2e7ac7d51462c41",
+          "physics_payload_byte_identical": false,
+          "paired_models": [
+            {
+              "role": "attire",
+              "path": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\source\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mcd",
+              "sha256": "b5ecca7b5e15a9820f866e33922d091b3f837e64d873ba9b24bd69925953085a",
+              "bytes": 13856864,
+              "side": "source"
+            },
+            {
+              "role": "attire",
+              "path": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mcd",
+              "sha256": "1320ed4f6f4f5290117c5ad483aa242dcba0ffab5073b466419cb3fedd5cb936",
+              "bytes": 15134996,
+              "side": "output"
+            },
+            {
+              "role": "base",
+              "path": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\source\\881_Jon_Moxley\\BaseModel\\baseModel.mcd",
+              "sha256": "b1a52a2f77bf5fc3cbec7e04eba1f83a1cd3c7ecee6740316c55ac04013f343a",
+              "bytes": 6660548,
+              "side": "source"
+            },
+            {
+              "role": "base",
+              "path": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\BaseModel\\baseModel.mcd",
+              "sha256": "8f0f50818d0ed160fcbb059b242299e835a3cdc86a9734f1525392eec07f3dec",
+              "bytes": 7039964,
+              "side": "output"
+            }
+          ],
+          "paired_model_gaps": [],
+          "source_bindings": {
+            "state": "requires_attention",
+            "scope": "Exposed names and index domains only; opaque physics, active solver semantics and in-game motion compatibility are not validated.",
+            "observations": [
+              {
+                "name": "S_Hair",
+                "model_name": "746_Attire",
+                "declared_count_word": 264,
+                "count_semantics": "not inferred",
+                "node_kind": 5,
+                "node_head": 48,
+                "model_reference_state": "missing_model_reference",
+                "paired_model_scope_complete": true,
+                "active_or_embedded_solver_semantics": "not established"
+              }
+            ],
+            "problems": [],
+            "warnings": [
+              "YCL object S_Hair is absent from the available paired named meshes; embedded or unused solver-name semantics are unverified"
+            ],
+            "declared_joint_names_missing_from_available_rigs": []
+          },
+          "output_bindings": {
+            "state": "requires_attention",
+            "scope": "Exposed names and index domains only; opaque physics, active solver semantics and in-game motion compatibility are not validated.",
+            "observations": [
+              {
+                "name": "S_Hair",
+                "model_name": "746_Attire",
+                "declared_count_word": 264,
+                "count_semantics": "not inferred",
+                "node_kind": 5,
+                "node_head": 48,
+                "model_reference_state": "missing_model_reference",
+                "paired_model_scope_complete": true,
+                "active_or_embedded_solver_semantics": "not established"
+              }
+            ],
+            "problems": [],
+            "warnings": [
+              "YCL object S_Hair is absent from the available paired named meshes; embedded or unused solver-name semantics are unverified"
+            ],
+            "declared_joint_names_missing_from_available_rigs": []
+          },
+          "unchanged_source_declarations_against_output_models": {
+            "state": "requires_attention",
+            "scope": "Exposed names and index domains only; opaque physics, active solver semantics and in-game motion compatibility are not validated.",
+            "observations": [
+              {
+                "name": "S_Hair",
+                "model_name": "746_Attire",
+                "declared_count_word": 264,
+                "count_semantics": "not inferred",
+                "node_kind": 5,
+                "node_head": 48,
+                "model_reference_state": "missing_model_reference",
+                "paired_model_scope_complete": true,
+                "active_or_embedded_solver_semantics": "not established"
+              }
+            ],
+            "problems": [],
+            "warnings": [
+              "YCL object S_Hair is absent from the available paired named meshes; embedded or unused solver-name semantics are unverified"
+            ],
+            "declared_joint_names_missing_from_available_rigs": []
+          },
+          "format_translation_scope": "output version 1/26 observed; binding and motion validity are separate",
+          "state": "exposed_declarations_audited_only"
+        }
+      ],
+      "model_reads": 4,
+      "physics_files_modified": false,
+      "in_game_validation": "not_performed",
+      "all_inspected_files_unchanged": true,
+      "state": "exposed_declarations_only; motion compatibility not validated"
+    },
+    "started_at_utc": "2026-10-13T01:53:34.565787+00:00",
+    "finished_at_utc": "2026-10-13T01:53:42.840900+00:00",
+    "status": "completed_with_problems",
+    "report_paths": [
+      "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\881_Jon_Moxley - conversion report.json",
+      "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\Characters\\881_Jon_Moxley\\881_Jon_Moxley - conversion report.json"
+    ],
+    "report_path": "Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\881_Jon_Moxley - conversion report.json"
+  },
+  "logs": [
+    "  BaseModel\\baseModel.mcd: base model, 209 -> 175 bones, male rig, check pass",
+    "  881_Default_Attire\\881_Attire.mcd: attire, 292 -> 256 bones, large rig, check pass",
+    "  881_Default_Attire\\881_Attire.mtls: 6 materials",
+    "  881_Default_Attire\\881_Attire.ycl: YCL translated by original Gorilla converter; companion physics remains incomplete",
+    "  881_Default_Attire\\881_Attire.mcd: WDF authored records restored for four verified model LODs; YWA conversion and facial deformation remain unverified",
+    "Face checks: 2 recorded outputs audited; 1 contain face meshes; in-game appearance not verified.",
+    "  881_Default_Attire\\881_Attire.hair_corr_ywa: physics audit partially_audited; movement compatibility unverified",
+    "  881_Default_Attire\\881_Attire.hair_ywa: physics audit partially_audited; movement compatibility unverified",
+    "  881_Default_Attire\\881_Attire.other_corr_ywa: physics audit partially_audited; movement compatibility unverified",
+    "  881_Default_Attire\\881_Attire.other_ywa: physics audit partially_audited; movement compatibility unverified",
+    "  881_Default_Attire\\881_Attire.wdf: physics audit not_audited; movement compatibility unverified",
+    "  881_Default_Attire\\881_Attire.ycl: physics audit exposed_declarations_audited_only; movement compatibility unverified",
+    "Report saved: Z:\\workspace\\formatter-investigation\\moxley-folder14-r5\\output\\881_Jon_Moxley - conversion report.json"
+  ],
+  "all_saved_reports_equal": true,
+  "all_original_gorilla_model_checks_pass": true,
+  "mesh_geometry_checks": [
+    {
+      "model": "baseModel.mcd",
+      "mesh": "M_Tongue",
+      "one_target_match": true,
+      "positions_equal": true,
+      "triangles_equal": true,
+      "vertex_remaps_equal": true,
+      "uvs_equal": true
+    },
+    {
+      "model": "baseModel.mcd",
+      "mesh": "M_Teeth",
+      "one_target_match": true,
+      "positions_equal": true,
+      "triangles_equal": true,
+      "vertex_remaps_equal": true,
+      "uvs_equal": true
+    },
+    {
+      "model": "baseModel.mcd",
+      "mesh": "M_MouthBag",
+      "one_target_match": true,
+      "positions_equal": true,
+      "triangles_equal": true,
+      "vertex_remaps_equal": true,
+      "uvs_equal": true
+    },
+    {
+      "model": "baseModel.mcd",
+      "mesh": "M_transB_eyelash",
+      "one_target_match": true,
+      "positions_equal": true,
+      "triangles_equal": true,
+      "vertex_remaps_equal": true,
+      "uvs_equal": true
+    },
+    {
+      "model": "baseModel.mcd",
+      "mesh": "M_Body",
+      "one_target_match": true,
+      "positions_equal": true,
+      "triangles_equal": true,
+      "vertex_remaps_equal": true,
+      "uvs_equal": true
+    },
+    {
+      "model": "baseModel.mcd",
+      "mesh": "M_EYE",
+      "one_target_match": true,
+      "positions_equal": true,
+      "triangles_equal": true,
+      "vertex_remaps_equal": true,
+      "uvs_equal": true
+    },
+    {
+      "model": "baseModel.mcd",
+      "mesh": "M_Head",
+      "one_target_match": true,
+      "positions_equal": true,
+      "triangles_equal": true,
+      "vertex_remaps_equal": true,
+      "uvs_equal": true
+    },
+    {
+      "model": "881_Attire.mcd",
+      "mesh": "M_Hair",
+      "one_target_match": true,
+      "positions_equal": true,
+      "triangles_equal": true,
+      "vertex_remaps_equal": true,
+      "uvs_equal": true
+    },
+    {
+      "model": "881_Attire.mcd",
+      "mesh": "M_Bottoms",
+      "one_target_match": true,
+      "positions_equal": true,
+      "triangles_equal": true,
+      "vertex_remaps_equal": true,
+      "uvs_equal": true
+    },
+    {
+      "model": "881_Attire.mcd",
+      "mesh": "M_Boots",
+      "one_target_match": true,
+      "positions_equal": true,
+      "triangles_equal": true,
+      "vertex_remaps_equal": true,
+      "uvs_equal": true
+    },
+    {
+      "model": "881_Attire.mcd",
+      "mesh": "M0009_04_Jon_Moxley",
+      "one_target_match": true,
+      "positions_equal": true,
+      "triangles_equal": true,
+      "vertex_remaps_equal": true,
+      "uvs_equal": true
+    },
+    {
+      "model": "881_Attire.mcd",
+      "mesh": "M_Combinations",
+      "one_target_match": true,
+      "positions_equal": true,
+      "triangles_equal": true,
+      "vertex_remaps_equal": true,
+      "uvs_equal": true
+    },
+    {
+      "model": "881_Attire.mcd",
+      "mesh": "M_Hair2",
+      "one_target_match": true,
+      "positions_equal": true,
+      "triangles_equal": true,
+      "vertex_remaps_equal": true,
+      "uvs_equal": true
+    }
+  ],
+  "target_ycl_matches_independent_original_gorilla_translation": true,
+  "ycl_names_preserved": true,
+  "final_target_substreams": [
+    {
+      "tag": "HPL!",
+      "bytes": 212732,
+      "sha256": "40fa6740b2d45c6d097c8078b4995a690f050b7646d06be50c54b1562163e664"
+    },
+    {
+      "tag": "WDF!",
+      "bytes": 836780,
+      "sha256": "50e52ae05c1ff6fe03203e242d3bbfab18dcf7483bb935004c7936fb24a116f8"
+    }
+  ],
+  "authored_hpl_byte_identical": true,
+  "authored_hpl_whole": true,
+  "four_unsupported_ywa_sidecars_remain_omitted": true,
+  "actual_movement_eyes_teeth_beard_appearance_tested": false,
+  "conversion_completeness": "incomplete",
+  "actual_tested_candidate_sha256": "e144d758ada9a73ab908c09fd8a5b9a4324887dfa3637c9281b1efc8741855a7",
+  "entrypoint_substitution_only": true,
+  "all_other_candidate_payloads_identical": true
+}

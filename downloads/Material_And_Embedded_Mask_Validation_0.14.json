@@ -1,0 +1,2890 @@
+{
+  "scope": "exact 0.11 runtime under Wine; controlled legacy MCDs formed from actual supplied Bryan original models/HPL plus known invalid sidecar and independently constructed unsupported-v2 table; actual uploaded native Flip pair preservation; no actual Bryan MTLS, original Flip inputs or in-game check",
+  "controlled_legacy": {
+    "source_versions": {
+      "159_Attire.mcd": 40,
+      "baseModel.mcd": 40
+    },
+    "source_unchanged": true,
+    "models_verified": true,
+    "embedded_recovery_recorded": true,
+    "output_version": 47,
+    "output_hpl_whole": true,
+    "mask_flags_and_indices_preserved": true,
+    "mask_indices_in_actual_paired_base": true,
+    "unsupported_table_not_written_or_copied": true,
+    "unsupported_material_problems_reach_final_report": true,
+    "reports_saved_and_equal": true,
+    "report": {
+      "source": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\legacy-source\\159_Bryan_Danielson",
+      "output": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\legacy-output\\Characters\\159_Bryan_Danielson",
+      "game_path": "Characters/159_Bryan_Danielson",
+      "models": [
+        {
+          "source": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\legacy-source\\159_Bryan_Danielson\\BaseModel\\baseModel.mcd",
+          "output": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\legacy-output\\Characters\\159_Bryan_Danielson\\BaseModel\\baseModel.mcd",
+          "source_version": "0x28",
+          "notes": [
+            "2K25 eye-shadow overlay mesh M_transB_eyesha left out (2K26 has no such mesh)",
+            "M_EYE split into eye_r (552 tris) and eye_l (552 tris)",
+            "skeleton: 2K26 male rig (138 bones on the stock pose, 2 moved to their 2K26 stock pose, 26 new)",
+            "2684 vertices used the old muscle bones and were re-weighted",
+            "M_Body had no vertex colour: stock 2K26 colours filled in",
+            "13 eye/mouth shading anchors placed (2 by texture position, furthest 0.80 cm from its stock spot)",
+            "2K24 source format routed without changing input bytes; rig/material/physics validation is still required."
+          ],
+          "kind": "base model",
+          "dropped_meshes": [
+            "2K25 eye-shadow overlay mesh M_transB_eyesha left out (2K26 has no such mesh)"
+          ],
+          "rig": "2K25",
+          "bones": "209 -> 175",
+          "skeleton": "male",
+          "reference_body": "male",
+          "bone_report": {
+            "variant": "male",
+            "stock_pose": 138,
+            "moved_to_2k26_pose": [
+              "H_Ebw_Out_L",
+              "H_Ebw_Out_R"
+            ],
+            "own_pose": [],
+            "new": 26
+          },
+          "weights": [
+            {
+              "mesh": "M_Tongue",
+              "old_groups": 0,
+              "verts_changed": 0,
+              "kept_own_part": 0
+            },
+            {
+              "mesh": "M_Teeth",
+              "old_groups": 0,
+              "verts_changed": 0,
+              "kept_own_part": 0
+            },
+            {
+              "mesh": "M_MouthBag",
+              "old_groups": 0,
+              "verts_changed": 0,
+              "kept_own_part": 0
+            },
+            {
+              "mesh": "M_EYE",
+              "old_groups": 0,
+              "verts_changed": 0,
+              "kept_own_part": 0
+            },
+            {
+              "mesh": "M_Head",
+              "old_groups": 8,
+              "verts_changed": 126,
+              "kept_own_part": 0,
+              "max_distance_to_stock_skin": 1.32
+            },
+            {
+              "mesh": "M_Body",
+              "old_groups": 16,
+              "verts_changed": 2558,
+              "kept_own_part": 0,
+              "max_distance_to_stock_skin": 2.21
+            }
+          ],
+          "attach_points_dropped": 0,
+          "mask_limits": {
+            "M_Tongue": 341,
+            "M_Teeth": 4701,
+            "M_MouthBag": 352,
+            "M_EYE": 578,
+            "M_Head": 4375,
+            "M_Body": 12768
+          },
+          "meshes": [
+            {
+              "unweighted": 0,
+              "dropped_groups": [],
+              "mesh": "M_Tongue"
+            },
+            {
+              "unweighted": 0,
+              "dropped_groups": [],
+              "mesh": "M_Teeth"
+            },
+            {
+              "unweighted": 0,
+              "dropped_groups": [],
+              "mesh": "M_MouthBag"
+            },
+            {
+              "unweighted": 0,
+              "dropped_groups": [],
+              "mesh": "M_EYE"
+            },
+            {
+              "unweighted": 0,
+              "dropped_groups": [],
+              "mesh": "M_Head"
+            },
+            {
+              "unweighted": 0,
+              "dropped_groups": [],
+              "mesh": "M_Body"
+            }
+          ],
+          "status": "converted",
+          "mesh_vertex_counts": {
+            "M_Tongue": 341,
+            "M_Teeth": 4701,
+            "M_MouthBag": 352,
+            "M_EYE": 578,
+            "M_Head": 4375,
+            "M_Body": 12768
+          },
+          "source_game": "WWE 2K24",
+          "legacy_2k24_conversion": {
+            "version": "native-2k24-format-route-with-rig-guards-1",
+            "source_version": 40,
+            "input_header_rewritten": false,
+            "backend": "original native v40 reader and Gorilla conversion core",
+            "rig_checks": "original compatibility checks retained",
+            "validation": "see per-model verify; materials, hide masks, physics and in-game checks remain separate"
+          },
+          "verify": "pass",
+          "problems": [],
+          "facts": {
+            "bones": 175,
+            "substreams": [
+              "CTG!",
+              "MDL!",
+              "HPL!"
+            ],
+            "anchors": 13,
+            "M_Tongue": {
+              "verts": 341,
+              "reweighted": 0
+            },
+            "M_Teeth": {
+              "verts": 4701,
+              "reweighted": 0
+            },
+            "M_MouthBag": {
+              "verts": 352,
+              "reweighted": 0
+            },
+            "M_EYE": {
+              "verts": 578,
+              "reweighted": 0
+            },
+            "M_Head": {
+              "verts": 4375,
+              "reweighted": 126
+            },
+            "left_out": [
+              "M_transB_eyesha"
+            ],
+            "M_Body": {
+              "verts": 12768,
+              "reweighted": 2558
+            },
+            "hide_mask": "none"
+          },
+          "reference_weight_audit": {
+            "version": "supplied-reference-weight-audit-1",
+            "scope": "read_only_weight_data_checks; anatomical correctness unverified",
+            "bone_deform_flags": "not_in_native_records; reference driver-name rules only",
+            "meshes": [
+              {
+                "mesh": "M_Tongue",
+                "vertices": 341,
+                "suspicious_vertices": 0,
+                "counts": {
+                  "unweighted": 0,
+                  "nonunit": 0,
+                  "excessive": 0,
+                  "driver": 0,
+                  "missing_bone": 0,
+                  "invalid": 0
+                },
+                "sample_vertex_indices": [],
+                "positive_weight_groups_absent_from_rig": []
+              },
+              {
+                "mesh": "M_Teeth",
+                "vertices": 4701,
+                "suspicious_vertices": 0,
+                "counts": {
+                  "unweighted": 0,
+                  "nonunit": 0,
+                  "excessive": 0,
+                  "driver": 0,
+                  "missing_bone": 0,
+                  "invalid": 0
+                },
+                "sample_vertex_indices": [],
+                "positive_weight_groups_absent_from_rig": []
+              },
+              {
+                "mesh": "M_MouthBag",
+                "vertices": 352,
+                "suspicious_vertices": 0,
+                "counts": {
+                  "unweighted": 0,
+                  "nonunit": 0,
+                  "excessive": 0,
+                  "driver": 0,
+                  "missing_bone": 0,
+                  "invalid": 0
+                },
+                "sample_vertex_indices": [],
+                "positive_weight_groups_absent_from_rig": []
+              },
+              {
+                "mesh": "M_EYE",
+                "vertices": 578,
+                "suspicious_vertices": 0,
+                "counts": {
+                  "unweighted": 0,
+                  "nonunit": 0,
+                  "excessive": 0,
+                  "driver": 0,
+                  "missing_bone": 0,
+                  "invalid": 0
+                },
+                "sample_vertex_indices": [],
+                "positive_weight_groups_absent_from_rig": []
+              },
+              {
+                "mesh": "M_Head",
+                "vertices": 4375,
+                "suspicious_vertices": 0,
+                "counts": {
+                  "unweighted": 0,
+                  "nonunit": 0,
+                  "excessive": 0,
+                  "driver": 0,
+                  "missing_bone": 0,
+                  "invalid": 0
+                },
+                "sample_vertex_indices": [],
+                "positive_weight_groups_absent_from_rig": []
+              },
+              {
+                "mesh": "M_Body",
+                "vertices": 12768,
+                "suspicious_vertices": 0,
+                "counts": {
+                  "unweighted": 0,
+                  "nonunit": 0,
+                  "excessive": 0,
+                  "driver": 0,
+                  "missing_bone": 0,
+                  "invalid": 0
+                },
+                "sample_vertex_indices": [],
+                "positive_weight_groups_absent_from_rig": []
+              }
+            ],
+            "suspicious_vertices": 0
+          },
+          "face_output_audit": {
+            "version": "all-recorded-model-output-face-audit-1",
+            "output": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\legacy-output\\Characters\\159_Bryan_Danielson\\BaseModel\\baseModel.mcd",
+            "problems": [
+              "face material link table is unavailable or not a supported native layout"
+            ],
+            "warnings": [],
+            "file_changes": "none; read-only audit",
+            "reference_scope": "supplied native 2K26 face schema and writer references; identical topology or appearance is not required",
+            "reference_baseline_name": "earlier_supplied_native_2k26_cena_face_schema",
+            "in_game_validation": "not_performed",
+            "original_model_verify": "pass",
+            "output_sha256": "9e546e3189c7897ec5659f602a680d16d4d789db83b7fea445b600db6faa5482",
+            "output_version": 47,
+            "applicability": "face_meshes_present",
+            "meshes": [
+              {
+                "mesh": "M_Tongue",
+                "kind": "mouthbag",
+                "vertices": 341,
+                "problems": [],
+                "warnings": [],
+                "scene_flag": 128,
+                "motion_flag": -1,
+                "game_flag_policy": "observed; no shader or motion flags are forced",
+                "triangles": 584,
+                "uv_channels": [
+                  {
+                    "channel": 0,
+                    "shape": [
+                      341,
+                      2
+                    ],
+                    "state": "finite",
+                    "minimum": [
+                      0.0019042693311348557,
+                      0.8875911831855774
+                    ],
+                    "maximum": [
+                      0.12403831630945206,
+                      0.9922455549240112
+                    ]
+                  }
+                ],
+                "normals": {
+                  "shape": [
+                    341,
+                    3
+                  ],
+                  "finite": true
+                },
+                "tangents": {
+                  "shape": [
+                    341,
+                    4
+                  ],
+                  "finite": true
+                },
+                "color_channels": [],
+                "face_groups": [
+                  {
+                    "material": "mouthbag",
+                    "first_triangle": 0,
+                    "triangle_count": 584
+                  }
+                ]
+              },
+              {
+                "mesh": "M_Teeth",
+                "kind": "teeth",
+                "vertices": 4701,
+                "problems": [],
+                "warnings": [],
+                "scene_flag": 128,
+                "motion_flag": -1,
+                "game_flag_policy": "observed; no shader or motion flags are forced",
+                "triangles": 7898,
+                "uv_channels": [
+                  {
+                    "channel": 0,
+                    "shape": [
+                      4701,
+                      2
+                    ],
+                    "state": "finite",
+                    "minimum": [
+                      0.007348999846726656,
+                      0.7910109758377075
+                    ],
+                    "maximum": [
+                      0.5392580032348633,
+                      0.9986050128936768
+                    ]
+                  },
+                  {
+                    "channel": 1,
+                    "shape": [
+                      4701,
+                      2
+                    ],
+                    "state": "finite",
+                    "minimum": [
+                      0.00788070261478424,
+                      0.0037654638290405273
+                    ],
+                    "maximum": [
+                      0.9935464859008789,
+                      0.9957854151725769
+                    ]
+                  }
+                ],
+                "normals": {
+                  "shape": [
+                    4701,
+                    3
+                  ],
+                  "finite": true
+                },
+                "tangents": {
+                  "shape": [
+                    4701,
+                    4
+                  ],
+                  "finite": true
+                },
+                "color_channels": [
+                  {
+                    "channel": 0,
+                    "shape": [
+                      4701,
+                      4
+                    ],
+                    "state": "finite",
+                    "minimum": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "maximum": [
+                      0.9999999403953552,
+                      0.9999999403953552,
+                      0.9999999403953552,
+                      1.0
+                    ]
+                  }
+                ],
+                "face_groups": [
+                  {
+                    "material": "teeth",
+                    "first_triangle": 0,
+                    "triangle_count": 7898
+                  }
+                ]
+              },
+              {
+                "mesh": "M_MouthBag",
+                "kind": "mouthbag",
+                "vertices": 352,
+                "problems": [],
+                "warnings": [],
+                "scene_flag": 128,
+                "motion_flag": -1,
+                "game_flag_policy": "observed; no shader or motion flags are forced",
+                "triangles": 616,
+                "uv_channels": [
+                  {
+                    "channel": 0,
+                    "shape": [
+                      352,
+                      2
+                    ],
+                    "state": "finite",
+                    "minimum": [
+                      0.12684795260429382,
+                      0.8777092099189758
+                    ],
+                    "maximum": [
+                      0.2484256774187088,
+                      0.9963176846504211
+                    ]
+                  }
+                ],
+                "normals": {
+                  "shape": [
+                    352,
+                    3
+                  ],
+                  "finite": true
+                },
+                "tangents": {
+                  "shape": [
+                    352,
+                    4
+                  ],
+                  "finite": true
+                },
+                "color_channels": [],
+                "face_groups": [
+                  {
+                    "material": "mouthbag",
+                    "first_triangle": 0,
+                    "triangle_count": 616
+                  }
+                ]
+              },
+              {
+                "mesh": "M_EYE",
+                "kind": "eye",
+                "vertices": 578,
+                "problems": [],
+                "warnings": [],
+                "scene_flag": 128,
+                "motion_flag": -1,
+                "game_flag_policy": "observed; no shader or motion flags are forced",
+                "triangles": 1104,
+                "uv_channels": [
+                  {
+                    "channel": 0,
+                    "shape": [
+                      578,
+                      2
+                    ],
+                    "state": "finite",
+                    "minimum": [
+                      0.07322049885988235,
+                      0.0732564926147461
+                    ],
+                    "maximum": [
+                      0.9277874231338501,
+                      0.9221752285957336
+                    ]
+                  }
+                ],
+                "normals": {
+                  "shape": [
+                    578,
+                    3
+                  ],
+                  "finite": true
+                },
+                "tangents": {
+                  "shape": [
+                    578,
+                    4
+                  ],
+                  "finite": true
+                },
+                "color_channels": [
+                  {
+                    "channel": 0,
+                    "shape": [
+                      578,
+                      4
+                    ],
+                    "state": "finite",
+                    "minimum": [
+                      0.9999999403953552,
+                      0.5017734169960022,
+                      0.0,
+                      0.0
+                    ],
+                    "maximum": [
+                      0.9999999403953552,
+                      0.8160400986671448,
+                      0.5017734169960022,
+                      0.501960813999176
+                    ]
+                  }
+                ],
+                "face_groups": [
+                  {
+                    "material": "eye_r",
+                    "first_triangle": 0,
+                    "triangle_count": 552
+                  },
+                  {
+                    "material": "eye_l",
+                    "first_triangle": 552,
+                    "triangle_count": 552
+                  }
+                ]
+              }
+            ],
+            "materials": [],
+            "anchors": {
+              "records": [
+                {
+                  "name": "_ag_0001",
+                  "mesh": "M_Teeth",
+                  "slot": 1,
+                  "vertex": 3346
+                },
+                {
+                  "name": "_ag_0003",
+                  "mesh": "M_Head",
+                  "slot": 3,
+                  "vertex": 1491
+                },
+                {
+                  "name": "_ag_0000",
+                  "mesh": "M_Teeth",
+                  "slot": 0,
+                  "vertex": 592
+                },
+                {
+                  "name": "_ag_0002",
+                  "mesh": "M_Head",
+                  "slot": 2,
+                  "vertex": 432
+                },
+                {
+                  "name": "_ag_0004",
+                  "mesh": "M_Teeth",
+                  "slot": 4,
+                  "vertex": 1605
+                },
+                {
+                  "name": "_ag_0005",
+                  "mesh": "M_Head",
+                  "slot": 5,
+                  "vertex": 4118
+                },
+                {
+                  "name": "_ag_0006",
+                  "mesh": "M_Head",
+                  "slot": 6,
+                  "vertex": 4102
+                },
+                {
+                  "name": "_ag_0007",
+                  "mesh": "M_Head",
+                  "slot": 7,
+                  "vertex": 4105
+                },
+                {
+                  "name": "_ag_0008",
+                  "mesh": "M_Head",
+                  "slot": 8,
+                  "vertex": 4111
+                },
+                {
+                  "name": "_ag_0009",
+                  "mesh": "M_Head",
+                  "slot": 9,
+                  "vertex": 3944
+                },
+                {
+                  "name": "_ag_0010",
+                  "mesh": "M_Head",
+                  "slot": 10,
+                  "vertex": 4266
+                },
+                {
+                  "name": "_ag_0011",
+                  "mesh": "M_Head",
+                  "slot": 11,
+                  "vertex": 4269
+                },
+                {
+                  "name": "_ag_0012",
+                  "mesh": "M_Head",
+                  "slot": 12,
+                  "vertex": 4276
+                }
+              ],
+              "problems": [],
+              "warnings": [],
+              "scope": "mesh/string/index validity; anatomical placement unverified",
+              "count": 13
+            },
+            "material_library": {
+              "file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\legacy-output\\Characters\\159_Bryan_Danielson\\BaseModel\\baseModel.mtls",
+              "state": "unavailable_or_unsupported",
+              "reason": "[Errno 2] No such file or directory: 'Z:\\\\workspace\\\\formatter-investigation\\\\mask-material14-final-r5\\\\legacy-output\\\\Characters\\\\159_Bryan_Danielson\\\\BaseModel\\\\baseModel.mtls'"
+            },
+            "state": "requires_attention"
+          }
+        },
+        {
+          "source": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\legacy-source\\159_Bryan_Danielson\\159_Default_Attire\\159_Attire.mcd",
+          "output": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\legacy-output\\Characters\\159_Bryan_Danielson\\159_Default_Attire\\159_Attire.mcd",
+          "source_version": "0x28",
+          "notes": [
+            "skeleton: 2K26 male rig (138 bones on the stock pose, 2 moved to their 2K26 stock pose, 26 new)",
+            "hide mask carried over from 159_Attire.hpl (ring: M_Body 4215; entrance: M_Body 4215)",
+            "Restored an existing readable embedded hide mask from this source attire; verified paired base indices and topology. Original files retained; in-game coverage requires checking.",
+            "2K24 source format routed without changing input bytes; rig/material/physics validation is still required."
+          ],
+          "kind": "attire",
+          "dropped_meshes": [],
+          "rig": "2K25",
+          "bones": "209 -> 175",
+          "skeleton": "male",
+          "reference_body": "male",
+          "bone_report": {
+            "variant": "male",
+            "stock_pose": 138,
+            "moved_to_2k26_pose": [
+              "H_Ebw_Out_L",
+              "H_Ebw_Out_R"
+            ],
+            "own_pose": [],
+            "new": 26
+          },
+          "weights": [
+            {
+              "mesh": "M_Combinations",
+              "old_groups": 0,
+              "verts_changed": 0,
+              "kept_own_part": 0
+            },
+            {
+              "mesh": "M_L_Kneepad",
+              "old_groups": 0,
+              "verts_changed": 0,
+              "kept_own_part": 0
+            },
+            {
+              "mesh": "M_L_Wrist",
+              "old_groups": 0,
+              "verts_changed": 0,
+              "kept_own_part": 0
+            },
+            {
+              "mesh": "M_R_Kneepad",
+              "old_groups": 0,
+              "verts_changed": 0,
+              "kept_own_part": 0
+            },
+            {
+              "mesh": "M_R_Wrist",
+              "old_groups": 0,
+              "verts_changed": 0,
+              "kept_own_part": 0
+            },
+            {
+              "mesh": "M_Shoes",
+              "old_groups": 0,
+              "verts_changed": 0,
+              "kept_own_part": 0
+            },
+            {
+              "mesh": "M_Underwear",
+              "old_groups": 0,
+              "verts_changed": 0,
+              "kept_own_part": 0
+            },
+            {
+              "mesh": "M_Hair",
+              "old_groups": 0,
+              "verts_changed": 0,
+              "kept_own_part": 0
+            },
+            {
+              "mesh": "M_Hair",
+              "old_groups": 0,
+              "verts_changed": 0,
+              "kept_own_part": 0
+            }
+          ],
+          "attach_points_dropped": 0,
+          "mask_limits": {
+            "M_Combinations": 5320,
+            "M_L_Kneepad": 480,
+            "M_L_Wrist": 204,
+            "M_R_Kneepad": 480,
+            "M_R_Wrist": 204,
+            "M_Shoes": 2552,
+            "M_Underwear": 711,
+            "M_Hair": 8858
+          },
+          "meshes": [
+            {
+              "unweighted": 0,
+              "dropped_groups": [],
+              "mesh": "M_Combinations"
+            },
+            {
+              "unweighted": 0,
+              "dropped_groups": [],
+              "mesh": "M_L_Kneepad"
+            },
+            {
+              "unweighted": 0,
+              "dropped_groups": [],
+              "mesh": "M_L_Wrist"
+            },
+            {
+              "unweighted": 0,
+              "dropped_groups": [],
+              "mesh": "M_R_Kneepad"
+            },
+            {
+              "unweighted": 0,
+              "dropped_groups": [],
+              "mesh": "M_R_Wrist"
+            },
+            {
+              "unweighted": 0,
+              "dropped_groups": [],
+              "mesh": "M_Shoes"
+            },
+            {
+              "unweighted": 0,
+              "dropped_groups": [],
+              "mesh": "M_Underwear"
+            },
+            {
+              "unweighted": 0,
+              "dropped_groups": [],
+              "mesh": "M_Hair"
+            },
+            {
+              "unweighted": 0,
+              "dropped_groups": [],
+              "mesh": "M_Hair"
+            }
+          ],
+          "status": "converted",
+          "mesh_vertex_counts": {
+            "M_Combinations": 5320,
+            "M_L_Kneepad": 480,
+            "M_L_Wrist": 204,
+            "M_R_Kneepad": 480,
+            "M_R_Wrist": 204,
+            "M_Shoes": 2552,
+            "M_Underwear": 711,
+            "M_Hair": 8858
+          },
+          "embedded_hide_mask_recovery": {
+            "version": "verified-existing-and-supplied-legacy-mask-2",
+            "method": "existing_source_embedded_hpl_through_original_parser_filter_writer",
+            "source_model": "z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\legacy-source\\159_bryan_danielson\\159_default_attire\\159_attire.mcd",
+            "source_model_sha256": "486deda785ac9767cbfffa1abf74acc66a5fe2f7ef4d5d6864c6a52f8bd06651",
+            "written_hpl_sha256": "95bc341610d3b896ca9e443e7c91cdf18303802d4b6954de49b52bf18748a5d3",
+            "paired_source_base": "z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\legacy-source\\159_bryan_danielson\\basemodel\\basemodel.mcd",
+            "paired_source_base_sha256": "09d29663c6a410f323c0b9b6daaa82f3c23209dc2c2b21f15761acce68259c88",
+            "paired_output_base_sha256": "9e546e3189c7897ec5659f602a680d16d4d789db83b7fea445b600db6faa5482",
+            "body_head_remap_and_topology": "preserved",
+            "mask_indices": "all_in_actual_paired_base_domains",
+            "original_source_unchanged": true,
+            "coverage_generated": false,
+            "in_game_validation": "required",
+            "source_embedded_hpl_sha256": "3c4b880b325f1f424d8d0b8dae88f9f38d7263751b23654d2906fa6123dc00be"
+          },
+          "source_game": "WWE 2K24",
+          "legacy_2k24_conversion": {
+            "version": "native-2k24-format-route-with-rig-guards-1",
+            "source_version": 40,
+            "input_header_rewritten": false,
+            "backend": "original native v40 reader and Gorilla conversion core",
+            "rig_checks": "original compatibility checks retained",
+            "validation": "see per-model verify; materials, hide masks, physics and in-game checks remain separate"
+          },
+          "verify": "pass",
+          "problems": [],
+          "facts": {
+            "bones": 175,
+            "substreams": [
+              "MDL!",
+              "HPL!"
+            ],
+            "anchors": 0,
+            "M_Combinations": {
+              "verts": 5320,
+              "reweighted": 0
+            },
+            "M_L_Kneepad": {
+              "verts": 480,
+              "reweighted": 0
+            },
+            "M_L_Wrist": {
+              "verts": 204,
+              "reweighted": 0
+            },
+            "M_R_Kneepad": {
+              "verts": 480,
+              "reweighted": 0
+            },
+            "M_R_Wrist": {
+              "verts": 204,
+              "reweighted": 0
+            },
+            "M_Shoes": {
+              "verts": 2552,
+              "reweighted": 0
+            },
+            "M_Underwear": {
+              "verts": 711,
+              "reweighted": 0
+            },
+            "M_Hair": {
+              "verts": 8858,
+              "reweighted": 0
+            },
+            "hide_mask": "mask",
+            "attire_mesh_matching": {
+              "patch": "identity-paired-attire-original-verifier-1",
+              "scope": "explicit attire filename; original geometry candidates",
+              "source_records": 9,
+              "matching_calls": 9,
+              "consumed_output_records": 9,
+              "weights_used_for_selection": false,
+              "records": [
+                {
+                  "source_index": 0,
+                  "source_name": "M_Combinations",
+                  "geometry_candidates": 1,
+                  "selected_name": "M_Combinations",
+                  "selection_rule": "unique_expected_name"
+                },
+                {
+                  "source_index": 1,
+                  "source_name": "M_L_Kneepad",
+                  "geometry_candidates": 1,
+                  "selected_name": "M_L_Kneepad",
+                  "selection_rule": "unique_expected_name"
+                },
+                {
+                  "source_index": 2,
+                  "source_name": "M_L_Wrist",
+                  "geometry_candidates": 1,
+                  "selected_name": "M_L_Wrist",
+                  "selection_rule": "unique_expected_name"
+                },
+                {
+                  "source_index": 3,
+                  "source_name": "M_R_Kneepad",
+                  "geometry_candidates": 1,
+                  "selected_name": "M_R_Kneepad",
+                  "selection_rule": "unique_expected_name"
+                },
+                {
+                  "source_index": 4,
+                  "source_name": "M_R_Wrist",
+                  "geometry_candidates": 1,
+                  "selected_name": "M_R_Wrist",
+                  "selection_rule": "unique_expected_name"
+                },
+                {
+                  "source_index": 5,
+                  "source_name": "M_Shoes",
+                  "geometry_candidates": 1,
+                  "selected_name": "M_Shoes",
+                  "selection_rule": "unique_expected_name"
+                },
+                {
+                  "source_index": 6,
+                  "source_name": "M_Underwear",
+                  "geometry_candidates": 1,
+                  "selected_name": "M_Underwear",
+                  "selection_rule": "unique_expected_name"
+                },
+                {
+                  "source_index": 7,
+                  "source_name": "M_Hair",
+                  "geometry_candidates": 1,
+                  "selected_name": "M_Hair",
+                  "selection_rule": "unique_expected_name"
+                },
+                {
+                  "source_index": 8,
+                  "source_name": "M_Hair",
+                  "geometry_candidates": 1,
+                  "selected_name": "M_Hair",
+                  "selection_rule": "unique_expected_name"
+                }
+              ],
+              "problems": []
+            },
+            "embedded_hide_mask_recovery": {
+              "version": "verified-existing-and-supplied-legacy-mask-2",
+              "method": "existing_source_embedded_hpl_through_original_parser_filter_writer",
+              "source_model": "z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\legacy-source\\159_bryan_danielson\\159_default_attire\\159_attire.mcd",
+              "source_model_sha256": "486deda785ac9767cbfffa1abf74acc66a5fe2f7ef4d5d6864c6a52f8bd06651",
+              "written_hpl_sha256": "95bc341610d3b896ca9e443e7c91cdf18303802d4b6954de49b52bf18748a5d3",
+              "paired_source_base": "z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\legacy-source\\159_bryan_danielson\\basemodel\\basemodel.mcd",
+              "paired_source_base_sha256": "09d29663c6a410f323c0b9b6daaa82f3c23209dc2c2b21f15761acce68259c88",
+              "paired_output_base_sha256": "9e546e3189c7897ec5659f602a680d16d4d789db83b7fea445b600db6faa5482",
+              "body_head_remap_and_topology": "preserved",
+              "mask_indices": "all_in_actual_paired_base_domains",
+              "original_source_unchanged": true,
+              "coverage_generated": false,
+              "in_game_validation": "required",
+              "source_embedded_hpl_sha256": "3c4b880b325f1f424d8d0b8dae88f9f38d7263751b23654d2906fa6123dc00be"
+            }
+          },
+          "reference_weight_audit": {
+            "version": "supplied-reference-weight-audit-1",
+            "scope": "read_only_weight_data_checks; anatomical correctness unverified",
+            "bone_deform_flags": "not_in_native_records; reference driver-name rules only",
+            "meshes": [
+              {
+                "mesh": "M_Combinations",
+                "vertices": 5320,
+                "suspicious_vertices": 0,
+                "counts": {
+                  "unweighted": 0,
+                  "nonunit": 0,
+                  "excessive": 0,
+                  "driver": 0,
+                  "missing_bone": 0,
+                  "invalid": 0
+                },
+                "sample_vertex_indices": [],
+                "positive_weight_groups_absent_from_rig": []
+              },
+              {
+                "mesh": "M_L_Kneepad",
+                "vertices": 480,
+                "suspicious_vertices": 0,
+                "counts": {
+                  "unweighted": 0,
+                  "nonunit": 0,
+                  "excessive": 0,
+                  "driver": 0,
+                  "missing_bone": 0,
+                  "invalid": 0
+                },
+                "sample_vertex_indices": [],
+                "positive_weight_groups_absent_from_rig": []
+              },
+              {
+                "mesh": "M_L_Wrist",
+                "vertices": 204,
+                "suspicious_vertices": 0,
+                "counts": {
+                  "unweighted": 0,
+                  "nonunit": 0,
+                  "excessive": 0,
+                  "driver": 0,
+                  "missing_bone": 0,
+                  "invalid": 0
+                },
+                "sample_vertex_indices": [],
+                "positive_weight_groups_absent_from_rig": []
+              },
+              {
+                "mesh": "M_R_Kneepad",
+                "vertices": 480,
+                "suspicious_vertices": 0,
+                "counts": {
+                  "unweighted": 0,
+                  "nonunit": 0,
+                  "excessive": 0,
+                  "driver": 0,
+                  "missing_bone": 0,
+                  "invalid": 0
+                },
+                "sample_vertex_indices": [],
+                "positive_weight_groups_absent_from_rig": []
+              },
+              {
+                "mesh": "M_R_Wrist",
+                "vertices": 204,
+                "suspicious_vertices": 0,
+                "counts": {
+                  "unweighted": 0,
+                  "nonunit": 0,
+                  "excessive": 0,
+                  "driver": 0,
+                  "missing_bone": 0,
+                  "invalid": 0
+                },
+                "sample_vertex_indices": [],
+                "positive_weight_groups_absent_from_rig": []
+              },
+              {
+                "mesh": "M_Shoes",
+                "vertices": 2552,
+                "suspicious_vertices": 0,
+                "counts": {
+                  "unweighted": 0,
+                  "nonunit": 0,
+                  "excessive": 0,
+                  "driver": 0,
+                  "missing_bone": 0,
+                  "invalid": 0
+                },
+                "sample_vertex_indices": [],
+                "positive_weight_groups_absent_from_rig": []
+              },
+              {
+                "mesh": "M_Underwear",
+                "vertices": 711,
+                "suspicious_vertices": 0,
+                "counts": {
+                  "unweighted": 0,
+                  "nonunit": 0,
+                  "excessive": 0,
+                  "driver": 0,
+                  "missing_bone": 0,
+                  "invalid": 0
+                },
+                "sample_vertex_indices": [],
+                "positive_weight_groups_absent_from_rig": []
+              },
+              {
+                "mesh": "M_Hair",
+                "vertices": 8858,
+                "suspicious_vertices": 0,
+                "counts": {
+                  "unweighted": 0,
+                  "nonunit": 0,
+                  "excessive": 0,
+                  "driver": 0,
+                  "missing_bone": 0,
+                  "invalid": 0
+                },
+                "sample_vertex_indices": [],
+                "positive_weight_groups_absent_from_rig": []
+              },
+              {
+                "mesh": "M_Hair",
+                "vertices": 8858,
+                "suspicious_vertices": 0,
+                "counts": {
+                  "unweighted": 0,
+                  "nonunit": 0,
+                  "excessive": 0,
+                  "driver": 0,
+                  "missing_bone": 0,
+                  "invalid": 0
+                },
+                "sample_vertex_indices": [],
+                "positive_weight_groups_absent_from_rig": []
+              }
+            ],
+            "suspicious_vertices": 0
+          },
+          "face_output_audit": {
+            "version": "all-recorded-model-output-face-audit-1",
+            "output": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\legacy-output\\Characters\\159_Bryan_Danielson\\159_Default_Attire\\159_Attire.mcd",
+            "problems": [],
+            "warnings": [],
+            "file_changes": "none; read-only audit",
+            "reference_scope": "supplied native 2K26 face schema and writer references; identical topology or appearance is not required",
+            "reference_baseline_name": "earlier_supplied_native_2k26_cena_face_schema",
+            "in_game_validation": "not_performed",
+            "original_model_verify": "pass",
+            "output_sha256": "83c62db320d340c3a8b2b8fcb2f39b3632ccf2df991e9ae65d25024fba002905",
+            "output_version": 47,
+            "state": "not_applicable",
+            "applicability": "no_eye_teeth_or_mouthbag_meshes"
+          }
+        }
+      ],
+      "materials": [
+        {
+          "source": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\legacy-source\\159_Bryan_Danielson\\BaseModel\\baseModel.mtls",
+          "output": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\legacy-output\\Characters\\159_Bryan_Danielson\\BaseModel\\baseModel.mtls",
+          "notes": [],
+          "materials": [],
+          "material_binding_aliases": [],
+          "written_material_payload_audit": [],
+          "status": "unsupported_material_format",
+          "material_format": {
+            "version": "bounded-material-library-format-classification-1",
+            "classification": "unsupported_legacy_inline",
+            "supported": false,
+            "safe_as_native": false,
+            "bytes": 72,
+            "sha256": "e0e41fd4a3ff94e47b7263bfe54a9f9e8fccd79857752b8e22e546eacd0c348a",
+            "blocks": [
+              {
+                "name": "teeth",
+                "offset": 36,
+                "block_version": 2,
+                "extent_validated": false
+              }
+            ],
+            "observed_block_versions": [
+              2
+            ],
+            "envelope_validated": true,
+            "payload_extents_validated": false,
+            "validation_scope": "format only; shader, texture and in-game validity not established",
+            "library_version": 6,
+            "material_count": 1,
+            "material_names": [
+              "teeth"
+            ],
+            "material_path_hashes": [
+              1
+            ],
+            "blocks_offset": 36,
+            "reason": "observed MTL! block v2; its payload layout is not supported or extent-validated"
+          },
+          "problems": [
+            "material conversion not completed: observed MTL! block v2; its payload layout is not supported or extent-validated"
+          ],
+          "material_validation_scope": "source format only; material conversion and game readiness not established",
+          "output_material_state": "not_written_or_copied",
+          "preexisting_output_material": false
+        }
+      ],
+      "copied": 0,
+      "left_out": [
+        "159_Default_Attire\\159_Attire.hpl (now inside the .mcd)"
+      ],
+      "problems": [
+        "159_Default_Attire\\159_Attire.mcd: no material file next to the model",
+        "restored existing embedded hide mask requires entrance/gameplay validation",
+        "BaseModel\\baseModel.mtls: material conversion not completed: observed MTL! block v2; its payload layout is not supported or extent-validated",
+        "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\legacy-source\\159_Bryan_Danielson\\BaseModel\\baseModel.mcd: face audit: face material link table is unavailable or not a supported native layout"
+      ],
+      "warnings": [
+        "2K24 conversion is experimental; original rig checks retained and in-game validation required."
+      ],
+      "blank_physics": [],
+      "physics_converted": [],
+      "ycl_editor": null,
+      "engine": "Model engine: WWE2K_MDL add-on, inside this app",
+      "seconds": 6.0,
+      "source_inventory_before_conversion": [
+        {
+          "path": "159_Default_Attire/159_Attire.hpl",
+          "bytes": 81408,
+          "sha256": "57abd17dd82782bcd4c1509c311d3f70227af707e7975a2e1b3fcbf1eae2c3dd"
+        },
+        {
+          "path": "159_Default_Attire/159_Attire.mcd",
+          "bytes": 9725104,
+          "sha256": "486deda785ac9767cbfffa1abf74acc66a5fe2f7ef4d5d6864c6a52f8bd06651"
+        },
+        {
+          "path": "BaseModel/baseModel.mcd",
+          "bytes": 5787580,
+          "sha256": "09d29663c6a410f323c0b9b6daaa82f3c23209dc2c2b21f15761acce68259c88"
+        },
+        {
+          "path": "BaseModel/baseModel.mtls",
+          "bytes": 72,
+          "sha256": "e0e41fd4a3ff94e47b7263bfe54a9f9e8fccd79857752b8e22e546eacd0c348a"
+        }
+      ],
+      "conversion_completeness": "incomplete",
+      "in_game_validation": "not_performed",
+      "repair_patch": "requested-eye-shadow-defaults-and-verified-writer-normalization-14",
+      "native_2k26_models_preserved": 0,
+      "native_2k26_material_libraries_repaired": 0,
+      "native_2k26_patch": "native-2k26-preservation-and-material-links-1",
+      "reference_source_integration": {
+        "weight_checks": "supplied-reference-weight-audit-1",
+        "geometry_backend": "Gorilla native engine with ported reference components; full Blender workflow not invoked",
+        "wwe2k_mdl_source_supplied": true,
+        "ycl_backend": "original Gorilla converter",
+        "full_reference_engine_rebuilt": false
+      },
+      "ycl_repair_patch": "independent-gorilla-ycl-translation-1",
+      "wdf_layout_repair": {
+        "version": "exact-moxley-authored-wdf-clone-lod-layout-1",
+        "scope": "exact supplied Moxley WDF layout; no YWA conversion",
+        "applied": 0,
+        "refused": 0,
+        "rows": [],
+        "in_game_validation": "not_performed"
+      },
+      "native_2k26_missing_data_check": {
+        "version": "native-2k26-missing-data-audit-1",
+        "models_checked": 0,
+        "repairs_applied": 0,
+        "findings": [],
+        "in_game_validation": "not_performed",
+        "unavailable_data": "reported; never synthesized",
+        "state": "not_applicable_no_native_inputs"
+      },
+      "legacy_2k24_input_route": {
+        "version": "native-2k24-format-route-with-rig-guards-1",
+        "models_attempted": 2,
+        "model_checks_passed": 2,
+        "input_headers_rewritten": false,
+        "in_game_validation": "not_performed",
+        "validation_scope": "native model structural checks; materials, hide masks and physics reported separately"
+      },
+      "dds_header_normalization": {
+        "version": "verified-output-only-complete-mip-header-normalization-1",
+        "scope": "existing equivalent output paths; full physical chain only",
+        "source_files_changed": false,
+        "in_game_validation": "not_performed",
+        "repaired": 0,
+        "already_normalized": 0,
+        "output_not_present": 0,
+        "failed": 0,
+        "rows": [],
+        "state": "recorded_output_header_checks"
+      },
+      "eye_scalar_policy": {
+        "version": "user-ordinary-eye-shadow-output-policy-1",
+        "policy": {
+          "eyeLidShadowDarkness": 1.0,
+          "eyeLidShadowFallOff": 0.5
+        },
+        "provenance": "explicit user request and supplied scalar screenshot; not a harvested Cena material default",
+        "scope": "supported ordinary-eye shader 0x12 JMTLs already present in the recorded output; missing materials are not synthesized",
+        "source_files_changed": false,
+        "in_game_validation": "not_performed",
+        "changed": 0,
+        "already_policy_values": 0,
+        "not_ordinary_eye": 0,
+        "failed": 0,
+        "rows": [],
+        "state": "recorded_output_eye_policy"
+      },
+      "tongue_anchor_experiment": {
+        "version": "exact-supplied-bryan-and-flip-tongue-anchor-experiment-2",
+        "scope": "exact inspected supplied Bryan and Flip Gordon profiles only; each source must match its own output profile",
+        "applied": 0,
+        "already_applied": 0,
+        "in_game_validation": "not_performed",
+        "black_teeth_fixed": "not established; controlled anatomical anchor experiment",
+        "matched_profiles": []
+      },
+      "ocular_anchor_correction": {
+        "version": "exact-supplied-bryan-flip-cena-ocular-anchors-1",
+        "scope": "exact supplied Bryan/Flip source-output pairs only; existing caruncle chart correspondence",
+        "applied": 0,
+        "already_applied": 0,
+        "matched_profiles": [],
+        "dark_eyes_fixed": "not established",
+        "in_game_validation": "not_performed"
+      },
+      "face_output_check": {
+        "version": "all-recorded-model-output-face-audit-1",
+        "records_total": 2,
+        "records_audited": 2,
+        "face_models": 1,
+        "not_applicable": 1,
+        "unavailable_or_unreadable": 0,
+        "problems": [
+          "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\legacy-source\\159_Bryan_Danielson\\BaseModel\\baseModel.mcd: face audit: face material link table is unavailable or not a supported native layout"
+        ],
+        "warnings": [],
+        "in_game_validation": "not_performed",
+        "file_changes": "none",
+        "reference_baseline": {
+          "name": "earlier_supplied_native_2k26_cena_face_schema",
+          "source_model_sha256": "bb0176e86fc2e74cebc61058acac1fa3103c7a859f2e54a2196947fe95ee4a1c",
+          "source_model_version": 47,
+          "observed_anchor_slots": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "observed_eye_material_roles": {
+            "eye_l": "left",
+            "eye_r": "right"
+          },
+          "observed_eye_shape_names": [
+            "PupilContract",
+            "PupilExpand"
+          ],
+          "observed_eye_weight_bones": [
+            "J_Eye_L",
+            "J_Eye_R"
+          ],
+          "known_global_eye_normal_ref": 17274687911970229909,
+          "normal_reference_provenance": "supplied comparison writer and stored native material observations; game asset resolution not verified",
+          "topology_and_anchor_target_policy": "schema observation only; vertex counts, UVs, shapes and anchor mesh names are not copied or required identical",
+          "additional_139_John_Cena_2019_archive": "not inspected for this baseline"
+        },
+        "coverage_scope": "all recorded model outputs; source models absent from report.models are not claimed inspected",
+        "coverage_complete": true,
+        "state": "requires_attention"
+      },
+      "physics_binding_audit": {
+        "version": "read-only-exposed-physics-bindings-1",
+        "scope": "Exposed names and index domains only; opaque physics, active solver semantics and in-game motion compatibility are not validated.",
+        "rows": [],
+        "model_reads": 0,
+        "physics_files_modified": false,
+        "in_game_validation": "not_performed",
+        "all_inspected_files_unchanged": true,
+        "state": "exposed_declarations_only; motion compatibility not validated"
+      },
+      "started_at_utc": "2026-10-13T01:55:05.279529+00:00",
+      "finished_at_utc": "2026-10-13T01:55:12.238247+00:00",
+      "status": "completed_with_problems",
+      "report_paths": [
+        "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\legacy-output\\159_Bryan_Danielson - conversion report.json",
+        "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\legacy-output\\Characters\\159_Bryan_Danielson\\159_Bryan_Danielson - conversion report.json"
+      ],
+      "report_path": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\legacy-output\\159_Bryan_Danielson - conversion report.json"
+    },
+    "logs": [
+      "  BaseModel\\baseModel.mcd: base model, 209 -> 175 bones, male rig, check pass",
+      "  BaseModel\\baseModel.mtls: 0 materials",
+      "  159_Default_Attire\\159_Attire.mcd: attire, 209 -> 175 bones, male rig, check pass",
+      "2K24 conversion is experimental; original rig checks retained and in-game validation required.",
+      "Face checks: 2 recorded outputs audited; 1 contain face meshes; in-game appearance not verified.",
+      "Report saved: Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\legacy-output\\159_Bryan_Danielson - conversion report.json"
+    ]
+  },
+  "actual_uploaded_flip": {
+    "source_unchanged": true,
+    "models_non_anchor_bytes_preserved": true,
+    "mask_repair_not_claimed": true,
+    "incomplete_status": true,
+    "reports_saved_and_equal": true,
+    "report": {
+      "source": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis",
+      "output": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis",
+      "game_path": "Characters/931_Dexter_Lumis",
+      "models": [
+        {
+          "source": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\931_Default_Attire\\931_Attire.mcd",
+          "output": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\931_Attire.mcd",
+          "source_version": 47,
+          "status": "preserved_2k26",
+          "notes": [
+            "Native model bytes preserved; geometry, weights, bones, and embedded physics were not rewritten. Native physics compatibility and in-game behavior remain unverified."
+          ],
+          "problems": [
+            "native material library: [Errno 2] No such file or directory: 'Z:\\\\workspace\\\\formatter-investigation\\\\mask-material14-final-r5\\\\flip-source\\\\931_Dexter_Lumis\\\\931_Default_Attire\\\\931_Attire.mtls'",
+            "931_Attire.mcd: native missing-data check: missing_material_definition",
+            "931_Attire.mcd: native missing-data check: missing_mtls"
+          ],
+          "verification_scope": "native_reader_and_byte_preservation",
+          "in_game_validation": "not_performed",
+          "repairs": [],
+          "facts": {
+            "source_sha256": "545bedc750010db9334aae6e984ed8bb20bedbf56c260286e13114c0e1721ac0",
+            "output_sha256": "545bedc750010db9334aae6e984ed8bb20bedbf56c260286e13114c0e1721ac0",
+            "byte_identical": true,
+            "mesh_count": 10,
+            "bone_count": 312,
+            "vertices": 14127,
+            "triangles": 18367,
+            "geometry_weights_bones_and_embedded_streams": "byte_identical"
+          },
+          "native_physics_companions": [],
+          "verify": "fail",
+          "reference_weight_audit": {
+            "version": "supplied-reference-weight-audit-1",
+            "scope": "read_only_weight_data_checks; anatomical correctness unverified",
+            "bone_deform_flags": "not_in_native_records; reference driver-name rules only",
+            "meshes": [
+              {
+                "mesh": "M_Hair",
+                "vertices": 8003,
+                "suspicious_vertices": 0,
+                "counts": {
+                  "unweighted": 0,
+                  "nonunit": 0,
+                  "excessive": 0,
+                  "driver": 0,
+                  "missing_bone": 0,
+                  "invalid": 0
+                },
+                "sample_vertex_indices": [],
+                "positive_weight_groups_absent_from_rig": []
+              },
+              {
+                "mesh": "S_Hair",
+                "vertices": 198,
+                "suspicious_vertices": 0,
+                "counts": {
+                  "unweighted": 0,
+                  "nonunit": 0,
+                  "excessive": 0,
+                  "driver": 0,
+                  "missing_bone": 0,
+                  "invalid": 0
+                },
+                "sample_vertex_indices": [],
+                "positive_weight_groups_absent_from_rig": []
+              },
+              {
+                "mesh": "M_Underwear",
+                "vertices": 942,
+                "suspicious_vertices": 0,
+                "counts": {
+                  "unweighted": 0,
+                  "nonunit": 0,
+                  "excessive": 0,
+                  "driver": 0,
+                  "missing_bone": 0,
+                  "invalid": 0
+                },
+                "sample_vertex_indices": [],
+                "positive_weight_groups_absent_from_rig": []
+              },
+              {
+                "mesh": "M_Shoes",
+                "vertices": 2310,
+                "suspicious_vertices": 0,
+                "counts": {
+                  "unweighted": 0,
+                  "nonunit": 0,
+                  "excessive": 0,
+                  "driver": 0,
+                  "missing_bone": 0,
+                  "invalid": 0
+                },
+                "sample_vertex_indices": [],
+                "positive_weight_groups_absent_from_rig": []
+              },
+              {
+                "mesh": "M_L_Kneepad",
+                "vertices": 556,
+                "suspicious_vertices": 0,
+                "counts": {
+                  "unweighted": 0,
+                  "nonunit": 0,
+                  "excessive": 0,
+                  "driver": 0,
+                  "missing_bone": 0,
+                  "invalid": 0
+                },
+                "sample_vertex_indices": [],
+                "positive_weight_groups_absent_from_rig": []
+              },
+              {
+                "mesh": "M_L_Kneepad",
+                "vertices": 556,
+                "suspicious_vertices": 0,
+                "counts": {
+                  "unweighted": 0,
+                  "nonunit": 0,
+                  "excessive": 0,
+                  "driver": 0,
+                  "missing_bone": 0,
+                  "invalid": 0
+                },
+                "sample_vertex_indices": [],
+                "positive_weight_groups_absent_from_rig": []
+              },
+              {
+                "mesh": "M_L_Wrist",
+                "vertices": 216,
+                "suspicious_vertices": 0,
+                "counts": {
+                  "unweighted": 0,
+                  "nonunit": 0,
+                  "excessive": 0,
+                  "driver": 0,
+                  "missing_bone": 0,
+                  "invalid": 0
+                },
+                "sample_vertex_indices": [],
+                "positive_weight_groups_absent_from_rig": []
+              },
+              {
+                "mesh": "M_L_Wrist",
+                "vertices": 216,
+                "suspicious_vertices": 0,
+                "counts": {
+                  "unweighted": 0,
+                  "nonunit": 0,
+                  "excessive": 0,
+                  "driver": 0,
+                  "missing_bone": 0,
+                  "invalid": 0
+                },
+                "sample_vertex_indices": [],
+                "positive_weight_groups_absent_from_rig": []
+              },
+              {
+                "mesh": "M_L_Elbowpad",
+                "vertices": 565,
+                "suspicious_vertices": 0,
+                "counts": {
+                  "unweighted": 0,
+                  "nonunit": 0,
+                  "excessive": 0,
+                  "driver": 0,
+                  "missing_bone": 0,
+                  "invalid": 0
+                },
+                "sample_vertex_indices": [],
+                "positive_weight_groups_absent_from_rig": []
+              },
+              {
+                "mesh": "M_L_Elbowpad",
+                "vertices": 565,
+                "suspicious_vertices": 0,
+                "counts": {
+                  "unweighted": 0,
+                  "nonunit": 0,
+                  "excessive": 0,
+                  "driver": 0,
+                  "missing_bone": 0,
+                  "invalid": 0
+                },
+                "sample_vertex_indices": [],
+                "positive_weight_groups_absent_from_rig": []
+              }
+            ],
+            "suspicious_vertices": 0
+          },
+          "native_missing_data_audit": {
+            "version": "native-2k26-missing-data-audit-1",
+            "repairs": [],
+            "findings": [
+              {
+                "category": "material",
+                "state": "missing_material_definition",
+                "binding": "hair_ALPHA",
+                "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\Materials\\hair_ALPHA.jmtl",
+                "path_hash": null,
+                "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+              },
+              {
+                "category": "material",
+                "state": "missing_material_definition",
+                "binding": "l_elbowpad",
+                "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\Materials\\l_elbowpad.jmtl",
+                "path_hash": null,
+                "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+              },
+              {
+                "category": "material",
+                "state": "missing_material_definition",
+                "binding": "l_kneepad",
+                "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\Materials\\l_kneepad.jmtl",
+                "path_hash": null,
+                "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+              },
+              {
+                "category": "material",
+                "state": "missing_material_definition",
+                "binding": "l_wrist",
+                "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\Materials\\l_wrist.jmtl",
+                "path_hash": null,
+                "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+              },
+              {
+                "category": "material",
+                "state": "missing_material_definition",
+                "binding": "r_elbowpad",
+                "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\Materials\\r_elbowpad.jmtl",
+                "path_hash": null,
+                "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+              },
+              {
+                "category": "material",
+                "state": "missing_material_definition",
+                "binding": "r_kneepad",
+                "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\Materials\\r_kneepad.jmtl",
+                "path_hash": null,
+                "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+              },
+              {
+                "category": "material",
+                "state": "missing_material_definition",
+                "binding": "r_wrist",
+                "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\Materials\\r_wrist.jmtl",
+                "path_hash": null,
+                "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+              },
+              {
+                "category": "material",
+                "state": "missing_material_definition",
+                "binding": "shoes",
+                "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\Materials\\shoes.jmtl",
+                "path_hash": null,
+                "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+              },
+              {
+                "category": "material",
+                "state": "missing_material_definition",
+                "binding": "underwear",
+                "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\Materials\\underwear.jmtl",
+                "path_hash": null,
+                "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+              },
+              {
+                "category": "material_table",
+                "state": "missing_mtls",
+                "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\931_Attire.mtls",
+                "action": "cannot reconstruct a complete table without its required material definitions"
+              },
+              {
+                "category": "mask",
+                "state": "valid_mask_not_available",
+                "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\931_Default_Attire\\931_Attire.hpl",
+                "reason": "hide mask is empty",
+                "action": "no usable sidecar in selected files; no whole-body mask generated"
+              },
+              {
+                "category": "physics",
+                "state": "simulation_ycl_not_provided",
+                "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\931_Default_Attire\\931_Attire.ycl",
+                "simulation_meshes": [
+                  "S_Hair"
+                ],
+                "action": "compatible YCL not present in selected files; physics was not invented"
+              }
+            ],
+            "materials": {
+              "format": "native_v6_stub",
+              "findings": [
+                {
+                  "category": "material",
+                  "state": "missing_material_definition",
+                  "binding": "hair_ALPHA",
+                  "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\Materials\\hair_ALPHA.jmtl",
+                  "path_hash": null,
+                  "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+                },
+                {
+                  "category": "material",
+                  "state": "missing_material_definition",
+                  "binding": "l_elbowpad",
+                  "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\Materials\\l_elbowpad.jmtl",
+                  "path_hash": null,
+                  "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+                },
+                {
+                  "category": "material",
+                  "state": "missing_material_definition",
+                  "binding": "l_kneepad",
+                  "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\Materials\\l_kneepad.jmtl",
+                  "path_hash": null,
+                  "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+                },
+                {
+                  "category": "material",
+                  "state": "missing_material_definition",
+                  "binding": "l_wrist",
+                  "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\Materials\\l_wrist.jmtl",
+                  "path_hash": null,
+                  "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+                },
+                {
+                  "category": "material",
+                  "state": "missing_material_definition",
+                  "binding": "r_elbowpad",
+                  "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\Materials\\r_elbowpad.jmtl",
+                  "path_hash": null,
+                  "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+                },
+                {
+                  "category": "material",
+                  "state": "missing_material_definition",
+                  "binding": "r_kneepad",
+                  "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\Materials\\r_kneepad.jmtl",
+                  "path_hash": null,
+                  "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+                },
+                {
+                  "category": "material",
+                  "state": "missing_material_definition",
+                  "binding": "r_wrist",
+                  "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\Materials\\r_wrist.jmtl",
+                  "path_hash": null,
+                  "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+                },
+                {
+                  "category": "material",
+                  "state": "missing_material_definition",
+                  "binding": "shoes",
+                  "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\Materials\\shoes.jmtl",
+                  "path_hash": null,
+                  "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+                },
+                {
+                  "category": "material",
+                  "state": "missing_material_definition",
+                  "binding": "underwear",
+                  "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\Materials\\underwear.jmtl",
+                  "path_hash": null,
+                  "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+                },
+                {
+                  "category": "material_table",
+                  "state": "missing_mtls",
+                  "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\931_Attire.mtls",
+                  "action": "cannot reconstruct a complete table without its required material definitions"
+                }
+              ],
+              "repairs": [],
+              "materials": [],
+              "complete": false
+            },
+            "textures": [],
+            "masks": {
+              "state": "empty_missing_or_invalid_mask",
+              "findings": [
+                {
+                  "category": "mask",
+                  "state": "valid_mask_not_available",
+                  "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\931_Default_Attire\\931_Attire.hpl",
+                  "reason": "hide mask is empty",
+                  "action": "no usable sidecar in selected files; no whole-body mask generated"
+                }
+              ],
+              "repairs": [],
+              "embedded_stream_count": 1,
+              "embedded_mask_state": "empty",
+              "paired_base": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\BaseModel\\baseModel.mcd",
+              "base_domains": {
+                "M_Body": 12755,
+                "M_Head": 4382
+              },
+              "reason": "hide mask is empty"
+            },
+            "physics": {
+              "findings": [
+                {
+                  "category": "physics",
+                  "state": "simulation_ycl_not_provided",
+                  "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\931_Default_Attire\\931_Attire.ycl",
+                  "simulation_meshes": [
+                    "S_Hair"
+                  ],
+                  "action": "compatible YCL not present in selected files; physics was not invented"
+                }
+              ],
+              "repairs": [],
+              "companions": [],
+              "compatibility": "presence/references audited; WDF/YWA compatibility and in-game motion not established",
+              "simulation_meshes": [
+                "S_Hair"
+              ],
+              "ycl_state": "not_provided"
+            },
+            "state": "needs_files_or_review"
+          },
+          "face_output_audit": {
+            "version": "all-recorded-model-output-face-audit-1",
+            "output": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\931_Attire.mcd",
+            "problems": [],
+            "warnings": [
+              "existing output of a failed or skipped conversion was inspected; successful new conversion was not established"
+            ],
+            "file_changes": "none; read-only audit",
+            "reference_scope": "supplied native 2K26 face schema and writer references; identical topology or appearance is not required",
+            "reference_baseline_name": "earlier_supplied_native_2k26_cena_face_schema",
+            "in_game_validation": "not_performed",
+            "original_model_verify": "fail",
+            "output_provenance": "failed_or_skipped_conversion; existing output does not establish a successful new conversion",
+            "output_sha256": "545bedc750010db9334aae6e984ed8bb20bedbf56c260286e13114c0e1721ac0",
+            "output_version": 47,
+            "state": "not_applicable",
+            "applicability": "no_eye_teeth_or_mouthbag_meshes"
+          }
+        },
+        {
+          "source": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\BaseModel\\baseModel.mcd",
+          "output": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\BaseModel\\baseModel.mcd",
+          "source_version": 47,
+          "status": "preserved_2k26",
+          "notes": [
+            "Native model bytes preserved; geometry, weights, bones, and embedded physics were not rewritten. Native physics compatibility and in-game behavior remain unverified."
+          ],
+          "problems": [
+            "native material library: [Errno 2] No such file or directory: 'Z:\\\\workspace\\\\formatter-investigation\\\\mask-material14-final-r5\\\\flip-source\\\\931_Dexter_Lumis\\\\BaseModel\\\\baseModel.mtls'",
+            "baseModel.mcd: native missing-data check: missing_material_definition",
+            "baseModel.mcd: native missing-data check: missing_mtls"
+          ],
+          "verification_scope": "native_reader_and_byte_preservation",
+          "in_game_validation": "not_performed",
+          "repairs": [],
+          "facts": {
+            "source_sha256": "1ec8da39b5d85554b6fbcb3aa71782ebbaf665868f35e30734aa6a30c8a128dc",
+            "output_sha256": "1ec8da39b5d85554b6fbcb3aa71782ebbaf665868f35e30734aa6a30c8a128dc",
+            "byte_identical": true,
+            "mesh_count": 6,
+            "bone_count": 175,
+            "vertices": 23109,
+            "triangles": 41694,
+            "geometry_weights_bones_and_embedded_streams": "byte_identical"
+          },
+          "native_physics_companions": [],
+          "verify": "fail",
+          "reference_weight_audit": {
+            "version": "supplied-reference-weight-audit-1",
+            "scope": "read_only_weight_data_checks; anatomical correctness unverified",
+            "bone_deform_flags": "not_in_native_records; reference driver-name rules only",
+            "meshes": [
+              {
+                "mesh": "M_Body",
+                "vertices": 12755,
+                "suspicious_vertices": 0,
+                "counts": {
+                  "unweighted": 0,
+                  "nonunit": 0,
+                  "excessive": 0,
+                  "driver": 0,
+                  "missing_bone": 0,
+                  "invalid": 0
+                },
+                "sample_vertex_indices": [],
+                "positive_weight_groups_absent_from_rig": []
+              },
+              {
+                "mesh": "M_EYE",
+                "vertices": 578,
+                "suspicious_vertices": 0,
+                "counts": {
+                  "unweighted": 0,
+                  "nonunit": 0,
+                  "excessive": 0,
+                  "driver": 0,
+                  "missing_bone": 0,
+                  "invalid": 0
+                },
+                "sample_vertex_indices": [],
+                "positive_weight_groups_absent_from_rig": []
+              },
+              {
+                "mesh": "M_Head",
+                "vertices": 4382,
+                "suspicious_vertices": 0,
+                "counts": {
+                  "unweighted": 0,
+                  "nonunit": 0,
+                  "excessive": 0,
+                  "driver": 0,
+                  "missing_bone": 0,
+                  "invalid": 0
+                },
+                "sample_vertex_indices": [],
+                "positive_weight_groups_absent_from_rig": []
+              },
+              {
+                "mesh": "M_Tongue",
+                "vertices": 341,
+                "suspicious_vertices": 0,
+                "counts": {
+                  "unweighted": 0,
+                  "nonunit": 0,
+                  "excessive": 0,
+                  "driver": 0,
+                  "missing_bone": 0,
+                  "invalid": 0
+                },
+                "sample_vertex_indices": [],
+                "positive_weight_groups_absent_from_rig": []
+              },
+              {
+                "mesh": "M_MouthBag",
+                "vertices": 352,
+                "suspicious_vertices": 0,
+                "counts": {
+                  "unweighted": 0,
+                  "nonunit": 0,
+                  "excessive": 0,
+                  "driver": 0,
+                  "missing_bone": 0,
+                  "invalid": 0
+                },
+                "sample_vertex_indices": [],
+                "positive_weight_groups_absent_from_rig": []
+              },
+              {
+                "mesh": "M_Teeth",
+                "vertices": 4701,
+                "suspicious_vertices": 0,
+                "counts": {
+                  "unweighted": 0,
+                  "nonunit": 0,
+                  "excessive": 0,
+                  "driver": 0,
+                  "missing_bone": 0,
+                  "invalid": 0
+                },
+                "sample_vertex_indices": [],
+                "positive_weight_groups_absent_from_rig": []
+              }
+            ],
+            "suspicious_vertices": 0
+          },
+          "native_missing_data_audit": {
+            "version": "native-2k26-missing-data-audit-1",
+            "repairs": [],
+            "findings": [
+              {
+                "category": "material",
+                "state": "missing_material_definition",
+                "binding": "body",
+                "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\BaseModel\\Materials\\body.jmtl",
+                "path_hash": null,
+                "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+              },
+              {
+                "category": "material",
+                "state": "missing_material_definition",
+                "binding": "eye_l",
+                "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\BaseModel\\Materials\\eye_l.jmtl",
+                "path_hash": null,
+                "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+              },
+              {
+                "category": "material",
+                "state": "missing_material_definition",
+                "binding": "eye_r",
+                "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\BaseModel\\Materials\\eye_r.jmtl",
+                "path_hash": null,
+                "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+              },
+              {
+                "category": "material",
+                "state": "missing_material_definition",
+                "binding": "head",
+                "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\BaseModel\\Materials\\head.jmtl",
+                "path_hash": null,
+                "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+              },
+              {
+                "category": "material",
+                "state": "missing_material_definition",
+                "binding": "mouthbag",
+                "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\BaseModel\\Materials\\mouthbag.jmtl",
+                "path_hash": null,
+                "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+              },
+              {
+                "category": "material",
+                "state": "missing_material_definition",
+                "binding": "teeth",
+                "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\BaseModel\\Materials\\teeth.jmtl",
+                "path_hash": null,
+                "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+              },
+              {
+                "category": "material_table",
+                "state": "missing_mtls",
+                "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\BaseModel\\baseModel.mtls",
+                "action": "cannot reconstruct a complete table without its required material definitions"
+              }
+            ],
+            "materials": {
+              "format": "native_v6_stub",
+              "findings": [
+                {
+                  "category": "material",
+                  "state": "missing_material_definition",
+                  "binding": "body",
+                  "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\BaseModel\\Materials\\body.jmtl",
+                  "path_hash": null,
+                  "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+                },
+                {
+                  "category": "material",
+                  "state": "missing_material_definition",
+                  "binding": "eye_l",
+                  "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\BaseModel\\Materials\\eye_l.jmtl",
+                  "path_hash": null,
+                  "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+                },
+                {
+                  "category": "material",
+                  "state": "missing_material_definition",
+                  "binding": "eye_r",
+                  "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\BaseModel\\Materials\\eye_r.jmtl",
+                  "path_hash": null,
+                  "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+                },
+                {
+                  "category": "material",
+                  "state": "missing_material_definition",
+                  "binding": "head",
+                  "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\BaseModel\\Materials\\head.jmtl",
+                  "path_hash": null,
+                  "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+                },
+                {
+                  "category": "material",
+                  "state": "missing_material_definition",
+                  "binding": "mouthbag",
+                  "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\BaseModel\\Materials\\mouthbag.jmtl",
+                  "path_hash": null,
+                  "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+                },
+                {
+                  "category": "material",
+                  "state": "missing_material_definition",
+                  "binding": "teeth",
+                  "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\BaseModel\\Materials\\teeth.jmtl",
+                  "path_hash": null,
+                  "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+                },
+                {
+                  "category": "material_table",
+                  "state": "missing_mtls",
+                  "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\BaseModel\\baseModel.mtls",
+                  "action": "cannot reconstruct a complete table without its required material definitions"
+                }
+              ],
+              "repairs": [],
+              "materials": [],
+              "complete": false
+            },
+            "textures": [],
+            "masks": {
+              "state": "not_required_on_base_model",
+              "findings": [],
+              "repairs": []
+            },
+            "physics": {
+              "findings": [],
+              "repairs": [],
+              "companions": [],
+              "compatibility": "presence/references audited; WDF/YWA compatibility and in-game motion not established",
+              "simulation_meshes": [],
+              "ycl_state": "not_provided"
+            },
+            "state": "needs_files_or_review"
+          },
+          "face_output_audit": {
+            "version": "all-recorded-model-output-face-audit-1",
+            "output": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\BaseModel\\baseModel.mcd",
+            "problems": [
+              "face material link table is unavailable or not a supported native layout"
+            ],
+            "warnings": [
+              "existing output of a failed or skipped conversion was inspected; successful new conversion was not established"
+            ],
+            "file_changes": "none; read-only audit",
+            "reference_scope": "supplied native 2K26 face schema and writer references; identical topology or appearance is not required",
+            "reference_baseline_name": "earlier_supplied_native_2k26_cena_face_schema",
+            "in_game_validation": "not_performed",
+            "original_model_verify": "fail",
+            "output_provenance": "failed_or_skipped_conversion; existing output does not establish a successful new conversion",
+            "output_sha256": "1ec8da39b5d85554b6fbcb3aa71782ebbaf665868f35e30734aa6a30c8a128dc",
+            "output_version": 47,
+            "applicability": "face_meshes_present",
+            "meshes": [
+              {
+                "mesh": "M_EYE",
+                "kind": "eye",
+                "vertices": 578,
+                "problems": [],
+                "warnings": [],
+                "scene_flag": 128,
+                "motion_flag": -1,
+                "game_flag_policy": "observed; no shader or motion flags are forced",
+                "triangles": 1104,
+                "uv_channels": [
+                  {
+                    "channel": 0,
+                    "shape": [
+                      578,
+                      2
+                    ],
+                    "state": "finite",
+                    "minimum": [
+                      0.07322049885988235,
+                      0.0732564926147461
+                    ],
+                    "maximum": [
+                      0.9277874231338501,
+                      0.9221752285957336
+                    ]
+                  }
+                ],
+                "normals": {
+                  "shape": [
+                    578,
+                    3
+                  ],
+                  "finite": true
+                },
+                "tangents": {
+                  "shape": [
+                    578,
+                    4
+                  ],
+                  "finite": true
+                },
+                "color_channels": [
+                  {
+                    "channel": 0,
+                    "shape": [
+                      578,
+                      4
+                    ],
+                    "state": "finite",
+                    "minimum": [
+                      0.9999999403953552,
+                      0.9999999403953552,
+                      0.9999999403953552,
+                      1.0
+                    ],
+                    "maximum": [
+                      0.9999999403953552,
+                      0.9999999403953552,
+                      0.9999999403953552,
+                      1.0
+                    ]
+                  }
+                ],
+                "face_groups": [
+                  {
+                    "material": "eye_r",
+                    "first_triangle": 0,
+                    "triangle_count": 552
+                  },
+                  {
+                    "material": "eye_l",
+                    "first_triangle": 552,
+                    "triangle_count": 552
+                  }
+                ]
+              },
+              {
+                "mesh": "M_Tongue",
+                "kind": "mouthbag",
+                "vertices": 341,
+                "problems": [],
+                "warnings": [],
+                "scene_flag": 128,
+                "motion_flag": -1,
+                "game_flag_policy": "observed; no shader or motion flags are forced",
+                "triangles": 584,
+                "uv_channels": [
+                  {
+                    "channel": 0,
+                    "shape": [
+                      341,
+                      2
+                    ],
+                    "state": "finite",
+                    "minimum": [
+                      0.0019042693311348557,
+                      0.8875911831855774
+                    ],
+                    "maximum": [
+                      0.12403831630945206,
+                      0.9922455549240112
+                    ]
+                  }
+                ],
+                "normals": {
+                  "shape": [
+                    341,
+                    3
+                  ],
+                  "finite": true
+                },
+                "tangents": {
+                  "shape": [
+                    341,
+                    4
+                  ],
+                  "finite": true
+                },
+                "color_channels": [],
+                "face_groups": [
+                  {
+                    "material": "mouthbag",
+                    "first_triangle": 0,
+                    "triangle_count": 584
+                  }
+                ]
+              },
+              {
+                "mesh": "M_MouthBag",
+                "kind": "mouthbag",
+                "vertices": 352,
+                "problems": [],
+                "warnings": [],
+                "scene_flag": 128,
+                "motion_flag": -1,
+                "game_flag_policy": "observed; no shader or motion flags are forced",
+                "triangles": 616,
+                "uv_channels": [
+                  {
+                    "channel": 0,
+                    "shape": [
+                      352,
+                      2
+                    ],
+                    "state": "finite",
+                    "minimum": [
+                      0.12684795260429382,
+                      0.8777092099189758
+                    ],
+                    "maximum": [
+                      0.2484256774187088,
+                      0.9963176846504211
+                    ]
+                  }
+                ],
+                "normals": {
+                  "shape": [
+                    352,
+                    3
+                  ],
+                  "finite": true
+                },
+                "tangents": {
+                  "shape": [
+                    352,
+                    4
+                  ],
+                  "finite": true
+                },
+                "color_channels": [],
+                "face_groups": [
+                  {
+                    "material": "mouthbag",
+                    "first_triangle": 0,
+                    "triangle_count": 616
+                  }
+                ]
+              },
+              {
+                "mesh": "M_Teeth",
+                "kind": "teeth",
+                "vertices": 4701,
+                "problems": [],
+                "warnings": [],
+                "scene_flag": 128,
+                "motion_flag": -1,
+                "game_flag_policy": "observed; no shader or motion flags are forced",
+                "triangles": 7898,
+                "uv_channels": [
+                  {
+                    "channel": 0,
+                    "shape": [
+                      4701,
+                      2
+                    ],
+                    "state": "finite",
+                    "minimum": [
+                      0.007348999846726656,
+                      0.7910109758377075
+                    ],
+                    "maximum": [
+                      0.5392580032348633,
+                      0.9986050128936768
+                    ]
+                  },
+                  {
+                    "channel": 1,
+                    "shape": [
+                      4701,
+                      2
+                    ],
+                    "state": "finite",
+                    "minimum": [
+                      0.00788070261478424,
+                      0.0037654638290405273
+                    ],
+                    "maximum": [
+                      0.9935464859008789,
+                      0.9957854151725769
+                    ]
+                  }
+                ],
+                "normals": {
+                  "shape": [
+                    4701,
+                    3
+                  ],
+                  "finite": true
+                },
+                "tangents": {
+                  "shape": [
+                    4701,
+                    4
+                  ],
+                  "finite": true
+                },
+                "color_channels": [
+                  {
+                    "channel": 0,
+                    "shape": [
+                      4701,
+                      4
+                    ],
+                    "state": "finite",
+                    "minimum": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                    ],
+                    "maximum": [
+                      0.9999999403953552,
+                      0.9999999403953552,
+                      0.9999999403953552,
+                      1.0
+                    ]
+                  }
+                ],
+                "face_groups": [
+                  {
+                    "material": "teeth",
+                    "first_triangle": 0,
+                    "triangle_count": 7898
+                  }
+                ]
+              }
+            ],
+            "materials": [],
+            "anchors": {
+              "records": [
+                {
+                  "name": "_ag_0001",
+                  "mesh": "M_Teeth",
+                  "slot": 1,
+                  "vertex": 1903
+                },
+                {
+                  "name": "_ag_0003",
+                  "mesh": "M_Head",
+                  "slot": 3,
+                  "vertex": 1493
+                },
+                {
+                  "name": "_ag_0000",
+                  "mesh": "M_Teeth",
+                  "slot": 0,
+                  "vertex": 4448
+                },
+                {
+                  "name": "_ag_0002",
+                  "mesh": "M_Head",
+                  "slot": 2,
+                  "vertex": 433
+                },
+                {
+                  "name": "_ag_0004",
+                  "mesh": "M_Teeth",
+                  "slot": 4,
+                  "vertex": 1603
+                },
+                {
+                  "name": "_ag_0005",
+                  "mesh": "M_Head",
+                  "slot": 5,
+                  "vertex": 3914
+                },
+                {
+                  "name": "_ag_0006",
+                  "mesh": "M_Head",
+                  "slot": 6,
+                  "vertex": 4108
+                },
+                {
+                  "name": "_ag_0007",
+                  "mesh": "M_Head",
+                  "slot": 7,
+                  "vertex": 4108
+                },
+                {
+                  "name": "_ag_0008",
+                  "mesh": "M_Head",
+                  "slot": 8,
+                  "vertex": 4118
+                },
+                {
+                  "name": "_ag_0009",
+                  "mesh": "M_Head",
+                  "slot": 9,
+                  "vertex": 3949
+                },
+                {
+                  "name": "_ag_0010",
+                  "mesh": "M_Head",
+                  "slot": 10,
+                  "vertex": 4279
+                },
+                {
+                  "name": "_ag_0011",
+                  "mesh": "M_Head",
+                  "slot": 11,
+                  "vertex": 4306
+                },
+                {
+                  "name": "_ag_0012",
+                  "mesh": "M_Head",
+                  "slot": 12,
+                  "vertex": 4314
+                }
+              ],
+              "problems": [],
+              "warnings": [],
+              "scope": "mesh/string/index validity; anatomical placement unverified",
+              "count": 13
+            },
+            "material_library": {
+              "file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\BaseModel\\baseModel.mtls",
+              "state": "unavailable_or_unsupported",
+              "reason": "[Errno 2] No such file or directory: 'Z:\\\\workspace\\\\formatter-investigation\\\\mask-material14-final-r5\\\\flip-output\\\\Characters\\\\931_Dexter_Lumis\\\\BaseModel\\\\baseModel.mtls'"
+            },
+            "state": "requires_attention"
+          }
+        }
+      ],
+      "materials": [
+        {
+          "source": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\931_Default_Attire\\931_Attire.mtls",
+          "output": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\931_Attire.mtls",
+          "status": "unsupported_native_materials",
+          "notes": [],
+          "materials": [],
+          "jmtl_payloads": "byte_identical",
+          "problems": [
+            "native material library: [Errno 2] No such file or directory: 'Z:\\\\workspace\\\\formatter-investigation\\\\mask-material14-final-r5\\\\flip-source\\\\931_Dexter_Lumis\\\\931_Default_Attire\\\\931_Attire.mtls'"
+          ]
+        },
+        {
+          "source": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\BaseModel\\baseModel.mtls",
+          "output": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\BaseModel\\baseModel.mtls",
+          "status": "unsupported_native_materials",
+          "notes": [],
+          "materials": [],
+          "jmtl_payloads": "byte_identical",
+          "problems": [
+            "native material library: [Errno 2] No such file or directory: 'Z:\\\\workspace\\\\formatter-investigation\\\\mask-material14-final-r5\\\\flip-source\\\\931_Dexter_Lumis\\\\BaseModel\\\\baseModel.mtls'"
+          ]
+        }
+      ],
+      "copied": 2,
+      "left_out": [],
+      "problems": [
+        "931_Default_Attire\\931_Attire.mcd: native material library: [Errno 2] No such file or directory: 'Z:\\\\workspace\\\\formatter-investigation\\\\mask-material14-final-r5\\\\flip-source\\\\931_Dexter_Lumis\\\\931_Default_Attire\\\\931_Attire.mtls'",
+        "BaseModel\\baseModel.mcd: native material library: [Errno 2] No such file or directory: 'Z:\\\\workspace\\\\formatter-investigation\\\\mask-material14-final-r5\\\\flip-source\\\\931_Dexter_Lumis\\\\BaseModel\\\\baseModel.mtls'",
+        "931_Attire.mcd: native missing-data check: missing_material_definition",
+        "931_Attire.mcd: native missing-data check: missing_mtls",
+        "baseModel.mcd: native missing-data check: missing_material_definition",
+        "baseModel.mcd: native missing-data check: missing_mtls",
+        "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\BaseModel\\baseModel.mcd: face audit: face material link table is unavailable or not a supported native layout"
+      ],
+      "warnings": [
+        "Native 2K26 model and physics preservation does not validate an older port in game. Unsupported skeleton, weight, and physics repairs were not inferred.",
+        "Already-ported 2K26 missing-data check has unresolved items; see native_2k26_missing_data_check and each model audit.",
+        "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\931_Default_Attire\\931_Attire.mcd: face audit: existing output of a failed or skipped conversion was inspected; successful new conversion was not established",
+        "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\BaseModel\\baseModel.mcd: face audit: existing output of a failed or skipped conversion was inspected; successful new conversion was not established"
+      ],
+      "blank_physics": [],
+      "physics_converted": [],
+      "ycl_editor": null,
+      "engine": "Model engine: WWE2K_MDL add-on, inside this app",
+      "seconds": 0.0,
+      "source_inventory_before_conversion": [
+        {
+          "path": "931_Default_Attire/931_Attire.mcd",
+          "bytes": 1521412,
+          "sha256": "545bedc750010db9334aae6e984ed8bb20bedbf56c260286e13114c0e1721ac0"
+        },
+        {
+          "path": "BaseModel/baseModel.mcd",
+          "bytes": 6800912,
+          "sha256": "1ec8da39b5d85554b6fbcb3aa71782ebbaf665868f35e30734aa6a30c8a128dc"
+        }
+      ],
+      "conversion_completeness": "incomplete",
+      "in_game_validation": "not_performed",
+      "repair_patch": "requested-eye-shadow-defaults-and-verified-writer-normalization-14",
+      "native_2k26_models_preserved": 2,
+      "native_2k26_material_libraries_repaired": 0,
+      "native_2k26_patch": "native-2k26-preservation-and-material-links-1",
+      "reference_source_integration": {
+        "weight_checks": "supplied-reference-weight-audit-1",
+        "geometry_backend": "Gorilla native engine with ported reference components; full Blender workflow not invoked",
+        "wwe2k_mdl_source_supplied": true,
+        "ycl_backend": "original Gorilla converter",
+        "full_reference_engine_rebuilt": false
+      },
+      "ycl_repair_patch": "independent-gorilla-ycl-translation-1",
+      "wdf_layout_repair": {
+        "version": "exact-moxley-authored-wdf-clone-lod-layout-1",
+        "scope": "exact supplied Moxley WDF layout; no YWA conversion",
+        "applied": 0,
+        "refused": 0,
+        "rows": [],
+        "in_game_validation": "not_performed"
+      },
+      "native_2k26_missing_data_check": {
+        "version": "native-2k26-missing-data-audit-1",
+        "models_checked": 2,
+        "repairs_applied": 0,
+        "findings": [
+          {
+            "model": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\931_Default_Attire\\931_Attire.mcd",
+            "category": "material",
+            "state": "missing_material_definition",
+            "binding": "hair_ALPHA",
+            "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\Materials\\hair_ALPHA.jmtl",
+            "path_hash": null,
+            "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+          },
+          {
+            "model": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\931_Default_Attire\\931_Attire.mcd",
+            "category": "material",
+            "state": "missing_material_definition",
+            "binding": "l_elbowpad",
+            "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\Materials\\l_elbowpad.jmtl",
+            "path_hash": null,
+            "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+          },
+          {
+            "model": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\931_Default_Attire\\931_Attire.mcd",
+            "category": "material",
+            "state": "missing_material_definition",
+            "binding": "l_kneepad",
+            "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\Materials\\l_kneepad.jmtl",
+            "path_hash": null,
+            "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+          },
+          {
+            "model": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\931_Default_Attire\\931_Attire.mcd",
+            "category": "material",
+            "state": "missing_material_definition",
+            "binding": "l_wrist",
+            "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\Materials\\l_wrist.jmtl",
+            "path_hash": null,
+            "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+          },
+          {
+            "model": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\931_Default_Attire\\931_Attire.mcd",
+            "category": "material",
+            "state": "missing_material_definition",
+            "binding": "r_elbowpad",
+            "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\Materials\\r_elbowpad.jmtl",
+            "path_hash": null,
+            "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+          },
+          {
+            "model": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\931_Default_Attire\\931_Attire.mcd",
+            "category": "material",
+            "state": "missing_material_definition",
+            "binding": "r_kneepad",
+            "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\Materials\\r_kneepad.jmtl",
+            "path_hash": null,
+            "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+          },
+          {
+            "model": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\931_Default_Attire\\931_Attire.mcd",
+            "category": "material",
+            "state": "missing_material_definition",
+            "binding": "r_wrist",
+            "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\Materials\\r_wrist.jmtl",
+            "path_hash": null,
+            "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+          },
+          {
+            "model": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\931_Default_Attire\\931_Attire.mcd",
+            "category": "material",
+            "state": "missing_material_definition",
+            "binding": "shoes",
+            "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\Materials\\shoes.jmtl",
+            "path_hash": null,
+            "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+          },
+          {
+            "model": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\931_Default_Attire\\931_Attire.mcd",
+            "category": "material",
+            "state": "missing_material_definition",
+            "binding": "underwear",
+            "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\Materials\\underwear.jmtl",
+            "path_hash": null,
+            "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+          },
+          {
+            "model": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\931_Default_Attire\\931_Attire.mcd",
+            "category": "material_table",
+            "state": "missing_mtls",
+            "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Default_Attire\\931_Attire.mtls",
+            "action": "cannot reconstruct a complete table without its required material definitions"
+          },
+          {
+            "model": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\931_Default_Attire\\931_Attire.mcd",
+            "category": "mask",
+            "state": "valid_mask_not_available",
+            "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\931_Default_Attire\\931_Attire.hpl",
+            "reason": "hide mask is empty",
+            "action": "no usable sidecar in selected files; no whole-body mask generated"
+          },
+          {
+            "model": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\931_Default_Attire\\931_Attire.mcd",
+            "category": "physics",
+            "state": "simulation_ycl_not_provided",
+            "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\931_Default_Attire\\931_Attire.ycl",
+            "simulation_meshes": [
+              "S_Hair"
+            ],
+            "action": "compatible YCL not present in selected files; physics was not invented"
+          },
+          {
+            "model": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\BaseModel\\baseModel.mcd",
+            "category": "material",
+            "state": "missing_material_definition",
+            "binding": "body",
+            "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\BaseModel\\Materials\\body.jmtl",
+            "path_hash": null,
+            "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+          },
+          {
+            "model": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\BaseModel\\baseModel.mcd",
+            "category": "material",
+            "state": "missing_material_definition",
+            "binding": "eye_l",
+            "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\BaseModel\\Materials\\eye_l.jmtl",
+            "path_hash": null,
+            "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+          },
+          {
+            "model": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\BaseModel\\baseModel.mcd",
+            "category": "material",
+            "state": "missing_material_definition",
+            "binding": "eye_r",
+            "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\BaseModel\\Materials\\eye_r.jmtl",
+            "path_hash": null,
+            "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+          },
+          {
+            "model": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\BaseModel\\baseModel.mcd",
+            "category": "material",
+            "state": "missing_material_definition",
+            "binding": "head",
+            "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\BaseModel\\Materials\\head.jmtl",
+            "path_hash": null,
+            "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+          },
+          {
+            "model": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\BaseModel\\baseModel.mcd",
+            "category": "material",
+            "state": "missing_material_definition",
+            "binding": "mouthbag",
+            "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\BaseModel\\Materials\\mouthbag.jmtl",
+            "path_hash": null,
+            "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+          },
+          {
+            "model": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\BaseModel\\baseModel.mcd",
+            "category": "material",
+            "state": "missing_material_definition",
+            "binding": "teeth",
+            "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\BaseModel\\Materials\\teeth.jmtl",
+            "path_hash": null,
+            "action": "provide the referenced JMTL or verify its game-asset reference; no shader generated"
+          },
+          {
+            "model": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\BaseModel\\baseModel.mcd",
+            "category": "material_table",
+            "state": "missing_mtls",
+            "expected_file": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\BaseModel\\baseModel.mtls",
+            "action": "cannot reconstruct a complete table without its required material definitions"
+          }
+        ],
+        "in_game_validation": "not_performed",
+        "unavailable_data": "reported; never synthesized",
+        "state": "needs_files_or_review"
+      },
+      "legacy_2k24_input_route": {
+        "version": "native-2k24-format-route-with-rig-guards-1",
+        "models_attempted": 0,
+        "model_checks_passed": 0,
+        "input_headers_rewritten": false,
+        "in_game_validation": "not_performed",
+        "validation_scope": "native model structural checks; materials, hide masks and physics reported separately"
+      },
+      "dds_header_normalization": {
+        "version": "verified-output-only-complete-mip-header-normalization-1",
+        "scope": "existing equivalent output paths; full physical chain only",
+        "source_files_changed": false,
+        "in_game_validation": "not_performed",
+        "repaired": 0,
+        "already_normalized": 0,
+        "output_not_present": 0,
+        "failed": 0,
+        "rows": [],
+        "state": "recorded_output_header_checks"
+      },
+      "eye_scalar_policy": {
+        "version": "user-ordinary-eye-shadow-output-policy-1",
+        "policy": {
+          "eyeLidShadowDarkness": 1.0,
+          "eyeLidShadowFallOff": 0.5
+        },
+        "provenance": "explicit user request and supplied scalar screenshot; not a harvested Cena material default",
+        "scope": "supported ordinary-eye shader 0x12 JMTLs already present in the recorded output; missing materials are not synthesized",
+        "source_files_changed": false,
+        "in_game_validation": "not_performed",
+        "changed": 0,
+        "already_policy_values": 0,
+        "not_ordinary_eye": 0,
+        "failed": 0,
+        "rows": [],
+        "state": "recorded_output_eye_policy"
+      },
+      "tongue_anchor_experiment": {
+        "version": "exact-supplied-bryan-and-flip-tongue-anchor-experiment-2",
+        "scope": "exact inspected supplied Bryan and Flip Gordon profiles only; each source must match its own output profile",
+        "applied": 0,
+        "already_applied": 0,
+        "in_game_validation": "not_performed",
+        "black_teeth_fixed": "not established; controlled anatomical anchor experiment",
+        "matched_profiles": []
+      },
+      "ocular_anchor_correction": {
+        "version": "exact-supplied-bryan-flip-cena-ocular-anchors-1",
+        "scope": "exact supplied Bryan/Flip source-output pairs only; existing caruncle chart correspondence",
+        "applied": 0,
+        "already_applied": 0,
+        "matched_profiles": [],
+        "dark_eyes_fixed": "not established",
+        "in_game_validation": "not_performed"
+      },
+      "face_output_check": {
+        "version": "all-recorded-model-output-face-audit-1",
+        "records_total": 2,
+        "records_audited": 2,
+        "face_models": 1,
+        "not_applicable": 1,
+        "unavailable_or_unreadable": 0,
+        "problems": [
+          "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\BaseModel\\baseModel.mcd: face audit: face material link table is unavailable or not a supported native layout"
+        ],
+        "warnings": [
+          "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\931_Default_Attire\\931_Attire.mcd: face audit: existing output of a failed or skipped conversion was inspected; successful new conversion was not established",
+          "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-source\\931_Dexter_Lumis\\BaseModel\\baseModel.mcd: face audit: existing output of a failed or skipped conversion was inspected; successful new conversion was not established"
+        ],
+        "in_game_validation": "not_performed",
+        "file_changes": "none",
+        "reference_baseline": {
+          "name": "earlier_supplied_native_2k26_cena_face_schema",
+          "source_model_sha256": "bb0176e86fc2e74cebc61058acac1fa3103c7a859f2e54a2196947fe95ee4a1c",
+          "source_model_version": 47,
+          "observed_anchor_slots": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "observed_eye_material_roles": {
+            "eye_l": "left",
+            "eye_r": "right"
+          },
+          "observed_eye_shape_names": [
+            "PupilContract",
+            "PupilExpand"
+          ],
+          "observed_eye_weight_bones": [
+            "J_Eye_L",
+            "J_Eye_R"
+          ],
+          "known_global_eye_normal_ref": 17274687911970229909,
+          "normal_reference_provenance": "supplied comparison writer and stored native material observations; game asset resolution not verified",
+          "topology_and_anchor_target_policy": "schema observation only; vertex counts, UVs, shapes and anchor mesh names are not copied or required identical",
+          "additional_139_John_Cena_2019_archive": "not inspected for this baseline"
+        },
+        "coverage_scope": "all recorded model outputs; source models absent from report.models are not claimed inspected",
+        "coverage_complete": true,
+        "state": "requires_attention"
+      },
+      "physics_binding_audit": {
+        "version": "read-only-exposed-physics-bindings-1",
+        "scope": "Exposed names and index domains only; opaque physics, active solver semantics and in-game motion compatibility are not validated.",
+        "rows": [],
+        "model_reads": 0,
+        "physics_files_modified": false,
+        "in_game_validation": "not_performed",
+        "all_inspected_files_unchanged": true,
+        "state": "exposed_declarations_only; motion compatibility not validated"
+      },
+      "started_at_utc": "2026-10-13T01:55:12.521951+00:00",
+      "finished_at_utc": "2026-10-13T01:55:14.018218+00:00",
+      "status": "completed_with_problems",
+      "report_paths": [
+        "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\931_Dexter_Lumis - conversion report.json",
+        "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\Characters\\931_Dexter_Lumis\\931_Dexter_Lumis - conversion report.json"
+      ],
+      "report_path": "Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\931_Dexter_Lumis - conversion report.json"
+    },
+    "logs": [
+      "  BaseModel\\baseModel.mcd: already 2K26, copied",
+      "  931_Default_Attire\\931_Attire.mcd: already 2K26, copied",
+      "  931_Default_Attire\\931_Attire.mcd: native 2K26 model bytes preserved; material links audited",
+      "  BaseModel\\baseModel.mcd: native 2K26 model bytes preserved; material links audited",
+      "  931_Attire.mcd: already-ported 2K26 check; 0 repair(s), 12 item(s) need files or review",
+      "  baseModel.mcd: already-ported 2K26 check; 0 repair(s), 7 item(s) need files or review",
+      "Already-ported 2K26: 2 model(s) checked, 0 repair(s), 19 unresolved item(s).",
+      "Face checks: 2 recorded outputs audited; 1 contain face meshes; in-game appearance not verified.",
+      "Report saved: Z:\\workspace\\formatter-investigation\\mask-material14-final-r5\\flip-output\\931_Dexter_Lumis - conversion report.json"
+    ]
+  },
+  "all_original_uploads_unchanged": true,
+  "flip_visual_repair_established": false,
+  "bryan_crash_repair_established": false,
+  "actual_tested_candidate_sha256": "e144d758ada9a73ab908c09fd8a5b9a4324887dfa3637c9281b1efc8741855a7",
+  "entrypoint_substitution_only": true,
+  "all_other_candidate_payloads_identical": true
+}

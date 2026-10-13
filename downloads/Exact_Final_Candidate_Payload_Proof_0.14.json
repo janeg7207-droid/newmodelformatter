@@ -1,0 +1,62 @@
+{
+  "candidate": "/workspace/artifacts/NewModelFormatter_0.14_experimental_r5.exe",
+  "candidate_sha256": "e144d758ada9a73ab908c09fd8a5b9a4324887dfa3637c9281b1efc8741855a7",
+  "diagnostics": [
+    {
+      "label": "moxley",
+      "sha256": "c3f22a485a256f7f9b3ca9d24bffb5d65dc1db763c4724e1246b3cd465d14646",
+      "changed_payloads": [
+        "gmf_gui"
+      ],
+      "all_other_final_candidate_payloads_identical": true
+    },
+    {
+      "label": "bryan",
+      "sha256": "895b152aa7f5deba74e5e8487a1bbab2eed495f51a8df8efba444b542131889f",
+      "changed_payloads": [
+        "gmf_gui"
+      ],
+      "all_other_final_candidate_payloads_identical": true
+    },
+    {
+      "label": "billie",
+      "sha256": "7d4b0e5fd76ab0443409fe0f3199bffbbf3d401dec7bcfa8f0e8d570f30f104d",
+      "changed_payloads": [
+        "gmf_gui"
+      ],
+      "all_other_final_candidate_payloads_identical": true
+    },
+    {
+      "label": "ui",
+      "sha256": "08d1838f7fa25af4e395c5d4d8f2444903cd5568d46a7ad6a12b794d93f1d548",
+      "changed_payloads": [
+        "gmf_gui"
+      ],
+      "all_other_final_candidate_payloads_identical": true
+    },
+    {
+      "label": "rey",
+      "sha256": "82fb4d0b1e20ea478ad778a78981ccc1717431bc8559a5f176cf40853d4a0124",
+      "changed_payloads": [
+        "gmf_gui"
+      ],
+      "all_other_final_candidate_payloads_identical": true
+    },
+    {
+      "label": "masks",
+      "sha256": "48f74cddd967eb448aa401e52d1f27c08a88011142fa59f5bcb9a34e7bbe4017",
+      "changed_payloads": [
+        "gmf_gui"
+      ],
+      "all_other_final_candidate_payloads_identical": true
+    },
+    {
+      "label": "samples",
+      "sha256": "7cca0621dfdd17eb13e0a970c7092d931f652d9a84d7549b1e59077db9c4f87e",
+      "changed_payloads": [
+        "gmf_gui"
+      ],
+      "all_other_final_candidate_payloads_identical": true
+    }
+  ]
+}

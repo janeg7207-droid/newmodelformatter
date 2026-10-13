@@ -1,4 +1,4 @@
-# NewModelFormatter 0.13 experimental
+# NewModelFormatter 0.14 experimental
 
 This build repairs named local texture bindings for supported legacy materials,
 preserves explicitly authored teeth irradiance, and automatically restores the
@@ -8,15 +8,133 @@ Gorilla-style folder input/output, CakeView, YCL translation, the original UI
 logic and original source files remain preserved. Appearance still requires
 an in-game check; this is not a confirmed universal eyes/teeth/beard repair.
 
+This is a limited experimental release. Moxley's WDF layout repair preserves
+his authored records, but four mismatched YWA files remain omitted. Reports
+keep those failures and unavailable assets visible. No universal appearance,
+clipping, belt/blood or movement fix is claimed.
+
 ## Install
 
-1. Extract `NewModelFormatter_0.13_patch_installer.zip` into a fresh folder.
+1. Extract `NewModelFormatter_0.14_patch_installer.zip` into a fresh folder.
 2. Run `Install.cmd` and select your ORIGINAL Gorilla Model Formatter 1.0 EXE.
 3. Open the created `NewModelFormatter.exe`. Convert into a new empty output
    folder using your usual CakeView workflow.
 
 Select the original Gorilla EXE, not an older experimental EXE. No Python or
 Blender is needed to run the tool. The installer refuses existing output files.
+
+## New 0.14 requested eye-shadow defaults
+
+The user explicitly requested `eyeLidShadowDarkness = 1.00` and
+`eyeLidShadowFallOff = 0.50` on every ordinary converted eye. These two settings
+now override the legacy authored values; other supported authored settings and
+texture references stay preserved. The supplied Bryan source/current output
+previously had 0.10 and 0.15 in those fields. This policy is the user's requested
+configuration, not an inferred Cena material calibration.
+
+Existing native 2K26 Eye JMTLs can receive the same output-only correction.
+Known missing scalar fields can be added while preserving other fields and
+references; malformed or unknown layouts remain explicit failures. Missing
+material files are not synthesized. Originals, eye colors, textures, geometry
+and UVs remain preserved. Inspect the eye-shadow policy's before/after values
+and final output hashes. In-game brightness and left/right appearance still
+require testing; scalar values alone do not establish a visual fix.
+
+## New 0.14 exposed physics binding checks
+
+Reports distinguish YCL format translation from mesh binding and motion
+validation. A read-only audit inspects bounded, supported name tables and
+exposed index domains against the actual paired source and output models.
+Unknown layouts, unavailable paired files and opaque solver fields remain
+unverified. A declared YCL object absent from the model is reported for review;
+that fact alone does not establish whether the game requires an external mesh.
+No YCL, geometry or physics bytes are changed by this audit.
+
+Moxley's ten supplied originals match the earlier report hashes. His hair
+corrective data names 6,572 `M_Hair` vertices while the supplied named mesh
+contains 1,060 vertices with an identity remap. Other corrective data names
+6,452 `M_Combinations` vertices while that mesh has 4,358. Those declarations
+already disagree with the source; Gorilla preserves the model domains.
+The four YWA files remain omitted. Their authored bindings cannot be recreated
+by changing counts, copying unchanged legacy blobs, or filling records with
+zeros. His YCL names `746_Attire` and `S_Hair`; its solver semantics and actual
+movement remain unverified even though the original translator preserves it.
+
+The inspected native writer supports a separate WDF record-layout correction
+for this exact Moxley profile. It preserves authored LOD0 records and repeats
+them only for proven identical target LOD regions. All MDL, HPL and other
+streams remain byte-identical. This addresses the output layout; it does not
+repair opaque collider bindings or establish in-game cloth compatibility.
+Unknown profiles and invalid/truncated WDF remain unsupported.
+
+## New 0.14 bounded Cena-corresponding ocular anchors
+
+For the exact inspected Bryan and Flip base models, Cena's eight ocular anchors
+map to existing authored head vertices. Correspondence uses all 446 unique
+caruncle UV identities and the complete 672-face oriented surface chart,
+including equivalent quad diagonal swaps. Gorilla's generic head fallback chose
+different vertices; Flip's middle pair even collapsed to the same vertex.
+The bounded correction changes only eight unsigned-16 vertex-index fields,
+preserving the preceding tongue anchor and every other model byte.
+
+Only exact source/output profiles with validated paired base materials qualify.
+Unknown models, different topology, failed model checks and unavailable or
+failed base eye materials are excluded. The supplied Flip geometry-only fixture
+lacks those materials and therefore correctly refuses the process-level patch;
+it is not a complete face/appearance test. Repeated complete native inputs are
+idempotent. Reports retain the mask/tongue/ocular hash chain and explicitly
+require an in-game eye check. This is a correspondence correction, not a
+verified universal brightness fix or a copy of Cena's eye colors/shapes.
+
+## New 0.14 DDS mip-count correction
+
+AJ's actual `eyelash_color.dds` declares one mip but contains exactly ten
+complete mip levels through 1x1. This build corrects that count in output copies
+only. Only byte 28 changes in this supplied file; every compressed pixel byte
+and all ten independently decoded mip images are unchanged. The same guarded
+rule applies to supported single-2D compressed DDS files only when the complete
+legal chain exactly consumes the payload. Truncation, trailing bytes,
+underdeclared partial chains and overdeclared counts remain rejected.
+Other header fields are preserved. Inspect `mip_count_repair`, source/output
+hashes, and `dds_header_normalization`. Header normalization runs after folder
+copying and native dependency recovery; unexpected different output bytes are
+preserved and reported. Originals remain untouched. CakeView and in-game eyelash
+rendering still require checking; this does not guess eye brightness or beard
+settings.
+
+## New 0.14 one-to-one attire verification
+
+Some AJ variants contain ring and entrance hair with identical geometry but
+different names, flags and weights. The old verifier selected the first matching
+geometry and compared entrance hair against ring hair. This build selects the
+unique matching expected name and prevents target reuse. Ambiguous duplicates
+fail verification. Genuine flag, name and weight errors remain failures. No
+model, skin weights or physics are changed by this verifier correction.
+The original source loop is fingerprint-guarded; unknown verifier layouts and
+base-model matching keep their existing behavior.
+
+The supplied AJ MCDs are native 2K26 outputs of variants 17-19. They prove the
+separate entrance records exist, but cannot prove their weights match the
+original legacy input. That requires the original 15,570,060-byte
+`610_Attire.mcd` from the corresponding formatted-2K25 event folder.
+AJ's shared 81,408-byte HPL remains unreadable, and these native model tails
+contain empty masks. No authored full mask is reconstructed from that data.
+Other rejected AJ hair/elbow DDS files have not been supplied or declared fixed.
+
+## New 0.14 original-writer weight normalization
+
+The exact newly supplied Kenny Omega formatted-2K25 attire has 68 tights
+vertices with positive weight totals below one (minimum 0.9137255). Gorilla's
+existing writer normalizes them; independently recomputed packed weights match
+his supplied native output, including all eight meshes. The prior partial-rig
+source gate incorrectly rejected these positive budgets before that proof.
+The corrected path retains finite/nonnegative/name/positive-budget checks,
+records original totals, and permits only the original writer's normalization.
+It separately checks packed indices, influence limits, normalized packed values,
+all written bones/parents/poses and every output weight. Input weight vectors
+are not rewritten. Missing animation joints and corrupted output still fail.
+The 81,408-byte Kenny HPL remains unreadable and model verification still fails
+skin hiding. This correction does not recover missing masks or physics.
 
 ## New 0.13 Flip mask restoration
 
@@ -96,7 +214,8 @@ importer explicitly handles this game-texture header quirk. Earlier binding
 checks rejected such files even when their dimensions and payload were valid.
 The bit is now advisory: actual header sizes, positive dimensions, supported
 formats, single 2D resources, cube/volume restrictions and every mip extent
-still validate. Source and copied output bytes remain identical. Accepted
+still validate. In 0.13, accepted source and copied output bytes remained identical.
+The new 0.14 guarded count repair is described above. Accepted
 files record `capsTextureBitPresent` and `header_advisories`; neither pixels nor
 DDS headers are rewritten by this patch. Actual CakeView baking and game
 resolution remain unverified.

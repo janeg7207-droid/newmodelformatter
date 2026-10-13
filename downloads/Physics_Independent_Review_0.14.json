@@ -1,0 +1,123 @@
+{
+  "scope": "Read-only independent module review and exact-file preparation; no new native Wine runs or in-game movement validation",
+  "all_pure_checks_passed": true,
+  "focused_unittests": {
+    "count": 43,
+    "passed": true,
+    "command": "runtime06-venv/bin/python -m unittest tests.test_wdf_repair tests.test_physics_audit"
+  },
+  "reviewed_modules": {
+    "gmf_physics_audit.py": "d740bab28e429632a6498967ba34d99a28f494764568f2a985d8826b74576459",
+    "gmf_wdf_repair.py": "2dac5429751be3e8fe52c2c302a0fc4773d392d4fc9fa4b789097b35e2adb1e5"
+  },
+  "paired_geometry_evidence": {
+    "M_Head": {
+      "positions": {
+        "shape": [
+          4382,
+          3
+        ],
+        "source_target_equal": true,
+        "source_values_sha256": "a8b6cfb7cf598ee5c56d9f23c32d3476f994a3394f87bcca905f0f1c1225f027",
+        "target_values_sha256": "a8b6cfb7cf598ee5c56d9f23c32d3476f994a3394f87bcca905f0f1c1225f027"
+      },
+      "triangles": {
+        "shape": [
+          8324,
+          3
+        ],
+        "source_target_equal": true,
+        "source_values_sha256": "ee31a3322948e15d6a05d4eba2daa7a838c60d0de83a737b10882ce2a13587cc",
+        "target_values_sha256": "ee31a3322948e15d6a05d4eba2daa7a838c60d0de83a737b10882ce2a13587cc"
+      },
+      "vertex_remap": {
+        "shape": [
+          4382
+        ],
+        "source_target_equal": true,
+        "source_values_sha256": "3cd64623714e8ece71895bb0b7f25360f50711a750ea6c47d2a8e2274869cad8",
+        "target_values_sha256": "3cd64623714e8ece71895bb0b7f25360f50711a750ea6c47d2a8e2274869cad8"
+      },
+      "normals": {
+        "shape": [
+          4382,
+          3
+        ],
+        "source_target_equal": true,
+        "source_values_sha256": "03673a50a467b21b7c8b1a44e733591fedca4c5915211e1e7bc0f7253f1f6efe",
+        "target_values_sha256": "03673a50a467b21b7c8b1a44e733591fedca4c5915211e1e7bc0f7253f1f6efe"
+      },
+      "uv_00": {
+        "shape": [
+          4382,
+          2
+        ],
+        "source_target_equal": true,
+        "source_values_sha256": "ac7bd534abc5ea0725fdf644b759dedb00663bfaab4f96733cff85a5308aea44",
+        "target_values_sha256": "ac7bd534abc5ea0725fdf644b759dedb00663bfaab4f96733cff85a5308aea44"
+      }
+    },
+    "M_Combinations": {
+      "positions": {
+        "shape": [
+          4358,
+          3
+        ],
+        "source_target_equal": true,
+        "source_values_sha256": "3fe5c7bb61705b44a64353f6343f665c3c9f1cb5ec54c10fa85479982edf12ba",
+        "target_values_sha256": "3fe5c7bb61705b44a64353f6343f665c3c9f1cb5ec54c10fa85479982edf12ba"
+      },
+      "triangles": {
+        "shape": [
+          3544,
+          3
+        ],
+        "source_target_equal": true,
+        "source_values_sha256": "8a676785f4d61eadc24e6e89353aa16aa4f82a739d3dc81aeef97bcf5eec2e0d",
+        "target_values_sha256": "8a676785f4d61eadc24e6e89353aa16aa4f82a739d3dc81aeef97bcf5eec2e0d"
+      },
+      "vertex_remap": {
+        "shape": [
+          4358
+        ],
+        "source_target_equal": true,
+        "source_values_sha256": "b6f6708e13845579daa00d4f7f0440bb2117e8d2038aba102e3bd77ac39b0ede",
+        "target_values_sha256": "b6f6708e13845579daa00d4f7f0440bb2117e8d2038aba102e3bd77ac39b0ede"
+      },
+      "normals": {
+        "shape": [
+          4358,
+          3
+        ],
+        "source_target_equal": true,
+        "source_values_sha256": "f9ba69f21696d7b5b31e99d2d3d2235e0dc9d66d7ea81b4fa30c674bc2dd1981",
+        "target_values_sha256": "f9ba69f21696d7b5b31e99d2d3d2235e0dc9d66d7ea81b4fa30c674bc2dd1981"
+      },
+      "uv_00": {
+        "shape": [
+          4358,
+          2
+        ],
+        "source_target_equal": true,
+        "source_values_sha256": "f77bd2d6de7ce800ef9e89d4c6c5fa20697a69cb961656f58e412b167c0fa49a",
+        "target_values_sha256": "f77bd2d6de7ce800ef9e89d4c6c5fa20697a69cb961656f58e412b167c0fa49a"
+      }
+    }
+  },
+  "guard_review": {
+    "selected_and_nested_alias_refusal": true,
+    "bounded_ycl_nodes_bytes_depth": true,
+    "bounded_ywa_sequential_u16_counts": true,
+    "opaque_or_inactive_solver_semantics_not_inferred": true,
+    "declared_counts_not_pretended_read_indices": true,
+    "atomic_native_reader_staging_source_preservation": true,
+    "precommit_report_types_and_paths": true,
+    "current_final_identity_precedes_optional_report_links": true,
+    "embedded_wdf_delivery_model_and_payload_hashes_verified": true
+  },
+  "native_exact_candidate_validation": "pending root next candidate run",
+  "four_ywa_conversion": "unsupported and omitted",
+  "in_game_validation": "not performed",
+  "wdf_scope": "Only exact Moxley authored4358-record LOD0 prefix repeated across4verified clone model LODs; motion compatibility not established",
+  "pure_prepare_evidence": "pure_wdf_profile_review.json"
+}

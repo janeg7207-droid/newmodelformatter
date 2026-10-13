@@ -1,0 +1,2023 @@
+{
+  "scope": "actual supplied base/attire/bad HPL, bundled native reader/writer under Wine; no material libraries supplied to this isolated diagnostic; no in-game test",
+  "source_unchanged": true,
+  "input_fingerprints": {
+    "Z:\\workspace\\formatter-investigation\\rey-paired-gear14-r5\\source\\123_Rey_Mysterio_2019\\BaseModel\\baseModel.mcd": "6ac7de4ecdc79c598c3bfb6b1ea96679e5f656bae2e372053ba487eb3513155f",
+    "Z:\\workspace\\formatter-investigation\\rey-paired-gear14-r5\\source\\123_Rey_Mysterio_2019\\123_Default_Attire\\123_Attire.mcd": "c181b2889e01a8ebb76f020457de7466a099ae327d87514e1cd44b36b3f6245c",
+    "Z:\\workspace\\formatter-investigation\\rey-paired-gear14-r5\\source\\123_Rey_Mysterio_2019\\123_Default_Attire\\123_Attire.hpl": "57abd17dd82782bcd4c1509c311d3f70227af707e7975a2e1b3fcbf1eae2c3dd"
+  },
+  "report": {
+    "source": "Z:\\workspace\\formatter-investigation\\rey-paired-gear14-r5\\source\\123_Rey_Mysterio_2019",
+    "output": "Z:\\workspace\\formatter-investigation\\rey-paired-gear14-r5\\output\\Characters\\123_Rey_Mysterio_2019",
+    "game_path": "Characters/123_Rey_Mysterio_2019",
+    "models": [
+      {
+        "source": "Z:\\workspace\\formatter-investigation\\rey-paired-gear14-r5\\source\\123_Rey_Mysterio_2019\\BaseModel\\baseModel.mcd",
+        "output": "Z:\\workspace\\formatter-investigation\\rey-paired-gear14-r5\\output\\Characters\\123_Rey_Mysterio_2019\\BaseModel\\baseModel.mcd",
+        "source_version": "0x29",
+        "notes": [
+          "2K25 eye-shadow overlay mesh M_transB_eyeshadow left out (2K26 has no such mesh)",
+          "M_EYE split into eye_r (552 tris) and eye_l (552 tris)",
+          "skeleton: 2K26 male rig (138 bones on the stock pose, 2 moved to their 2K26 stock pose, 26 new)",
+          "2712 vertices used the old muscle bones and were re-weighted",
+          "13 eye/mouth shading anchors placed (2 by texture position, furthest 0.69 cm from its stock spot)",
+          "121 vertices sat exactly on head vertices that move differently in face shapes; they were moved 0.02 mm so they keep their own movement"
+        ],
+        "kind": "base model",
+        "dropped_meshes": [
+          "2K25 eye-shadow overlay mesh M_transB_eyeshadow left out (2K26 has no such mesh)"
+        ],
+        "rig": "2K25",
+        "bones": "214 -> 180",
+        "skeleton": "male",
+        "reference_body": "male",
+        "bone_report": {
+          "variant": "male",
+          "stock_pose": 138,
+          "moved_to_2k26_pose": [
+            "H_Ebw_Out_L",
+            "H_Ebw_Out_R"
+          ],
+          "own_pose": [],
+          "new": 26
+        },
+        "weights": [
+          {
+            "mesh": "M_EYE",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_Body",
+            "old_groups": 16,
+            "verts_changed": 2580,
+            "kept_own_part": 0,
+            "max_distance_to_stock_skin": 4.57
+          },
+          {
+            "mesh": "M_Tongue",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_Teeth",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_Head",
+            "old_groups": 8,
+            "verts_changed": 132,
+            "kept_own_part": 0,
+            "max_distance_to_stock_skin": 2.3
+          },
+          {
+            "mesh": "M_MouthBag",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_transB_eyelash",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          }
+        ],
+        "attach_points_dropped": 0,
+        "mask_limits": {
+          "M_EYE": 626,
+          "M_Body": 12755,
+          "M_Tongue": 341,
+          "M_Teeth": 4701,
+          "M_Head": 4483,
+          "M_MouthBag": 352,
+          "M_transB_eyelash": 458
+        },
+        "meshes": [
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_EYE"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Body"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Tongue"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Teeth"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Head"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_MouthBag"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_transB_eyelash"
+          }
+        ],
+        "status": "converted",
+        "mesh_vertex_counts": {
+          "M_EYE": 626,
+          "M_Body": 12755,
+          "M_Tongue": 341,
+          "M_Teeth": 4701,
+          "M_Head": 4483,
+          "M_MouthBag": 352,
+          "M_transB_eyelash": 458
+        },
+        "verify": "pass",
+        "problems": [],
+        "facts": {
+          "bones": 180,
+          "substreams": [
+            "CTG!",
+            "MDL!",
+            "HPL!"
+          ],
+          "anchors": 13,
+          "M_EYE": {
+            "verts": 626,
+            "reweighted": 0
+          },
+          "M_Body": {
+            "verts": 12755,
+            "reweighted": 2580
+          },
+          "M_Tongue": {
+            "verts": 341,
+            "reweighted": 0
+          },
+          "M_Teeth": {
+            "verts": 4701,
+            "reweighted": 0
+          },
+          "M_Head": {
+            "verts": 4483,
+            "reweighted": 132
+          },
+          "M_MouthBag": {
+            "verts": 352,
+            "reweighted": 0
+          },
+          "left_out": [
+            "M_transB_eyeshadow"
+          ],
+          "M_transB_eyelash": {
+            "verts": 458,
+            "reweighted": 0
+          },
+          "hide_mask": "none"
+        },
+        "reference_weight_audit": {
+          "version": "supplied-reference-weight-audit-1",
+          "scope": "read_only_weight_data_checks; anatomical correctness unverified",
+          "bone_deform_flags": "not_in_native_records; reference driver-name rules only",
+          "meshes": [
+            {
+              "mesh": "M_EYE",
+              "vertices": 626,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Body",
+              "vertices": 12755,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Tongue",
+              "vertices": 341,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Teeth",
+              "vertices": 4701,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Head",
+              "vertices": 4483,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_MouthBag",
+              "vertices": 352,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_transB_eyelash",
+              "vertices": 458,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            }
+          ],
+          "suspicious_vertices": 0
+        },
+        "face_output_audit": {
+          "version": "all-recorded-model-output-face-audit-1",
+          "output": "Z:\\workspace\\formatter-investigation\\rey-paired-gear14-r5\\output\\Characters\\123_Rey_Mysterio_2019\\BaseModel\\baseModel.mcd",
+          "problems": [
+            "face material link table is unavailable or not a supported native layout"
+          ],
+          "warnings": [],
+          "file_changes": "none; read-only audit",
+          "reference_scope": "supplied native 2K26 face schema and writer references; identical topology or appearance is not required",
+          "reference_baseline_name": "earlier_supplied_native_2k26_cena_face_schema",
+          "in_game_validation": "not_performed",
+          "original_model_verify": "pass",
+          "output_sha256": "93a23be121ba16dfdc2ea6ff3b366de9da42fa5427eed3eec336c64f87b6b2de",
+          "output_version": 47,
+          "applicability": "face_meshes_present",
+          "meshes": [
+            {
+              "mesh": "M_EYE",
+              "kind": "eye",
+              "vertices": 626,
+              "problems": [],
+              "warnings": [],
+              "scene_flag": 128,
+              "motion_flag": -1,
+              "game_flag_policy": "observed; no shader or motion flags are forced",
+              "triangles": 1104,
+              "uv_channels": [
+                {
+                  "channel": 0,
+                  "shape": [
+                    626,
+                    2
+                  ],
+                  "state": "finite",
+                  "minimum": [
+                    0.07322049885988235,
+                    0.0732564926147461
+                  ],
+                  "maximum": [
+                    0.9277874231338501,
+                    0.9221752285957336
+                  ]
+                }
+              ],
+              "normals": {
+                "shape": [
+                  626,
+                  3
+                ],
+                "finite": true
+              },
+              "tangents": {
+                "shape": [
+                  626,
+                  4
+                ],
+                "finite": true
+              },
+              "color_channels": [],
+              "face_groups": [
+                {
+                  "material": "eye_r",
+                  "first_triangle": 0,
+                  "triangle_count": 552
+                },
+                {
+                  "material": "eye_l",
+                  "first_triangle": 552,
+                  "triangle_count": 552
+                }
+              ]
+            },
+            {
+              "mesh": "M_Tongue",
+              "kind": "mouthbag",
+              "vertices": 341,
+              "problems": [],
+              "warnings": [],
+              "scene_flag": 128,
+              "motion_flag": -1,
+              "game_flag_policy": "observed; no shader or motion flags are forced",
+              "triangles": 584,
+              "uv_channels": [
+                {
+                  "channel": 0,
+                  "shape": [
+                    341,
+                    2
+                  ],
+                  "state": "finite",
+                  "minimum": [
+                    0.0019042693311348557,
+                    0.8875911831855774
+                  ],
+                  "maximum": [
+                    0.12403831630945206,
+                    0.9922455549240112
+                  ]
+                }
+              ],
+              "normals": {
+                "shape": [
+                  341,
+                  3
+                ],
+                "finite": true
+              },
+              "tangents": {
+                "shape": [
+                  341,
+                  4
+                ],
+                "finite": true
+              },
+              "color_channels": [],
+              "face_groups": [
+                {
+                  "material": "mouthbag",
+                  "first_triangle": 0,
+                  "triangle_count": 584
+                }
+              ]
+            },
+            {
+              "mesh": "M_Teeth",
+              "kind": "teeth",
+              "vertices": 4701,
+              "problems": [],
+              "warnings": [],
+              "scene_flag": 128,
+              "motion_flag": -1,
+              "game_flag_policy": "observed; no shader or motion flags are forced",
+              "triangles": 7898,
+              "uv_channels": [
+                {
+                  "channel": 0,
+                  "shape": [
+                    4701,
+                    2
+                  ],
+                  "state": "finite",
+                  "minimum": [
+                    0.007348999846726656,
+                    0.7910109758377075
+                  ],
+                  "maximum": [
+                    0.5392580032348633,
+                    0.9986050128936768
+                  ]
+                },
+                {
+                  "channel": 1,
+                  "shape": [
+                    4701,
+                    2
+                  ],
+                  "state": "finite",
+                  "minimum": [
+                    0.00788070261478424,
+                    0.0037654638290405273
+                  ],
+                  "maximum": [
+                    0.9935464859008789,
+                    0.9957854151725769
+                  ]
+                }
+              ],
+              "normals": {
+                "shape": [
+                  4701,
+                  3
+                ],
+                "finite": true
+              },
+              "tangents": {
+                "shape": [
+                  4701,
+                  4
+                ],
+                "finite": true
+              },
+              "color_channels": [
+                {
+                  "channel": 0,
+                  "shape": [
+                    4701,
+                    4
+                  ],
+                  "state": "finite",
+                  "minimum": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                  ],
+                  "maximum": [
+                    0.9999999403953552,
+                    0.9999999403953552,
+                    0.9999999403953552,
+                    1.0
+                  ]
+                }
+              ],
+              "face_groups": [
+                {
+                  "material": "teeth",
+                  "first_triangle": 0,
+                  "triangle_count": 7898
+                }
+              ]
+            },
+            {
+              "mesh": "M_MouthBag",
+              "kind": "mouthbag",
+              "vertices": 352,
+              "problems": [],
+              "warnings": [],
+              "scene_flag": 128,
+              "motion_flag": -1,
+              "game_flag_policy": "observed; no shader or motion flags are forced",
+              "triangles": 616,
+              "uv_channels": [
+                {
+                  "channel": 0,
+                  "shape": [
+                    352,
+                    2
+                  ],
+                  "state": "finite",
+                  "minimum": [
+                    0.12684795260429382,
+                    0.8777092099189758
+                  ],
+                  "maximum": [
+                    0.2484256774187088,
+                    0.9963176846504211
+                  ]
+                }
+              ],
+              "normals": {
+                "shape": [
+                  352,
+                  3
+                ],
+                "finite": true
+              },
+              "tangents": {
+                "shape": [
+                  352,
+                  4
+                ],
+                "finite": true
+              },
+              "color_channels": [],
+              "face_groups": [
+                {
+                  "material": "mouthbag",
+                  "first_triangle": 0,
+                  "triangle_count": 616
+                }
+              ]
+            }
+          ],
+          "materials": [],
+          "anchors": {
+            "records": [
+              {
+                "name": "_ag_0001",
+                "mesh": "M_Teeth",
+                "slot": 1,
+                "vertex": 3764
+              },
+              {
+                "name": "_ag_0003",
+                "mesh": "M_Head",
+                "slot": 3,
+                "vertex": 1157
+              },
+              {
+                "name": "_ag_0000",
+                "mesh": "M_Teeth",
+                "slot": 0,
+                "vertex": 2648
+              },
+              {
+                "name": "_ag_0002",
+                "mesh": "M_Head",
+                "slot": 2,
+                "vertex": 1093
+              },
+              {
+                "name": "_ag_0004",
+                "mesh": "M_Teeth",
+                "slot": 4,
+                "vertex": 1605
+              },
+              {
+                "name": "_ag_0005",
+                "mesh": "M_Head",
+                "slot": 5,
+                "vertex": 4102
+              },
+              {
+                "name": "_ag_0006",
+                "mesh": "M_Head",
+                "slot": 6,
+                "vertex": 4125
+              },
+              {
+                "name": "_ag_0007",
+                "mesh": "M_Head",
+                "slot": 7,
+                "vertex": 4137
+              },
+              {
+                "name": "_ag_0008",
+                "mesh": "M_Head",
+                "slot": 8,
+                "vertex": 4333
+              },
+              {
+                "name": "_ag_0009",
+                "mesh": "M_Head",
+                "slot": 9,
+                "vertex": 4279
+              },
+              {
+                "name": "_ag_0010",
+                "mesh": "M_Head",
+                "slot": 10,
+                "vertex": 4148
+              },
+              {
+                "name": "_ag_0011",
+                "mesh": "M_Head",
+                "slot": 11,
+                "vertex": 4445
+              },
+              {
+                "name": "_ag_0012",
+                "mesh": "M_Head",
+                "slot": 12,
+                "vertex": 4140
+              }
+            ],
+            "problems": [],
+            "warnings": [],
+            "scope": "mesh/string/index validity; anatomical placement unverified",
+            "count": 13
+          },
+          "material_library": {
+            "file": "Z:\\workspace\\formatter-investigation\\rey-paired-gear14-r5\\output\\Characters\\123_Rey_Mysterio_2019\\BaseModel\\baseModel.mtls",
+            "state": "unavailable_or_unsupported",
+            "reason": "[Errno 2] No such file or directory: 'Z:\\\\workspace\\\\formatter-investigation\\\\rey-paired-gear14-r5\\\\output\\\\Characters\\\\123_Rey_Mysterio_2019\\\\BaseModel\\\\baseModel.mtls'"
+          },
+          "state": "requires_attention"
+        }
+      },
+      {
+        "source": "Z:\\workspace\\formatter-investigation\\rey-paired-gear14-r5\\source\\123_Rey_Mysterio_2019\\123_Default_Attire\\123_Attire.mcd",
+        "output": "Z:\\workspace\\formatter-investigation\\rey-paired-gear14-r5\\output\\Characters\\123_Rey_Mysterio_2019\\123_Default_Attire\\123_Attire.mcd",
+        "source_version": "0x29",
+        "notes": [
+          "skeleton: 2K26 male rig (138 bones on the stock pose, 2 moved to their 2K26 stock pose, 26 new)",
+          "21573 vertices used the old muscle bones and were re-weighted",
+          "hide mask carried over from 123_Attire.hpl (ring: M_Body 10977, M_Head 1273; entrance: M_Body 10977, M_Head 1273)",
+          "EXPERIMENTAL Rey gear: nearest-surface weights from the verified paired converted body, using supplied PWM triangle math and reference cleanup rules. Blender Heat Seek equivalence is not claimed. No cloth physics created; entrance/gameplay validation required.",
+          "Restored this exact Rey hide mask from the verified user-supplied HPL; the selected paired base and every Body/Head vertex-remap index were checked. Original source files were retained. Entrance/gameplay validation is required."
+        ],
+        "kind": "attire",
+        "dropped_meshes": [],
+        "rig": "2K25",
+        "bones": "209 -> 175",
+        "skeleton": "male",
+        "reference_body": "male",
+        "bone_report": {
+          "variant": "male",
+          "stock_pose": 138,
+          "moved_to_2k26_pose": [
+            "H_Ebw_Out_L",
+            "H_Ebw_Out_R"
+          ],
+          "own_pose": [],
+          "new": 26
+        },
+        "weights": [
+          {
+            "mesh": "M_L_A_Acce",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_R_A_Acce",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_Mask",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_BlueGem",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_Redgem",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_L_Boot",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_R_Boot",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_Tights",
+            "old_groups": 0,
+            "verts_changed": 11850,
+            "kept_own_part": 0,
+            "policy": "paired_body_nearest_surface_reference_math",
+            "reference_cleanup_threshold": 0.01,
+            "max_influences": 8,
+            "vertices_capped_to_native_budget": 0,
+            "donor_sha256": "93a23be121ba16dfdc2ea6ff3b366de9da42fa5427eed3eec336c64f87b6b2de",
+            "donor_mesh": "M_Body",
+            "max_distance_to_paired_body": 9.37875037605339,
+            "mean_distance_to_paired_body": 0.7422304118016384,
+            "ignored_degenerate_donor_triangles": 0,
+            "blender_heat_seek_equivalence": "not_claimed",
+            "in_game_validation": "required"
+          },
+          {
+            "mesh": "M_Tops",
+            "old_groups": 0,
+            "verts_changed": 2511,
+            "kept_own_part": 0,
+            "policy": "paired_body_nearest_surface_reference_math",
+            "reference_cleanup_threshold": 0.01,
+            "max_influences": 8,
+            "vertices_capped_to_native_budget": 32,
+            "donor_sha256": "93a23be121ba16dfdc2ea6ff3b366de9da42fa5427eed3eec336c64f87b6b2de",
+            "donor_mesh": "M_Body",
+            "max_distance_to_paired_body": 12.006460247054742,
+            "mean_distance_to_paired_body": 1.0014344381201705,
+            "ignored_degenerate_donor_triangles": 0,
+            "blender_heat_seek_equivalence": "not_claimed",
+            "in_game_validation": "required"
+          },
+          {
+            "mesh": "M_Outfit",
+            "old_groups": 0,
+            "verts_changed": 698,
+            "kept_own_part": 0,
+            "policy": "paired_body_nearest_surface_reference_math",
+            "reference_cleanup_threshold": 0.01,
+            "max_influences": 8,
+            "vertices_capped_to_native_budget": 0,
+            "donor_sha256": "93a23be121ba16dfdc2ea6ff3b366de9da42fa5427eed3eec336c64f87b6b2de",
+            "donor_mesh": "M_Body",
+            "max_distance_to_paired_body": 2.5148643719139394,
+            "mean_distance_to_paired_body": 1.2129318020402982,
+            "ignored_degenerate_donor_triangles": 0,
+            "blender_heat_seek_equivalence": "not_claimed",
+            "in_game_validation": "required"
+          },
+          {
+            "mesh": "M_Cross",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          },
+          {
+            "mesh": "M_ShoulderPad",
+            "old_groups": 0,
+            "verts_changed": 1954,
+            "kept_own_part": 0,
+            "policy": "paired_body_nearest_surface_reference_math",
+            "reference_cleanup_threshold": 0.01,
+            "max_influences": 8,
+            "vertices_capped_to_native_budget": 6,
+            "donor_sha256": "93a23be121ba16dfdc2ea6ff3b366de9da42fa5427eed3eec336c64f87b6b2de",
+            "donor_mesh": "M_Body",
+            "max_distance_to_paired_body": 6.378872660190709,
+            "mean_distance_to_paired_body": 2.1906336161698525,
+            "ignored_degenerate_donor_triangles": 0,
+            "blender_heat_seek_equivalence": "not_claimed",
+            "in_game_validation": "required"
+          },
+          {
+            "mesh": "M_Wings",
+            "old_groups": 0,
+            "verts_changed": 4560,
+            "kept_own_part": 0,
+            "policy": "paired_body_nearest_surface_reference_math",
+            "reference_cleanup_threshold": 0.01,
+            "max_influences": 8,
+            "vertices_capped_to_native_budget": 0,
+            "donor_sha256": "93a23be121ba16dfdc2ea6ff3b366de9da42fa5427eed3eec336c64f87b6b2de",
+            "donor_mesh": "M_Body",
+            "max_distance_to_paired_body": 15.48150427291037,
+            "mean_distance_to_paired_body": 5.653983825965563,
+            "ignored_degenerate_donor_triangles": 0,
+            "blender_heat_seek_equivalence": "not_claimed",
+            "in_game_validation": "required"
+          },
+          {
+            "mesh": "M_Wolv",
+            "old_groups": 0,
+            "verts_changed": 0,
+            "kept_own_part": 0
+          }
+        ],
+        "attach_points_dropped": 0,
+        "mask_limits": {
+          "M_L_A_Acce": 2275,
+          "M_R_A_Acce": 2275,
+          "M_Mask": 1559,
+          "M_BlueGem": 13056,
+          "M_Redgem": 344,
+          "M_L_Boot": 730,
+          "M_R_Boot": 730,
+          "M_Tights": 11850,
+          "M_Tops": 2511,
+          "M_Outfit": 698,
+          "M_Cross": 7287,
+          "M_ShoulderPad": 1954,
+          "M_Wings": 4560,
+          "M_Wolv": 4210
+        },
+        "meshes": [
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_L_A_Acce"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_R_A_Acce"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Mask"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_BlueGem"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Redgem"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_L_Boot"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_R_Boot"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Tights"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Tops"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Outfit"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Cross"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_ShoulderPad"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Wings"
+          },
+          {
+            "unweighted": 0,
+            "dropped_groups": [],
+            "mesh": "M_Wolv"
+          }
+        ],
+        "status": "converted",
+        "mesh_vertex_counts": {
+          "M_L_A_Acce": 2275,
+          "M_R_A_Acce": 2275,
+          "M_Mask": 1559,
+          "M_BlueGem": 13056,
+          "M_Redgem": 344,
+          "M_L_Boot": 730,
+          "M_R_Boot": 730,
+          "M_Tights": 11850,
+          "M_Tops": 2511,
+          "M_Outfit": 698,
+          "M_Cross": 7287,
+          "M_ShoulderPad": 1954,
+          "M_Wings": 4560,
+          "M_Wolv": 4210
+        },
+        "experimental_gear_profile": [
+          {
+            "mesh": "M_Tights",
+            "old_groups": 0,
+            "verts_changed": 11850,
+            "kept_own_part": 0,
+            "policy": "paired_body_nearest_surface_reference_math",
+            "reference_cleanup_threshold": 0.01,
+            "max_influences": 8,
+            "vertices_capped_to_native_budget": 0,
+            "donor_sha256": "93a23be121ba16dfdc2ea6ff3b366de9da42fa5427eed3eec336c64f87b6b2de",
+            "donor_mesh": "M_Body",
+            "max_distance_to_paired_body": 9.37875037605339,
+            "mean_distance_to_paired_body": 0.7422304118016384,
+            "ignored_degenerate_donor_triangles": 0,
+            "blender_heat_seek_equivalence": "not_claimed",
+            "in_game_validation": "required"
+          },
+          {
+            "mesh": "M_Tops",
+            "old_groups": 0,
+            "verts_changed": 2511,
+            "kept_own_part": 0,
+            "policy": "paired_body_nearest_surface_reference_math",
+            "reference_cleanup_threshold": 0.01,
+            "max_influences": 8,
+            "vertices_capped_to_native_budget": 32,
+            "donor_sha256": "93a23be121ba16dfdc2ea6ff3b366de9da42fa5427eed3eec336c64f87b6b2de",
+            "donor_mesh": "M_Body",
+            "max_distance_to_paired_body": 12.006460247054742,
+            "mean_distance_to_paired_body": 1.0014344381201705,
+            "ignored_degenerate_donor_triangles": 0,
+            "blender_heat_seek_equivalence": "not_claimed",
+            "in_game_validation": "required"
+          },
+          {
+            "mesh": "M_Outfit",
+            "old_groups": 0,
+            "verts_changed": 698,
+            "kept_own_part": 0,
+            "policy": "paired_body_nearest_surface_reference_math",
+            "reference_cleanup_threshold": 0.01,
+            "max_influences": 8,
+            "vertices_capped_to_native_budget": 0,
+            "donor_sha256": "93a23be121ba16dfdc2ea6ff3b366de9da42fa5427eed3eec336c64f87b6b2de",
+            "donor_mesh": "M_Body",
+            "max_distance_to_paired_body": 2.5148643719139394,
+            "mean_distance_to_paired_body": 1.2129318020402982,
+            "ignored_degenerate_donor_triangles": 0,
+            "blender_heat_seek_equivalence": "not_claimed",
+            "in_game_validation": "required"
+          },
+          {
+            "mesh": "M_ShoulderPad",
+            "old_groups": 0,
+            "verts_changed": 1954,
+            "kept_own_part": 0,
+            "policy": "paired_body_nearest_surface_reference_math",
+            "reference_cleanup_threshold": 0.01,
+            "max_influences": 8,
+            "vertices_capped_to_native_budget": 6,
+            "donor_sha256": "93a23be121ba16dfdc2ea6ff3b366de9da42fa5427eed3eec336c64f87b6b2de",
+            "donor_mesh": "M_Body",
+            "max_distance_to_paired_body": 6.378872660190709,
+            "mean_distance_to_paired_body": 2.1906336161698525,
+            "ignored_degenerate_donor_triangles": 0,
+            "blender_heat_seek_equivalence": "not_claimed",
+            "in_game_validation": "required"
+          },
+          {
+            "mesh": "M_Wings",
+            "old_groups": 0,
+            "verts_changed": 4560,
+            "kept_own_part": 0,
+            "policy": "paired_body_nearest_surface_reference_math",
+            "reference_cleanup_threshold": 0.01,
+            "max_influences": 8,
+            "vertices_capped_to_native_budget": 0,
+            "donor_sha256": "93a23be121ba16dfdc2ea6ff3b366de9da42fa5427eed3eec336c64f87b6b2de",
+            "donor_mesh": "M_Body",
+            "max_distance_to_paired_body": 15.48150427291037,
+            "mean_distance_to_paired_body": 5.653983825965563,
+            "ignored_degenerate_donor_triangles": 0,
+            "blender_heat_seek_equivalence": "not_claimed",
+            "in_game_validation": "required"
+          }
+        ],
+        "hide_mask_recovery": {
+          "profile": "supplied-rey-hpl-1",
+          "source_sha256": "57abd17dd82782bcd4c1509c311d3f70227af707e7975a2e1b3fcbf1eae2c3dd",
+          "source_bytes": 81408,
+          "replacement_sha256": "b00ba528b83157ff028cd85f542734b3e46780ebfcde68c708f6c56934d1bbf7",
+          "replacement_bytes": 196220,
+          "source_model_sha256": "c181b2889e01a8ebb76f020457de7466a099ae327d87514e1cd44b36b3f6245c",
+          "paired_source_base_sha256": "6ac7de4ecdc79c598c3bfb6b1ea96679e5f656bae2e372053ba487eb3513155f",
+          "selected_converted_base_sha256": "93a23be121ba16dfdc2ea6ff3b366de9da42fa5427eed3eec336c64f87b6b2de",
+          "runtime_mask_limits": {
+            "M_Body": 12755,
+            "M_Head": 4483
+          },
+          "source_to_converted_vertex_remap": "all_body_head_mappings_and_topology_equal",
+          "supplied_mask_lod_arrays": "LOD0_and_LOD1_all_flags_all_indices_equal",
+          "original_source_unchanged": true,
+          "method": "verified_supplied_hpl_through_original_parser_filter_writer",
+          "in_game_validation": "required"
+        },
+        "verify": "pass",
+        "problems": [],
+        "facts": {
+          "bones": 175,
+          "substreams": [
+            "MDL!",
+            "HPL!"
+          ],
+          "anchors": 0,
+          "M_L_A_Acce": {
+            "verts": 2275,
+            "reweighted": 0
+          },
+          "M_R_A_Acce": {
+            "verts": 2275,
+            "reweighted": 0
+          },
+          "M_Mask": {
+            "verts": 1559,
+            "reweighted": 0
+          },
+          "M_BlueGem": {
+            "verts": 13056,
+            "reweighted": 0
+          },
+          "M_Redgem": {
+            "verts": 344,
+            "reweighted": 0
+          },
+          "M_L_Boot": {
+            "verts": 730,
+            "reweighted": 0
+          },
+          "M_R_Boot": {
+            "verts": 730,
+            "reweighted": 0
+          },
+          "M_Tights": {
+            "verts": 11850,
+            "reweighted": 0,
+            "policy_reweighted_vertices": 11850
+          },
+          "M_Tops": {
+            "verts": 2511,
+            "reweighted": 0,
+            "policy_reweighted_vertices": 2511
+          },
+          "M_Outfit": {
+            "verts": 698,
+            "reweighted": 0,
+            "policy_reweighted_vertices": 698
+          },
+          "M_Cross": {
+            "verts": 7287,
+            "reweighted": 0
+          },
+          "M_ShoulderPad": {
+            "verts": 1954,
+            "reweighted": 0,
+            "policy_reweighted_vertices": 1954
+          },
+          "M_Wings": {
+            "verts": 4560,
+            "reweighted": 0,
+            "policy_reweighted_vertices": 4560
+          },
+          "M_Wolv": {
+            "verts": 4210,
+            "reweighted": 0
+          },
+          "hide_mask": "mask",
+          "surface_weight_verification": [
+            {
+              "mesh": "M_Tights",
+              "vertices_checked": 11850,
+              "maximum_weight_error": 0.0019607841968536377,
+              "quantization_tolerance": 0.00784413725490196,
+              "policy": "paired_body_nearest_surface_reference_math",
+              "checks": "every bone weight, vertex budget, rig target and influence count"
+            },
+            {
+              "mesh": "M_Tops",
+              "vertices_checked": 2511,
+              "maximum_weight_error": 0.0019607841968536377,
+              "quantization_tolerance": 0.00784413725490196,
+              "policy": "paired_body_nearest_surface_reference_math",
+              "checks": "every bone weight, vertex budget, rig target and influence count"
+            },
+            {
+              "mesh": "M_Outfit",
+              "vertices_checked": 698,
+              "maximum_weight_error": 0.0019606351852416992,
+              "quantization_tolerance": 0.00784413725490196,
+              "policy": "paired_body_nearest_surface_reference_math",
+              "checks": "every bone weight, vertex budget, rig target and influence count"
+            },
+            {
+              "mesh": "M_ShoulderPad",
+              "vertices_checked": 1954,
+              "maximum_weight_error": 0.0019607245922088623,
+              "quantization_tolerance": 0.00784413725490196,
+              "policy": "paired_body_nearest_surface_reference_math",
+              "checks": "every bone weight, vertex budget, rig target and influence count"
+            },
+            {
+              "mesh": "M_Wings",
+              "vertices_checked": 4560,
+              "maximum_weight_error": 0.0019607841968536377,
+              "quantization_tolerance": 0.00784413725490196,
+              "policy": "paired_body_nearest_surface_reference_math",
+              "checks": "every bone weight, vertex budget, rig target and influence count"
+            }
+          ],
+          "attire_mesh_matching": {
+            "patch": "identity-paired-attire-original-verifier-1",
+            "scope": "explicit attire filename; original geometry candidates",
+            "source_records": 14,
+            "matching_calls": 14,
+            "consumed_output_records": 14,
+            "weights_used_for_selection": false,
+            "records": [
+              {
+                "source_index": 0,
+                "source_name": "M_L_A_Acce",
+                "geometry_candidates": 1,
+                "selected_name": "M_L_A_Acce",
+                "selection_rule": "unique_expected_name"
+              },
+              {
+                "source_index": 1,
+                "source_name": "M_R_A_Acce",
+                "geometry_candidates": 1,
+                "selected_name": "M_R_A_Acce",
+                "selection_rule": "unique_expected_name"
+              },
+              {
+                "source_index": 2,
+                "source_name": "M_Mask",
+                "geometry_candidates": 1,
+                "selected_name": "M_Mask",
+                "selection_rule": "unique_expected_name"
+              },
+              {
+                "source_index": 3,
+                "source_name": "M_BlueGem",
+                "geometry_candidates": 1,
+                "selected_name": "M_BlueGem",
+                "selection_rule": "unique_expected_name"
+              },
+              {
+                "source_index": 4,
+                "source_name": "M_Redgem",
+                "geometry_candidates": 1,
+                "selected_name": "M_Redgem",
+                "selection_rule": "unique_expected_name"
+              },
+              {
+                "source_index": 5,
+                "source_name": "M_L_Boot",
+                "geometry_candidates": 1,
+                "selected_name": "M_L_Boot",
+                "selection_rule": "unique_expected_name"
+              },
+              {
+                "source_index": 6,
+                "source_name": "M_R_Boot",
+                "geometry_candidates": 1,
+                "selected_name": "M_R_Boot",
+                "selection_rule": "unique_expected_name"
+              },
+              {
+                "source_index": 7,
+                "source_name": "M_Tights",
+                "geometry_candidates": 1,
+                "selected_name": "M_Tights",
+                "selection_rule": "unique_expected_name"
+              },
+              {
+                "source_index": 8,
+                "source_name": "M_Tops",
+                "geometry_candidates": 1,
+                "selected_name": "M_Tops",
+                "selection_rule": "unique_expected_name"
+              },
+              {
+                "source_index": 9,
+                "source_name": "M_Outfit",
+                "geometry_candidates": 1,
+                "selected_name": "M_Outfit",
+                "selection_rule": "unique_expected_name"
+              },
+              {
+                "source_index": 10,
+                "source_name": "M_Cross",
+                "geometry_candidates": 1,
+                "selected_name": "M_Cross",
+                "selection_rule": "unique_expected_name"
+              },
+              {
+                "source_index": 11,
+                "source_name": "M_ShoulderPad",
+                "geometry_candidates": 1,
+                "selected_name": "M_ShoulderPad",
+                "selection_rule": "unique_expected_name"
+              },
+              {
+                "source_index": 12,
+                "source_name": "M_Wings",
+                "geometry_candidates": 1,
+                "selected_name": "M_Wings",
+                "selection_rule": "unique_expected_name"
+              },
+              {
+                "source_index": 13,
+                "source_name": "M_Wolv",
+                "geometry_candidates": 1,
+                "selected_name": "M_Wolv",
+                "selection_rule": "unique_expected_name"
+              }
+            ],
+            "problems": []
+          },
+          "hide_mask_recovery": {
+            "profile": "supplied-rey-hpl-1",
+            "source_sha256": "57abd17dd82782bcd4c1509c311d3f70227af707e7975a2e1b3fcbf1eae2c3dd",
+            "source_bytes": 81408,
+            "replacement_sha256": "b00ba528b83157ff028cd85f542734b3e46780ebfcde68c708f6c56934d1bbf7",
+            "replacement_bytes": 196220,
+            "source_model_sha256": "c181b2889e01a8ebb76f020457de7466a099ae327d87514e1cd44b36b3f6245c",
+            "paired_source_base_sha256": "6ac7de4ecdc79c598c3bfb6b1ea96679e5f656bae2e372053ba487eb3513155f",
+            "selected_converted_base_sha256": "93a23be121ba16dfdc2ea6ff3b366de9da42fa5427eed3eec336c64f87b6b2de",
+            "runtime_mask_limits": {
+              "M_Body": 12755,
+              "M_Head": 4483
+            },
+            "source_to_converted_vertex_remap": "all_body_head_mappings_and_topology_equal",
+            "supplied_mask_lod_arrays": "LOD0_and_LOD1_all_flags_all_indices_equal",
+            "original_source_unchanged": true,
+            "method": "verified_supplied_hpl_through_original_parser_filter_writer",
+            "in_game_validation": "required"
+          }
+        },
+        "reference_weight_audit": {
+          "version": "supplied-reference-weight-audit-1",
+          "scope": "read_only_weight_data_checks; anatomical correctness unverified",
+          "bone_deform_flags": "not_in_native_records; reference driver-name rules only",
+          "meshes": [
+            {
+              "mesh": "M_L_A_Acce",
+              "vertices": 2275,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_R_A_Acce",
+              "vertices": 2275,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Mask",
+              "vertices": 1559,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_BlueGem",
+              "vertices": 13056,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Redgem",
+              "vertices": 344,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_L_Boot",
+              "vertices": 730,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_R_Boot",
+              "vertices": 730,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Tights",
+              "vertices": 11850,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Tops",
+              "vertices": 2511,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Outfit",
+              "vertices": 698,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Cross",
+              "vertices": 7287,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_ShoulderPad",
+              "vertices": 1954,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Wings",
+              "vertices": 4560,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            },
+            {
+              "mesh": "M_Wolv",
+              "vertices": 4210,
+              "suspicious_vertices": 0,
+              "counts": {
+                "unweighted": 0,
+                "nonunit": 0,
+                "excessive": 0,
+                "driver": 0,
+                "missing_bone": 0,
+                "invalid": 0
+              },
+              "sample_vertex_indices": [],
+              "positive_weight_groups_absent_from_rig": []
+            }
+          ],
+          "suspicious_vertices": 0
+        },
+        "face_output_audit": {
+          "version": "all-recorded-model-output-face-audit-1",
+          "output": "Z:\\workspace\\formatter-investigation\\rey-paired-gear14-r5\\output\\Characters\\123_Rey_Mysterio_2019\\123_Default_Attire\\123_Attire.mcd",
+          "problems": [],
+          "warnings": [],
+          "file_changes": "none; read-only audit",
+          "reference_scope": "supplied native 2K26 face schema and writer references; identical topology or appearance is not required",
+          "reference_baseline_name": "earlier_supplied_native_2k26_cena_face_schema",
+          "in_game_validation": "not_performed",
+          "original_model_verify": "pass",
+          "output_sha256": "e300517ec35a17fad7d947d689794d8e33334ab8e98e6c7e40ea2b8cd8849718",
+          "output_version": 47,
+          "state": "not_applicable",
+          "applicability": "no_eye_teeth_or_mouthbag_meshes"
+        }
+      }
+    ],
+    "materials": [],
+    "copied": 0,
+    "left_out": [
+      "123_Default_Attire\\123_Attire.hpl (now inside the .mcd)"
+    ],
+    "problems": [
+      "BaseModel\\baseModel.mcd: no material file next to the model",
+      "123_Default_Attire\\123_Attire.mcd: no material file next to the model",
+      "experimental Rey gear skinning requires entrance/gameplay validation",
+      "restored Rey hide mask requires entrance/gameplay validation",
+      "Z:\\workspace\\formatter-investigation\\rey-paired-gear14-r5\\source\\123_Rey_Mysterio_2019\\BaseModel\\baseModel.mcd: face audit: face material link table is unavailable or not a supported native layout"
+    ],
+    "warnings": [],
+    "blank_physics": [],
+    "physics_converted": [],
+    "ycl_editor": null,
+    "engine": "Model engine: WWE2K_MDL add-on, inside this app",
+    "seconds": 16.5,
+    "source_inventory_before_conversion": [
+      {
+        "path": "123_Default_Attire/123_Attire.hpl",
+        "bytes": 81408,
+        "sha256": "57abd17dd82782bcd4c1509c311d3f70227af707e7975a2e1b3fcbf1eae2c3dd"
+      },
+      {
+        "path": "123_Default_Attire/123_Attire.mcd",
+        "bytes": 10506864,
+        "sha256": "c181b2889e01a8ebb76f020457de7466a099ae327d87514e1cd44b36b3f6245c"
+      },
+      {
+        "path": "BaseModel/baseModel.mcd",
+        "bytes": 6248492,
+        "sha256": "6ac7de4ecdc79c598c3bfb6b1ea96679e5f656bae2e372053ba487eb3513155f"
+      }
+    ],
+    "conversion_completeness": "incomplete",
+    "in_game_validation": "not_performed",
+    "repair_patch": "requested-eye-shadow-defaults-and-verified-writer-normalization-14",
+    "native_2k26_models_preserved": 0,
+    "native_2k26_material_libraries_repaired": 0,
+    "native_2k26_patch": "native-2k26-preservation-and-material-links-1",
+    "reference_source_integration": {
+      "weight_checks": "supplied-reference-weight-audit-1",
+      "geometry_backend": "Gorilla native engine with ported reference components; full Blender workflow not invoked",
+      "wwe2k_mdl_source_supplied": true,
+      "ycl_backend": "original Gorilla converter",
+      "full_reference_engine_rebuilt": false
+    },
+    "ycl_repair_patch": "independent-gorilla-ycl-translation-1",
+    "wdf_layout_repair": {
+      "version": "exact-moxley-authored-wdf-clone-lod-layout-1",
+      "scope": "exact supplied Moxley WDF layout; no YWA conversion",
+      "applied": 0,
+      "refused": 0,
+      "rows": [],
+      "in_game_validation": "not_performed"
+    },
+    "native_2k26_missing_data_check": {
+      "version": "native-2k26-missing-data-audit-1",
+      "models_checked": 0,
+      "repairs_applied": 0,
+      "findings": [],
+      "in_game_validation": "not_performed",
+      "unavailable_data": "reported; never synthesized",
+      "state": "not_applicable_no_native_inputs"
+    },
+    "legacy_2k24_input_route": {
+      "version": "native-2k24-format-route-with-rig-guards-1",
+      "models_attempted": 0,
+      "model_checks_passed": 0,
+      "input_headers_rewritten": false,
+      "in_game_validation": "not_performed",
+      "validation_scope": "native model structural checks; materials, hide masks and physics reported separately"
+    },
+    "dds_header_normalization": {
+      "version": "verified-output-only-complete-mip-header-normalization-1",
+      "scope": "existing equivalent output paths; full physical chain only",
+      "source_files_changed": false,
+      "in_game_validation": "not_performed",
+      "repaired": 0,
+      "already_normalized": 0,
+      "output_not_present": 0,
+      "failed": 0,
+      "rows": [],
+      "state": "recorded_output_header_checks"
+    },
+    "eye_scalar_policy": {
+      "version": "user-ordinary-eye-shadow-output-policy-1",
+      "policy": {
+        "eyeLidShadowDarkness": 1.0,
+        "eyeLidShadowFallOff": 0.5
+      },
+      "provenance": "explicit user request and supplied scalar screenshot; not a harvested Cena material default",
+      "scope": "supported ordinary-eye shader 0x12 JMTLs already present in the recorded output; missing materials are not synthesized",
+      "source_files_changed": false,
+      "in_game_validation": "not_performed",
+      "changed": 0,
+      "already_policy_values": 0,
+      "not_ordinary_eye": 0,
+      "failed": 0,
+      "rows": [],
+      "state": "recorded_output_eye_policy"
+    },
+    "tongue_anchor_experiment": {
+      "version": "exact-supplied-bryan-and-flip-tongue-anchor-experiment-2",
+      "scope": "exact inspected supplied Bryan and Flip Gordon profiles only; each source must match its own output profile",
+      "applied": 0,
+      "already_applied": 0,
+      "in_game_validation": "not_performed",
+      "black_teeth_fixed": "not established; controlled anatomical anchor experiment",
+      "matched_profiles": []
+    },
+    "ocular_anchor_correction": {
+      "version": "exact-supplied-bryan-flip-cena-ocular-anchors-1",
+      "scope": "exact supplied Bryan/Flip source-output pairs only; existing caruncle chart correspondence",
+      "applied": 0,
+      "already_applied": 0,
+      "matched_profiles": [],
+      "dark_eyes_fixed": "not established",
+      "in_game_validation": "not_performed"
+    },
+    "face_output_check": {
+      "version": "all-recorded-model-output-face-audit-1",
+      "records_total": 2,
+      "records_audited": 2,
+      "face_models": 1,
+      "not_applicable": 1,
+      "unavailable_or_unreadable": 0,
+      "problems": [
+        "Z:\\workspace\\formatter-investigation\\rey-paired-gear14-r5\\source\\123_Rey_Mysterio_2019\\BaseModel\\baseModel.mcd: face audit: face material link table is unavailable or not a supported native layout"
+      ],
+      "warnings": [],
+      "in_game_validation": "not_performed",
+      "file_changes": "none",
+      "reference_baseline": {
+        "name": "earlier_supplied_native_2k26_cena_face_schema",
+        "source_model_sha256": "bb0176e86fc2e74cebc61058acac1fa3103c7a859f2e54a2196947fe95ee4a1c",
+        "source_model_version": 47,
+        "observed_anchor_slots": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "observed_eye_material_roles": {
+          "eye_l": "left",
+          "eye_r": "right"
+        },
+        "observed_eye_shape_names": [
+          "PupilContract",
+          "PupilExpand"
+        ],
+        "observed_eye_weight_bones": [
+          "J_Eye_L",
+          "J_Eye_R"
+        ],
+        "known_global_eye_normal_ref": 17274687911970229909,
+        "normal_reference_provenance": "supplied comparison writer and stored native material observations; game asset resolution not verified",
+        "topology_and_anchor_target_policy": "schema observation only; vertex counts, UVs, shapes and anchor mesh names are not copied or required identical",
+        "additional_139_John_Cena_2019_archive": "not inspected for this baseline"
+      },
+      "coverage_scope": "all recorded model outputs; source models absent from report.models are not claimed inspected",
+      "coverage_complete": true,
+      "state": "requires_attention"
+    },
+    "physics_binding_audit": {
+      "version": "read-only-exposed-physics-bindings-1",
+      "scope": "Exposed names and index domains only; opaque physics, active solver semantics and in-game motion compatibility are not validated.",
+      "rows": [],
+      "model_reads": 0,
+      "physics_files_modified": false,
+      "in_game_validation": "not_performed",
+      "all_inspected_files_unchanged": true,
+      "state": "exposed_declarations_only; motion compatibility not validated"
+    },
+    "started_at_utc": "2026-10-13T01:54:10.912034+00:00",
+    "finished_at_utc": "2026-10-13T01:54:28.909073+00:00",
+    "status": "completed_with_problems",
+    "report_paths": [
+      "Z:\\workspace\\formatter-investigation\\rey-paired-gear14-r5\\output\\123_Rey_Mysterio_2019 - conversion report.json",
+      "Z:\\workspace\\formatter-investigation\\rey-paired-gear14-r5\\output\\Characters\\123_Rey_Mysterio_2019\\123_Rey_Mysterio_2019 - conversion report.json"
+    ],
+    "report_path": "Z:\\workspace\\formatter-investigation\\rey-paired-gear14-r5\\output\\123_Rey_Mysterio_2019 - conversion report.json"
+  },
+  "log": [
+    "  BaseModel\\baseModel.mcd: base model, 214 -> 180 bones, male rig, check pass",
+    "  123_Default_Attire\\123_Attire.mcd: attire, 209 -> 175 bones, male rig, check pass",
+    "Face checks: 2 recorded outputs audited; 1 contain face meshes; in-game appearance not verified.",
+    "Report saved: Z:\\workspace\\formatter-investigation\\rey-paired-gear14-r5\\output\\123_Rey_Mysterio_2019 - conversion report.json"
+  ],
+  "base": {
+    "source_version": 41,
+    "output_version": 47,
+    "body_head_mapping_and_topology_equal": true,
+    "source_limits": {
+      "M_EYE": 626,
+      "M_Body": 12755,
+      "M_Tongue": 341,
+      "M_Teeth": 4701,
+      "M_Head": 4483,
+      "M_MouthBag": 352,
+      "M_transB_eyeshadow": 194,
+      "M_transB_eyelash": 458
+    },
+    "output_limits": {
+      "M_EYE": 626,
+      "M_Body": 12755,
+      "M_Tongue": 341,
+      "M_Teeth": 4701,
+      "M_Head": 4483,
+      "M_MouthBag": 352,
+      "M_transB_eyelash": 458
+    },
+    "mask_indices_in_actual_base_domains": true
+  },
+  "embedded_output_masks": [
+    {
+      "bytes": 490532,
+      "sha256": "815e32471f0a5d4aded6f5edc88cfa4f15da3db64b88186742a2fa27ec1be6f5",
+      "whole": true,
+      "lods": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "all_lods_equal_supplied_lod0": true,
+      "counts": {
+        "0": {
+          "0": {
+            "M_Body": 10977,
+            "M_Head": 1273
+          },
+          "1": {
+            "M_Body": 10977,
+            "M_Head": 1273
+          }
+        },
+        "1": {
+          "0": {
+            "M_Body": 10977,
+            "M_Head": 1273
+          },
+          "1": {
+            "M_Body": 10977,
+            "M_Head": 1273
+          }
+        },
+        "2": {
+          "0": {
+            "M_Body": 10977,
+            "M_Head": 1273
+          },
+          "1": {
+            "M_Body": 10977,
+            "M_Head": 1273
+          }
+        },
+        "3": {
+          "0": {
+            "M_Body": 10977,
+            "M_Head": 1273
+          },
+          "1": {
+            "M_Body": 10977,
+            "M_Head": 1273
+          }
+        },
+        "4": {
+          "0": {
+            "M_Body": 10977,
+            "M_Head": 1273
+          },
+          "1": {
+            "M_Body": 10977,
+            "M_Head": 1273
+          }
+        }
+      }
+    }
+  ],
+  "reference_base": {
+    "version": 47,
+    "mesh_counts": {
+      "M_Tongue": 341,
+      "M_Teeth": 4701,
+      "M_MouthBag": 352,
+      "M_EYE": 626,
+      "M_Body": 12755,
+      "M_Head": 4483,
+      "M_TransB_eyeshadow": 194,
+      "M_TransB_eyelash": 458
+    },
+    "mask_limits": {
+      "M_Tongue": 341,
+      "M_Teeth": 4701,
+      "M_MouthBag": 352,
+      "M_EYE": 626,
+      "M_Body": 12755,
+      "M_Head": 4483,
+      "M_TransB_eyeshadow": 194,
+      "M_TransB_eyelash": 458
+    },
+    "body_head_mapping_equal_to_original": true
+  },
+  "mesh_geometry_checks": [
+    {
+      "mesh": "M_L_A_Acce",
+      "positions_equal": true,
+      "triangles_equal": true,
+      "uvs_equal": true,
+      "material_bindings_equal": true,
+      "vertex_remap_equal": true
+    },
+    {
+      "mesh": "M_R_A_Acce",
+      "positions_equal": true,
+      "triangles_equal": true,
+      "uvs_equal": true,
+      "material_bindings_equal": true,
+      "vertex_remap_equal": true
+    },
+    {
+      "mesh": "M_Mask",
+      "positions_equal": true,
+      "triangles_equal": true,
+      "uvs_equal": true,
+      "material_bindings_equal": true,
+      "vertex_remap_equal": true
+    },
+    {
+      "mesh": "M_BlueGem",
+      "positions_equal": true,
+      "triangles_equal": true,
+      "uvs_equal": true,
+      "material_bindings_equal": true,
+      "vertex_remap_equal": true
+    },
+    {
+      "mesh": "M_Redgem",
+      "positions_equal": true,
+      "triangles_equal": true,
+      "uvs_equal": true,
+      "material_bindings_equal": true,
+      "vertex_remap_equal": true
+    },
+    {
+      "mesh": "M_L_Boot",
+      "positions_equal": true,
+      "triangles_equal": true,
+      "uvs_equal": true,
+      "material_bindings_equal": true,
+      "vertex_remap_equal": true
+    },
+    {
+      "mesh": "M_R_Boot",
+      "positions_equal": true,
+      "triangles_equal": true,
+      "uvs_equal": true,
+      "material_bindings_equal": true,
+      "vertex_remap_equal": true
+    },
+    {
+      "mesh": "M_Tights",
+      "positions_equal": true,
+      "triangles_equal": true,
+      "uvs_equal": true,
+      "material_bindings_equal": true,
+      "vertex_remap_equal": true
+    },
+    {
+      "mesh": "M_Tops",
+      "positions_equal": true,
+      "triangles_equal": true,
+      "uvs_equal": true,
+      "material_bindings_equal": true,
+      "vertex_remap_equal": true
+    },
+    {
+      "mesh": "M_Outfit",
+      "positions_equal": true,
+      "triangles_equal": true,
+      "uvs_equal": true,
+      "material_bindings_equal": true,
+      "vertex_remap_equal": true
+    },
+    {
+      "mesh": "M_Cross",
+      "positions_equal": true,
+      "triangles_equal": true,
+      "uvs_equal": true,
+      "material_bindings_equal": true,
+      "vertex_remap_equal": true
+    },
+    {
+      "mesh": "M_ShoulderPad",
+      "positions_equal": true,
+      "triangles_equal": true,
+      "uvs_equal": true,
+      "material_bindings_equal": true,
+      "vertex_remap_equal": true
+    },
+    {
+      "mesh": "M_Wings",
+      "positions_equal": true,
+      "triangles_equal": true,
+      "uvs_equal": true,
+      "material_bindings_equal": true,
+      "vertex_remap_equal": true
+    },
+    {
+      "mesh": "M_Wolv",
+      "positions_equal": true,
+      "triangles_equal": true,
+      "uvs_equal": true,
+      "material_bindings_equal": true,
+      "vertex_remap_equal": true
+    }
+  ],
+  "independent_written_weight_checks": [
+    {
+      "mesh": "M_Tights",
+      "vertices_checked": 11850,
+      "maximum_weight_error": 0.0019607841968536377,
+      "quantization_tolerance": 0.00784413725490196,
+      "policy": "paired_body_nearest_surface_reference_math",
+      "checks": "every bone weight, vertex budget, rig target and influence count"
+    },
+    {
+      "mesh": "M_Tops",
+      "vertices_checked": 2511,
+      "maximum_weight_error": 0.0019607841968536377,
+      "quantization_tolerance": 0.00784413725490196,
+      "policy": "paired_body_nearest_surface_reference_math",
+      "checks": "every bone weight, vertex budget, rig target and influence count"
+    },
+    {
+      "mesh": "M_Outfit",
+      "vertices_checked": 698,
+      "maximum_weight_error": 0.0019606351852416992,
+      "quantization_tolerance": 0.00784413725490196,
+      "policy": "paired_body_nearest_surface_reference_math",
+      "checks": "every bone weight, vertex budget, rig target and influence count"
+    },
+    {
+      "mesh": "M_ShoulderPad",
+      "vertices_checked": 1954,
+      "maximum_weight_error": 0.0019607245922088623,
+      "quantization_tolerance": 0.00784413725490196,
+      "policy": "paired_body_nearest_surface_reference_math",
+      "checks": "every bone weight, vertex budget, rig target and influence count"
+    },
+    {
+      "mesh": "M_Wings",
+      "vertices_checked": 4560,
+      "maximum_weight_error": 0.0019607841968536377,
+      "quantization_tolerance": 0.00784413725490196,
+      "policy": "paired_body_nearest_surface_reference_math",
+      "checks": "every bone weight, vertex budget, rig target and influence count"
+    }
+  ],
+  "negative_corruption_checks": [
+    {
+      "mesh": "M_Tights",
+      "normalized_wrong_binding_rejected": true,
+      "error": "H_Bicep_L_1: written surface weights differ from requested policy by 0.368627"
+    },
+    {
+      "mesh": "M_Tops",
+      "normalized_wrong_binding_rejected": true,
+      "error": "H_Bicep_L_1: written surface weights differ from requested policy by 0.215686"
+    },
+    {
+      "mesh": "M_Outfit",
+      "normalized_wrong_binding_rejected": true,
+      "error": "H_Bicep_L_1: written surface weights differ from requested policy by 0.639216"
+    },
+    {
+      "mesh": "M_ShoulderPad",
+      "normalized_wrong_binding_rejected": true,
+      "error": "H_Bicep_L_1: written surface weights differ from requested policy by 0.627451"
+    },
+    {
+      "mesh": "M_Wings",
+      "normalized_wrong_binding_rejected": true,
+      "error": "H_Bicep_L_1: written surface weights differ from requested policy by 0.317647"
+    }
+  ],
+  "reports_saved_and_equal": {
+    "Z:\\workspace\\formatter-investigation\\rey-paired-gear14-r5\\output\\123_Rey_Mysterio_2019 - conversion report.json": true,
+    "Z:\\workspace\\formatter-investigation\\rey-paired-gear14-r5\\output\\Characters\\123_Rey_Mysterio_2019\\123_Rey_Mysterio_2019 - conversion report.json": true
+  },
+  "actual_tested_candidate_sha256": "e144d758ada9a73ab908c09fd8a5b9a4324887dfa3637c9281b1efc8741855a7",
+  "entrypoint_substitution_only": true,
+  "all_other_candidate_payloads_identical": true
+}

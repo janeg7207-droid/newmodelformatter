@@ -1,0 +1,92 @@
+{
+  "actual14_target": {
+    "path": "/workspace/formatter-investigation/moxley-models14/model-only-target/881_Jon_Moxley/881_Default_Attire/881_Attire.mcd",
+    "sha256": "a8f71547f04f69cc7b347a00f5dd9109bd5e09fbb1caeb03d585d426d619a2b6",
+    "LODs_offset": 13218652,
+    "payload_bytes": 866772,
+    "declared_count": 4,
+    "chunk_end": 14085432,
+    "chunk_terminal": "454e444d00000000",
+    "records_region_bytes": 866768,
+    "records_divisible_into_declared_levels": true,
+    "per_level_bytes": 216692,
+    "level_hashes": [
+      "aa7653f3947073f2641dd86d7f121cd6681a0db35a2a2c729195ea1d14ec633a",
+      "aa7653f3947073f2641dd86d7f121cd6681a0db35a2a2c729195ea1d14ec633a",
+      "aa7653f3947073f2641dd86d7f121cd6681a0db35a2a2c729195ea1d14ec633a",
+      "aa7653f3947073f2641dd86d7f121cd6681a0db35a2a2c729195ea1d14ec633a"
+    ],
+    "all_levels_byte_identical": true,
+    "mesh_counts": [
+      6,
+      6,
+      6,
+      6
+    ],
+    "every_level_terminal_ENDM": true,
+    "every_level_ENDM_count": [
+      6,
+      6,
+      6,
+      6
+    ]
+  },
+  "control_1": {
+    "path": "/workspace/formatter-investigation/physics-native-api14/controls/source25_to26_full_1/881_Attire.mcd",
+    "sha256": "6d737dc27773db59dd3b1aadaec496dcf09f66f24c02d1053df3a5bc21fc10aa",
+    "LODs_offset": 13220284,
+    "payload_bytes": 216696,
+    "declared_count": 1,
+    "chunk_end": 13436988,
+    "chunk_terminal": "454e444d00000000",
+    "records_region_bytes": 216692,
+    "records_divisible_into_declared_levels": true,
+    "per_level_bytes": 216692,
+    "level_hashes": [
+      "aa7653f3947073f2641dd86d7f121cd6681a0db35a2a2c729195ea1d14ec633a"
+    ],
+    "all_levels_byte_identical": true,
+    "mesh_counts": [
+      6
+    ],
+    "every_level_terminal_ENDM": true,
+    "every_level_ENDM_count": [
+      6
+    ]
+  },
+  "control_5": {
+    "path": "/workspace/formatter-investigation/physics-native-api14/controls/source25_to26_full_5/881_Attire.mcd",
+    "sha256": "402712def43ca4e954277b20e7b6b41c59096b262bb78737f183a3269da36e0f",
+    "LODs_offset": 13220764,
+    "payload_bytes": 1083464,
+    "declared_count": 5,
+    "chunk_end": 14304236,
+    "chunk_terminal": "454e444d00000000",
+    "records_region_bytes": 1083460,
+    "records_divisible_into_declared_levels": true,
+    "per_level_bytes": 216692,
+    "level_hashes": [
+      "aa7653f3947073f2641dd86d7f121cd6681a0db35a2a2c729195ea1d14ec633a",
+      "aa7653f3947073f2641dd86d7f121cd6681a0db35a2a2c729195ea1d14ec633a",
+      "aa7653f3947073f2641dd86d7f121cd6681a0db35a2a2c729195ea1d14ec633a",
+      "aa7653f3947073f2641dd86d7f121cd6681a0db35a2a2c729195ea1d14ec633a",
+      "aa7653f3947073f2641dd86d7f121cd6681a0db35a2a2c729195ea1d14ec633a"
+    ],
+    "all_levels_byte_identical": true,
+    "mesh_counts": [
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "every_level_terminal_ENDM": true,
+    "every_level_ENDM_count": [
+      6,
+      6,
+      6,
+      6,
+      6
+    ]
+  }
+}

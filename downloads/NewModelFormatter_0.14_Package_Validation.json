@@ -1,0 +1,51 @@
+{
+  "release": "0.14 experimental",
+  "scope": "user-approved tested fixes with clear remaining limits",
+  "candidate": "NewModelFormatter_0.14_experimental_r5.exe",
+  "candidate_sha256": "e144d758ada9a73ab908c09fd8a5b9a4324887dfa3637c9281b1efc8741855a7",
+  "candidate_bytes": 44347818,
+  "installer": {
+    "original_sha256": "ece4729f2ac3fc707c69550d4a79df7866c11a61463d8eb529ae927e04f377f2",
+    "target_sha256": "e144d758ada9a73ab908c09fd8a5b9a4324887dfa3637c9281b1efc8741855a7",
+    "original_bytes": 44019860,
+    "target_bytes": 44347818,
+    "operation_count": 7,
+    "raw_carchive_payloads_reused": 1066,
+    "original_pyz_module_prefix_reused": true,
+    "python_reconstruction_verified": true,
+    "windows_powershell_installer_tested": false,
+    "compressed_patch_bytes": 374666,
+    "zip_crc_verified": true,
+    "zip_bytes": 389516
+  },
+  "installer_sha256": "9de97a5cd91fafabc73748f188cac82d89d13f3ed0569bf315e6acc5abe36a99",
+  "source_zip_sha256": "05fbd76be46ebcbbfa0b641d17fc78f45343af0f471b81d58f4f6044e7cf0442",
+  "source_zip_bytes": 1312796,
+  "source_files": 192,
+  "repository_regression_tests_passed": 424,
+  "exact_candidate_native_checks_passed": [
+    "Moxley_WDF_And_Binding_Validation_0.14.json",
+    "Bryan_Face_Materials_And_Mask_Validation_0.14.json",
+    "Billie_YCL_Conversion_Validation_0.14.json",
+    "Rey_Paired_Gear_Validation_0.14.json",
+    "Uploaded_Legacy_Samples_Validation_0.14.json",
+    "NewModelFormatter_UI_Validation_0.14.json",
+    "Material_And_Embedded_Mask_Validation_0.14.json"
+  ],
+  "native_execution": "Wine/Xvfb and original bundled native DLLs; only diagnostic entrypoint substituted",
+  "windows_powershell_installer_tested": false,
+  "in_game_validation": "not performed",
+  "moxley_wdf_scope": "authored record layout restored for four proved clone LODs; actual solver compatibility unverified",
+  "moxley_four_ywa_files": "omitted and explicitly reported; named source mesh domains mismatch",
+  "billie_wdf_ywa": "still unsupported/omitted; original Gorilla YCL translation retained",
+  "eye_policy": {
+    "eyeLidShadowDarkness": 1.0,
+    "eyeLidShadowFallOff": 0.5
+  },
+  "eyes_teeth_beards_clipping_belt_blood_movement_visually_fixed": "not established",
+  "original_gorilla_ui_cakeview_and_input_output_workflow_preserved": true,
+  "original_files_preserved": true,
+  "new_missing_physics_invented": false,
+  "remaining_missing_inputs_document": "FILES_NEEDED.md",
+  "extracted_source_tests_passed": 424
+}

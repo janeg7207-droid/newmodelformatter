@@ -1,0 +1,240 @@
+{
+  "scope": "Independent read-only exact14r5 archive/source/payload/report and r4 asset preservation review; no additional Wine run or in-game test",
+  "candidate": "/workspace/artifacts/NewModelFormatter_0.14_experimental_r5.exe",
+  "candidate_sha256": "e144d758ada9a73ab908c09fd8a5b9a4324887dfa3637c9281b1efc8741855a7",
+  "candidate_bytes": 44347818,
+  "all_checks_passed": true,
+  "checks": {
+    "only_repair_integration_changed_existing_PYZ_modules": true,
+    "only_two_physics_helpers_added": true,
+    "no_existing_modules_removed": true,
+    "all_nonGUI_nonPYZ_CArchive_entries_unchanged": true,
+    "packaged_gmf_eye_parameters_matches_current_frozen_source": true,
+    "packaged_gmf_eye_defaults_matches_current_frozen_source": true,
+    "packaged_gmf_ocular_anchor_matches_current_frozen_source": true,
+    "packaged_gmf_tongue_anchor_matches_current_frozen_source": true,
+    "packaged_gmf_face_audit_matches_current_frozen_source": true,
+    "packaged_gmf_dds_headers_matches_current_frozen_source": true,
+    "packaged_gmf_local_textures_matches_current_frozen_source": true,
+    "packaged_gmf_physics_audit_matches_current_frozen_source": true,
+    "packaged_gmf_wdf_repair_matches_current_frozen_source": true,
+    "packaged_gmf_repair_matches_current_frozen_source": true,
+    "bryan_all_output_assets_identical_r4": true,
+    "bryan_source_inventory_actual_hashes_unchanged": true,
+    "bryan_durable_reports_equal_final_returned_report": true,
+    "bryan_written_material_audit_actual_current_hashes": true,
+    "bryan_face_audit_coverage_all_reported_models": true,
+    "bryan_face_audit_no_errors": true,
+    "bryan_physics_scope_explicit_no_motion_claim": true,
+    "bryan_all_existing_physics_output_hashes_current": true,
+    "bryan_both_actual_eye_policy_1_and_point5": true,
+    "bryan_model_final_hash_c3edf_current": true,
+    "bryan_empty_physics_scope_requires_no_model_reads": true,
+    "billie-ycl_all_output_assets_identical_r4": true,
+    "billie-ycl_source_inventory_actual_hashes_unchanged": true,
+    "billie-ycl_durable_reports_equal_final_returned_report": true,
+    "billie-ycl_written_material_audit_actual_current_hashes": true,
+    "billie-ycl_face_audit_coverage_all_reported_models": true,
+    "billie-ycl_face_audit_no_errors": true,
+    "billie-ycl_physics_scope_explicit_no_motion_claim": true,
+    "billie-ycl_873_Attire.hair_corr_ywa_physics_source_hash_current": true,
+    "billie-ycl_873_Attire.hair_ywa_physics_source_hash_current": true,
+    "billie-ycl_873_Attire.other_corr_ywa_physics_source_hash_current": true,
+    "billie-ycl_873_Attire.other_ywa_physics_source_hash_current": true,
+    "billie-ycl_873_Attire.wdf_physics_source_hash_current": true,
+    "billie-ycl_873_Attire.ycl_physics_source_hash_current": true,
+    "billie-ycl_all_existing_physics_output_hashes_current": true,
+    "billie_YCL_original_converter_output_byte_identical_r4": true,
+    "billie_YCL_names_version_only_audit_cautious": true,
+    "billie_five_companions_honestly_unsupported_and_omitted": true,
+    "billie_missing_base_not_falsely_face_pass": true
+  },
+  "archive_changes": {
+    "existing_PYZ_modules_changed": [
+      "gmf_repair"
+    ],
+    "PYZ_modules_added": [
+      "gmf_physics_audit",
+      "gmf_wdf_repair"
+    ],
+    "PYZ_modules_removed": []
+  },
+  "frozen_module_checks": [
+    {
+      "module": "gmf_eye_parameters",
+      "source_sha256": "79c3021a75bde7a15d5e82b39858a4e847dfd3182ac5b110c0dead760f1cf6bf",
+      "code_sha256": "26ec3d5250d7ff01ea72a53da53fd18c28f9a97a6a5c3dc2205b78158cb32461",
+      "matches_frozen_source": true
+    },
+    {
+      "module": "gmf_eye_defaults",
+      "source_sha256": "556eb386e616b81b36c6db51df5ac335b6224a823d21eb11c0066849fb575a46",
+      "code_sha256": "45eb834cd4c6e539c4eef93020bf70b260592e47f31c41daee85b34bf1c4a152",
+      "matches_frozen_source": true
+    },
+    {
+      "module": "gmf_ocular_anchor",
+      "source_sha256": "cbb987bd86f4018a98694a88c27bead653b88302609f9f8dc642cc84e802bf80",
+      "code_sha256": "9bed066bd31623308b71aaa0299f0ca6c7ec1bf2fce712e3457dc3e216ca692f",
+      "matches_frozen_source": true
+    },
+    {
+      "module": "gmf_tongue_anchor",
+      "source_sha256": "fe8d64953e1b9601cc4430d8ad542f50aa24d78c4974e04b510e233b21400bf0",
+      "code_sha256": "9eff64d4a8041acab4706af0a6027c3dc84ad5fcc96c06de3e3c839bb6da584d",
+      "matches_frozen_source": true
+    },
+    {
+      "module": "gmf_face_audit",
+      "source_sha256": "426defd3bafd8c015d9f23f5670bdfb62c32213fa0817056fc68f9a01ea32ac7",
+      "code_sha256": "f23212ddbcb1e6377774fe139298549ca28d686fda49a159d2a99e2cf496aa6f",
+      "matches_frozen_source": true
+    },
+    {
+      "module": "gmf_dds_headers",
+      "source_sha256": "4c9b87a60ff982b8bff3edc9d1ba0e8ae3107d0928dcbe3b05b94c03b826491c",
+      "code_sha256": "f55d339f1e600353d33a36eb63586f5c625492217f7cca01799816e497ceb0ba",
+      "matches_frozen_source": true
+    },
+    {
+      "module": "gmf_local_textures",
+      "source_sha256": "dbe64fde7f537db5379b9862b0aa18bda148b5a1c352dc64d12faa86cb7a1454",
+      "code_sha256": "b89f18543fd538c49924a6b3dbc9eee3e7b653e3a80d346b3ac219462396b915",
+      "matches_frozen_source": true
+    },
+    {
+      "module": "gmf_physics_audit",
+      "source_sha256": "d740bab28e429632a6498967ba34d99a28f494764568f2a985d8826b74576459",
+      "code_sha256": "40355ada70ca34c590637a416b46889995fc4f5912c9fdd957fd664d35f755c8",
+      "matches_frozen_source": true
+    },
+    {
+      "module": "gmf_wdf_repair",
+      "source_sha256": "2dac5429751be3e8fe52c2c302a0fc4773d392d4fc9fa4b789097b35e2adb1e5",
+      "code_sha256": "75468d35b1436ee16fee230b4d2f49d965d3c4bcb6c90ed28bba5e9815ab258a",
+      "matches_frozen_source": true
+    },
+    {
+      "module": "gmf_repair",
+      "source_sha256": "e8804c483237e38cc2a6aec520fb542801ae01f261aa524847e239c331003a76",
+      "code_sha256": "f9cfcf76d3ac89ae7980661167ee289d99d49c48323f7aa6caf448f9de7d160d",
+      "matches_frozen_source": true
+    }
+  ],
+  "routes": [
+    {
+      "route": "bryan",
+      "validation_path": "/workspace/formatter-investigation/bryan14-final-r5/validation.json",
+      "asset_count": 41,
+      "all_asset_hashes_equal_r4": true,
+      "changed_assets": [],
+      "source_inventory_count": 5,
+      "material_payload_hashes_checked": 14,
+      "eyes": [
+        {
+          "file": "BaseModel/Materials/eye_r.jmtl",
+          "sha256": "b905349643f4510446e5b884122fd54fb9b4369dc3e0bda000a48ca45f8a087a",
+          "shader": 18,
+          "eyeLidShadowDarkness": 1.0,
+          "eyeLidShadowFallOff": 0.5,
+          "refs": [
+            {
+              "field": "colorMap@ref",
+              "hash": 12857464407004638857
+            },
+            {
+              "field": "nrMap@ref",
+              "hash": 17274687911970229909
+            }
+          ]
+        },
+        {
+          "file": "BaseModel/Materials/eye_l.jmtl",
+          "sha256": "b905349643f4510446e5b884122fd54fb9b4369dc3e0bda000a48ca45f8a087a",
+          "shader": 18,
+          "eyeLidShadowDarkness": 1.0,
+          "eyeLidShadowFallOff": 0.5,
+          "refs": [
+            {
+              "field": "colorMap@ref",
+              "hash": 12857464407004638857
+            },
+            {
+              "field": "nrMap@ref",
+              "hash": 17274687911970229909
+            }
+          ]
+        }
+      ],
+      "face_coverage": {
+        "records_total": 2,
+        "records_audited": 2,
+        "face_models": 1,
+        "not_applicable": 1,
+        "unavailable_or_unreadable": 0
+      },
+      "physics_rows": [],
+      "global_completeness": "incomplete",
+      "game_validation": "not_performed"
+    },
+    {
+      "route": "billie-ycl",
+      "validation_path": "/workspace/formatter-investigation/billie-ycl14-final-r5/validation.json",
+      "asset_count": 16,
+      "all_asset_hashes_equal_r4": true,
+      "changed_assets": [],
+      "source_inventory_count": 9,
+      "material_payload_hashes_checked": 13,
+      "eyes": [],
+      "face_coverage": {
+        "records_total": 1,
+        "records_audited": 1,
+        "face_models": 0,
+        "not_applicable": 1,
+        "unavailable_or_unreadable": 0
+      },
+      "physics_rows": [
+        {
+          "file": "873_Default_Attire\\873_Attire.hair_corr_ywa",
+          "state": "not_audited",
+          "source_format": "not_audited",
+          "output_format": "not_audited"
+        },
+        {
+          "file": "873_Default_Attire\\873_Attire.hair_ywa",
+          "state": "not_audited",
+          "source_format": "not_audited",
+          "output_format": "not_audited"
+        },
+        {
+          "file": "873_Default_Attire\\873_Attire.other_corr_ywa",
+          "state": "not_audited",
+          "source_format": "not_audited",
+          "output_format": "not_audited"
+        },
+        {
+          "file": "873_Default_Attire\\873_Attire.other_ywa",
+          "state": "not_audited",
+          "source_format": "not_audited",
+          "output_format": "not_audited"
+        },
+        {
+          "file": "873_Default_Attire\\873_Attire.wdf",
+          "state": "not_audited",
+          "source_format": "not_audited",
+          "output_format": "not_audited"
+        },
+        {
+          "file": "873_Default_Attire\\873_Attire.ycl",
+          "state": "exposed_declarations_audited_only",
+          "source_format": "exposed_names_inspected",
+          "output_format": "exposed_names_inspected"
+        }
+      ],
+      "global_completeness": "incomplete",
+      "game_validation": "not_performed"
+    }
+  ],
+  "source_inventory_scope": "model/material/mask/physics files actually inventoried; DDS preservation comes from exact r4 asset comparison and existing native diagnostic source snapshot",
+  "no_in_game_motion_or_appearance_claim": true
+}
