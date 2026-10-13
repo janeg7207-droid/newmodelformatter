@@ -1,4 +1,4 @@
-# NewModelFormatter 0.14 experimental
+# NewModelFormatter 0.14.1 experimental
 
 This build repairs named local texture bindings for supported legacy materials,
 preserves explicitly authored teeth irradiance, and automatically restores the
@@ -15,13 +15,36 @@ clipping, belt/blood or movement fix is claimed.
 
 ## Install
 
-1. Extract `NewModelFormatter_0.14_patch_installer.zip` into a fresh folder.
+1. Extract `NewModelFormatter_0.14.1_patch_installer.zip` into a fresh folder.
 2. Run `Install.cmd` and select your ORIGINAL Gorilla Model Formatter 1.0 EXE.
 3. Open the created `NewModelFormatter.exe`. Convert into a new empty output
    folder using your usual CakeView workflow.
 
 Select the original Gorilla EXE, not an older experimental EXE. No Python or
 Blender is needed to run the tool. The installer refuses existing output files.
+
+## New 0.14.1 nested material paths and unknown YWA coverage
+
+The uploaded bulk report exposed a path-check bug: output paths contained two
+`Characters` folders. Gorilla's original material writer used the innermost
+folder, while the native material/ocular safety helper used the outer folder.
+The helper now follows the original writer's component-bounded innermost
+namespace. Correct local Bryan/Flip eye tables can pass that check; genuinely
+wrong references still fail. Folder inputs/outputs, mesh bytes, texture colors
+and the original writers are unchanged. Ocular corrections still require their
+exact supported model profiles and complete valid paired eye materials.
+
+A plain `.ywa` file now triggers independent checked Gorilla translation of its
+readable paired YCL, as known companion suffixes already did. The opaque `.ywa` remains omitted,
+fingerprinted and explicitly unknown; no blob decoder, target tag or binding
+records are invented. Native controlled tests use a known readable Billie YCL
+with an opaque test-only companion. Jeff's actual Hat/Ponytail source YCL has
+not been supplied, so its successful conversion is not claimed. Matt's actual
+failed name-preservation check remains a failure pending its raw source file.
+
+Rejected source-core reasons now appear in the model's own `problems` list as
+well as the global list. Missing `J_Root` data, unreadable masks, Santino's
+unidentified `Object5` body candidate and unavailable assets are not guessed.
 
 ## New 0.14 requested eye-shadow defaults
 
@@ -307,7 +330,8 @@ masks and readable embedded masks retain priority. No arbitrary mask is created.
 All 4,215 original Body mask IDs are retained for ring/entrance at five output
 LODs, including all 2,109 foot/toe-dominant IDs. Boot coverage still requires
 an in-game movement check. This automatic profile does not apply to unrelated
-Bryan models or Flip; Flip's intact original mask remains unavailable.
+Bryan models or Flip. At the 0.11 stage, Flip's intact mask was unavailable;
+the later 0.13 supplied-mask section describes his guarded restoration.
 
 Named local hair/beard texture bindings are included in the repair when the
 actual files exist. Shader variants, hair geometry and texture pixels are
@@ -618,7 +642,8 @@ certify arbitrary creator models. Different eye textures keep their individual
 bindings; no forced matching iris colour, UV swap or texture repaint is applied.
 Different clothes retain source shaders and valid masks; missing mask coverage,
 unsupported DDS layouts and geometry/weight problems remain explicit limits.
-Flip's missing original mask remains unresolved. The supplied Characters.7z
+At the 0.11 stage, Flip's missing mask was unresolved; the later 0.13 supplied
+mask is now supported for his exact inspected pair. The supplied Characters.7z
 collection exceeds the executor's 32 MiB transfer limit; complete 30M volumes
 are needed before its models can be inspected. No result is claimed for those
 unread files. Actual appearance, blood/belt behaviour and complex physics

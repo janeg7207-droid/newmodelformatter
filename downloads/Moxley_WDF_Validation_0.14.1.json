@@ -1,0 +1,185 @@
+{
+  "scope": "actual Moxley originals, exact candidate native folder conversion, WDF structural and exposed-binding checks; BaseModel MTLS/textures unavailable; no in-game test",
+  "originals_unchanged": true,
+  "staged_source_unchanged": true,
+  "all_saved_reports_equal": true,
+  "all_original_gorilla_model_checks_pass": true,
+  "mesh_geometry_checks": [
+    {
+      "model": "baseModel.mcd",
+      "mesh": "M_Tongue",
+      "one_target_match": true,
+      "positions_equal": true,
+      "triangles_equal": true,
+      "vertex_remaps_equal": true,
+      "uvs_equal": true
+    },
+    {
+      "model": "baseModel.mcd",
+      "mesh": "M_Teeth",
+      "one_target_match": true,
+      "positions_equal": true,
+      "triangles_equal": true,
+      "vertex_remaps_equal": true,
+      "uvs_equal": true
+    },
+    {
+      "model": "baseModel.mcd",
+      "mesh": "M_MouthBag",
+      "one_target_match": true,
+      "positions_equal": true,
+      "triangles_equal": true,
+      "vertex_remaps_equal": true,
+      "uvs_equal": true
+    },
+    {
+      "model": "baseModel.mcd",
+      "mesh": "M_transB_eyelash",
+      "one_target_match": true,
+      "positions_equal": true,
+      "triangles_equal": true,
+      "vertex_remaps_equal": true,
+      "uvs_equal": true
+    },
+    {
+      "model": "baseModel.mcd",
+      "mesh": "M_Body",
+      "one_target_match": true,
+      "positions_equal": true,
+      "triangles_equal": true,
+      "vertex_remaps_equal": true,
+      "uvs_equal": true
+    },
+    {
+      "model": "baseModel.mcd",
+      "mesh": "M_EYE",
+      "one_target_match": true,
+      "positions_equal": true,
+      "triangles_equal": true,
+      "vertex_remaps_equal": true,
+      "uvs_equal": true
+    },
+    {
+      "model": "baseModel.mcd",
+      "mesh": "M_Head",
+      "one_target_match": true,
+      "positions_equal": true,
+      "triangles_equal": true,
+      "vertex_remaps_equal": true,
+      "uvs_equal": true
+    },
+    {
+      "model": "881_Attire.mcd",
+      "mesh": "M_Hair",
+      "one_target_match": true,
+      "positions_equal": true,
+      "triangles_equal": true,
+      "vertex_remaps_equal": true,
+      "uvs_equal": true
+    },
+    {
+      "model": "881_Attire.mcd",
+      "mesh": "M_Bottoms",
+      "one_target_match": true,
+      "positions_equal": true,
+      "triangles_equal": true,
+      "vertex_remaps_equal": true,
+      "uvs_equal": true
+    },
+    {
+      "model": "881_Attire.mcd",
+      "mesh": "M_Boots",
+      "one_target_match": true,
+      "positions_equal": true,
+      "triangles_equal": true,
+      "vertex_remaps_equal": true,
+      "uvs_equal": true
+    },
+    {
+      "model": "881_Attire.mcd",
+      "mesh": "M0009_04_Jon_Moxley",
+      "one_target_match": true,
+      "positions_equal": true,
+      "triangles_equal": true,
+      "vertex_remaps_equal": true,
+      "uvs_equal": true
+    },
+    {
+      "model": "881_Attire.mcd",
+      "mesh": "M_Combinations",
+      "one_target_match": true,
+      "positions_equal": true,
+      "triangles_equal": true,
+      "vertex_remaps_equal": true,
+      "uvs_equal": true
+    },
+    {
+      "model": "881_Attire.mcd",
+      "mesh": "M_Hair2",
+      "one_target_match": true,
+      "positions_equal": true,
+      "triangles_equal": true,
+      "vertex_remaps_equal": true,
+      "uvs_equal": true
+    }
+  ],
+  "target_ycl_matches_independent_original_gorilla_translation": true,
+  "ycl_names_preserved": true,
+  "final_target_substreams": [
+    {
+      "tag": "HPL!",
+      "bytes": 212732,
+      "sha256": "40fa6740b2d45c6d097c8078b4995a690f050b7646d06be50c54b1562163e664"
+    },
+    {
+      "tag": "WDF!",
+      "bytes": 836780,
+      "sha256": "50e52ae05c1ff6fe03203e242d3bbfab18dcf7483bb935004c7936fb24a116f8"
+    }
+  ],
+  "authored_hpl_byte_identical": true,
+  "authored_hpl_whole": true,
+  "four_unsupported_ywa_sidecars_remain_omitted": true,
+  "actual_movement_eyes_teeth_beard_appearance_tested": false,
+  "conversion_completeness": "incomplete",
+  "wdf_layout_repair": {
+    "version": "exact-moxley-authored-wdf-clone-lod-layout-1",
+    "scope": "exact supplied Moxley WDF layout; no YWA conversion",
+    "applied": 1,
+    "refused": 0,
+    "rows": [
+      {
+        "source": "Z:\\workspace\\formatter-investigation\\moxley-folder141-r2\\source\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mcd",
+        "output": "Z:\\workspace\\formatter-investigation\\moxley-folder141-r2\\output\\Characters\\881_Jon_Moxley\\881_Default_Attire\\881_Attire.mcd",
+        "state": "authored_wdf_clone_lod_layout_restored",
+        "file_changes": "one rebuilt WDF envelope added; all original envelopes retained",
+        "version": "exact-moxley-authored-wdf-clone-lod-layout-1",
+        "profile": "supplied Jon Moxley AEW Debut",
+        "source_wdf_sha256": "0ede85be46899dfbbae361fa1a2c1c81c972f09d96fd8604a02fad04b965e59b",
+        "source_model_sha256": "b5ecca7b5e15a9820f866e33922d091b3f837e64d873ba9b24bd69925953085a",
+        "output_model_sha256_before": "a8f71547f04f69cc7b347a00f5dd9109bd5e09fbb1caeb03d585d426d619a2b6",
+        "output_model_sha256": "1320ed4f6f4f5290117c5ad483aa242dcba0ffab5073b466419cb3fedd5cb936",
+        "output_wdf_sha256": "50e52ae05c1ff6fe03203e242d3bbfab18dcf7483bb935004c7936fb24a116f8",
+        "authored_lod0_records_sha256": "04e8ed684457e69330ac2ad8212c72b06dfce6021af43cf3b28ffd7a3e447473",
+        "source_records": 8147,
+        "records_per_lod": 4358,
+        "target_model_lods": 4,
+        "output_records": 17432,
+        "all_target_lod_geometry_bytes_identical": true,
+        "all_authored_lod0_record_bytes_preserved": true,
+        "paired_head_geometry_topology_and_remap_correspondence": "exact byte profiles backed by actual native source/target array comparison",
+        "model_hpl_and_all_other_substreams_byte_identical": true,
+        "native_writer_control": "bounded v47 serializer WDF rebuild; one/five level controls match these authored records",
+        "ycl_and_four_ywa_files_changed": false,
+        "synthetic_binding_records_created": false,
+        "compatibility_scope": "WDF clone-LOD layout only; authored binding semantics and in-game facial deformation unverified",
+        "in_game_validation": "not_performed",
+        "source_files_unchanged": true,
+        "native_reader_passed": true
+      }
+    ],
+    "in_game_validation": "not_performed"
+  },
+  "actual_tested_candidate_sha256": "1670058960562a9ba467d86dcbdfdf46e0efdc8d7d20410fad4f83643418345f",
+  "remaining_four_ywa": "omitted and reported; source mesh domains mismatch"
+}

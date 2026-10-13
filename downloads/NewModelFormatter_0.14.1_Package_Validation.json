@@ -1,0 +1,70 @@
+{
+  "release": "0.14.1 experimental",
+  "scope": "user-approved tested fixes with clear remaining limits",
+  "candidate": "NewModelFormatter_0.14.1_experimental_r2.exe",
+  "candidate_sha256": "1670058960562a9ba467d86dcbdfdf46e0efdc8d7d20410fad4f83643418345f",
+  "candidate_bytes": 44349921,
+  "installer": {
+    "original_sha256": "ece4729f2ac3fc707c69550d4a79df7866c11a61463d8eb529ae927e04f377f2",
+    "target_sha256": "1670058960562a9ba467d86dcbdfdf46e0efdc8d7d20410fad4f83643418345f",
+    "original_bytes": 44019860,
+    "target_bytes": 44349921,
+    "operation_count": 7,
+    "raw_carchive_payloads_reused": 1066,
+    "original_pyz_module_prefix_reused": true,
+    "python_reconstruction_verified": true,
+    "windows_powershell_installer_tested": false,
+    "compressed_patch_bytes": 376650,
+    "zip_crc_verified": true,
+    "zip_bytes": 391864
+  },
+  "installer_sha256": "72cdbf90379813d395cc3cb117cb005ac971c36dff7a8775bbab5f9f732716a0",
+  "source_zip_sha256": "b2cabf975b9877cea613c1fbac787dc02e7cd821d8819725c1c663f21ee7791b",
+  "source_zip_bytes": 1328156,
+  "source_files": 193,
+  "repository_regression_tests_passed": 441,
+  "extracted_source_tests": "passed",
+  "exact_candidate_native_checks": [
+    "Bryan legacy nested folder",
+    "Bryan existing 2K26 repair",
+    "Bryan idempotent rerun",
+    "known readable YCL plus opaque YWA without model",
+    "known paired Billie attire/YCL plus opaque YWA",
+    "Moxley WDF structure",
+    "UI smoke"
+  ],
+  "evidence_files": [
+    "Nested_Materials_And_YCL_Validation_0.14.1.json",
+    "Moxley_WDF_Validation_0.14.1.json",
+    "NewModelFormatter_UI_Validation_0.14.1.json",
+    "Native_Payload_Proof_0.14.1.json",
+    "Uploaded_Batch_Report_Review_0.14.1.json"
+  ],
+  "native_execution": "Wine/Xvfb with original bundled native DLLs; only diagnostic GUI entrypoint substituted",
+  "windows_powershell_installer_tested": false,
+  "in_game_validation": "not performed",
+  "new_changes": [
+    "innermost Characters namespace matches original Gorilla material writer",
+    "plain unknown YWA triggers checked paired YCL translation and stays omitted/incomplete",
+    "failed source-core reasons visible in individual model problems"
+  ],
+  "moxley_wdf_scope": "authored record layout restored for four proved identical LODs; actual solver compatibility unverified",
+  "moxley_four_ywa_files": "omitted and explicitly reported; named source mesh domains mismatch",
+  "billie_wdf_ywa": "still unsupported/omitted; original Gorilla YCL translation retained",
+  "actual_jeff_hat_and_matt_ycl": "raw sources unavailable; no conversion/movement success claimed",
+  "eye_policy": {
+    "eyeLidShadowDarkness": 1.0,
+    "eyeLidShadowFallOff": 0.5
+  },
+  "eyes_teeth_beards_clipping_belt_blood_movement_visually_fixed": "not established",
+  "original_gorilla_ui_cakeview_and_input_output_workflow_preserved": true,
+  "original_files_preserved": true,
+  "new_missing_physics_invented": false,
+  "remaining_missing_inputs_document": "FILES_NEEDED.md",
+  "extracted_source_regression_tests_passed": 441,
+  "extracted_source_rebuild_exact_candidate_verified": true,
+  "source_zip_final_doc_clarifications_only": [
+    "NEW_FORMATTER.md"
+  ],
+  "independent_package_review": "Independent_Package_Review_0.14.1.json"
+}

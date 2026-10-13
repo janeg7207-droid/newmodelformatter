@@ -1,0 +1,259 @@
+{
+  "scope": "independent whole-file/hash/report/policy review of exact completed R2 native outputs; no Wine or converter writes",
+  "candidate_sha256": "1670058960562a9ba467d86dcbdfdf46e0efdc8d7d20410fad4f83643418345f",
+  "module_payload_checks": [
+    {
+      "name": "gmf_2k26_repair",
+      "source_sha256": "805378d4df54983352fc0e801125b323fb184eed54d668ab8ea1e1315e1b03cd",
+      "matches_frozen_source": true
+    },
+    {
+      "name": "gmf_native_assets",
+      "source_sha256": "153aca2fb8db974d1673814a9622bf2a61dc1cbcea4b67dadf0727bac14bb36d",
+      "matches_frozen_source": true
+    },
+    {
+      "name": "gmf_2k26_audit",
+      "source_sha256": "283a251ade001af8b59372908231015f52becde8f64bb8979e4442ab53efb730",
+      "matches_frozen_source": true
+    },
+    {
+      "name": "gmf_ycl_repair",
+      "source_sha256": "ab099ca2634a8d96c189f9ed58b58b4916da8f10723e4ca6839ce2255aed1e43",
+      "matches_frozen_source": true
+    },
+    {
+      "name": "gmf_physics_audit",
+      "source_sha256": "5081b5d3e5a1226a62012db9b12d682afa52dacc88bd08754c12953ca47e55a1",
+      "matches_frozen_source": true
+    },
+    {
+      "name": "gmf_ocular_anchor",
+      "source_sha256": "cbb987bd86f4018a98694a88c27bead653b88302609f9f8dc642cc84e802bf80",
+      "matches_frozen_source": true
+    }
+  ],
+  "nested_bryan_cases": [
+    {
+      "case": "legacy",
+      "base_sha256": "c3edf08a7b65f4d3a4f327cba3b156435465d9724b4f8068a35c5b88b1cf6208",
+      "base_bytes": 6688516,
+      "asset_count": 41,
+      "all_41_asset_hashes_match_native_harness_manifest": true,
+      "changed_assets_from_negative_control": [
+        "159_Bryan_Danielson/BaseModel/baseModel.mcd"
+      ],
+      "all_40_non_base_assets_byte_identical_to_negative_control": true,
+      "base_changed_byte_offsets": [
+        104306,
+        104307,
+        104314,
+        104315,
+        104322,
+        104323,
+        104330,
+        104331,
+        104338,
+        104346,
+        104354,
+        104362
+      ],
+      "only_reviewed_eight_u16_vertex_fields_changed": true,
+      "other_five_anchor_records_preserved": true,
+      "ocular_state": "applied_existing_ocular_anchor_correction",
+      "actual_final_model_hash_recorded": true,
+      "actual_final_face_hash_recorded": true,
+      "eye_payloads": [
+        {
+          "name": "eye_l",
+          "sha256": "5dc9a176a18d7755db341804f211edd748b08972d2127b6dd6f1810c82b65274",
+          "darkness": 1.0,
+          "falloff": 0.5,
+          "table_binding_matches_actual_inner_path": true,
+          "all_shader_and_texture_payload_bytes_equal_negative_control": true,
+          "color_normal_refs_present": true
+        },
+        {
+          "name": "eye_r",
+          "sha256": "5dc9a176a18d7755db341804f211edd748b08972d2127b6dd6f1810c82b65274",
+          "darkness": 1.0,
+          "falloff": 0.5,
+          "table_binding_matches_actual_inner_path": true,
+          "all_shader_and_texture_payload_bytes_equal_negative_control": true,
+          "color_normal_refs_present": true
+        }
+      ],
+      "source_preconversion_inventory_still_matches": true,
+      "report_mirrors_equal": true,
+      "mask_final_chain_truthful_if_present": true,
+      "native_changes_from_own_input": null,
+      "game_check_still_required": true,
+      "all_output_assets_unchanged_by_review": true,
+      "all_checks_passed": true
+    },
+    {
+      "case": "native_prior",
+      "base_sha256": "c3edf08a7b65f4d3a4f327cba3b156435465d9724b4f8068a35c5b88b1cf6208",
+      "base_bytes": 6688516,
+      "asset_count": 41,
+      "all_41_asset_hashes_match_native_harness_manifest": true,
+      "changed_assets_from_negative_control": [
+        "159_Bryan_Danielson/BaseModel/baseModel.mcd"
+      ],
+      "all_40_non_base_assets_byte_identical_to_negative_control": true,
+      "base_changed_byte_offsets": [
+        104306,
+        104307,
+        104314,
+        104315,
+        104322,
+        104323,
+        104330,
+        104331,
+        104338,
+        104346,
+        104354,
+        104362
+      ],
+      "only_reviewed_eight_u16_vertex_fields_changed": true,
+      "other_five_anchor_records_preserved": true,
+      "ocular_state": "applied_existing_ocular_anchor_correction",
+      "actual_final_model_hash_recorded": true,
+      "actual_final_face_hash_recorded": true,
+      "eye_payloads": [
+        {
+          "name": "eye_l",
+          "sha256": "5dc9a176a18d7755db341804f211edd748b08972d2127b6dd6f1810c82b65274",
+          "darkness": 1.0,
+          "falloff": 0.5,
+          "table_binding_matches_actual_inner_path": true,
+          "all_shader_and_texture_payload_bytes_equal_negative_control": true,
+          "color_normal_refs_present": true
+        },
+        {
+          "name": "eye_r",
+          "sha256": "5dc9a176a18d7755db341804f211edd748b08972d2127b6dd6f1810c82b65274",
+          "darkness": 1.0,
+          "falloff": 0.5,
+          "table_binding_matches_actual_inner_path": true,
+          "all_shader_and_texture_payload_bytes_equal_negative_control": true,
+          "color_normal_refs_present": true
+        }
+      ],
+      "source_preconversion_inventory_still_matches": true,
+      "report_mirrors_equal": true,
+      "mask_final_chain_truthful_if_present": true,
+      "native_changes_from_own_input": [
+        "159_Bryan_Danielson/BaseModel/baseModel.mcd"
+      ],
+      "game_check_still_required": true,
+      "all_output_assets_unchanged_by_review": true,
+      "all_checks_passed": true
+    },
+    {
+      "case": "native_idempotent",
+      "base_sha256": "c3edf08a7b65f4d3a4f327cba3b156435465d9724b4f8068a35c5b88b1cf6208",
+      "base_bytes": 6688516,
+      "asset_count": 41,
+      "all_41_asset_hashes_match_native_harness_manifest": true,
+      "changed_assets_from_negative_control": [
+        "159_Bryan_Danielson/BaseModel/baseModel.mcd"
+      ],
+      "all_40_non_base_assets_byte_identical_to_negative_control": true,
+      "base_changed_byte_offsets": [
+        104306,
+        104307,
+        104314,
+        104315,
+        104322,
+        104323,
+        104330,
+        104331,
+        104338,
+        104346,
+        104354,
+        104362
+      ],
+      "only_reviewed_eight_u16_vertex_fields_changed": true,
+      "other_five_anchor_records_preserved": true,
+      "ocular_state": "already_applied",
+      "actual_final_model_hash_recorded": true,
+      "actual_final_face_hash_recorded": true,
+      "eye_payloads": [
+        {
+          "name": "eye_l",
+          "sha256": "5dc9a176a18d7755db341804f211edd748b08972d2127b6dd6f1810c82b65274",
+          "darkness": 1.0,
+          "falloff": 0.5,
+          "table_binding_matches_actual_inner_path": true,
+          "all_shader_and_texture_payload_bytes_equal_negative_control": true,
+          "color_normal_refs_present": true
+        },
+        {
+          "name": "eye_r",
+          "sha256": "5dc9a176a18d7755db341804f211edd748b08972d2127b6dd6f1810c82b65274",
+          "darkness": 1.0,
+          "falloff": 0.5,
+          "table_binding_matches_actual_inner_path": true,
+          "all_shader_and_texture_payload_bytes_equal_negative_control": true,
+          "color_normal_refs_present": true
+        }
+      ],
+      "source_preconversion_inventory_still_matches": true,
+      "report_mirrors_equal": true,
+      "mask_final_chain_truthful_if_present": true,
+      "native_changes_from_own_input": [],
+      "game_check_still_required": true,
+      "all_output_assets_unchanged_by_review": true,
+      "all_checks_passed": true
+    }
+  ],
+  "unknown_ywa_controls": [
+    {
+      "case": "readable_ycl_without_model",
+      "scope": "actual previously supplied readable Billie YCL plus explicitly opaque test-only .ywa, no target physics invented; actual Jeff hat YCL unavailable",
+      "source_ycl_sha256": "4c24d15c8204c06662b6c85f3ea71d0881789325f92afbcd5e2713fe2c5d5a93",
+      "output_ycl_sha256": "b3560ad5cb4450e2fdc54f2c01ff6befcff2679e4ba211f88e646197ea4e2ec9",
+      "output_whole_ycl_equals_original_gorilla_translation": true,
+      "unknown_source_sha256": "fcd3c18d96ec3df4b64a60a90520973b3bc3e0543044140e1ee3b78bf9212d28",
+      "unknown_source_audit_fingerprint_exact": true,
+      "unknown_blob_not_delivered": true,
+      "unknown_format_and_binding_remain_not_audited": true,
+      "single_original_conversion_row_retained": true,
+      "unknown_notice_visible_and_incomplete": true,
+      "source_preconversion_inventory_still_matches": true,
+      "report_mirrors_equal": true,
+      "output_assets_unchanged_by_review": true,
+      "source_ycl_and_unknown_unchanged_by_review": true,
+      "branch_coverage": "original converter succeeded in both native controls; fallback and no-YCL routes covered by focused unit tests",
+      "actual_Jeff_hat_physics_or_movement_validated": false,
+      "all_checks_passed": true
+    },
+    {
+      "case": "real_paired_billie_attire",
+      "scope": "actual supplied Billie MCD/MTLS/HPL/YCL with opaque test-only .ywa; no actual base or authored companion supplied for this controlled case",
+      "source_ycl_sha256": "4c24d15c8204c06662b6c85f3ea71d0881789325f92afbcd5e2713fe2c5d5a93",
+      "output_ycl_sha256": "b3560ad5cb4450e2fdc54f2c01ff6befcff2679e4ba211f88e646197ea4e2ec9",
+      "output_whole_ycl_equals_original_gorilla_translation": true,
+      "unknown_source_sha256": "fcd3c18d96ec3df4b64a60a90520973b3bc3e0543044140e1ee3b78bf9212d28",
+      "unknown_source_audit_fingerprint_exact": true,
+      "unknown_blob_not_delivered": true,
+      "unknown_format_and_binding_remain_not_audited": true,
+      "single_original_conversion_row_retained": true,
+      "unknown_notice_visible_and_incomplete": true,
+      "source_preconversion_inventory_still_matches": true,
+      "report_mirrors_equal": true,
+      "output_assets_unchanged_by_review": true,
+      "source_ycl_and_unknown_unchanged_by_review": true,
+      "branch_coverage": "original converter succeeded in both native controls; fallback and no-YCL routes covered by focused unit tests",
+      "actual_Jeff_hat_physics_or_movement_validated": false,
+      "all_checks_passed": true
+    }
+  ],
+  "negative_control_base_sha256": "19956b0ba487d68f90999d86a3837d695b3b14c0c79763d46cebc5814a1ac4ba",
+  "negative_control_ocular_refusal_preserved": true,
+  "source_reports_and_candidate_unchanged": true,
+  "actual_Jeff_hat_files_not_supplied_or_validated": true,
+  "in_game_visual_or_motion_fix_confirmed": false,
+  "all_checks_passed": true
+}

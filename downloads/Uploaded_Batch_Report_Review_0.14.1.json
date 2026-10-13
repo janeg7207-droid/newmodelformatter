@@ -1,0 +1,69 @@
+{
+  "uploaded_report_sha256": "ecef85125d00f58adeece2b9898999e6a02614e038935856d1da5e19f00897ee",
+  "uploaded_report_bytes": 8111765,
+  "models": 79,
+  "model_checks_passed": 57,
+  "model_checks_failed": 22,
+  "global_problem_entries": 58,
+  "model_failure_categories": {
+    "unreadable_source_hide_masks": 16,
+    "missing_source_animation_root_J_Root": 5,
+    "required_body_mesh_name_missing_Santino_Object5_unidentified": 1
+  },
+  "ordinary_eye_materials_checked_with_user_values": 62,
+  "eye_policy_failures": 0,
+  "dds_headers_repaired": 46,
+  "confirmed_formatter_bugs": [
+    "Nested Characters namespace in ocular/native material path helpers",
+    "Successful YCL could hide an unsupported plain .ywa omission"
+  ],
+  "supported_0_14_1_changes": [
+    "Both namespace helpers now match original innermost Characters writer",
+    "Plain .ywa triggers original checked YCL translation and stays explicitly unknown/omitted",
+    "Unknown companions always mark incompleteness",
+    "Source-core denial reason mirrored in the rejected model row"
+  ],
+  "remaining_reported_data_problems": {
+    "missing_base_mtls": [
+      "1063_Tyson_Kidd/BaseModel/baseModel.mtls",
+      "576_Prince_Devitt_Venom/BaseModel/baseModel.mtls",
+      "805_Seth_Rollins_15_Summerslam/BaseModel/baseModel.mtls"
+    ],
+    "invalid_dds": "1304_John_Cena_07/1304_Default_Attire/Textures/bottoms_nrm.dds",
+    "unreadable_mask_mods": [
+      "1063_Tyson_Kidd\\576_Default_Attire\\576_Attire.mcd",
+      "1270_John_Cena_04\\256_Default_Attire\\997_Attire.mcd",
+      "1271_John_Cena_05_06\\256_Default_Attire_05\\997_Attire.mcd",
+      "1271_John_Cena_05_06\\256_Default_Attire_RR\\997_Attire.mcd",
+      "1271_John_Cena_05_06\\379_Attire_Unforgiven\\997_Attire.mcd",
+      "1273_John_Cena_08_WM23\\256_Default_Attire_RR08\\997_Attire.mcd",
+      "1274_John_Cena_09\\256_Default_Attire_RR09\\997_Attire.mcd",
+      "1274_John_Cena_09\\256_Default_Attire_SS\\997_Attire.mcd",
+      "1304_John_Cena_07\\1304_Default_Attire\\997_Attire.mcd",
+      "177_Owen_Hart_Joe_Njpw\\177_Default_Attire\\177_Attire.mcd",
+      "270_Santino_Marella\\496_Default_Attire\\496_Attire.mcd",
+      "334_Jeff _Cobb\\334_Default_Attire\\334_Attire.mcd",
+      "576_Prince_Devitt_Venom\\576_Default_Attire\\576_Attire.mcd",
+      "631_Aj_Styles_2017_EC\\610_Default_Attire\\610_Attire.mcd",
+      "631_Aj_Styles_RR2017\\610_Default_Attire\\610_Attire.mcd",
+      "631_Aj_Styles_RR2020\\610_Default_Attire\\610_Attire.mcd"
+    ],
+    "unsupported_core_models": [
+      "848_Brother_Nero_blackjacket\\989_alt_attire\\989_Attire.mcd",
+      "848_Brother_Nero_blacksleeves\\989_alt_attire\\989_Attire.mcd",
+      "848_Brother_Nero_pink\\989_alt_attire\\989_Attire.mcd",
+      "979_Broken_Matt_Hardy\\979_alt_attire\\979__Attire.mcd",
+      "979_Woken_Matt_hardy\\758_alt_attire\\758_Attire.mcd"
+    ],
+    "failed_matt_ycl_sources": [
+      "979_Broken_Matt_Hardy\\979_alt_attire\\979__Attire.ycl",
+      "979_Woken_Matt_hardy\\758_alt_attire\\758_Attire.ycl"
+    ],
+    "Santino_diagnostic_source": "270_Santino_Marella/BaseModel/baseModel.mcd",
+    "Jeff_hat_actual_ycl_unavailable": "Jeff Hardy 2001 for 2k25 by AlexFaz/Jeff Hardy 2001 for 2k25 by AlexFaz/468_Jeff_Hardy_3_Hat_and_Ponytail/xxx_Default_Attire/xxx_Attire.ycl"
+  },
+  "in_game_eyes_teeth_beards_clipping_movement_verified": false,
+  "scope": "Report-based classification; successful model checks do not establish material/physics or in-game readiness; missing raw sources are not inferred fixed",
+  "dds_header_normalization_failures": 0,
+  "local_dds_binding_failures": 1
+}

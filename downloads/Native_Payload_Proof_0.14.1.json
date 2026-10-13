@@ -1,0 +1,30 @@
+{
+  "candidate": "/workspace/artifacts/NewModelFormatter_0.14.1_experimental_r2.exe",
+  "candidate_sha256": "1670058960562a9ba467d86dcbdfdf46e0efdc8d7d20410fad4f83643418345f",
+  "diagnostics": [
+    {
+      "name": "nested",
+      "sha256": "8e4ffb9e5001a289ec028762a5ac8cdec15a691e626c0fab9cabc8a024951b77",
+      "changed_payloads": [
+        "gmf_gui"
+      ],
+      "all_other_candidate_payloads_identical": true
+    },
+    {
+      "name": "moxley",
+      "sha256": "903da0aa9d1578d38d9d136dcc3139ee308d508a896d1c77b2cb76a84827db74",
+      "changed_payloads": [
+        "gmf_gui"
+      ],
+      "all_other_candidate_payloads_identical": true
+    },
+    {
+      "name": "ui",
+      "sha256": "040e6e0ea1708b5cd8c2a49222e749a9538bd868d08b477e97a8d43503c63743",
+      "changed_payloads": [
+        "gmf_gui"
+      ],
+      "all_other_candidate_payloads_identical": true
+    }
+  ]
+}
