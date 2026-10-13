@@ -1,4 +1,4 @@
-# NewModelFormatter 0.14.1 experimental
+# NewModelFormatter 0.14.2 experimental
 
 This build repairs named local texture bindings for supported legacy materials,
 preserves explicitly authored teeth irradiance, and automatically restores the
@@ -15,13 +15,47 @@ clipping, belt/blood or movement fix is claimed.
 
 ## Install
 
-1. Extract `NewModelFormatter_0.14.1_patch_installer.zip` into a fresh folder.
+1. Extract `NewModelFormatter_0.14.2_patch_installer.zip` into a fresh folder.
 2. Run `Install.cmd` and select your ORIGINAL Gorilla Model Formatter 1.0 EXE.
 3. Open the created `NewModelFormatter.exe`. Convert into a new empty output
    folder using your usual CakeView workflow.
 
 Select the original Gorilla EXE, not an older experimental EXE. No Python or
 Blender is needed to run the tool. The installer refuses existing output files.
+
+## New 0.14.2 body-atlas teeth and mouthbag skin shader rule
+
+The **Body-atlas teeth/mouthbag: use skin shader (experimental)** setting is
+selected by default in this app. It recreates eligible `teeth.jmtl` and
+`mouthbag.jmtl` using native `yCh_skin` (`0x19`) and their existing local body
+color and normal references. It uses the complete native skin writer; changing only
+the old Teeth discriminator would leave the wrong nine-field payload.
+The rule runs on separate output copies and can be disabled. It preserves
+input/output methods, model geometry, UVs, vertex masks, normal-map pixels
+and existing material-table links at this shader step.
+Existing native link recovery runs first; missing or wrong links, invalid
+textures, extra authored texture maps and failed model checks refuse the trial.
+The exact supplied BigBoomAJ native model can receive this material-only rule
+when its only model failure is unavailable unrelated body/eye/head JMTLs.
+Its known geometry hash and source/output identity are required; the model's
+failure, missing-material entries and incomplete status remain recorded.
+
+The comparison formatter's `ApplyTeethSkinFix` uses teeth-to-skin. The newly
+supplied working Gorilla 2K24 report explicitly writes both teeth and mouthbag
+with `0x19` because their teeth are painted in `body_color`. This app matches
+that supported body-atlas case, rather than assuming direct 2K24 input alone
+fixes teeth. The supplied BigBoomAJ output has opaque tooth atlas pixels aligned
+with its UV0 and explicit teeth irradiance; its normal-map metallic alpha is
+only 0–1/255. There is no evidence for blindly inverting this texture. The
+uploaded MTLS has links that differ from the report's namespace, and its hash
+was not recorded by that report, so that library's provenance remains uncertain.
+
+Inspect `teeth_skin_workaround` for before/after shader, hashes and refusals.
+Already eligible native skin materials are left unchanged on repeat runs.
+Rebake the complete output with CakeView and inspect the teeth in-game. This
+implements the demonstrated shader rule; a visual fix remains unverified here.
+Bronze body, eye brightness and black teeth have separate possible causes;
+original 2K24 routing does not establish that any of them are repaired.
 
 ## New 0.14.1 nested material paths and unknown YWA coverage
 

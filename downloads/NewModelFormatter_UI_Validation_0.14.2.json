@@ -1,0 +1,17 @@
+{
+  "title": "NewModelFormatter \u2014 experimental",
+  "root_geometry": "880x840+0+0",
+  "default_gear_profile": false,
+  "gear_check_visible": true,
+  "default_teeth_workaround": true,
+  "teeth_workaround_visible": true,
+  "teeth_workaround_label": "Body-atlas teeth/mouthbag: use skin shader (experimental)",
+  "report_button_visible": true,
+  "report_button_initial_state": "disabled",
+  "cakeview_unlock_required": true,
+  "cakeview_unlocked": false,
+  "source_prefill": "Z:\\workspace\\formatter-investigation\\rey-model-source",
+  "logo_label_text": "NEW",
+  "logo_label_image": "",
+  "scope": "Wine/Xvfb original-entrypoint UI smoke; not native Windows or game"
+}

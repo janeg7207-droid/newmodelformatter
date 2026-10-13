@@ -1,0 +1,120 @@
+{
+  "review_status": "approved_for_bounded_two_role_data_trial_pending_final_candidate_native_and_GUI_checks",
+  "helper_sha256": "8b51ac96723f236a60c602fbeb91ef4824446e6f1875d81065c9d2cec01f32b7",
+  "test_sha256": "09c62491a50c576b99914da32381aa60286aa8cd6218e2825d5e1748370f0e13",
+  "independent_focused_tests_passed": 27,
+  "owner_full_tests_reported_passed": 469,
+  "engine_thread_default_enabled": false,
+  "user_UI_default_policy": "Root-owned explicit default-enabled UI setting with opt-out; not tested here",
+  "working_reference_comparison": {
+    "working_report_sha256": "326eebaec7ff9c6aa96543588285344c8a7ac2655c1a4b01293e278803b11f7e",
+    "failing_report_sha256": "ce8dc2086cef763befa356c77b0ca86e374b4d34ae553ca9cd2b3befa3aa386e",
+    "working_base_source_version": "0x28",
+    "failing_base_source_version": "0x29",
+    "roles": [
+      {
+        "role": "teeth",
+        "same_original_material_shader_labels": true,
+        "working_emitted_shader": "0x19",
+        "failing_emitted_shader": "0x1a",
+        "working_exact_note": "teeth: teeth are painted in body_color: written with the skin shader (the teeth shader shows them black)"
+      },
+      {
+        "role": "mouthbag",
+        "same_original_material_shader_labels": true,
+        "working_emitted_shader": "0x19",
+        "failing_emitted_shader": "0x1a",
+        "working_exact_note": "mouthbag: teeth are painted in body_color: written with the skin shader (the teeth shader shows them black)"
+      }
+    ],
+    "scope": "User identifies first workflow as working. Report comparison supports the body-atlas skin workflow but does not supply working emitted raw JMTLs/DDS/UVs or prove new output appearance."
+  },
+  "actual_two_role_readonly_writer_schema_proof": [
+    {
+      "role": "teeth",
+      "source_shader": 26,
+      "source_sha256": "b9a2e3b5f11fe1608be517065b646553aa8ae5b57284d594835a7a956c0bc8ca",
+      "source_bytes": 104,
+      "source_fields": {
+        "0": 3652540504355486548,
+        "1": 8277444278770242532,
+        "6": {
+          "0": 255,
+          "1": 191,
+          "2": 191
+        }
+      },
+      "in_memory_skin_shader": 25,
+      "in_memory_skin_sha256": "5797682766ed9b5f55e81d5bde2a23e33c99b72b95d0d2e84dbd4617a2648bb2",
+      "in_memory_skin_bytes": 160,
+      "in_memory_skin_fields": {
+        "0": 3652540504355486548,
+        "1": 8277444278770242532,
+        "15": 0.4000000059604645,
+        "6": {
+          "0": 114,
+          "1": 43,
+          "2": 40
+        },
+        "9": {
+          "0": 80.0,
+          "1": 80.0
+        },
+        "18": {}
+      },
+      "texture_references_byte_values_identical": true
+    },
+    {
+      "role": "mouthbag",
+      "source_shader": 26,
+      "source_sha256": "b9a2e3b5f11fe1608be517065b646553aa8ae5b57284d594835a7a956c0bc8ca",
+      "source_bytes": 104,
+      "source_fields": {
+        "0": 3652540504355486548,
+        "1": 8277444278770242532,
+        "6": {
+          "0": 255,
+          "1": 191,
+          "2": 191
+        }
+      },
+      "in_memory_skin_shader": 25,
+      "in_memory_skin_sha256": "5797682766ed9b5f55e81d5bde2a23e33c99b72b95d0d2e84dbd4617a2648bb2",
+      "in_memory_skin_bytes": 160,
+      "in_memory_skin_fields": {
+        "0": 3652540504355486548,
+        "1": 8277444278770242532,
+        "15": 0.4000000059604645,
+        "6": {
+          "0": 114,
+          "1": 43,
+          "2": 40
+        },
+        "9": {
+          "0": 80.0,
+          "1": 80.0
+        },
+        "18": {}
+      },
+      "texture_references_byte_values_identical": true
+    }
+  ],
+  "actual_six_input_assets_unchanged": true,
+  "guard_review": {
+    "both_roles_are_independent": true,
+    "teeth_allowed_only_M_Teeth": true,
+    "mouthbag_allowed_only_M_MouthBag_and_or_M_Tongue": true,
+    "canonical_bound_meshes_require_exclusive_role_groups": true,
+    "duplicate_mesh_names_or_arbitrary_material_sharing_refused": true,
+    "actual_canonical_local_MTLS_JMTL_body_DDS_and_hash_binding_guards_for_each_role": true,
+    "native_0x19_schema_generated_not_discriminator_flip": true,
+    "extra_authored_maps_and_unknown_present_fields_refused": true,
+    "existing_native_skin_authored_fields_not_rewritten": true,
+    "source_model_MTLS_DDS_and_non_role_material_stage_snapshots_preserved": true,
+    "role_current_and_prior_shader_SHA_metadata_distinguished": true,
+    "known_partial_a705_exception_does_not_clear_failed_verification_or_missing_materials": true,
+    "no_normal_alpha_pixels_UV_geometry_or_physics_rewrite": true
+  },
+  "final_native_candidate_test": "pending_root_R3_run",
+  "in_game_visual_fix_confirmed": false
+}

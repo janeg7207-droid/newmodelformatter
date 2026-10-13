@@ -1,0 +1,841 @@
+{
+  "candidate_sha256": "9f0d1328b00ea62e4770c3d129c8746b0050950b84a217ddf809748b14bfb7fc",
+  "scope": "exact candidate native folder processing of all six real uploads; incomplete unrelated materials remain reported; no game test",
+  "cases": [
+    {
+      "case": "disabled",
+      "enabled": false,
+      "source_unchanged": true,
+      "output": "Z:\\workspace\\formatter-investigation\\bigboomaj-teeth-actual\\native142-r3\\disabled\\Characters\\_formatted_2K25",
+      "assets": {
+        "BaseModel/baseModel.mcd": "a70520caae33e2877260689324d1f0faaf573f578f0ce06492c15dd74a7d4b11",
+        "BaseModel/baseModel.mtls": "62f237b7d029b86119aecb5bdcb0b24a46507776298466ec7e73cadb9daea3e5",
+        "BaseModel/Materials/mouthbag.jmtl": "b9a2e3b5f11fe1608be517065b646553aa8ae5b57284d594835a7a956c0bc8ca",
+        "BaseModel/Materials/teeth.jmtl": "b9a2e3b5f11fe1608be517065b646553aa8ae5b57284d594835a7a956c0bc8ca",
+        "BaseModel/Textures/body_color.dds": "707ca95c0a233dddefd241b5a435470320f4fca47971b51dbb12fa1b9eaa77fa",
+        "BaseModel/Textures/body_nrm.dds": "b785401a0b5250b6a3dad64df8341fd3f7e4dbdbf7c7c5e63fe3e1c6a3cd9396"
+      },
+      "teeth_shader": 26,
+      "teeth_sha256": "b9a2e3b5f11fe1608be517065b646553aa8ae5b57284d594835a7a956c0bc8ca",
+      "teeth_bytes": 104,
+      "mouthbag_shader": 26,
+      "mouthbag_sha256": "b9a2e3b5f11fe1608be517065b646553aa8ae5b57284d594835a7a956c0bc8ca",
+      "teeth_refs": {
+        "colorMap@ref": 3652540504355486548,
+        "nrMap@ref": 8277444278770242532
+      },
+      "root_and_payload_bounded": true,
+      "actual_teeth_binding_valid": true,
+      "actual_mouthbag_binding_valid": true,
+      "teeth_color_ref_matches_body_color": true,
+      "teeth_normal_ref_matches_body_nrm": true,
+      "model_sha256": "a70520caae33e2877260689324d1f0faaf573f578f0ce06492c15dd74a7d4b11",
+      "material_table_sha256": "62f237b7d029b86119aecb5bdcb0b24a46507776298466ec7e73cadb9daea3e5",
+      "reports_equal": true,
+      "in_game_validation": "not_performed",
+      "workaround": {
+        "version": "guarded-local-body-atlas-teeth-mouthbag-skin-workaround-2",
+        "enabled": false,
+        "applied": 0,
+        "already_applied": 0,
+        "refused": 0,
+        "not_applicable": 0,
+        "failed_after_write": 0,
+        "rows": [],
+        "source_files_changed": false,
+        "in_game_validation": "not_performed",
+        "scope": "canonical teeth/M_Teeth and mouthbag/M_MouthBag or M_Tongue with proven existing local body atlas only",
+        "state": "disabled_no_asset_reads_or_writes"
+      },
+      "model_checks": [
+        {
+          "verify": "fail",
+          "problems": [
+            "native material library: missing native JMTL for material 'body'"
+          ]
+        }
+      ],
+      "conversion_completeness": "incomplete",
+      "status": "completed_with_problems"
+    },
+    {
+      "case": "enabled",
+      "enabled": true,
+      "source_unchanged": true,
+      "output": "Z:\\workspace\\formatter-investigation\\bigboomaj-teeth-actual\\native142-r3\\enabled\\Characters\\_formatted_2K25",
+      "assets": {
+        "BaseModel/baseModel.mcd": "a70520caae33e2877260689324d1f0faaf573f578f0ce06492c15dd74a7d4b11",
+        "BaseModel/baseModel.mtls": "62f237b7d029b86119aecb5bdcb0b24a46507776298466ec7e73cadb9daea3e5",
+        "BaseModel/Materials/mouthbag.jmtl": "5797682766ed9b5f55e81d5bde2a23e33c99b72b95d0d2e84dbd4617a2648bb2",
+        "BaseModel/Materials/teeth.jmtl": "5797682766ed9b5f55e81d5bde2a23e33c99b72b95d0d2e84dbd4617a2648bb2",
+        "BaseModel/Textures/body_color.dds": "707ca95c0a233dddefd241b5a435470320f4fca47971b51dbb12fa1b9eaa77fa",
+        "BaseModel/Textures/body_nrm.dds": "b785401a0b5250b6a3dad64df8341fd3f7e4dbdbf7c7c5e63fe3e1c6a3cd9396"
+      },
+      "teeth_shader": 25,
+      "teeth_sha256": "5797682766ed9b5f55e81d5bde2a23e33c99b72b95d0d2e84dbd4617a2648bb2",
+      "teeth_bytes": 160,
+      "mouthbag_shader": 25,
+      "mouthbag_sha256": "5797682766ed9b5f55e81d5bde2a23e33c99b72b95d0d2e84dbd4617a2648bb2",
+      "teeth_refs": {
+        "colorMap@ref": 3652540504355486548,
+        "nrMap@ref": 8277444278770242532
+      },
+      "root_and_payload_bounded": true,
+      "actual_teeth_binding_valid": true,
+      "actual_mouthbag_binding_valid": true,
+      "teeth_color_ref_matches_body_color": true,
+      "teeth_normal_ref_matches_body_nrm": true,
+      "model_sha256": "a70520caae33e2877260689324d1f0faaf573f578f0ce06492c15dd74a7d4b11",
+      "material_table_sha256": "62f237b7d029b86119aecb5bdcb0b24a46507776298466ec7e73cadb9daea3e5",
+      "reports_equal": true,
+      "in_game_validation": "not_performed",
+      "workaround": {
+        "version": "guarded-local-body-atlas-teeth-mouthbag-skin-workaround-2",
+        "enabled": true,
+        "applied": 2,
+        "already_applied": 0,
+        "refused": 0,
+        "not_applicable": 0,
+        "failed_after_write": 0,
+        "rows": [
+          {
+            "output": "Z:\\workspace\\formatter-investigation\\bigboomaj-teeth-actual\\native142-r3\\enabled\\Characters\\_formatted_2K25\\BaseModel\\baseModel.mcd",
+            "role": "teeth",
+            "in_game_validation": "not_performed",
+            "version": "guarded-local-body-atlas-teeth-mouthbag-skin-workaround-2",
+            "bound_meshes": [
+              "M_Teeth"
+            ],
+            "state": "applied_experimental_workaround",
+            "before_sha256": "b9a2e3b5f11fe1608be517065b646553aa8ae5b57284d594835a7a956c0bc8ca",
+            "after_sha256": "5797682766ed9b5f55e81d5bde2a23e33c99b72b95d0d2e84dbd4617a2648bb2",
+            "before_shader": 26,
+            "after_shader": 25,
+            "original_present_fields": {
+              "0": 3652540504355486548,
+              "1": 8277444278770242532,
+              "6": {
+                "0": 255,
+                "1": 191,
+                "2": 191
+              }
+            },
+            "existing_texture_references": {
+              "colorMap@ref": 3652540504355486548,
+              "nrMap@ref": 8277444278770242532
+            },
+            "texture_references_unchanged": true,
+            "texture_pixels_changed": false,
+            "new_skin_parameters": "bundled native writer defaults; old native Teeth parameters are retained as provenance, not reused",
+            "model_and_mtls_unchanged": true,
+            "other_materials_unchanged_for_this_role": true,
+            "source_files_changed": false,
+            "known_material_only_profile": true,
+            "known_original_native_pass_report_sha256": "ce8dc2086cef763befa356c77b0ca86e374b4d34ae553ca9cd2b3befa3aa386e",
+            "overall_model_verification_unchanged": "fail",
+            "eligibility_scope": "exact inspected native model bytes originally passed structural conversion; only its linked mouth material is repaired; unrelated missing JMTLs and overall failed verification remain",
+            "black_teeth_fix_proved": false,
+            "metadata_records_updated": 1,
+            "material": "Z:\\workspace\\formatter-investigation\\bigboomaj-teeth-actual\\native142-r3\\enabled\\Characters\\_formatted_2K25\\BaseModel\\Materials\\teeth.jmtl",
+            "local_body_textures": [
+              {
+                "file": "Z:\\workspace\\formatter-investigation\\bigboomaj-teeth-actual\\native142-r3\\enabled\\Characters\\_formatted_2K25\\BaseModel\\Textures\\body_color.dds",
+                "sha256": "707ca95c0a233dddefd241b5a435470320f4fca47971b51dbb12fa1b9eaa77fa",
+                "field": "colorMap@ref",
+                "virtual_path": "Characters/_formatted_2K25/BaseModel/Textures/body_color.tex",
+                "path_hash": 3652540504355486548,
+                "width": 4096,
+                "height": 2048,
+                "mip_count": 1,
+                "format": "DXT1",
+                "payload_bytes": 4194304,
+                "header_and_extents_validated": true,
+                "capsTextureBitPresent": true,
+                "header_advisories": []
+              },
+              {
+                "file": "Z:\\workspace\\formatter-investigation\\bigboomaj-teeth-actual\\native142-r3\\enabled\\Characters\\_formatted_2K25\\BaseModel\\Textures\\body_nrm.dds",
+                "sha256": "b785401a0b5250b6a3dad64df8341fd3f7e4dbdbf7c7c5e63fe3e1c6a3cd9396",
+                "field": "nrMap@ref",
+                "virtual_path": "Characters/_formatted_2K25/BaseModel/Textures/body_nrm.tex",
+                "path_hash": 8277444278770242532,
+                "width": 4096,
+                "height": 2048,
+                "mip_count": 1,
+                "format": "DXGI_98",
+                "payload_bytes": 8388608,
+                "header_and_extents_validated": true,
+                "capsTextureBitPresent": true,
+                "header_advisories": []
+              }
+            ],
+            "output_file_changes": "only teeth.jmtl recreated with native skin schema"
+          },
+          {
+            "output": "Z:\\workspace\\formatter-investigation\\bigboomaj-teeth-actual\\native142-r3\\enabled\\Characters\\_formatted_2K25\\BaseModel\\baseModel.mcd",
+            "role": "mouthbag",
+            "in_game_validation": "not_performed",
+            "version": "guarded-local-body-atlas-teeth-mouthbag-skin-workaround-2",
+            "bound_meshes": [
+              "M_Tongue",
+              "M_MouthBag"
+            ],
+            "state": "applied_experimental_workaround",
+            "before_sha256": "b9a2e3b5f11fe1608be517065b646553aa8ae5b57284d594835a7a956c0bc8ca",
+            "after_sha256": "5797682766ed9b5f55e81d5bde2a23e33c99b72b95d0d2e84dbd4617a2648bb2",
+            "before_shader": 26,
+            "after_shader": 25,
+            "original_present_fields": {
+              "0": 3652540504355486548,
+              "1": 8277444278770242532,
+              "6": {
+                "0": 255,
+                "1": 191,
+                "2": 191
+              }
+            },
+            "existing_texture_references": {
+              "colorMap@ref": 3652540504355486548,
+              "nrMap@ref": 8277444278770242532
+            },
+            "texture_references_unchanged": true,
+            "texture_pixels_changed": false,
+            "new_skin_parameters": "bundled native writer defaults; old native Teeth parameters are retained as provenance, not reused",
+            "model_and_mtls_unchanged": true,
+            "other_materials_unchanged_for_this_role": true,
+            "source_files_changed": false,
+            "known_material_only_profile": true,
+            "known_original_native_pass_report_sha256": "ce8dc2086cef763befa356c77b0ca86e374b4d34ae553ca9cd2b3befa3aa386e",
+            "overall_model_verification_unchanged": "fail",
+            "eligibility_scope": "exact inspected native model bytes originally passed structural conversion; only its linked mouth material is repaired; unrelated missing JMTLs and overall failed verification remain",
+            "black_teeth_fix_proved": false,
+            "metadata_records_updated": 1,
+            "material": "Z:\\workspace\\formatter-investigation\\bigboomaj-teeth-actual\\native142-r3\\enabled\\Characters\\_formatted_2K25\\BaseModel\\Materials\\mouthbag.jmtl",
+            "local_body_textures": [
+              {
+                "file": "Z:\\workspace\\formatter-investigation\\bigboomaj-teeth-actual\\native142-r3\\enabled\\Characters\\_formatted_2K25\\BaseModel\\Textures\\body_color.dds",
+                "sha256": "707ca95c0a233dddefd241b5a435470320f4fca47971b51dbb12fa1b9eaa77fa",
+                "field": "colorMap@ref",
+                "virtual_path": "Characters/_formatted_2K25/BaseModel/Textures/body_color.tex",
+                "path_hash": 3652540504355486548,
+                "width": 4096,
+                "height": 2048,
+                "mip_count": 1,
+                "format": "DXT1",
+                "payload_bytes": 4194304,
+                "header_and_extents_validated": true,
+                "capsTextureBitPresent": true,
+                "header_advisories": []
+              },
+              {
+                "file": "Z:\\workspace\\formatter-investigation\\bigboomaj-teeth-actual\\native142-r3\\enabled\\Characters\\_formatted_2K25\\BaseModel\\Textures\\body_nrm.dds",
+                "sha256": "b785401a0b5250b6a3dad64df8341fd3f7e4dbdbf7c7c5e63fe3e1c6a3cd9396",
+                "field": "nrMap@ref",
+                "virtual_path": "Characters/_formatted_2K25/BaseModel/Textures/body_nrm.tex",
+                "path_hash": 8277444278770242532,
+                "width": 4096,
+                "height": 2048,
+                "mip_count": 1,
+                "format": "DXGI_98",
+                "payload_bytes": 8388608,
+                "header_and_extents_validated": true,
+                "capsTextureBitPresent": true,
+                "header_advisories": []
+              }
+            ],
+            "output_file_changes": "only mouthbag.jmtl recreated with native skin schema"
+          }
+        ],
+        "source_files_changed": false,
+        "in_game_validation": "not_performed",
+        "scope": "canonical teeth/M_Teeth and mouthbag/M_MouthBag or M_Tongue with proven existing local body atlas only",
+        "state": "checked_with_in_game_validation_required"
+      },
+      "model_checks": [
+        {
+          "verify": "fail",
+          "problems": [
+            "native material library: missing native JMTL for material 'body'"
+          ]
+        }
+      ],
+      "conversion_completeness": "incomplete",
+      "status": "completed_with_problems"
+    },
+    {
+      "case": "repeat",
+      "enabled": true,
+      "source_unchanged": true,
+      "output": "Z:\\workspace\\formatter-investigation\\bigboomaj-teeth-actual\\native142-r3\\repeat\\Characters\\_formatted_2K25",
+      "assets": {
+        "BaseModel/baseModel.mcd": "a70520caae33e2877260689324d1f0faaf573f578f0ce06492c15dd74a7d4b11",
+        "BaseModel/baseModel.mtls": "62f237b7d029b86119aecb5bdcb0b24a46507776298466ec7e73cadb9daea3e5",
+        "BaseModel/Materials/mouthbag.jmtl": "5797682766ed9b5f55e81d5bde2a23e33c99b72b95d0d2e84dbd4617a2648bb2",
+        "BaseModel/Materials/teeth.jmtl": "5797682766ed9b5f55e81d5bde2a23e33c99b72b95d0d2e84dbd4617a2648bb2",
+        "BaseModel/Textures/body_color.dds": "707ca95c0a233dddefd241b5a435470320f4fca47971b51dbb12fa1b9eaa77fa",
+        "BaseModel/Textures/body_nrm.dds": "b785401a0b5250b6a3dad64df8341fd3f7e4dbdbf7c7c5e63fe3e1c6a3cd9396"
+      },
+      "teeth_shader": 25,
+      "teeth_sha256": "5797682766ed9b5f55e81d5bde2a23e33c99b72b95d0d2e84dbd4617a2648bb2",
+      "teeth_bytes": 160,
+      "mouthbag_shader": 25,
+      "mouthbag_sha256": "5797682766ed9b5f55e81d5bde2a23e33c99b72b95d0d2e84dbd4617a2648bb2",
+      "teeth_refs": {
+        "colorMap@ref": 3652540504355486548,
+        "nrMap@ref": 8277444278770242532
+      },
+      "root_and_payload_bounded": true,
+      "actual_teeth_binding_valid": true,
+      "actual_mouthbag_binding_valid": true,
+      "teeth_color_ref_matches_body_color": true,
+      "teeth_normal_ref_matches_body_nrm": true,
+      "model_sha256": "a70520caae33e2877260689324d1f0faaf573f578f0ce06492c15dd74a7d4b11",
+      "material_table_sha256": "62f237b7d029b86119aecb5bdcb0b24a46507776298466ec7e73cadb9daea3e5",
+      "reports_equal": true,
+      "in_game_validation": "not_performed",
+      "workaround": {
+        "version": "guarded-local-body-atlas-teeth-mouthbag-skin-workaround-2",
+        "enabled": true,
+        "applied": 0,
+        "already_applied": 2,
+        "refused": 0,
+        "not_applicable": 0,
+        "failed_after_write": 0,
+        "rows": [
+          {
+            "output": "Z:\\workspace\\formatter-investigation\\bigboomaj-teeth-actual\\native142-r3\\repeat\\Characters\\_formatted_2K25\\BaseModel\\baseModel.mcd",
+            "role": "teeth",
+            "in_game_validation": "not_performed",
+            "version": "guarded-local-body-atlas-teeth-mouthbag-skin-workaround-2",
+            "bound_meshes": [
+              "M_Teeth"
+            ],
+            "state": "already_applied",
+            "before_sha256": "5797682766ed9b5f55e81d5bde2a23e33c99b72b95d0d2e84dbd4617a2648bb2",
+            "after_sha256": "5797682766ed9b5f55e81d5bde2a23e33c99b72b95d0d2e84dbd4617a2648bb2",
+            "before_shader": 25,
+            "after_shader": 25,
+            "original_present_fields": {
+              "0": 3652540504355486548,
+              "1": 8277444278770242532,
+              "15": 0.4000000059604645,
+              "6": {
+                "0": 114,
+                "1": 43,
+                "2": 40
+              },
+              "9": {
+                "0": 80.0,
+                "1": 80.0
+              },
+              "18": {}
+            },
+            "existing_texture_references": {
+              "colorMap@ref": 3652540504355486548,
+              "nrMap@ref": 8277444278770242532
+            },
+            "texture_references_unchanged": true,
+            "texture_pixels_changed": false,
+            "new_skin_parameters": "existing native skin fields preserved; no rewrite",
+            "model_and_mtls_unchanged": true,
+            "other_materials_unchanged_for_this_role": true,
+            "source_files_changed": false,
+            "known_material_only_profile": true,
+            "known_original_native_pass_report_sha256": "ce8dc2086cef763befa356c77b0ca86e374b4d34ae553ca9cd2b3befa3aa386e",
+            "overall_model_verification_unchanged": "fail",
+            "eligibility_scope": "exact inspected native model bytes originally passed structural conversion; only its linked mouth material is repaired; unrelated missing JMTLs and overall failed verification remain",
+            "black_teeth_fix_proved": false,
+            "metadata_records_updated": 1,
+            "material": "Z:\\workspace\\formatter-investigation\\bigboomaj-teeth-actual\\native142-r3\\repeat\\Characters\\_formatted_2K25\\BaseModel\\Materials\\teeth.jmtl",
+            "local_body_textures": [
+              {
+                "file": "Z:\\workspace\\formatter-investigation\\bigboomaj-teeth-actual\\native142-r3\\repeat\\Characters\\_formatted_2K25\\BaseModel\\Textures\\body_color.dds",
+                "sha256": "707ca95c0a233dddefd241b5a435470320f4fca47971b51dbb12fa1b9eaa77fa",
+                "field": "colorMap@ref",
+                "virtual_path": "Characters/_formatted_2K25/BaseModel/Textures/body_color.tex",
+                "path_hash": 3652540504355486548,
+                "width": 4096,
+                "height": 2048,
+                "mip_count": 1,
+                "format": "DXT1",
+                "payload_bytes": 4194304,
+                "header_and_extents_validated": true,
+                "capsTextureBitPresent": true,
+                "header_advisories": []
+              },
+              {
+                "file": "Z:\\workspace\\formatter-investigation\\bigboomaj-teeth-actual\\native142-r3\\repeat\\Characters\\_formatted_2K25\\BaseModel\\Textures\\body_nrm.dds",
+                "sha256": "b785401a0b5250b6a3dad64df8341fd3f7e4dbdbf7c7c5e63fe3e1c6a3cd9396",
+                "field": "nrMap@ref",
+                "virtual_path": "Characters/_formatted_2K25/BaseModel/Textures/body_nrm.tex",
+                "path_hash": 8277444278770242532,
+                "width": 4096,
+                "height": 2048,
+                "mip_count": 1,
+                "format": "DXGI_98",
+                "payload_bytes": 8388608,
+                "header_and_extents_validated": true,
+                "capsTextureBitPresent": true,
+                "header_advisories": []
+              }
+            ],
+            "output_file_changes": "none"
+          },
+          {
+            "output": "Z:\\workspace\\formatter-investigation\\bigboomaj-teeth-actual\\native142-r3\\repeat\\Characters\\_formatted_2K25\\BaseModel\\baseModel.mcd",
+            "role": "mouthbag",
+            "in_game_validation": "not_performed",
+            "version": "guarded-local-body-atlas-teeth-mouthbag-skin-workaround-2",
+            "bound_meshes": [
+              "M_Tongue",
+              "M_MouthBag"
+            ],
+            "state": "already_applied",
+            "before_sha256": "5797682766ed9b5f55e81d5bde2a23e33c99b72b95d0d2e84dbd4617a2648bb2",
+            "after_sha256": "5797682766ed9b5f55e81d5bde2a23e33c99b72b95d0d2e84dbd4617a2648bb2",
+            "before_shader": 25,
+            "after_shader": 25,
+            "original_present_fields": {
+              "0": 3652540504355486548,
+              "1": 8277444278770242532,
+              "15": 0.4000000059604645,
+              "6": {
+                "0": 114,
+                "1": 43,
+                "2": 40
+              },
+              "9": {
+                "0": 80.0,
+                "1": 80.0
+              },
+              "18": {}
+            },
+            "existing_texture_references": {
+              "colorMap@ref": 3652540504355486548,
+              "nrMap@ref": 8277444278770242532
+            },
+            "texture_references_unchanged": true,
+            "texture_pixels_changed": false,
+            "new_skin_parameters": "existing native skin fields preserved; no rewrite",
+            "model_and_mtls_unchanged": true,
+            "other_materials_unchanged_for_this_role": true,
+            "source_files_changed": false,
+            "known_material_only_profile": true,
+            "known_original_native_pass_report_sha256": "ce8dc2086cef763befa356c77b0ca86e374b4d34ae553ca9cd2b3befa3aa386e",
+            "overall_model_verification_unchanged": "fail",
+            "eligibility_scope": "exact inspected native model bytes originally passed structural conversion; only its linked mouth material is repaired; unrelated missing JMTLs and overall failed verification remain",
+            "black_teeth_fix_proved": false,
+            "metadata_records_updated": 1,
+            "material": "Z:\\workspace\\formatter-investigation\\bigboomaj-teeth-actual\\native142-r3\\repeat\\Characters\\_formatted_2K25\\BaseModel\\Materials\\mouthbag.jmtl",
+            "local_body_textures": [
+              {
+                "file": "Z:\\workspace\\formatter-investigation\\bigboomaj-teeth-actual\\native142-r3\\repeat\\Characters\\_formatted_2K25\\BaseModel\\Textures\\body_color.dds",
+                "sha256": "707ca95c0a233dddefd241b5a435470320f4fca47971b51dbb12fa1b9eaa77fa",
+                "field": "colorMap@ref",
+                "virtual_path": "Characters/_formatted_2K25/BaseModel/Textures/body_color.tex",
+                "path_hash": 3652540504355486548,
+                "width": 4096,
+                "height": 2048,
+                "mip_count": 1,
+                "format": "DXT1",
+                "payload_bytes": 4194304,
+                "header_and_extents_validated": true,
+                "capsTextureBitPresent": true,
+                "header_advisories": []
+              },
+              {
+                "file": "Z:\\workspace\\formatter-investigation\\bigboomaj-teeth-actual\\native142-r3\\repeat\\Characters\\_formatted_2K25\\BaseModel\\Textures\\body_nrm.dds",
+                "sha256": "b785401a0b5250b6a3dad64df8341fd3f7e4dbdbf7c7c5e63fe3e1c6a3cd9396",
+                "field": "nrMap@ref",
+                "virtual_path": "Characters/_formatted_2K25/BaseModel/Textures/body_nrm.tex",
+                "path_hash": 8277444278770242532,
+                "width": 4096,
+                "height": 2048,
+                "mip_count": 1,
+                "format": "DXGI_98",
+                "payload_bytes": 8388608,
+                "header_and_extents_validated": true,
+                "capsTextureBitPresent": true,
+                "header_advisories": []
+              }
+            ],
+            "output_file_changes": "none"
+          }
+        ],
+        "source_files_changed": false,
+        "in_game_validation": "not_performed",
+        "scope": "canonical teeth/M_Teeth and mouthbag/M_MouthBag or M_Tongue with proven existing local body atlas only",
+        "state": "checked_with_in_game_validation_required"
+      },
+      "model_checks": [
+        {
+          "verify": "fail",
+          "problems": [
+            "native material library: missing native JMTL for material 'body'"
+          ]
+        }
+      ],
+      "conversion_completeness": "incomplete",
+      "status": "completed_with_problems"
+    },
+    {
+      "case": "legacy-disabled",
+      "enabled": false,
+      "source_unchanged": true,
+      "output": "Z:\\workspace\\formatter-investigation\\bigboomaj-teeth-actual\\native142-r3\\legacy-disabled\\Characters\\159_Bryan_Danielson",
+      "assets": {
+        "159_Default_Attire/159_Attire.mcd": "f361c87df54bd8239e218786ee594304f504d3bf9a1bbf21b2f3e8f0343e0911",
+        "159_Default_Attire/159_Attire.mtls": "901264fe7f5a21ab8617ae82b220e02b36cf773f06221b528ce820f7453db295",
+        "BaseModel/baseModel.mcd": "c3edf08a7b65f4d3a4f327cba3b156435465d9724b4f8068a35c5b88b1cf6208",
+        "BaseModel/baseModel.mtls": "ff2b2e7fd471e24ba551561952333655a378e147cb240acb07f0fa247af27497",
+        "BaseModel/Materials/body.jmtl": "9af4b200742fd2d874cd73c43c7d8c9291f2a67a28b07f6a0f8efdad470a1692",
+        "BaseModel/Materials/eye_l.jmtl": "b905349643f4510446e5b884122fd54fb9b4369dc3e0bda000a48ca45f8a087a",
+        "BaseModel/Materials/eye_r.jmtl": "b905349643f4510446e5b884122fd54fb9b4369dc3e0bda000a48ca45f8a087a",
+        "BaseModel/Materials/head.jmtl": "2f7b33856a191436ce6e0ddb7741baa52ff2949dca35dae6dbc5f6553fff1c5c",
+        "BaseModel/Materials/mouthbag.jmtl": "391c02b1ed300c18a113ba7f8d4f23cb8ba3d30cf9508e63f3f79f6c1af018f4",
+        "BaseModel/Materials/teeth.jmtl": "391c02b1ed300c18a113ba7f8d4f23cb8ba3d30cf9508e63f3f79f6c1af018f4",
+        "BaseModel/Textures/body_color.dds": "9eea4984b01ca86116212e30ec1ff39faee21dfc26d50d2c84b0a50bbc423c22",
+        "BaseModel/Textures/body_nrm.dds": "5d48494b8a8e671cad25909b89bae6383ebc2f8b6274875967630b82a7ea06a0",
+        "BaseModel/Textures/eye_color.dds": "8d39d2cbcc5054ab94b01b7222137de25331244ddc03e04da20245ae0a07c3b0",
+        "BaseModel/Textures/head_color.dds": "3fa541ccef8684ef5dd5afe328fe936f23d2c0c27932a112e79c364dbf8cbc2f",
+        "BaseModel/Textures/head_nrm.dds": "c2783f6d55b027305ad449b5610ca41f2af976481d2116e2df218d507b675f83",
+        "159_Default_Attire/Materials/combinations_ALPHA.jmtl": "1a765b0ea19ceb5a85a48d7de9bda3e9a6d7818e26c156b1b1ae50e8c692835e",
+        "159_Default_Attire/Materials/hair_ALPHA.jmtl": "947c1b7c1fc9b74922e98b9c8142cc8b4d92c692bdb065355e2fa118201b6ce6",
+        "159_Default_Attire/Materials/l_kneepad.jmtl": "9edbc1833a6aa09606ab8a4ed1a75a012fef7d969032ca8f1b951d024845a010",
+        "159_Default_Attire/Materials/l_wrist.jmtl": "e9edc1f2893e8594a7d912c2449be09bd0967b35aab9067849a162da8193467c",
+        "159_Default_Attire/Materials/r_kneepad.jmtl": "f28417903da75d34274dd908dc3255e7eed2313203c13ee80b4789193f21779e",
+        "159_Default_Attire/Materials/r_wrist.jmtl": "b2d8326cdd43f37f15079936c9768176721f6f88bc0e2045053d2db5e0acb0b2",
+        "159_Default_Attire/Materials/shoes.jmtl": "f41ca2d7bc5b864114f282c9784055380dafd5785001aa328baa3c11dd440d27",
+        "159_Default_Attire/Materials/underwear.jmtl": "be42d35266428f8e9c10628927276fb9ee35650a6ebbf0cd4210d81b5b922ed3",
+        "159_Default_Attire/Textures/combinations_flow.dds": "4fafbf04b5325c1abe51a1f5ec84dca53dc2b0af6e0f30bdbfe6f314eb0f7a58",
+        "159_Default_Attire/Textures/combinations_rai.dds": "a7519c61bc4b284297b0f675c6bde088a52de5f4043ceb6be778d8c8669708ed",
+        "159_Default_Attire/Textures/hair2_flow.dds": "0253fe56ca2b90deff350d194aa4ed24c4f4fab8447c99b8fe0cdb6159a2ac02",
+        "159_Default_Attire/Textures/hair2_rai.dds": "2353b6c86726cbdf28b972f27ac52d0043c1f2f3c4c48b6ea510b357771e1edc",
+        "159_Default_Attire/Textures/hair_flow.dds": "c4614af619742c47e5494436fd433c185c31a594639b62504a1afa04211d1a95",
+        "159_Default_Attire/Textures/hair_rai.dds": "2bb835799b9ded3fecb6f17cb33ad8411b261b7277c541601536af3aca3f6be7",
+        "159_Default_Attire/Textures/l_kneepad_color.dds": "2529125344254c89e9be7786ab314eee4040f9a0f457979791b8e3bfd91c76ba",
+        "159_Default_Attire/Textures/l_kneepad_nrm.dds": "c3620b7304806752e4dfa1a1e2379547d2c120b0ed43e32f628b872afba9826d",
+        "159_Default_Attire/Textures/l_wrist_color.dds": "ea54f0f76d9836d2503c1e839706d317a27904c765399dc7e1920434d1554982",
+        "159_Default_Attire/Textures/l_wrist_nrm.dds": "3ee2fc3d5466535ddba20e9b4991cdedc3c52b29eecf850c4172f4ee0e929493",
+        "159_Default_Attire/Textures/r_kneepad_color.dds": "727efcaf7fb5030d1843e8d2702f2c1562fd55fe398229e2e1fb3a1376ccc16f",
+        "159_Default_Attire/Textures/r_kneepad_nrm.dds": "1380e87f0d6bdc13dc58f430a00bbe972df238b86b925018e0a6ca2782667520",
+        "159_Default_Attire/Textures/r_wrist_color.dds": "ea54f0f76d9836d2503c1e839706d317a27904c765399dc7e1920434d1554982",
+        "159_Default_Attire/Textures/r_wrist_nrm.dds": "d78870f1e9a4e7a17645be029c9de90d3401cb26e8951f3bac04e3d9d40af97c",
+        "159_Default_Attire/Textures/shoes_color.dds": "64df8e4ab11d33e4bc8ea28123411836d46a6ec6241f7fe2810d024158543899",
+        "159_Default_Attire/Textures/shoes_nrm.dds": "74b3050265f6596f8300cb397cbc7d0bfe04f9e06056ad8961036e3f8018303a",
+        "159_Default_Attire/Textures/underwear_color.dds": "a71ab58260c1e5aa3ee7488a0decad420533ecdf220d24f3ea51d1bd33965807",
+        "159_Default_Attire/Textures/underwear_nrm.dds": "2dc4394f1c6ab20dc22346e5559443fc4d822c07908cc4c50c6d04ee3cf46fa3"
+      },
+      "teeth_shader": 26,
+      "teeth_sha256": "391c02b1ed300c18a113ba7f8d4f23cb8ba3d30cf9508e63f3f79f6c1af018f4",
+      "teeth_bytes": 104,
+      "mouthbag_shader": 26,
+      "mouthbag_sha256": "391c02b1ed300c18a113ba7f8d4f23cb8ba3d30cf9508e63f3f79f6c1af018f4",
+      "teeth_refs": {
+        "colorMap@ref": 16953710042267170182,
+        "nrMap@ref": 7652125905315313718
+      },
+      "root_and_payload_bounded": true,
+      "actual_teeth_binding_valid": true,
+      "actual_mouthbag_binding_valid": true,
+      "teeth_color_ref_matches_body_color": true,
+      "teeth_normal_ref_matches_body_nrm": true,
+      "model_sha256": "c3edf08a7b65f4d3a4f327cba3b156435465d9724b4f8068a35c5b88b1cf6208",
+      "material_table_sha256": "ff2b2e7fd471e24ba551561952333655a378e147cb240acb07f0fa247af27497",
+      "reports_equal": true,
+      "in_game_validation": "not_performed",
+      "workaround": {
+        "version": "guarded-local-body-atlas-teeth-mouthbag-skin-workaround-2",
+        "enabled": false,
+        "applied": 0,
+        "already_applied": 0,
+        "refused": 0,
+        "not_applicable": 0,
+        "failed_after_write": 0,
+        "rows": [],
+        "source_files_changed": false,
+        "in_game_validation": "not_performed",
+        "scope": "canonical teeth/M_Teeth and mouthbag/M_MouthBag or M_Tongue with proven existing local body atlas only",
+        "state": "disabled_no_asset_reads_or_writes"
+      },
+      "model_checks": [
+        {
+          "verify": "pass",
+          "problems": []
+        },
+        {
+          "verify": "pass",
+          "problems": []
+        }
+      ],
+      "conversion_completeness": "incomplete",
+      "status": "completed_with_problems"
+    },
+    {
+      "case": "legacy-enabled",
+      "enabled": true,
+      "source_unchanged": true,
+      "output": "Z:\\workspace\\formatter-investigation\\bigboomaj-teeth-actual\\native142-r3\\legacy-enabled\\Characters\\159_Bryan_Danielson",
+      "assets": {
+        "159_Default_Attire/159_Attire.mcd": "f361c87df54bd8239e218786ee594304f504d3bf9a1bbf21b2f3e8f0343e0911",
+        "159_Default_Attire/159_Attire.mtls": "901264fe7f5a21ab8617ae82b220e02b36cf773f06221b528ce820f7453db295",
+        "BaseModel/baseModel.mcd": "c3edf08a7b65f4d3a4f327cba3b156435465d9724b4f8068a35c5b88b1cf6208",
+        "BaseModel/baseModel.mtls": "ff2b2e7fd471e24ba551561952333655a378e147cb240acb07f0fa247af27497",
+        "BaseModel/Materials/body.jmtl": "9af4b200742fd2d874cd73c43c7d8c9291f2a67a28b07f6a0f8efdad470a1692",
+        "BaseModel/Materials/eye_l.jmtl": "b905349643f4510446e5b884122fd54fb9b4369dc3e0bda000a48ca45f8a087a",
+        "BaseModel/Materials/eye_r.jmtl": "b905349643f4510446e5b884122fd54fb9b4369dc3e0bda000a48ca45f8a087a",
+        "BaseModel/Materials/head.jmtl": "2f7b33856a191436ce6e0ddb7741baa52ff2949dca35dae6dbc5f6553fff1c5c",
+        "BaseModel/Materials/mouthbag.jmtl": "9af4b200742fd2d874cd73c43c7d8c9291f2a67a28b07f6a0f8efdad470a1692",
+        "BaseModel/Materials/teeth.jmtl": "9af4b200742fd2d874cd73c43c7d8c9291f2a67a28b07f6a0f8efdad470a1692",
+        "BaseModel/Textures/body_color.dds": "9eea4984b01ca86116212e30ec1ff39faee21dfc26d50d2c84b0a50bbc423c22",
+        "BaseModel/Textures/body_nrm.dds": "5d48494b8a8e671cad25909b89bae6383ebc2f8b6274875967630b82a7ea06a0",
+        "BaseModel/Textures/eye_color.dds": "8d39d2cbcc5054ab94b01b7222137de25331244ddc03e04da20245ae0a07c3b0",
+        "BaseModel/Textures/head_color.dds": "3fa541ccef8684ef5dd5afe328fe936f23d2c0c27932a112e79c364dbf8cbc2f",
+        "BaseModel/Textures/head_nrm.dds": "c2783f6d55b027305ad449b5610ca41f2af976481d2116e2df218d507b675f83",
+        "159_Default_Attire/Materials/combinations_ALPHA.jmtl": "1a765b0ea19ceb5a85a48d7de9bda3e9a6d7818e26c156b1b1ae50e8c692835e",
+        "159_Default_Attire/Materials/hair_ALPHA.jmtl": "947c1b7c1fc9b74922e98b9c8142cc8b4d92c692bdb065355e2fa118201b6ce6",
+        "159_Default_Attire/Materials/l_kneepad.jmtl": "9edbc1833a6aa09606ab8a4ed1a75a012fef7d969032ca8f1b951d024845a010",
+        "159_Default_Attire/Materials/l_wrist.jmtl": "e9edc1f2893e8594a7d912c2449be09bd0967b35aab9067849a162da8193467c",
+        "159_Default_Attire/Materials/r_kneepad.jmtl": "f28417903da75d34274dd908dc3255e7eed2313203c13ee80b4789193f21779e",
+        "159_Default_Attire/Materials/r_wrist.jmtl": "b2d8326cdd43f37f15079936c9768176721f6f88bc0e2045053d2db5e0acb0b2",
+        "159_Default_Attire/Materials/shoes.jmtl": "f41ca2d7bc5b864114f282c9784055380dafd5785001aa328baa3c11dd440d27",
+        "159_Default_Attire/Materials/underwear.jmtl": "be42d35266428f8e9c10628927276fb9ee35650a6ebbf0cd4210d81b5b922ed3",
+        "159_Default_Attire/Textures/combinations_flow.dds": "4fafbf04b5325c1abe51a1f5ec84dca53dc2b0af6e0f30bdbfe6f314eb0f7a58",
+        "159_Default_Attire/Textures/combinations_rai.dds": "a7519c61bc4b284297b0f675c6bde088a52de5f4043ceb6be778d8c8669708ed",
+        "159_Default_Attire/Textures/hair2_flow.dds": "0253fe56ca2b90deff350d194aa4ed24c4f4fab8447c99b8fe0cdb6159a2ac02",
+        "159_Default_Attire/Textures/hair2_rai.dds": "2353b6c86726cbdf28b972f27ac52d0043c1f2f3c4c48b6ea510b357771e1edc",
+        "159_Default_Attire/Textures/hair_flow.dds": "c4614af619742c47e5494436fd433c185c31a594639b62504a1afa04211d1a95",
+        "159_Default_Attire/Textures/hair_rai.dds": "2bb835799b9ded3fecb6f17cb33ad8411b261b7277c541601536af3aca3f6be7",
+        "159_Default_Attire/Textures/l_kneepad_color.dds": "2529125344254c89e9be7786ab314eee4040f9a0f457979791b8e3bfd91c76ba",
+        "159_Default_Attire/Textures/l_kneepad_nrm.dds": "c3620b7304806752e4dfa1a1e2379547d2c120b0ed43e32f628b872afba9826d",
+        "159_Default_Attire/Textures/l_wrist_color.dds": "ea54f0f76d9836d2503c1e839706d317a27904c765399dc7e1920434d1554982",
+        "159_Default_Attire/Textures/l_wrist_nrm.dds": "3ee2fc3d5466535ddba20e9b4991cdedc3c52b29eecf850c4172f4ee0e929493",
+        "159_Default_Attire/Textures/r_kneepad_color.dds": "727efcaf7fb5030d1843e8d2702f2c1562fd55fe398229e2e1fb3a1376ccc16f",
+        "159_Default_Attire/Textures/r_kneepad_nrm.dds": "1380e87f0d6bdc13dc58f430a00bbe972df238b86b925018e0a6ca2782667520",
+        "159_Default_Attire/Textures/r_wrist_color.dds": "ea54f0f76d9836d2503c1e839706d317a27904c765399dc7e1920434d1554982",
+        "159_Default_Attire/Textures/r_wrist_nrm.dds": "d78870f1e9a4e7a17645be029c9de90d3401cb26e8951f3bac04e3d9d40af97c",
+        "159_Default_Attire/Textures/shoes_color.dds": "64df8e4ab11d33e4bc8ea28123411836d46a6ec6241f7fe2810d024158543899",
+        "159_Default_Attire/Textures/shoes_nrm.dds": "74b3050265f6596f8300cb397cbc7d0bfe04f9e06056ad8961036e3f8018303a",
+        "159_Default_Attire/Textures/underwear_color.dds": "a71ab58260c1e5aa3ee7488a0decad420533ecdf220d24f3ea51d1bd33965807",
+        "159_Default_Attire/Textures/underwear_nrm.dds": "2dc4394f1c6ab20dc22346e5559443fc4d822c07908cc4c50c6d04ee3cf46fa3"
+      },
+      "teeth_shader": 25,
+      "teeth_sha256": "9af4b200742fd2d874cd73c43c7d8c9291f2a67a28b07f6a0f8efdad470a1692",
+      "teeth_bytes": 160,
+      "mouthbag_shader": 25,
+      "mouthbag_sha256": "9af4b200742fd2d874cd73c43c7d8c9291f2a67a28b07f6a0f8efdad470a1692",
+      "teeth_refs": {
+        "colorMap@ref": 16953710042267170182,
+        "nrMap@ref": 7652125905315313718
+      },
+      "root_and_payload_bounded": true,
+      "actual_teeth_binding_valid": true,
+      "actual_mouthbag_binding_valid": true,
+      "teeth_color_ref_matches_body_color": true,
+      "teeth_normal_ref_matches_body_nrm": true,
+      "model_sha256": "c3edf08a7b65f4d3a4f327cba3b156435465d9724b4f8068a35c5b88b1cf6208",
+      "material_table_sha256": "ff2b2e7fd471e24ba551561952333655a378e147cb240acb07f0fa247af27497",
+      "reports_equal": true,
+      "in_game_validation": "not_performed",
+      "workaround": {
+        "version": "guarded-local-body-atlas-teeth-mouthbag-skin-workaround-2",
+        "enabled": true,
+        "applied": 2,
+        "already_applied": 0,
+        "refused": 0,
+        "not_applicable": 2,
+        "failed_after_write": 0,
+        "rows": [
+          {
+            "output": "Z:\\workspace\\formatter-investigation\\bigboomaj-teeth-actual\\native142-r3\\legacy-enabled\\Characters\\159_Bryan_Danielson\\BaseModel\\baseModel.mcd",
+            "role": "teeth",
+            "in_game_validation": "not_performed",
+            "version": "guarded-local-body-atlas-teeth-mouthbag-skin-workaround-2",
+            "bound_meshes": [
+              "M_Teeth"
+            ],
+            "state": "applied_experimental_workaround",
+            "before_sha256": "391c02b1ed300c18a113ba7f8d4f23cb8ba3d30cf9508e63f3f79f6c1af018f4",
+            "after_sha256": "9af4b200742fd2d874cd73c43c7d8c9291f2a67a28b07f6a0f8efdad470a1692",
+            "before_shader": 26,
+            "after_shader": 25,
+            "original_present_fields": {
+              "0": 16953710042267170182,
+              "1": 7652125905315313718,
+              "6": {
+                "0": 255,
+                "1": 191,
+                "2": 191
+              }
+            },
+            "existing_texture_references": {
+              "colorMap@ref": 16953710042267170182,
+              "nrMap@ref": 7652125905315313718
+            },
+            "texture_references_unchanged": true,
+            "texture_pixels_changed": false,
+            "new_skin_parameters": "bundled native writer defaults; old native Teeth parameters are retained as provenance, not reused",
+            "model_and_mtls_unchanged": true,
+            "other_materials_unchanged_for_this_role": true,
+            "source_files_changed": false,
+            "known_material_only_profile": false,
+            "known_original_native_pass_report_sha256": null,
+            "overall_model_verification_unchanged": "pass",
+            "eligibility_scope": "recorded passed native model; linked teeth/mouthbag role only",
+            "black_teeth_fix_proved": false,
+            "metadata_records_updated": 1,
+            "material": "Z:\\workspace\\formatter-investigation\\bigboomaj-teeth-actual\\native142-r3\\legacy-enabled\\Characters\\159_Bryan_Danielson\\BaseModel\\Materials\\teeth.jmtl",
+            "local_body_textures": [
+              {
+                "file": "Z:\\workspace\\formatter-investigation\\bigboomaj-teeth-actual\\native142-r3\\legacy-enabled\\Characters\\159_Bryan_Danielson\\BaseModel\\Textures\\body_color.dds",
+                "sha256": "9eea4984b01ca86116212e30ec1ff39faee21dfc26d50d2c84b0a50bbc423c22",
+                "field": "colorMap@ref",
+                "virtual_path": "Characters/159_Bryan_Danielson/BaseModel/Textures/body_color.tex",
+                "path_hash": 16953710042267170182,
+                "width": 4096,
+                "height": 2048,
+                "mip_count": 1,
+                "format": "DXT1",
+                "payload_bytes": 4194304,
+                "header_and_extents_validated": true,
+                "capsTextureBitPresent": true,
+                "header_advisories": []
+              },
+              {
+                "file": "Z:\\workspace\\formatter-investigation\\bigboomaj-teeth-actual\\native142-r3\\legacy-enabled\\Characters\\159_Bryan_Danielson\\BaseModel\\Textures\\body_nrm.dds",
+                "sha256": "5d48494b8a8e671cad25909b89bae6383ebc2f8b6274875967630b82a7ea06a0",
+                "field": "nrMap@ref",
+                "virtual_path": "Characters/159_Bryan_Danielson/BaseModel/Textures/body_nrm.tex",
+                "path_hash": 7652125905315313718,
+                "width": 4096,
+                "height": 2048,
+                "mip_count": 1,
+                "format": "DXGI_98",
+                "payload_bytes": 8388608,
+                "header_and_extents_validated": true,
+                "capsTextureBitPresent": true,
+                "header_advisories": []
+              }
+            ],
+            "output_file_changes": "only teeth.jmtl recreated with native skin schema"
+          },
+          {
+            "output": "Z:\\workspace\\formatter-investigation\\bigboomaj-teeth-actual\\native142-r3\\legacy-enabled\\Characters\\159_Bryan_Danielson\\BaseModel\\baseModel.mcd",
+            "role": "mouthbag",
+            "in_game_validation": "not_performed",
+            "version": "guarded-local-body-atlas-teeth-mouthbag-skin-workaround-2",
+            "bound_meshes": [
+              "M_Tongue",
+              "M_MouthBag"
+            ],
+            "state": "applied_experimental_workaround",
+            "before_sha256": "391c02b1ed300c18a113ba7f8d4f23cb8ba3d30cf9508e63f3f79f6c1af018f4",
+            "after_sha256": "9af4b200742fd2d874cd73c43c7d8c9291f2a67a28b07f6a0f8efdad470a1692",
+            "before_shader": 26,
+            "after_shader": 25,
+            "original_present_fields": {
+              "0": 16953710042267170182,
+              "1": 7652125905315313718,
+              "6": {
+                "0": 255,
+                "1": 191,
+                "2": 191
+              }
+            },
+            "existing_texture_references": {
+              "colorMap@ref": 16953710042267170182,
+              "nrMap@ref": 7652125905315313718
+            },
+            "texture_references_unchanged": true,
+            "texture_pixels_changed": false,
+            "new_skin_parameters": "bundled native writer defaults; old native Teeth parameters are retained as provenance, not reused",
+            "model_and_mtls_unchanged": true,
+            "other_materials_unchanged_for_this_role": true,
+            "source_files_changed": false,
+            "known_material_only_profile": false,
+            "known_original_native_pass_report_sha256": null,
+            "overall_model_verification_unchanged": "pass",
+            "eligibility_scope": "recorded passed native model; linked teeth/mouthbag role only",
+            "black_teeth_fix_proved": false,
+            "metadata_records_updated": 1,
+            "material": "Z:\\workspace\\formatter-investigation\\bigboomaj-teeth-actual\\native142-r3\\legacy-enabled\\Characters\\159_Bryan_Danielson\\BaseModel\\Materials\\mouthbag.jmtl",
+            "local_body_textures": [
+              {
+                "file": "Z:\\workspace\\formatter-investigation\\bigboomaj-teeth-actual\\native142-r3\\legacy-enabled\\Characters\\159_Bryan_Danielson\\BaseModel\\Textures\\body_color.dds",
+                "sha256": "9eea4984b01ca86116212e30ec1ff39faee21dfc26d50d2c84b0a50bbc423c22",
+                "field": "colorMap@ref",
+                "virtual_path": "Characters/159_Bryan_Danielson/BaseModel/Textures/body_color.tex",
+                "path_hash": 16953710042267170182,
+                "width": 4096,
+                "height": 2048,
+                "mip_count": 1,
+                "format": "DXT1",
+                "payload_bytes": 4194304,
+                "header_and_extents_validated": true,
+                "capsTextureBitPresent": true,
+                "header_advisories": []
+              },
+              {
+                "file": "Z:\\workspace\\formatter-investigation\\bigboomaj-teeth-actual\\native142-r3\\legacy-enabled\\Characters\\159_Bryan_Danielson\\BaseModel\\Textures\\body_nrm.dds",
+                "sha256": "5d48494b8a8e671cad25909b89bae6383ebc2f8b6274875967630b82a7ea06a0",
+                "field": "nrMap@ref",
+                "virtual_path": "Characters/159_Bryan_Danielson/BaseModel/Textures/body_nrm.tex",
+                "path_hash": 7652125905315313718,
+                "width": 4096,
+                "height": 2048,
+                "mip_count": 1,
+                "format": "DXGI_98",
+                "payload_bytes": 8388608,
+                "header_and_extents_validated": true,
+                "capsTextureBitPresent": true,
+                "header_advisories": []
+              }
+            ],
+            "output_file_changes": "only mouthbag.jmtl recreated with native skin schema"
+          },
+          {
+            "output": "Z:\\workspace\\formatter-investigation\\bigboomaj-teeth-actual\\native142-r3\\legacy-enabled\\Characters\\159_Bryan_Danielson\\159_Default_Attire\\159_Attire.mcd",
+            "role": "teeth",
+            "in_game_validation": "not_performed",
+            "state": "not_applicable_no_canonical_teeth_binding",
+            "output_file_changes": "none"
+          },
+          {
+            "output": "Z:\\workspace\\formatter-investigation\\bigboomaj-teeth-actual\\native142-r3\\legacy-enabled\\Characters\\159_Bryan_Danielson\\159_Default_Attire\\159_Attire.mcd",
+            "role": "mouthbag",
+            "in_game_validation": "not_performed",
+            "state": "not_applicable_no_canonical_mouthbag_binding",
+            "output_file_changes": "none"
+          }
+        ],
+        "source_files_changed": false,
+        "in_game_validation": "not_performed",
+        "scope": "canonical teeth/M_Teeth and mouthbag/M_MouthBag or M_Tongue with proven existing local body atlas only",
+        "state": "checked_with_in_game_validation_required"
+      },
+      "model_checks": [
+        {
+          "verify": "pass",
+          "problems": []
+        },
+        {
+          "verify": "pass",
+          "problems": []
+        }
+      ],
+      "conversion_completeness": "incomplete",
+      "status": "completed_with_problems"
+    }
+  ],
+  "enabled_changed_assets": [
+    "BaseModel/Materials/mouthbag.jmtl",
+    "BaseModel/Materials/teeth.jmtl"
+  ],
+  "repeat_changed_assets": [],
+  "legacy_enabled_changed_assets": [
+    "BaseModel/Materials/mouthbag.jmtl",
+    "BaseModel/Materials/teeth.jmtl"
+  ],
+  "all_originals_preserved": true,
+  "in_game_validation": "not performed"
+}

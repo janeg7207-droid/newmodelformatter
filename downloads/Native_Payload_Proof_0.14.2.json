@@ -1,0 +1,15 @@
+{
+  "candidate_sha256": "9f0d1328b00ea62e4770c3d129c8746b0050950b84a217ddf809748b14bfb7fc",
+  "diagnostics": [
+    {
+      "name": "teeth",
+      "sha256": "3719b5c24e472b644aa279253956d0d0b8189d4c7bfa7bc098e9e636441838cd",
+      "only_gui_entrypoint_changed": true
+    },
+    {
+      "name": "ui",
+      "sha256": "9ce4cdc5551df51a788c0dc13ceddc874a5fbb948d5493dc961d6815950b21dd",
+      "only_gui_entrypoint_changed": true
+    }
+  ]
+}

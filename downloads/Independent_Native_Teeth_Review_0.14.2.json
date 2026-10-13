@@ -1,0 +1,979 @@
+{
+  "candidate_sha256": "9f0d1328b00ea62e4770c3d129c8746b0050950b84a217ddf809748b14bfb7fc",
+  "candidate_bytes": 44369587,
+  "scope": "Independent read-only whole-file, archive payload, schema, path binding and report checks of five completed dual-role native cases; no new Wine execution or game test",
+  "module_payload_checks": [
+    {
+      "name": "gmf_teeth_skin_workaround",
+      "source_sha256": "8b51ac96723f236a60c602fbeb91ef4824446e6f1875d81065c9d2cec01f32b7",
+      "matches_frozen_source": true
+    },
+    {
+      "name": "gmf_repair",
+      "source_sha256": "3de76061edc86894994fe64c52fbb767cf39f9cd74c6d2f8d79385b6c6065d22",
+      "matches_frozen_source": true
+    },
+    {
+      "name": "gmf_2k26_repair",
+      "source_sha256": "805378d4df54983352fc0e801125b323fb184eed54d668ab8ea1e1315e1b03cd",
+      "matches_frozen_source": true
+    },
+    {
+      "name": "gmf_native_assets",
+      "source_sha256": "153aca2fb8db974d1673814a9622bf2a61dc1cbcea4b67dadf0727bac14bb36d",
+      "matches_frozen_source": true
+    },
+    {
+      "name": "gmf_face_audit",
+      "source_sha256": "426defd3bafd8c015d9f23f5670bdfb62c32213fa0817056fc68f9a01ea32ac7",
+      "matches_frozen_source": true
+    },
+    {
+      "name": "gmf_physics_audit",
+      "source_sha256": "5081b5d3e5a1226a62012db9b12d682afa52dacc88bd08754c12953ca47e55a1",
+      "matches_frozen_source": true
+    },
+    {
+      "name": "gmf_ycl_repair",
+      "source_sha256": "ab099ca2634a8d96c189f9ed58b58b4916da8f10723e4ca6839ce2255aed1e43",
+      "matches_frozen_source": true
+    }
+  ],
+  "frozen_R3_helper_sha256": "8b51ac96723f236a60c602fbeb91ef4824446e6f1875d81065c9d2cec01f32b7",
+  "diagnostic_archive_checks": [
+    {
+      "name": "teeth",
+      "sha256": "3719b5c24e472b644aa279253956d0d0b8189d4c7bfa7bc098e9e636441838cd",
+      "all_archive_entries_and_PE_prefix_identical_except_gui_entrypoint": true
+    },
+    {
+      "name": "ui",
+      "sha256": "9ce4cdc5551df51a788c0dc13ceddc874a5fbb948d5493dc961d6815950b21dd",
+      "all_archive_entries_and_PE_prefix_identical_except_gui_entrypoint": true
+    }
+  ],
+  "cases": [
+    {
+      "case": "disabled",
+      "assets": 6,
+      "all_asset_hashes_match_native_manifest": true,
+      "role_assets": [
+        {
+          "role": "teeth",
+          "sha256": "b9a2e3b5f11fe1608be517065b646553aa8ae5b57284d594835a7a956c0bc8ca",
+          "bytes": 104,
+          "shader": 26,
+          "bounded_payload_fields": {
+            "0": 3652540504355486548,
+            "1": 8277444278770242532,
+            "6": {
+              "0": 255,
+              "1": 191,
+              "2": 191
+            }
+          },
+          "actual_material_table_binding_valid": true,
+          "body_texture_hashes_match_actual_paths": {
+            "body_color": true,
+            "body_nrm": true
+          }
+        },
+        {
+          "role": "mouthbag",
+          "sha256": "b9a2e3b5f11fe1608be517065b646553aa8ae5b57284d594835a7a956c0bc8ca",
+          "bytes": 104,
+          "shader": 26,
+          "bounded_payload_fields": {
+            "0": 3652540504355486548,
+            "1": 8277444278770242532,
+            "6": {
+              "0": 255,
+              "1": 191,
+              "2": 191
+            }
+          },
+          "actual_material_table_binding_valid": true,
+          "body_texture_hashes_match_actual_paths": {
+            "body_color": true,
+            "body_nrm": true
+          }
+        }
+      ],
+      "every_face_audit_and_all_present_model_fact_hashes_match_actual_MCDs": true,
+      "all_source_preconversion_inventory_hashes_match": true,
+      "root_and_mirror_reports_equal": true,
+      "partial_missing_data_failure_preserved": true,
+      "complete_legacy_model_verifications_pass": false,
+      "review_changed_no_output_bytes": true
+    },
+    {
+      "case": "enabled",
+      "assets": 6,
+      "all_asset_hashes_match_native_manifest": true,
+      "role_assets": [
+        {
+          "role": "teeth",
+          "sha256": "5797682766ed9b5f55e81d5bde2a23e33c99b72b95d0d2e84dbd4617a2648bb2",
+          "bytes": 160,
+          "shader": 25,
+          "bounded_payload_fields": {
+            "0": 3652540504355486548,
+            "1": 8277444278770242532,
+            "15": 0.4000000059604645,
+            "6": {
+              "0": 114,
+              "1": 43,
+              "2": 40
+            },
+            "9": {
+              "0": 80.0,
+              "1": 80.0
+            },
+            "18": {}
+          },
+          "actual_material_table_binding_valid": true,
+          "body_texture_hashes_match_actual_paths": {
+            "body_color": true,
+            "body_nrm": true
+          }
+        },
+        {
+          "role": "mouthbag",
+          "sha256": "5797682766ed9b5f55e81d5bde2a23e33c99b72b95d0d2e84dbd4617a2648bb2",
+          "bytes": 160,
+          "shader": 25,
+          "bounded_payload_fields": {
+            "0": 3652540504355486548,
+            "1": 8277444278770242532,
+            "15": 0.4000000059604645,
+            "6": {
+              "0": 114,
+              "1": 43,
+              "2": 40
+            },
+            "9": {
+              "0": 80.0,
+              "1": 80.0
+            },
+            "18": {}
+          },
+          "actual_material_table_binding_valid": true,
+          "body_texture_hashes_match_actual_paths": {
+            "body_color": true,
+            "body_nrm": true
+          }
+        }
+      ],
+      "every_face_audit_and_all_present_model_fact_hashes_match_actual_MCDs": true,
+      "all_source_preconversion_inventory_hashes_match": true,
+      "root_and_mirror_reports_equal": true,
+      "partial_missing_data_failure_preserved": true,
+      "complete_legacy_model_verifications_pass": false,
+      "review_changed_no_output_bytes": true
+    },
+    {
+      "case": "repeat",
+      "assets": 6,
+      "all_asset_hashes_match_native_manifest": true,
+      "role_assets": [
+        {
+          "role": "teeth",
+          "sha256": "5797682766ed9b5f55e81d5bde2a23e33c99b72b95d0d2e84dbd4617a2648bb2",
+          "bytes": 160,
+          "shader": 25,
+          "bounded_payload_fields": {
+            "0": 3652540504355486548,
+            "1": 8277444278770242532,
+            "15": 0.4000000059604645,
+            "6": {
+              "0": 114,
+              "1": 43,
+              "2": 40
+            },
+            "9": {
+              "0": 80.0,
+              "1": 80.0
+            },
+            "18": {}
+          },
+          "actual_material_table_binding_valid": true,
+          "body_texture_hashes_match_actual_paths": {
+            "body_color": true,
+            "body_nrm": true
+          }
+        },
+        {
+          "role": "mouthbag",
+          "sha256": "5797682766ed9b5f55e81d5bde2a23e33c99b72b95d0d2e84dbd4617a2648bb2",
+          "bytes": 160,
+          "shader": 25,
+          "bounded_payload_fields": {
+            "0": 3652540504355486548,
+            "1": 8277444278770242532,
+            "15": 0.4000000059604645,
+            "6": {
+              "0": 114,
+              "1": 43,
+              "2": 40
+            },
+            "9": {
+              "0": 80.0,
+              "1": 80.0
+            },
+            "18": {}
+          },
+          "actual_material_table_binding_valid": true,
+          "body_texture_hashes_match_actual_paths": {
+            "body_color": true,
+            "body_nrm": true
+          }
+        }
+      ],
+      "every_face_audit_and_all_present_model_fact_hashes_match_actual_MCDs": true,
+      "all_source_preconversion_inventory_hashes_match": true,
+      "root_and_mirror_reports_equal": true,
+      "partial_missing_data_failure_preserved": true,
+      "complete_legacy_model_verifications_pass": false,
+      "review_changed_no_output_bytes": true
+    },
+    {
+      "case": "legacy-disabled",
+      "assets": 41,
+      "all_asset_hashes_match_native_manifest": true,
+      "role_assets": [
+        {
+          "role": "teeth",
+          "sha256": "391c02b1ed300c18a113ba7f8d4f23cb8ba3d30cf9508e63f3f79f6c1af018f4",
+          "bytes": 104,
+          "shader": 26,
+          "bounded_payload_fields": {
+            "0": 16953710042267170182,
+            "1": 7652125905315313718,
+            "6": {
+              "0": 255,
+              "1": 191,
+              "2": 191
+            }
+          },
+          "actual_material_table_binding_valid": true,
+          "body_texture_hashes_match_actual_paths": {
+            "body_color": true,
+            "body_nrm": true
+          }
+        },
+        {
+          "role": "mouthbag",
+          "sha256": "391c02b1ed300c18a113ba7f8d4f23cb8ba3d30cf9508e63f3f79f6c1af018f4",
+          "bytes": 104,
+          "shader": 26,
+          "bounded_payload_fields": {
+            "0": 16953710042267170182,
+            "1": 7652125905315313718,
+            "6": {
+              "0": 255,
+              "1": 191,
+              "2": 191
+            }
+          },
+          "actual_material_table_binding_valid": true,
+          "body_texture_hashes_match_actual_paths": {
+            "body_color": true,
+            "body_nrm": true
+          }
+        }
+      ],
+      "every_face_audit_and_all_present_model_fact_hashes_match_actual_MCDs": true,
+      "all_source_preconversion_inventory_hashes_match": true,
+      "root_and_mirror_reports_equal": true,
+      "partial_missing_data_failure_preserved": false,
+      "complete_legacy_model_verifications_pass": true,
+      "review_changed_no_output_bytes": true
+    },
+    {
+      "case": "legacy-enabled",
+      "assets": 41,
+      "all_asset_hashes_match_native_manifest": true,
+      "role_assets": [
+        {
+          "role": "teeth",
+          "sha256": "9af4b200742fd2d874cd73c43c7d8c9291f2a67a28b07f6a0f8efdad470a1692",
+          "bytes": 160,
+          "shader": 25,
+          "bounded_payload_fields": {
+            "0": 16953710042267170182,
+            "1": 7652125905315313718,
+            "15": 0.4000000059604645,
+            "6": {
+              "0": 114,
+              "1": 43,
+              "2": 40
+            },
+            "9": {
+              "0": 80.0,
+              "1": 80.0
+            },
+            "18": {}
+          },
+          "actual_material_table_binding_valid": true,
+          "body_texture_hashes_match_actual_paths": {
+            "body_color": true,
+            "body_nrm": true
+          }
+        },
+        {
+          "role": "mouthbag",
+          "sha256": "9af4b200742fd2d874cd73c43c7d8c9291f2a67a28b07f6a0f8efdad470a1692",
+          "bytes": 160,
+          "shader": 25,
+          "bounded_payload_fields": {
+            "0": 16953710042267170182,
+            "1": 7652125905315313718,
+            "15": 0.4000000059604645,
+            "6": {
+              "0": 114,
+              "1": 43,
+              "2": 40
+            },
+            "9": {
+              "0": 80.0,
+              "1": 80.0
+            },
+            "18": {}
+          },
+          "actual_material_table_binding_valid": true,
+          "body_texture_hashes_match_actual_paths": {
+            "body_color": true,
+            "body_nrm": true
+          }
+        }
+      ],
+      "every_face_audit_and_all_present_model_fact_hashes_match_actual_MCDs": true,
+      "all_source_preconversion_inventory_hashes_match": true,
+      "root_and_mirror_reports_equal": true,
+      "partial_missing_data_failure_preserved": false,
+      "complete_legacy_model_verifications_pass": true,
+      "review_changed_no_output_bytes": true
+    }
+  ],
+  "actual_partial_enabled_vs_disabled_changed_assets": [
+    "BaseModel/Materials/mouthbag.jmtl",
+    "BaseModel/Materials/teeth.jmtl"
+  ],
+  "complete_legacy_enabled_vs_disabled_changed_assets": [
+    "BaseModel/Materials/mouthbag.jmtl",
+    "BaseModel/Materials/teeth.jmtl"
+  ],
+  "repeat_changed_assets": [],
+  "original_six_files_and_private_source_copies_still_identical": true,
+  "idempotent_repeat_source_equals_previous_enabled_output": true,
+  "child_report_review": {
+    "scope": "Independent static review of five native142-r3 report/schema cases and ten saved report copies; no Wine, addon import, native execution or production writes; whole-asset and UI-default review delegated to parent.",
+    "candidate_exe": "/workspace/artifacts/NewModelFormatter_0.14.2_experimental_r3.exe",
+    "candidate_exe_sha256": "9f0d1328b00ea62e4770c3d129c8746b0050950b84a217ddf809748b14bfb7fc",
+    "validation_json_sha256": "ed28001e98ec9d721e583750e0dbbdb263f246bb57b33ec209c8fe7867ff1f8b",
+    "cases": [
+      {
+        "case": "disabled",
+        "expected_shader": 26,
+        "current_role_row_counts": {
+          "teeth": 2,
+          "mouthbag": 2
+        },
+        "verify": [
+          "fail"
+        ],
+        "material_status": [
+          "unsupported_native_materials"
+        ],
+        "conversion_completeness": "incomplete",
+        "global_face_state": "checked_with_unverified_items",
+        "workaround_counts": {
+          "applied": 0,
+          "already_applied": 0,
+          "refused": 0,
+          "not_applicable": 0,
+          "failed_after_write": 0
+        },
+        "saved_report_paths": [
+          "/workspace/formatter-investigation/bigboomaj-teeth-actual/native142-r3/disabled/_formatted_2K25 - conversion report.json",
+          "/workspace/formatter-investigation/bigboomaj-teeth-actual/native142-r3/disabled/Characters/_formatted_2K25/_formatted_2K25 - conversion report.json"
+        ]
+      },
+      {
+        "case": "enabled",
+        "expected_shader": 25,
+        "current_role_row_counts": {
+          "teeth": 3,
+          "mouthbag": 3
+        },
+        "verify": [
+          "fail"
+        ],
+        "material_status": [
+          "unsupported_native_materials"
+        ],
+        "conversion_completeness": "incomplete",
+        "global_face_state": "checked_with_unverified_items",
+        "workaround_counts": {
+          "applied": 2,
+          "already_applied": 0,
+          "refused": 0,
+          "not_applicable": 0,
+          "failed_after_write": 0
+        },
+        "saved_report_paths": [
+          "/workspace/formatter-investigation/bigboomaj-teeth-actual/native142-r3/enabled/_formatted_2K25 - conversion report.json",
+          "/workspace/formatter-investigation/bigboomaj-teeth-actual/native142-r3/enabled/Characters/_formatted_2K25/_formatted_2K25 - conversion report.json"
+        ]
+      },
+      {
+        "case": "repeat",
+        "expected_shader": 25,
+        "current_role_row_counts": {
+          "teeth": 3,
+          "mouthbag": 3
+        },
+        "verify": [
+          "fail"
+        ],
+        "material_status": [
+          "unsupported_native_materials"
+        ],
+        "conversion_completeness": "incomplete",
+        "global_face_state": "checked_with_unverified_items",
+        "workaround_counts": {
+          "applied": 0,
+          "already_applied": 2,
+          "refused": 0,
+          "not_applicable": 0,
+          "failed_after_write": 0
+        },
+        "saved_report_paths": [
+          "/workspace/formatter-investigation/bigboomaj-teeth-actual/native142-r3/repeat/_formatted_2K25 - conversion report.json",
+          "/workspace/formatter-investigation/bigboomaj-teeth-actual/native142-r3/repeat/Characters/_formatted_2K25/_formatted_2K25 - conversion report.json"
+        ]
+      },
+      {
+        "case": "legacy-disabled",
+        "expected_shader": 26,
+        "current_role_row_counts": {
+          "teeth": 3,
+          "mouthbag": 3
+        },
+        "verify": [
+          "pass",
+          "pass"
+        ],
+        "material_status": [
+          "converted",
+          "converted"
+        ],
+        "conversion_completeness": "incomplete",
+        "global_face_state": "recorded_output_checks_passed",
+        "workaround_counts": {
+          "applied": 0,
+          "already_applied": 0,
+          "refused": 0,
+          "not_applicable": 0,
+          "failed_after_write": 0
+        },
+        "saved_report_paths": [
+          "/workspace/formatter-investigation/bigboomaj-teeth-actual/native142-r3/legacy-disabled/159_Bryan_Danielson - conversion report.json",
+          "/workspace/formatter-investigation/bigboomaj-teeth-actual/native142-r3/legacy-disabled/Characters/159_Bryan_Danielson/159_Bryan_Danielson - conversion report.json"
+        ]
+      },
+      {
+        "case": "legacy-enabled",
+        "expected_shader": 25,
+        "current_role_row_counts": {
+          "teeth": 3,
+          "mouthbag": 3
+        },
+        "verify": [
+          "pass",
+          "pass"
+        ],
+        "material_status": [
+          "converted",
+          "converted"
+        ],
+        "conversion_completeness": "incomplete",
+        "global_face_state": "recorded_output_checks_passed",
+        "workaround_counts": {
+          "applied": 2,
+          "already_applied": 0,
+          "refused": 0,
+          "not_applicable": 2,
+          "failed_after_write": 0
+        },
+        "saved_report_paths": [
+          "/workspace/formatter-investigation/bigboomaj-teeth-actual/native142-r3/legacy-enabled/159_Bryan_Danielson - conversion report.json",
+          "/workspace/formatter-investigation/bigboomaj-teeth-actual/native142-r3/legacy-enabled/Characters/159_Bryan_Danielson/159_Bryan_Danielson - conversion report.json"
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "check": "candidate_exe_sha256_matches_requested_artifact",
+        "pass": true
+      },
+      {
+        "check": "validation_records_all_sources_unchanged",
+        "pass": true
+      },
+      {
+        "check": "disabled: embedded_and_all_saved_report_copies_equal",
+        "pass": true
+      },
+      {
+        "check": "disabled: report_and_all_model_game_validation_unperformed",
+        "pass": true
+      },
+      {
+        "check": "disabled: both_roles_have_current_material_audit_rows",
+        "pass": true,
+        "detail": {
+          "teeth": 2,
+          "mouthbag": 2
+        }
+      },
+      {
+        "check": "disabled: current_both_role_shader_rows_consistent",
+        "pass": true,
+        "detail": []
+      },
+      {
+        "check": "disabled: report/models/0/native_missing_data_audit/materials/materials/0 current_refs_match_case",
+        "pass": true
+      },
+      {
+        "check": "disabled: report/models/0/native_missing_data_audit/materials/materials/1 current_refs_match_case",
+        "pass": true
+      },
+      {
+        "check": "disabled: report/models/0/face_output_audit/materials/0 current_refs_match_case",
+        "pass": true
+      },
+      {
+        "check": "disabled: report/models/0/face_output_audit/materials/0 sha256 matches_role_case_material",
+        "pass": true
+      },
+      {
+        "check": "disabled: report/models/0/face_output_audit/materials/1 current_refs_match_case",
+        "pass": true
+      },
+      {
+        "check": "disabled: report/models/0/face_output_audit/materials/1 sha256 matches_role_case_material",
+        "pass": true
+      },
+      {
+        "check": "disabled: partial_native_failed_verification_missing5_unsupported_materials_and_incomplete_preserved",
+        "pass": true
+      },
+      {
+        "check": "disabled: face_audit_retains_partial_conversion_and_conservative_body_atlas_scope",
+        "pass": true
+      },
+      {
+        "check": "enabled: embedded_and_all_saved_report_copies_equal",
+        "pass": true
+      },
+      {
+        "check": "enabled: report_and_all_model_game_validation_unperformed",
+        "pass": true
+      },
+      {
+        "check": "enabled: both_roles_have_current_material_audit_rows",
+        "pass": true,
+        "detail": {
+          "teeth": 3,
+          "mouthbag": 3
+        }
+      },
+      {
+        "check": "enabled: current_both_role_shader_rows_consistent",
+        "pass": true,
+        "detail": []
+      },
+      {
+        "check": "enabled: report/models/0/native_missing_data_audit/materials/materials/0 current_refs_match_case",
+        "pass": true
+      },
+      {
+        "check": "enabled: report/models/0/native_missing_data_audit/materials/materials/0 output_sha256 matches_role_case_material",
+        "pass": true
+      },
+      {
+        "check": "enabled: report/models/0/native_missing_data_audit/materials/materials/1 current_refs_match_case",
+        "pass": true
+      },
+      {
+        "check": "enabled: report/models/0/native_missing_data_audit/materials/materials/1 output_sha256 matches_role_case_material",
+        "pass": true
+      },
+      {
+        "check": "enabled: report/models/0/face_output_audit/materials/0 current_refs_match_case",
+        "pass": true
+      },
+      {
+        "check": "enabled: report/models/0/face_output_audit/materials/0 sha256 matches_role_case_material",
+        "pass": true
+      },
+      {
+        "check": "enabled: report/models/0/face_output_audit/materials/1 current_refs_match_case",
+        "pass": true
+      },
+      {
+        "check": "enabled: report/models/0/face_output_audit/materials/1 sha256 matches_role_case_material",
+        "pass": true
+      },
+      {
+        "check": "enabled: report/materials/0/written_material_payload_audit/0 current_refs_match_case",
+        "pass": true
+      },
+      {
+        "check": "enabled: report/materials/0/written_material_payload_audit/0 sha256 matches_role_case_material",
+        "pass": true
+      },
+      {
+        "check": "enabled: report/materials/0/written_material_payload_audit/1 current_refs_match_case",
+        "pass": true
+      },
+      {
+        "check": "enabled: report/materials/0/written_material_payload_audit/1 sha256 matches_role_case_material",
+        "pass": true
+      },
+      {
+        "check": "enabled: current_skin_rows_contain_no_teeth_schema_comparison_facts",
+        "pass": true,
+        "detail": []
+      },
+      {
+        "check": "enabled: successful_workaround_rows_cover_both_roles",
+        "pass": true
+      },
+      {
+        "check": "enabled: successful_rows_record_canonical_bound_meshes",
+        "pass": true
+      },
+      {
+        "check": "enabled: successful_rows_keep_existing_refs_and_reject_game_fix_claim",
+        "pass": true
+      },
+      {
+        "check": "enabled: per_model_role_provenance_kept_separately",
+        "pass": true
+      },
+      {
+        "check": "enabled: teeth prior_1a_comparison_evidence_separate",
+        "pass": true
+      },
+      {
+        "check": "enabled: mouthbag prior_1a_comparison_evidence_separate",
+        "pass": true
+      },
+      {
+        "check": "enabled: partial_native_failed_verification_missing5_unsupported_materials_and_incomplete_preserved",
+        "pass": true
+      },
+      {
+        "check": "enabled: face_audit_retains_partial_conversion_and_conservative_body_atlas_scope",
+        "pass": true
+      },
+      {
+        "check": "repeat: embedded_and_all_saved_report_copies_equal",
+        "pass": true
+      },
+      {
+        "check": "repeat: report_and_all_model_game_validation_unperformed",
+        "pass": true
+      },
+      {
+        "check": "repeat: both_roles_have_current_material_audit_rows",
+        "pass": true,
+        "detail": {
+          "teeth": 3,
+          "mouthbag": 3
+        }
+      },
+      {
+        "check": "repeat: current_both_role_shader_rows_consistent",
+        "pass": true,
+        "detail": []
+      },
+      {
+        "check": "repeat: report/models/0/native_missing_data_audit/materials/materials/0 current_refs_match_case",
+        "pass": true
+      },
+      {
+        "check": "repeat: report/models/0/native_missing_data_audit/materials/materials/0 output_sha256 matches_role_case_material",
+        "pass": true
+      },
+      {
+        "check": "repeat: report/models/0/native_missing_data_audit/materials/materials/1 current_refs_match_case",
+        "pass": true
+      },
+      {
+        "check": "repeat: report/models/0/native_missing_data_audit/materials/materials/1 output_sha256 matches_role_case_material",
+        "pass": true
+      },
+      {
+        "check": "repeat: report/models/0/face_output_audit/materials/0 current_refs_match_case",
+        "pass": true
+      },
+      {
+        "check": "repeat: report/models/0/face_output_audit/materials/0 sha256 matches_role_case_material",
+        "pass": true
+      },
+      {
+        "check": "repeat: report/models/0/face_output_audit/materials/1 current_refs_match_case",
+        "pass": true
+      },
+      {
+        "check": "repeat: report/models/0/face_output_audit/materials/1 sha256 matches_role_case_material",
+        "pass": true
+      },
+      {
+        "check": "repeat: report/materials/0/written_material_payload_audit/0 current_refs_match_case",
+        "pass": true
+      },
+      {
+        "check": "repeat: report/materials/0/written_material_payload_audit/0 sha256 matches_role_case_material",
+        "pass": true
+      },
+      {
+        "check": "repeat: report/materials/0/written_material_payload_audit/1 current_refs_match_case",
+        "pass": true
+      },
+      {
+        "check": "repeat: report/materials/0/written_material_payload_audit/1 sha256 matches_role_case_material",
+        "pass": true
+      },
+      {
+        "check": "repeat: current_skin_rows_contain_no_teeth_schema_comparison_facts",
+        "pass": true,
+        "detail": []
+      },
+      {
+        "check": "repeat: successful_workaround_rows_cover_both_roles",
+        "pass": true
+      },
+      {
+        "check": "repeat: successful_rows_record_canonical_bound_meshes",
+        "pass": true
+      },
+      {
+        "check": "repeat: successful_rows_keep_existing_refs_and_reject_game_fix_claim",
+        "pass": true
+      },
+      {
+        "check": "repeat: per_model_role_provenance_kept_separately",
+        "pass": true
+      },
+      {
+        "check": "repeat: partial_native_failed_verification_missing5_unsupported_materials_and_incomplete_preserved",
+        "pass": true
+      },
+      {
+        "check": "repeat: face_audit_retains_partial_conversion_and_conservative_body_atlas_scope",
+        "pass": true
+      },
+      {
+        "check": "legacy-disabled: embedded_and_all_saved_report_copies_equal",
+        "pass": true
+      },
+      {
+        "check": "legacy-disabled: report_and_all_model_game_validation_unperformed",
+        "pass": true
+      },
+      {
+        "check": "legacy-disabled: both_roles_have_current_material_audit_rows",
+        "pass": true,
+        "detail": {
+          "teeth": 3,
+          "mouthbag": 3
+        }
+      },
+      {
+        "check": "legacy-disabled: current_both_role_shader_rows_consistent",
+        "pass": true,
+        "detail": []
+      },
+      {
+        "check": "legacy-disabled: report/models/0/face_output_audit/materials/0 current_refs_match_case",
+        "pass": true
+      },
+      {
+        "check": "legacy-disabled: report/models/0/face_output_audit/materials/0 sha256 matches_role_case_material",
+        "pass": true
+      },
+      {
+        "check": "legacy-disabled: report/models/0/face_output_audit/materials/1 current_refs_match_case",
+        "pass": true
+      },
+      {
+        "check": "legacy-disabled: report/models/0/face_output_audit/materials/1 sha256 matches_role_case_material",
+        "pass": true
+      },
+      {
+        "check": "legacy-disabled: report/materials/0/written_material_payload_audit/4 current_refs_match_case",
+        "pass": true
+      },
+      {
+        "check": "legacy-disabled: report/materials/0/written_material_payload_audit/4 sha256 matches_role_case_material",
+        "pass": true
+      },
+      {
+        "check": "legacy-disabled: report/materials/0/written_material_payload_audit/5 current_refs_match_case",
+        "pass": true
+      },
+      {
+        "check": "legacy-disabled: report/materials/0/written_material_payload_audit/5 sha256 matches_role_case_material",
+        "pass": true
+      },
+      {
+        "check": "legacy-disabled: complete_bryan_models_keep_pass",
+        "pass": true
+      },
+      {
+        "check": "legacy-disabled: face_audit_records_structural_scope_only",
+        "pass": true
+      },
+      {
+        "check": "legacy-enabled: embedded_and_all_saved_report_copies_equal",
+        "pass": true
+      },
+      {
+        "check": "legacy-enabled: report_and_all_model_game_validation_unperformed",
+        "pass": true
+      },
+      {
+        "check": "legacy-enabled: both_roles_have_current_material_audit_rows",
+        "pass": true,
+        "detail": {
+          "teeth": 3,
+          "mouthbag": 3
+        }
+      },
+      {
+        "check": "legacy-enabled: current_both_role_shader_rows_consistent",
+        "pass": true,
+        "detail": []
+      },
+      {
+        "check": "legacy-enabled: report/models/0/face_output_audit/materials/0 current_refs_match_case",
+        "pass": true
+      },
+      {
+        "check": "legacy-enabled: report/models/0/face_output_audit/materials/0 sha256 matches_role_case_material",
+        "pass": true
+      },
+      {
+        "check": "legacy-enabled: report/models/0/face_output_audit/materials/1 current_refs_match_case",
+        "pass": true
+      },
+      {
+        "check": "legacy-enabled: report/models/0/face_output_audit/materials/1 sha256 matches_role_case_material",
+        "pass": true
+      },
+      {
+        "check": "legacy-enabled: report/materials/0/written_material_payload_audit/4 current_refs_match_case",
+        "pass": true
+      },
+      {
+        "check": "legacy-enabled: report/materials/0/written_material_payload_audit/4 sha256 matches_role_case_material",
+        "pass": true
+      },
+      {
+        "check": "legacy-enabled: report/materials/0/written_material_payload_audit/4 output_sha256 matches_role_case_material",
+        "pass": true
+      },
+      {
+        "check": "legacy-enabled: report/materials/0/written_material_payload_audit/5 current_refs_match_case",
+        "pass": true
+      },
+      {
+        "check": "legacy-enabled: report/materials/0/written_material_payload_audit/5 sha256 matches_role_case_material",
+        "pass": true
+      },
+      {
+        "check": "legacy-enabled: report/materials/0/written_material_payload_audit/5 output_sha256 matches_role_case_material",
+        "pass": true
+      },
+      {
+        "check": "legacy-enabled: current_skin_rows_contain_no_teeth_schema_comparison_facts",
+        "pass": true,
+        "detail": []
+      },
+      {
+        "check": "legacy-enabled: successful_workaround_rows_cover_both_roles",
+        "pass": true
+      },
+      {
+        "check": "legacy-enabled: successful_rows_record_canonical_bound_meshes",
+        "pass": true
+      },
+      {
+        "check": "legacy-enabled: successful_rows_keep_existing_refs_and_reject_game_fix_claim",
+        "pass": true
+      },
+      {
+        "check": "legacy-enabled: per_model_role_provenance_kept_separately",
+        "pass": true
+      },
+      {
+        "check": "legacy-enabled: teeth prior_1a_comparison_evidence_separate",
+        "pass": true
+      },
+      {
+        "check": "legacy-enabled: teeth prior_authored_material_1a_retained_separately",
+        "pass": true
+      },
+      {
+        "check": "legacy-enabled: mouthbag prior_1a_comparison_evidence_separate",
+        "pass": true
+      },
+      {
+        "check": "legacy-enabled: mouthbag prior_authored_material_1a_retained_separately",
+        "pass": true
+      },
+      {
+        "check": "legacy-enabled: complete_bryan_models_keep_pass",
+        "pass": true
+      },
+      {
+        "check": "legacy-enabled: face_audit_records_structural_scope_only",
+        "pass": true
+      },
+      {
+        "check": "repeat: zero_applied_two_already_applied_no_refusals_no_postwrite_failures",
+        "pass": true
+      },
+      {
+        "check": "repeat: all_role_rows_record_no_write",
+        "pass": true
+      },
+      {
+        "check": "Bryan off_on: all_model_facts_identical_after_path_normalization",
+        "pass": true
+      },
+      {
+        "check": "Bryan off_on: full_model_reports_except_target_role_audits_identical",
+        "pass": true
+      },
+      {
+        "check": "Bryan off_on: all_non_target_material_report_fields_identical",
+        "pass": true
+      },
+      {
+        "check": "Bryan off_on: original_problems_and_global_face_scope_identical",
+        "pass": true
+      }
+    ],
+    "passed": 107,
+    "failed": [],
+    "in_game_validation": "not_performed"
+  },
+  "all_checks_passed": true,
+  "in_game_visual_fix_confirmed": false
+}

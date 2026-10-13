@@ -1,0 +1,2614 @@
+{
+  "scope": "Actual exported DDS mip0 and native model UV arrays; triangle-centroid and atlas coverage samples for both V conventions. Does not simulate engine shaders, lighting, draw order, alpha rejection or final tooth visibility.",
+  "arrays_path": "/workspace/formatter-investigation/bigboomaj-teeth-actual/native-arrays.npz",
+  "arrays_sha256": "13ca6b0f349d271a7ae0ec65670ac453b6e751daa9d43347f1cd9837c2790cb6",
+  "arrays": {
+    "M_Tongue_positions": {
+      "shape": [
+        341,
+        3
+      ],
+      "dtype": "float32"
+    },
+    "M_Tongue_triangles": {
+      "shape": [
+        584,
+        3
+      ],
+      "dtype": "int32"
+    },
+    "M_Tongue_vertex_remap": {
+      "shape": [
+        341
+      ],
+      "dtype": "uint32"
+    },
+    "M_Tongue_normals": {
+      "shape": [
+        341,
+        3
+      ],
+      "dtype": "float32"
+    },
+    "M_Tongue_tangents": {
+      "shape": [
+        341,
+        4
+      ],
+      "dtype": "float32"
+    },
+    "M_Tongue_uvs0": {
+      "shape": [
+        341,
+        2
+      ],
+      "dtype": "float32"
+    },
+    "M_Tongue_weight_J_Jaw": {
+      "shape": [
+        341
+      ],
+      "dtype": "float32"
+    },
+    "M_Tongue_weight_J_Tongue1": {
+      "shape": [
+        341
+      ],
+      "dtype": "float32"
+    },
+    "M_Tongue_weight_J_Tongue2": {
+      "shape": [
+        341
+      ],
+      "dtype": "float32"
+    },
+    "M_Tongue_weight_J_Tongue3": {
+      "shape": [
+        341
+      ],
+      "dtype": "float32"
+    },
+    "M_Tongue_weight_J_Tongue4": {
+      "shape": [
+        341
+      ],
+      "dtype": "float32"
+    },
+    "M_Teeth_positions": {
+      "shape": [
+        4701,
+        3
+      ],
+      "dtype": "float32"
+    },
+    "M_Teeth_triangles": {
+      "shape": [
+        7898,
+        3
+      ],
+      "dtype": "int32"
+    },
+    "M_Teeth_vertex_remap": {
+      "shape": [
+        4701
+      ],
+      "dtype": "uint32"
+    },
+    "M_Teeth_normals": {
+      "shape": [
+        4701,
+        3
+      ],
+      "dtype": "float32"
+    },
+    "M_Teeth_tangents": {
+      "shape": [
+        4701,
+        4
+      ],
+      "dtype": "float32"
+    },
+    "M_Teeth_colors0": {
+      "shape": [
+        4701,
+        4
+      ],
+      "dtype": "float32"
+    },
+    "M_Teeth_uvs0": {
+      "shape": [
+        4701,
+        2
+      ],
+      "dtype": "float32"
+    },
+    "M_Teeth_uvs1": {
+      "shape": [
+        4701,
+        2
+      ],
+      "dtype": "float32"
+    },
+    "M_Teeth_weight_J_lowerTeeth": {
+      "shape": [
+        4701
+      ],
+      "dtype": "float32"
+    },
+    "M_Teeth_weight_J_upperTeeth": {
+      "shape": [
+        4701
+      ],
+      "dtype": "float32"
+    },
+    "M_MouthBag_positions": {
+      "shape": [
+        352,
+        3
+      ],
+      "dtype": "float32"
+    },
+    "M_MouthBag_triangles": {
+      "shape": [
+        614,
+        3
+      ],
+      "dtype": "int32"
+    },
+    "M_MouthBag_vertex_remap": {
+      "shape": [
+        352
+      ],
+      "dtype": "uint32"
+    },
+    "M_MouthBag_normals": {
+      "shape": [
+        352,
+        3
+      ],
+      "dtype": "float32"
+    },
+    "M_MouthBag_tangents": {
+      "shape": [
+        352,
+        4
+      ],
+      "dtype": "float32"
+    },
+    "M_MouthBag_uvs0": {
+      "shape": [
+        352,
+        2
+      ],
+      "dtype": "float32"
+    },
+    "M_MouthBag_weight_J_Head": {
+      "shape": [
+        352
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_positions": {
+      "shape": [
+        12700,
+        3
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_triangles": {
+      "shape": [
+        23168,
+        3
+      ],
+      "dtype": "int32"
+    },
+    "M_Body_vertex_remap": {
+      "shape": [
+        12700
+      ],
+      "dtype": "uint32"
+    },
+    "M_Body_normals": {
+      "shape": [
+        12700,
+        3
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_tangents": {
+      "shape": [
+        12700,
+        4
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_colors0": {
+      "shape": [
+        12700,
+        4
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_uvs0": {
+      "shape": [
+        12700,
+        2
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_Chest": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Lat_L_3": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_Spine2": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Lat_L_2": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_Clavicle_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Delt_L_2": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Lat_L_1": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Lat_R_2": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Bicep_L_1": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Pec_L_3": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Pec_L_2": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Pec_L_1": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_Clavicle_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Trap_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Delt_R_2": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Neck_tw": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_Head": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_Neck": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Neck_L_1": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Pec_Jig_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Pec_R_1": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Pec_R_2": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Pec_R_3": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_Spine1": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Gut_Jig_C": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_Hips": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Lat_Jig_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Lat_R_1": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Delt_L_1": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Gut_Jig_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Neck_L_2": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_Elbow_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Elbow_L_tw01": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Ebw_Out_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Elbow_L_tw02": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_Wrist_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_Elbow_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Bicep_R_1": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Elbow_R_tw01": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Ebw_Out_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Delt_R_1": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Elbow_R_tw02": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Trap_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Lat_R_3": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_Wrist_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Neck_R_1": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_PinkyF0_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_RingF0_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_MiddleF0_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_ThumbF1_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_IndexF0_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_MiddleF1_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_IndexF1_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_RingF1_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_MiddleF3_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_MiddleF2_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_IndexF3_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_IndexF2_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_PinkyF1_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_RingF2_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_RingF3_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_PinkyF3_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_PinkyF2_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_ThumbF3_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_ThumbF2_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_PinkyF0_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_RingF0_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_MiddleF0_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_ThumbF1_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_IndexF0_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_MiddleF1_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_IndexF1_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_RingF1_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_MiddleF3_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_MiddleF2_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_IndexF3_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_IndexF2_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_PinkyF1_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_RingF2_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_RingF3_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_PinkyF3_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_PinkyF2_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_ThumbF3_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_ThumbF2_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Pec_Jig_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Lat_Jig_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Gut_Jig_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Neck_R_2": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Leg_Vol_S_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Leg_Vol_C_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Leg_Vol_B_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Hip_L_OS1": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Leg_Vol_F_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Hip_R_OS1": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Leg_Vol_C_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Leg_Vol_F_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Leg_Vol_B_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Leg_Vol_S_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_Leg_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_Leg_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_Foot_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_Knee_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_Toe_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_Foot_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_Knee_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_J_Toe_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Knee_Lower_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Kn_R_OS01": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Knee_Upper_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Kn_R_OS02": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Quad_Jig_R": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Knee_Lower_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Kn_L_OS01": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Knee_Upper_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Kn_L_OS02": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_Body_weight_H_Quad_Jig_L": {
+      "shape": [
+        12700
+      ],
+      "dtype": "float32"
+    },
+    "M_EYE_positions": {
+      "shape": [
+        626,
+        3
+      ],
+      "dtype": "float32"
+    },
+    "M_EYE_triangles": {
+      "shape": [
+        1104,
+        3
+      ],
+      "dtype": "int32"
+    },
+    "M_EYE_vertex_remap": {
+      "shape": [
+        626
+      ],
+      "dtype": "uint32"
+    },
+    "M_EYE_normals": {
+      "shape": [
+        626,
+        3
+      ],
+      "dtype": "float32"
+    },
+    "M_EYE_tangents": {
+      "shape": [
+        626,
+        4
+      ],
+      "dtype": "float32"
+    },
+    "M_EYE_uvs0": {
+      "shape": [
+        626,
+        2
+      ],
+      "dtype": "float32"
+    },
+    "M_EYE_weight_J_Eye_R": {
+      "shape": [
+        626
+      ],
+      "dtype": "float32"
+    },
+    "M_EYE_weight_J_Eye_L": {
+      "shape": [
+        626
+      ],
+      "dtype": "float32"
+    },
+    "M_transB_eyelash_positions": {
+      "shape": [
+        450,
+        3
+      ],
+      "dtype": "float32"
+    },
+    "M_transB_eyelash_triangles": {
+      "shape": [
+        584,
+        3
+      ],
+      "dtype": "int32"
+    },
+    "M_transB_eyelash_vertex_remap": {
+      "shape": [
+        450
+      ],
+      "dtype": "uint32"
+    },
+    "M_transB_eyelash_normals": {
+      "shape": [
+        450,
+        3
+      ],
+      "dtype": "float32"
+    },
+    "M_transB_eyelash_tangents": {
+      "shape": [
+        450,
+        4
+      ],
+      "dtype": "float32"
+    },
+    "M_transB_eyelash_uvs0": {
+      "shape": [
+        450,
+        2
+      ],
+      "dtype": "float32"
+    },
+    "M_transB_eyelash_weight_J_Head": {
+      "shape": [
+        450
+      ],
+      "dtype": "float32"
+    },
+    "M_Head_positions": {
+      "shape": [
+        4311,
+        3
+      ],
+      "dtype": "float32"
+    },
+    "M_Head_triangles": {
+      "shape": [
+        8320,
+        3
+      ],
+      "dtype": "int32"
+    },
+    "M_Head_vertex_remap": {
+      "shape": [
+        4311
+      ],
+      "dtype": "uint32"
+    },
+    "M_Head_normals": {
+      "shape": [
+        4311,
+        3
+      ],
+      "dtype": "float32"
+    },
+    "M_Head_tangents": {
+      "shape": [
+        4311,
+        4
+      ],
+      "dtype": "float32"
+    },
+    "M_Head_colors0": {
+      "shape": [
+        4311,
+        4
+      ],
+      "dtype": "float32"
+    },
+    "M_Head_uvs0": {
+      "shape": [
+        4311,
+        2
+      ],
+      "dtype": "float32"
+    },
+    "M_Head_weight_J_Head": {
+      "shape": [
+        4311
+      ],
+      "dtype": "float32"
+    },
+    "M_Head_weight_J_Chest": {
+      "shape": [
+        4311
+      ],
+      "dtype": "float32"
+    },
+    "M_Head_weight_J_Neck": {
+      "shape": [
+        4311
+      ],
+      "dtype": "float32"
+    },
+    "M_Head_weight_J_Clavicle_L": {
+      "shape": [
+        4311
+      ],
+      "dtype": "float32"
+    },
+    "M_Head_weight_H_Neck_tw": {
+      "shape": [
+        4311
+      ],
+      "dtype": "float32"
+    },
+    "M_Head_weight_H_Trap_L": {
+      "shape": [
+        4311
+      ],
+      "dtype": "float32"
+    },
+    "M_Head_weight_H_Delt_L_2": {
+      "shape": [
+        4311
+      ],
+      "dtype": "float32"
+    },
+    "M_Head_weight_H_Pec_L_3": {
+      "shape": [
+        4311
+      ],
+      "dtype": "float32"
+    },
+    "M_Head_weight_H_Pec_L_2": {
+      "shape": [
+        4311
+      ],
+      "dtype": "float32"
+    },
+    "M_Head_weight_H_Pec_L_1": {
+      "shape": [
+        4311
+      ],
+      "dtype": "float32"
+    },
+    "M_Head_weight_H_Neck_L_1": {
+      "shape": [
+        4311
+      ],
+      "dtype": "float32"
+    },
+    "M_Head_weight_H_Bicep_L_1": {
+      "shape": [
+        4311
+      ],
+      "dtype": "float32"
+    },
+    "M_Head_weight_H_Neck_L_2": {
+      "shape": [
+        4311
+      ],
+      "dtype": "float32"
+    },
+    "M_Head_weight_H_Delt_L_1": {
+      "shape": [
+        4311
+      ],
+      "dtype": "float32"
+    },
+    "M_Head_weight_J_Clavicle_R": {
+      "shape": [
+        4311
+      ],
+      "dtype": "float32"
+    },
+    "M_Head_weight_H_Trap_R": {
+      "shape": [
+        4311
+      ],
+      "dtype": "float32"
+    },
+    "M_Head_weight_H_Delt_R_2": {
+      "shape": [
+        4311
+      ],
+      "dtype": "float32"
+    },
+    "M_Head_weight_H_Delt_R_1": {
+      "shape": [
+        4311
+      ],
+      "dtype": "float32"
+    },
+    "M_Head_weight_H_Pec_R_3": {
+      "shape": [
+        4311
+      ],
+      "dtype": "float32"
+    },
+    "M_Head_weight_H_Pec_R_2": {
+      "shape": [
+        4311
+      ],
+      "dtype": "float32"
+    },
+    "M_Head_weight_H_Pec_R_1": {
+      "shape": [
+        4311
+      ],
+      "dtype": "float32"
+    },
+    "M_Head_weight_H_Neck_R_1": {
+      "shape": [
+        4311
+      ],
+      "dtype": "float32"
+    },
+    "M_Head_weight_H_Bicep_R_1": {
+      "shape": [
+        4311
+      ],
+      "dtype": "float32"
+    },
+    "M_Head_weight_H_Neck_R_2": {
+      "shape": [
+        4311
+      ],
+      "dtype": "float32"
+    }
+  },
+  "mesh_samples": [
+    {
+      "mesh": "M_Teeth",
+      "uv_key": "M_Teeth_uvs0",
+      "v_to_dds_y": "1-v",
+      "vertices": 4701,
+      "triangles": 7898,
+      "uv_bounds": [
+        [
+          0.007348999846726656,
+          0.7910109758377075
+        ],
+        [
+          0.5392580032348633,
+          0.9986050128936768
+        ]
+      ],
+      "uv_outside_0_1_count": 0,
+      "body_color": {
+        "centroid_samples": {
+          "count": 7898,
+          "channel_min": [
+            49,
+            32,
+            33,
+            255
+          ],
+          "channel_max": [
+            156,
+            121,
+            123,
+            255
+          ],
+          "channel_mean": [
+            123.44707520891365,
+            91.49379589769562,
+            92.01114206128133,
+            255.0
+          ],
+          "channel_percentiles_5_50_95": [
+            [
+              107.0,
+              60.0,
+              57.0,
+              255.0
+            ],
+            [
+              123.0,
+              97.0,
+              99.0,
+              255.0
+            ],
+            [
+              140.0,
+              105.0,
+              107.0,
+              255.0
+            ]
+          ],
+          "luma_mean": 98.32441547227147,
+          "luma_below_20_fraction": 0.0,
+          "luma_above_80_fraction": 0.8994682198024816,
+          "luma_above_100_fraction": 0.6630792605722968
+        },
+        "area_weighted_channel_mean": [
+          126.99922180175781,
+          89.9537353515625,
+          91.43301391601562,
+          255.0
+        ],
+        "atlas_coverage_samples": {
+          "count": 359454,
+          "channel_min": [
+            49,
+            24,
+            24,
+            255
+          ],
+          "channel_max": [
+            156,
+            121,
+            132,
+            255
+          ],
+          "channel_mean": [
+            125.75459446827689,
+            88.81489703828585,
+            89.7003316140591,
+            255.0
+          ],
+          "channel_percentiles_5_50_95": [
+            [
+              107.0,
+              52.0,
+              49.0,
+              255.0
+            ],
+            [
+              123.0,
+              94.0,
+              96.0,
+              255.0
+            ],
+            [
+              140.0,
+              105.0,
+              107.0,
+              255.0
+            ]
+          ],
+          "luma_mean": 96.73220508827276,
+          "luma_below_20_fraction": 0.0,
+          "luma_above_80_fraction": 0.8644583173368497,
+          "luma_above_100_fraction": 0.6244832440312251
+        }
+      },
+      "body_nrm": {
+        "centroid_samples": {
+          "count": 7898,
+          "channel_min": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "channel_max": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "channel_mean": [
+            126.73676880222841,
+            131.75044315016459,
+            87.08128640162066,
+            0.005317801975183591
+          ],
+          "channel_percentiles_5_50_95": [
+            [
+              81.0,
+              66.0,
+              50.0,
+              0.0
+            ],
+            [
+              126.0,
+              129.0,
+              94.0,
+              0.0
+            ],
+            [
+              176.0,
+              205.0,
+              107.0,
+              0.0
+            ]
+          ],
+          "luma_mean": 127.4594228665485,
+          "luma_below_20_fraction": 0.0,
+          "luma_above_80_fraction": 0.9501139528994682,
+          "luma_above_100_fraction": 0.8912382881742213
+        },
+        "area_weighted_channel_mean": [
+          126.89234924316406,
+          128.8392791748047,
+          83.7760238647461,
+          0.004621587693691254
+        ],
+        "atlas_coverage_samples": {
+          "count": 359454,
+          "channel_min": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "channel_max": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "channel_mean": [
+            126.58394676370273,
+            128.47658671206887,
+            84.22319128455936,
+            0.0050381968207336685
+          ],
+          "channel_percentiles_5_50_95": [
+            [
+              89.0,
+              81.0,
+              69.0,
+              0.0
+            ],
+            [
+              127.0,
+              127.0,
+              80.0,
+              0.0
+            ],
+            [
+              165.0,
+              186.0,
+              100.0,
+              0.0
+            ]
+          ],
+          "luma_mean": 124.87911630918002,
+          "luma_below_20_fraction": 5.56399428021388e-06,
+          "luma_above_80_fraction": 0.9635836574360002,
+          "luma_above_100_fraction": 0.9252171348767854
+        }
+      }
+    },
+    {
+      "mesh": "M_Teeth",
+      "uv_key": "M_Teeth_uvs0",
+      "v_to_dds_y": "v",
+      "vertices": 4701,
+      "triangles": 7898,
+      "uv_bounds": [
+        [
+          0.007348999846726656,
+          0.7910109758377075
+        ],
+        [
+          0.5392580032348633,
+          0.9986050128936768
+        ]
+      ],
+      "uv_outside_0_1_count": 0,
+      "body_color": {
+        "centroid_samples": {
+          "count": 7898,
+          "channel_min": [
+            148,
+            101,
+            90,
+            255
+          ],
+          "channel_max": [
+            178,
+            146,
+            132,
+            255
+          ],
+          "channel_mean": [
+            165.2865282349962,
+            121.53089389718916,
+            109.24803747784249,
+            255.0
+          ],
+          "channel_percentiles_5_50_95": [
+            [
+              156.0,
+              107.0,
+              99.0,
+              255.0
+            ],
+            [
+              165.0,
+              121.0,
+              107.0,
+              255.0
+            ],
+            [
+              173.0,
+              138.0,
+              123.0,
+              255.0
+            ]
+          ],
+          "luma_mean": 129.9465195239301,
+          "luma_below_20_fraction": 0.0,
+          "luma_above_80_fraction": 1.0,
+          "luma_above_100_fraction": 1.0
+        },
+        "area_weighted_channel_mean": [
+          165.90110778808594,
+          123.09114837646484,
+          110.60865783691406,
+          255.0
+        ],
+        "atlas_coverage_samples": {
+          "count": 359454,
+          "channel_min": [
+            145,
+            97,
+            87,
+            255
+          ],
+          "channel_max": [
+            183,
+            150,
+            156,
+            255
+          ],
+          "channel_mean": [
+            165.58741869613357,
+            122.41370244871388,
+            110.02447601083865,
+            255.0
+          ],
+          "channel_percentiles_5_50_95": [
+            [
+              156.0,
+              109.0,
+              99.0,
+              255.0
+            ],
+            [
+              165.0,
+              121.0,
+              109.0,
+              255.0
+            ],
+            [
+              173.0,
+              138.0,
+              123.0,
+              255.0
+            ]
+          ],
+          "luma_mean": 130.69793237410073,
+          "luma_below_20_fraction": 0.0,
+          "luma_above_80_fraction": 1.0,
+          "luma_above_100_fraction": 1.0
+        }
+      },
+      "body_nrm": {
+        "centroid_samples": {
+          "count": 7898,
+          "channel_min": [
+            90,
+            80,
+            90,
+            0
+          ],
+          "channel_max": [
+            157,
+            148,
+            223,
+            1
+          ],
+          "channel_mean": [
+            127.41820714104837,
+            127.31628260319069,
+            142.93821220562168,
+            0.010129146619397315
+          ],
+          "channel_percentiles_5_50_95": [
+            [
+              117.0,
+              121.0,
+              115.0,
+              0.0
+            ],
+            [
+              127.0,
+              127.0,
+              143.0,
+              0.0
+            ],
+            [
+              139.0,
+              134.0,
+              169.0,
+              0.0
+            ]
+          ],
+          "luma_mean": 128.46585507723472,
+          "luma_below_20_fraction": 0.0,
+          "luma_above_80_fraction": 1.0,
+          "luma_above_100_fraction": 0.9997467713345151
+        },
+        "area_weighted_channel_mean": [
+          127.84192657470703,
+          127.25183868408203,
+          142.02349853515625,
+          0.011178342625498772
+        ],
+        "atlas_coverage_samples": {
+          "count": 359454,
+          "channel_min": [
+            82,
+            71,
+            82,
+            0
+          ],
+          "channel_max": [
+            165,
+            156,
+            255,
+            1
+          ],
+          "channel_mean": [
+            127.45612512310338,
+            127.28007199808599,
+            142.350859915316,
+            0.013576146043721867
+          ],
+          "channel_percentiles_5_50_95": [
+            [
+              116.0,
+              120.0,
+              114.0,
+              0.0
+            ],
+            [
+              127.0,
+              127.0,
+              142.0,
+              0.0
+            ],
+            [
+              140.0,
+              134.0,
+              169.0,
+              0.0
+            ]
+          ],
+          "luma_mean": 128.40561178008866,
+          "luma_below_20_fraction": 0.0,
+          "luma_above_80_fraction": 1.0,
+          "luma_above_100_fraction": 0.9994686385462396
+        }
+      }
+    },
+    {
+      "mesh": "M_Teeth",
+      "uv_key": "M_Teeth_uvs1",
+      "v_to_dds_y": "1-v",
+      "vertices": 4701,
+      "triangles": 7898,
+      "uv_bounds": [
+        [
+          0.00788070261478424,
+          0.0037654638290405273
+        ],
+        [
+          0.9935464859008789,
+          0.9957854151725769
+        ]
+      ],
+      "uv_outside_0_1_count": 0,
+      "body_color": {
+        "centroid_samples": {
+          "count": 7898,
+          "channel_min": [
+            24,
+            12,
+            16,
+            255
+          ],
+          "channel_max": [
+            181,
+            158,
+            148,
+            255
+          ],
+          "channel_mean": [
+            151.68852874145352,
+            110.50898961762472,
+            101.4504937958977,
+            255.0
+          ],
+          "channel_percentiles_5_50_95": [
+            [
+              74.0,
+              44.0,
+              41.0,
+              255.0
+            ],
+            [
+              165.0,
+              117.0,
+              107.0,
+              255.0
+            ],
+            [
+              173.0,
+              138.0,
+              123.0,
+              255.0
+            ]
+          ],
+          "luma_mean": 118.60973623702203,
+          "luma_below_20_fraction": 0.0024056723221068626,
+          "luma_above_80_fraction": 0.8864269435300076,
+          "luma_above_100_fraction": 0.8631299063053938
+        },
+        "area_weighted_channel_mean": [
+          149.179931640625,
+          108.69477844238281,
+          99.53234100341797,
+          255.0
+        ],
+        "atlas_coverage_samples": {
+          "count": 4657318,
+          "channel_min": [
+            8,
+            12,
+            8,
+            255
+          ],
+          "channel_max": [
+            189,
+            174,
+            173,
+            255
+          ],
+          "channel_mean": [
+            151.45995592313,
+            111.25365908018306,
+            101.85184477418119,
+            255.0
+          ],
+          "channel_percentiles_5_50_95": [
+            [
+              41.0,
+              44.0,
+              41.0,
+              255.0
+            ],
+            [
+              165.0,
+              117.0,
+              107.0,
+              255.0
+            ],
+            [
+              173.0,
+              138.0,
+              129.0,
+              255.0
+            ]
+          ],
+          "luma_mean": 119.12270679610023,
+          "luma_below_20_fraction": 0.0061866078287976045,
+          "luma_above_80_fraction": 0.8995939293816742,
+          "luma_above_100_fraction": 0.8749104098109685
+        }
+      },
+      "body_nrm": {
+        "centroid_samples": {
+          "count": 7898,
+          "channel_min": [
+            0,
+            0,
+            4,
+            0
+          ],
+          "channel_max": [
+            253,
+            255,
+            254,
+            1
+          ],
+          "channel_mean": [
+            126.85426690301342,
+            127.73828817422132,
+            131.9799949354267,
+            0.01215497594327678
+          ],
+          "channel_percentiles_5_50_95": [
+            [
+              107.0,
+              109.0,
+              76.0,
+              0.0
+            ],
+            [
+              127.0,
+              128.0,
+              136.0,
+              0.0
+            ],
+            [
+              145.0,
+              145.0,
+              176.0,
+              0.0
+            ]
+          ],
+          "luma_mean": 127.85659648012155,
+          "luma_below_20_fraction": 0.0,
+          "luma_above_80_fraction": 0.9905039250443151,
+          "luma_above_100_fraction": 0.9801215497594328
+        },
+        "area_weighted_channel_mean": [
+          126.8958511352539,
+          127.84901428222656,
+          134.7066192626953,
+          0.012549005448818207
+        ],
+        "atlas_coverage_samples": {
+          "count": 4657318,
+          "channel_min": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "channel_max": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "channel_mean": [
+            127.16218905387177,
+            127.58841676690318,
+            135.30974736962347,
+            0.011824616657054554
+          ],
+          "channel_percentiles_5_50_95": [
+            [
+              109.0,
+              110.0,
+              78.0,
+              0.0
+            ],
+            [
+              127.0,
+              127.0,
+              137.0,
+              0.0
+            ],
+            [
+              145.0,
+              145.0,
+              179.0,
+              0.0
+            ]
+          ],
+          "luma_mean": 128.0552808246291,
+          "luma_below_20_fraction": 4.294317029672442e-07,
+          "luma_above_80_fraction": 0.9916636570661483,
+          "luma_above_100_fraction": 0.9823984533587786
+        }
+      }
+    },
+    {
+      "mesh": "M_Teeth",
+      "uv_key": "M_Teeth_uvs1",
+      "v_to_dds_y": "v",
+      "vertices": 4701,
+      "triangles": 7898,
+      "uv_bounds": [
+        [
+          0.00788070261478424,
+          0.0037654638290405273
+        ],
+        [
+          0.9935464859008789,
+          0.9957854151725769
+        ]
+      ],
+      "uv_outside_0_1_count": 0,
+      "body_color": {
+        "centroid_samples": {
+          "count": 7898,
+          "channel_min": [
+            24,
+            12,
+            16,
+            255
+          ],
+          "channel_max": [
+            181,
+            155,
+            156,
+            255
+          ],
+          "channel_mean": [
+            151.73423651557357,
+            110.73600911623195,
+            100.8488224867055,
+            255.0
+          ],
+          "channel_percentiles_5_50_95": [
+            [
+              41.0,
+              44.0,
+              41.0,
+              255.0
+            ],
+            [
+              165.0,
+              117.0,
+              107.0,
+              255.0
+            ],
+            [
+              173.0,
+              135.0,
+              123.0,
+              255.0
+            ]
+          ],
+          "luma_mean": 118.73837738668017,
+          "luma_below_20_fraction": 0.0037984299822739933,
+          "luma_above_80_fraction": 0.900101291466194,
+          "luma_above_100_fraction": 0.8766776399088377
+        },
+        "area_weighted_channel_mean": [
+          157.01539611816406,
+          114.93580627441406,
+          104.32317352294922,
+          255.0
+        ],
+        "atlas_coverage_samples": {
+          "count": 4657318,
+          "channel_min": [
+            8,
+            4,
+            8,
+            255
+          ],
+          "channel_max": [
+            189,
+            178,
+            173,
+            255
+          ],
+          "channel_mean": [
+            151.47631276198018,
+            110.64036769660134,
+            100.9678654109511,
+            255.0
+          ],
+          "channel_percentiles_5_50_95": [
+            [
+              41.0,
+              44.0,
+              41.0,
+              255.0
+            ],
+            [
+              165.0,
+              117.0,
+              107.0,
+              255.0
+            ],
+            [
+              173.0,
+              138.0,
+              123.0,
+              255.0
+            ]
+          ],
+          "luma_mean": 118.62373495247694,
+          "luma_below_20_fraction": 0.005536448230505197,
+          "luma_above_80_fraction": 0.8949884890832019,
+          "luma_above_100_fraction": 0.8676927364633465
+        }
+      },
+      "body_nrm": {
+        "centroid_samples": {
+          "count": 7898,
+          "channel_min": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "channel_max": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "channel_mean": [
+            126.50860977462649,
+            127.04456824512535,
+            139.18435046847304,
+            0.011648518612306914
+          ],
+          "channel_percentiles_5_50_95": [
+            [
+              111.0,
+              112.0,
+              78.0,
+              0.0
+            ],
+            [
+              126.0,
+              127.0,
+              142.0,
+              0.0
+            ],
+            [
+              141.0,
+              141.14999999999964,
+              181.14999999999964,
+              0.0
+            ]
+          ],
+          "luma_mean": 127.80711575082297,
+          "luma_below_20_fraction": 0.0,
+          "luma_above_80_fraction": 0.994555583692074,
+          "luma_above_100_fraction": 0.9872119523930108
+        },
+        "area_weighted_channel_mean": [
+          126.70521545410156,
+          127.21443176269531,
+          140.102783203125,
+          0.012822238728404045
+        ],
+        "atlas_coverage_samples": {
+          "count": 4657318,
+          "channel_min": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "channel_max": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "channel_mean": [
+            126.85604225436184,
+            127.26149105558177,
+            137.85063377677884,
+            0.011082558674327156
+          ],
+          "channel_percentiles_5_50_95": [
+            [
+              110.0,
+              110.0,
+              78.0,
+              0.0
+            ],
+            [
+              127.0,
+              127.0,
+              140.0,
+              0.0
+            ],
+            [
+              143.0,
+              143.0,
+              183.0,
+              0.0
+            ]
+          ],
+          "luma_mean": 127.93982874491284,
+          "luma_below_20_fraction": 2.147158514836221e-07,
+          "luma_above_80_fraction": 0.9932330152246421,
+          "luma_above_100_fraction": 0.9847815845943954
+        }
+      }
+    },
+    {
+      "mesh": "M_MouthBag",
+      "uv_key": "M_MouthBag_uvs0",
+      "v_to_dds_y": "1-v",
+      "vertices": 352,
+      "triangles": 614,
+      "uv_bounds": [
+        [
+          0.12684795260429382,
+          0.8777092099189758
+        ],
+        [
+          0.2484256774187088,
+          0.9963176846504211
+        ]
+      ],
+      "uv_outside_0_1_count": 0,
+      "body_color": {
+        "centroid_samples": {
+          "count": 614,
+          "channel_min": [
+            24,
+            12,
+            16,
+            255
+          ],
+          "channel_max": [
+            145,
+            89,
+            99,
+            255
+          ],
+          "channel_mean": [
+            80.06514657980456,
+            45.574918566775246,
+            48.71824104234528,
+            255.0
+          ],
+          "channel_percentiles_5_50_95": [
+            [
+              24.0,
+              12.0,
+              16.0,
+              255.0
+            ],
+            [
+              90.0,
+              48.0,
+              49.0,
+              255.0
+            ],
+            [
+              123.0,
+              77.0,
+              82.0,
+              255.0
+            ]
+          ],
+          "luma_mean": 53.134488925081435,
+          "luma_below_20_fraction": 0.1970684039087948,
+          "luma_above_80_fraction": 0.15960912052117263,
+          "luma_above_100_fraction": 0.0016286644951140066
+        },
+        "area_weighted_channel_mean": [
+          62.8812255859375,
+          35.85368347167969,
+          38.44861602783203,
+          254.99996948242188
+        ]
+      },
+      "body_nrm": {
+        "centroid_samples": {
+          "count": 614,
+          "channel_min": [
+            113,
+            124,
+            72,
+            0
+          ],
+          "channel_max": [
+            141,
+            154,
+            83,
+            1
+          ],
+          "channel_mean": [
+            127.36970684039088,
+            133.54071661237785,
+            76.48534201954398,
+            0.0016286644951140066
+          ],
+          "channel_percentiles_5_50_95": [
+            [
+              124.0,
+              126.0,
+              75.0,
+              0.0
+            ],
+            [
+              127.0,
+              131.0,
+              76.0,
+              0.0
+            ],
+            [
+              132.0,
+              147.0,
+              78.0,
+              0.0
+            ]
+          ],
+          "luma_mean": 128.1093618892508,
+          "luma_below_20_fraction": 0.0,
+          "luma_above_80_fraction": 1.0,
+          "luma_above_100_fraction": 1.0
+        },
+        "area_weighted_channel_mean": [
+          127.97462463378906,
+          137.1295928955078,
+          76.5862808227539,
+          0.0007662955904379487
+        ]
+      }
+    },
+    {
+      "mesh": "M_MouthBag",
+      "uv_key": "M_MouthBag_uvs0",
+      "v_to_dds_y": "v",
+      "vertices": 352,
+      "triangles": 614,
+      "uv_bounds": [
+        [
+          0.12684795260429382,
+          0.8777092099189758
+        ],
+        [
+          0.2484256774187088,
+          0.9963176846504211
+        ]
+      ],
+      "uv_outside_0_1_count": 0,
+      "body_color": {
+        "centroid_samples": {
+          "count": 614,
+          "channel_min": [
+            148,
+            101,
+            90,
+            255
+          ],
+          "channel_max": [
+            173,
+            125,
+            115,
+            255
+          ],
+          "channel_mean": [
+            160.00651465798046,
+            113.20032573289902,
+            102.62377850162866,
+            255.0
+          ],
+          "channel_percentiles_5_50_95": [
+            [
+              156.0,
+              105.0,
+              99.0,
+              255.0
+            ],
+            [
+              156.0,
+              113.0,
+              99.0,
+              255.0
+            ],
+            [
+              165.0,
+              125.0,
+              115.0,
+              255.0
+            ]
+          ],
+          "luma_mean": 122.3876947882736,
+          "luma_below_20_fraction": 0.0,
+          "luma_above_80_fraction": 1.0,
+          "luma_above_100_fraction": 1.0
+        },
+        "area_weighted_channel_mean": [
+          161.18357849121094,
+          114.77639770507812,
+          104.05048370361328,
+          254.99996948242188
+        ]
+      },
+      "body_nrm": {
+        "centroid_samples": {
+          "count": 614,
+          "channel_min": [
+            115,
+            116,
+            109,
+            0
+          ],
+          "channel_max": [
+            143,
+            135,
+            199,
+            1
+          ],
+          "channel_mean": [
+            127.30618892508143,
+            125.82736156351791,
+            148.1530944625407,
+            0.006514657980456026
+          ],
+          "channel_percentiles_5_50_95": [
+            [
+              121.0,
+              120.65,
+              127.0,
+              0.0
+            ],
+            [
+              126.0,
+              126.0,
+              149.0,
+              0.0
+            ],
+            [
+              135.0,
+              132.0,
+              172.0,
+              0.0
+            ]
+          ],
+          "luma_mean": 127.75367817589576,
+          "luma_below_20_fraction": 0.0,
+          "luma_above_80_fraction": 1.0,
+          "luma_above_100_fraction": 1.0
+        },
+        "area_weighted_channel_mean": [
+          127.45642852783203,
+          126.75593566894531,
+          147.273193359375,
+          0.006397373508661985
+        ]
+      }
+    },
+    {
+      "mesh": "M_Body",
+      "uv_key": "M_Body_uvs0",
+      "v_to_dds_y": "1-v",
+      "vertices": 12700,
+      "triangles": 23168,
+      "uv_bounds": [
+        [
+          0.0023419999051839113,
+          0.0049629807472229
+        ],
+        [
+          0.998432993888855,
+          0.9956820011138916
+        ]
+      ],
+      "uv_outside_0_1_count": 0,
+      "body_color": {
+        "centroid_samples": {
+          "count": 23168,
+          "channel_min": [
+            33,
+            32,
+            24,
+            255
+          ],
+          "channel_max": [
+            183,
+            174,
+            173,
+            255
+          ],
+          "channel_mean": [
+            160.90154523480663,
+            118.77671788674033,
+            108.78535048342542,
+            255.0
+          ],
+          "channel_percentiles_5_50_95": [
+            [
+              148.0,
+              97.0,
+              90.0,
+              255.0
+            ],
+            [
+              165.0,
+              121.0,
+              107.0,
+              255.0
+            ],
+            [
+              173.0,
+              140.0,
+              132.0,
+              255.0
+            ]
+          ],
+          "luma_mean": 127.01107945441987,
+          "luma_below_20_fraction": 0.0,
+          "luma_above_80_fraction": 0.9538156077348067,
+          "luma_above_100_fraction": 0.9533839779005525
+        },
+        "area_weighted_channel_mean": [
+          155.27825927734375,
+          114.02642059326172,
+          102.86216735839844,
+          254.99923706054688
+        ]
+      },
+      "body_nrm": {
+        "centroid_samples": {
+          "count": 23168,
+          "channel_min": [
+            0,
+            8,
+            24,
+            0
+          ],
+          "channel_max": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "channel_mean": [
+            127.0572341160221,
+            128.03137948895028,
+            141.75807147790056,
+            0.010790745856353591
+          ],
+          "channel_percentiles_5_50_95": [
+            [
+              104.0,
+              107.0,
+              97.0,
+              0.0
+            ],
+            [
+              126.0,
+              128.0,
+              140.0,
+              0.0
+            ],
+            [
+              149.0,
+              149.0,
+              197.0,
+              0.0
+            ]
+          ],
+          "luma_mean": 128.81534334426794,
+          "luma_below_20_fraction": 0.0,
+          "luma_above_80_fraction": 0.9966332872928176,
+          "luma_above_100_fraction": 0.986144682320442
+        },
+        "area_weighted_channel_mean": [
+          126.88679504394531,
+          127.22544860839844,
+          145.81324768066406,
+          0.014856691472232342
+        ]
+      }
+    },
+    {
+      "mesh": "M_Body",
+      "uv_key": "M_Body_uvs0",
+      "v_to_dds_y": "v",
+      "vertices": 12700,
+      "triangles": 23168,
+      "uv_bounds": [
+        [
+          0.0023419999051839113,
+          0.0049629807472229
+        ],
+        [
+          0.998432993888855,
+          0.9956820011138916
+        ]
+      ],
+      "uv_outside_0_1_count": 0,
+      "body_color": {
+        "centroid_samples": {
+          "count": 23168,
+          "channel_min": [
+            8,
+            8,
+            8,
+            255
+          ],
+          "channel_max": [
+            181,
+            162,
+            156,
+            255
+          ],
+          "channel_mean": [
+            151.80598238950276,
+            110.7552658839779,
+            100.9145804558011,
+            255.0
+          ],
+          "channel_percentiles_5_50_95": [
+            [
+              41.0,
+              44.0,
+              41.0,
+              255.0
+            ],
+            [
+              165.0,
+              117.0,
+              107.0,
+              255.0
+            ],
+            [
+              173.0,
+              134.0,
+              123.0,
+              255.0
+            ]
+          ],
+          "luma_mean": 118.77215072513812,
+          "luma_below_20_fraction": 0.0042731353591160225,
+          "luma_above_80_fraction": 0.8968404696132597,
+          "luma_above_100_fraction": 0.8720217541436464
+        },
+        "area_weighted_channel_mean": [
+          140.50392150878906,
+          104.46015930175781,
+          96.1684799194336,
+          254.99923706054688
+        ]
+      },
+      "body_nrm": {
+        "centroid_samples": {
+          "count": 23168,
+          "channel_min": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "channel_max": [
+            255,
+            255,
+            255,
+            1
+          ],
+          "channel_mean": [
+            127.16414882596685,
+            127.09487223756906,
+            138.23907976519337,
+            0.012603591160220995
+          ],
+          "channel_percentiles_5_50_95": [
+            [
+              110.0,
+              110.0,
+              87.0,
+              0.0
+            ],
+            [
+              127.0,
+              127.0,
+              139.0,
+              0.0
+            ],
+            [
+              144.0,
+              143.0,
+              181.0,
+              0.0
+            ]
+          ],
+          "luma_mean": 127.9142122237569,
+          "luma_below_20_fraction": 0.0,
+          "luma_above_80_fraction": 0.9917990331491713,
+          "luma_above_100_fraction": 0.9825621546961326
+        },
+        "area_weighted_channel_mean": [
+          127.01886749267578,
+          127.29035186767578,
+          136.4881591796875,
+          0.011617723852396011
+        ]
+      }
+    }
+  ],
+  "source_integrity": [
+    {
+      "path": "baseModel.mtls",
+      "sha256": "d9b431d0537886defa39bd1befdad06ddbbd110ee138579e0dcba0f214c375c7",
+      "same_as_uploaded": true
+    },
+    {
+      "path": "baseModel.mcd",
+      "sha256": "a70520caae33e2877260689324d1f0faaf573f578f0ce06492c15dd74a7d4b11",
+      "same_as_uploaded": true
+    },
+    {
+      "path": "Materials/teeth.jmtl",
+      "sha256": "b9a2e3b5f11fe1608be517065b646553aa8ae5b57284d594835a7a956c0bc8ca",
+      "same_as_uploaded": true
+    },
+    {
+      "path": "Materials/mouthbag.jmtl",
+      "sha256": "b9a2e3b5f11fe1608be517065b646553aa8ae5b57284d594835a7a956c0bc8ca",
+      "same_as_uploaded": true
+    },
+    {
+      "path": "Textures/body_color.dds",
+      "sha256": "707ca95c0a233dddefd241b5a435470320f4fca47971b51dbb12fa1b9eaa77fa",
+      "same_as_uploaded": true
+    },
+    {
+      "path": "Textures/body_nrm.dds",
+      "sha256": "b785401a0b5250b6a3dad64df8341fd3f7e4dbdbf7c7c5e63fe3e1c6a3cd9396",
+      "same_as_uploaded": true
+    }
+  ]
+}

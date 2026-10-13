@@ -1,0 +1,41 @@
+{
+  "scope": "teeth-only comparison per user request; no other issues assessed",
+  "reference_report_sha256": "326eebaec7ff9c6aa96543588285344c8a7ac2655c1a4b01293e278803b11f7e",
+  "source_format": "0x28",
+  "source_filename": "baseModel.mdl",
+  "tooth_materials": [
+    {
+      "name": "mouthbag",
+      "shader_2k25": "yCh_Teeth / Mouthbag",
+      "shader_2k26": "0x19",
+      "variant": null,
+      "hair_type": null,
+      "textures": [
+        "colorMap@ref",
+        "nrMap@ref"
+      ],
+      "moved_links": []
+    },
+    {
+      "name": "teeth",
+      "shader_2k25": "yCh_Teeth / Normal",
+      "shader_2k26": "0x19",
+      "variant": null,
+      "hair_type": null,
+      "textures": [
+        "colorMap@ref",
+        "nrMap@ref"
+      ],
+      "moved_links": []
+    }
+  ],
+  "notes": [
+    "mouthbag: teeth are painted in body_color: written with the skin shader (the teeth shader shows them black)",
+    "teeth: teeth are painted in body_color: written with the skin shader (the teeth shader shows them black)"
+  ],
+  "teeth_vertex_count": 4701,
+  "mouthbag_vertex_count": 352,
+  "user_observed_working_teeth": true,
+  "native_material_bytes_provided_for_this_reference": false,
+  "conclusion": "working report explicitly changes body-atlas teeth and mouthbag to skin0x19; direct24 route alone not causal proof"
+}
