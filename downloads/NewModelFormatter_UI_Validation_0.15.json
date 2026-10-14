@@ -1,0 +1,10 @@
+{
+  "title": "NewModelFormatter \u2014 experimental",
+  "root_geometry": "880x840+0+0",
+  "version_visible": true,
+  "default_teeth_workaround": true,
+  "teeth_workaround_visible": true,
+  "report_button_visible": true,
+  "cakeview_unlock_required": true,
+  "scope": "Wine/Xvfb exact-candidate UI; no game test"
+}

@@ -1,0 +1,70 @@
+{
+  "release": "0.15 experimental",
+  "candidate": "NewModelFormatter_0.15_experimental_r2.exe",
+  "candidate_sha256": "89a5eb0902db77d997e8bc7f3d047b4f2bed454f8ae462f2e01c8cef8482446d",
+  "candidate_bytes": 44384062,
+  "installer": {
+    "original_sha256": "ece4729f2ac3fc707c69550d4a79df7866c11a61463d8eb529ae927e04f377f2",
+    "target_sha256": "89a5eb0902db77d997e8bc7f3d047b4f2bed454f8ae462f2e01c8cef8482446d",
+    "original_bytes": 44019860,
+    "target_bytes": 44384062,
+    "operation_count": 7,
+    "raw_carchive_payloads_reused": 1066,
+    "original_pyz_module_prefix_reused": true,
+    "python_reconstruction_verified": true,
+    "windows_powershell_installer_tested": false,
+    "compressed_patch_bytes": 411239,
+    "zip_crc_verified": true,
+    "zip_bytes": 427512
+  },
+  "installer_sha256": "84c742cf77dc382cd0ef0b9c2e58371b791364a56947c7ed24198c54152fa178",
+  "source_zip_sha256": "d41e9540df34326caa7f4067a9de2f2f550413138ab4642e5b46eaae92982a81",
+  "source_zip_bytes": 1361735,
+  "source_files": 199,
+  "source_module_sha256": {
+    "gmf_legacy_materials.py": "4791f8b3f2d8d234d0dea61d97c83cd5fbc411d10544cc9f3eb35759b672a748",
+    "gmf_material_formats.py": "99f65c2aa21e46764dd364a324c6cc553d9d341f5ced1756b608b459d6673fd4",
+    "gmf_repair.py": "5c52028ec3ffbf8470b61db908a422b2a25722f876fde7bba010a636992a29f8",
+    "gmf_teeth_skin_workaround.py": "8b51ac96723f236a60c602fbeb91ef4824446e6f1875d81065c9d2cec01f32b7"
+  },
+  "repository_tests_passed": 493,
+  "extracted_source_tests": "493 passed",
+  "extracted_source_rebuild": "byte-identical to exact tested candidate",
+  "native_folder_cases": 7,
+  "native_assertions_passed": 33,
+  "exact_candidate_gui_checked": true,
+  "source_materials_decoded_in_supplied_2k24_pair": 18,
+  "used_native_materials_emitted": 16,
+  "eye_policy": {
+    "eyeLidShadowDarkness": 1.0,
+    "eyeLidShadowFallOff": 0.5
+  },
+  "teeth_and_mouthbag_rule": "same verified guarded body-atlas native skin schema; selected by default",
+  "geometry_and_hide_mask_bytes_unchanged_against_142": true,
+  "regression_assets_unchanged_against_142": true,
+  "originals_unchanged": true,
+  "source_headers_retagged": false,
+  "foreign_textures_added": false,
+  "source_shader_aliases_invented": false,
+  "opaque_vectors_interpreted": false,
+  "direct_2k22_2k23_support": false,
+  "v5_yCS_mapping": "decoded for diagnosis, not admitted for conversion",
+  "raw24_bigboom_exact_material_pair": "not supplied; report layout agrees with implemented route, specific output not tested",
+  "known_limits": [
+    "source-only Kenny tables do not establish a supported Kenny model rig",
+    "Hammerstone has no supplied DDS: source texture references remain external and skin workaround cannot be claimed",
+    "BigBoom contains only six supplied files: unrelated missing materials and overall incomplete checks remain reported",
+    "native schema and asset checks do not establish eye, teeth, lighting, cloth or in-game appearance",
+    "actual Hammerstone duplicate same-name beard/clothing model verification failures remain reported"
+  ],
+  "in_game_visibility_or_teeth_fixed": "not established; fresh complete CakeView bake and game check required",
+  "windows_powershell_installer_tested": false,
+  "in_game_tested": false,
+  "evidence_files": [
+    "Legacy_Material_Native_Validation_0.15.json",
+    "Native_Payload_Proof_0.15.json",
+    "NewModelFormatter_UI_Validation_0.15.json"
+  ],
+  "cakeview_and_folder_workflow_preserved": true,
+  "independent_review_sha256": "88467127e167110b935c190dba3bfb75a5862088c193701f255b28cad572550c"
+}

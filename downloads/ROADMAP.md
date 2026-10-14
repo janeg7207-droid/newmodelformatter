@@ -21,4 +21,10 @@ valid inputs, matching material/texture links, durable per-model reports,
 original-file preservation and entrance/gameplay checks with real samples.
 
 Kenny Omega's supplied 2K22 files are the first validation sample for that year.
-This is the target for 0.16–0.17; 0.14.2 does not establish 2K22/2K23 support.
+This is the target for 0.16–0.17; 0.15 does not establish 2K22/2K23 support.
+
+0.15 adds bounded v6/inline-v1 source materials for measured yCh identities.
+The supplied raw 2K24 tables now generate native MTLS/JMTL output. V5 sequential
+records are decoded for diagnostics, but yCS source-shader mapping remains
+unverified and cannot take the current converter's plain-gear fallback.
+Genuine 2K23 model validation, older physics/masks and game checks remain open.

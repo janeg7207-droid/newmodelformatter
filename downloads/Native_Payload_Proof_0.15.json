@@ -1,0 +1,25 @@
+{
+  "candidate_sha256": "89a5eb0902db77d997e8bc7f3d047b4f2bed454f8ae462f2e01c8cef8482446d",
+  "diagnostics": [
+    {
+      "candidate_sha256": "89a5eb0902db77d997e8bc7f3d047b4f2bed454f8ae462f2e01c8cef8482446d",
+      "diagnostic_sha256": "13528dd4371c031702c271cbc432e8883aa2b34da5bbb325348ea32b94c59fdc",
+      "diagnostic_script_sha256": "96ddd0b891508781d2a2891e1608e232e6c22e7beeb5ad574c33d0f799d7c3c1",
+      "diagnostic_path": "/workspace/formatter-investigation/legacy_material15_native15-r2.exe",
+      "only_gui_entrypoint_changed": true,
+      "unchanged_carchive_payloads": 1067,
+      "pe_prefix_unchanged": true,
+      "in_game_validation": "not_performed"
+    },
+    {
+      "candidate_sha256": "89a5eb0902db77d997e8bc7f3d047b4f2bed454f8ae462f2e01c8cef8482446d",
+      "diagnostic_sha256": "b66719eb6d5798c8f8ba93067deac0aaea06301aae56eea650a10bf0924ab509",
+      "diagnostic_script_sha256": "6acb5135d81ef46269776758344d344f6b506c56af4888fe591524ff825e365b",
+      "diagnostic_path": "/workspace/formatter-investigation/legacy_material15_ui15-r2.exe",
+      "only_gui_entrypoint_changed": true,
+      "unchanged_carchive_payloads": 1067,
+      "pe_prefix_unchanged": true,
+      "in_game_validation": "not_performed"
+    }
+  ]
+}
