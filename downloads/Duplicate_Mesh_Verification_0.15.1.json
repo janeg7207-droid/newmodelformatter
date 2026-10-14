@@ -1,0 +1,75 @@
+{
+  "candidate_sha256": "dabd1972c56780738dd4dafeb2d8c1eb9fc9af3cb21971dd6787cdb2491c651f",
+  "matcher_sha256": "d98183a82b889a845684d9f62968dd7beae12cd47a29af12796a548ebddc39e7",
+  "proof_sha256": "1b3e01434c7f23ce16e646c3da76b695be6f4cc262a4ee9239e91fcb5e74f3ce",
+  "historical_native_backend_with_current_source_matcher": true,
+  "source_version": 40,
+  "target_version": 47,
+  "source_records": 12,
+  "consumed_target_records": 12,
+  "checks": {
+    "every_actual_source_record_selected_one_to_one": true,
+    "old_duplicate_failures_reproduced": true,
+    "new_exact_held_pair_verification_passed": true,
+    "all_actual_negative_controls_fail": true,
+    "all_inputs_unchanged": true
+  },
+  "verifications": {
+    "old_duplicate_matcher": {
+      "passed": false,
+      "problems": [
+        "mesh M_Beard (2227 verts) not found unchanged in the output",
+        "mesh M_Combinations (2460 verts) not found unchanged in the output",
+        "mesh M_Combinations (2460 verts) not found unchanged in the output",
+        "mesh M_Combinations (2460 verts) not found unchanged in the output",
+        "mesh M_Beard (2227 verts) not found unchanged in the output",
+        "ambiguous same-name attire mesh: M_Beard",
+        "ambiguous same-name attire mesh: M_Combinations",
+        "ambiguous same-name attire mesh: M_Combinations",
+        "ambiguous same-name attire mesh: M_Combinations",
+        "ambiguous same-name attire mesh: M_Beard"
+      ]
+    },
+    "new_duplicate_matcher": {
+      "passed": true,
+      "problems": []
+    },
+    "wrong_unique_duplicate_weight": {
+      "passed": false,
+      "problems": [
+        "M_Beard: weights of untouched vertices moved by 1.000"
+      ]
+    },
+    "different_identical_duplicate_weights": {
+      "passed": false,
+      "problems": [
+        "mesh M_Combinations (2460 verts) not found unchanged in the output",
+        "mesh M_Combinations (2460 verts) not found unchanged in the output",
+        "ambiguous same-name attire mesh: M_Combinations",
+        "ambiguous same-name attire mesh: M_Combinations"
+      ]
+    },
+    "wrong_duplicate_flag": {
+      "passed": false,
+      "problems": [
+        "M_Combinations flags (128, -1) -> (129, -1)"
+      ]
+    },
+    "missing_duplicate_record": {
+      "passed": false,
+      "problems": [
+        "mesh M_Combinations (2460 verts) not found unchanged in the output",
+        "attire output mesh would be reused: M_Combinations"
+      ]
+    },
+    "excess_duplicate_record": {
+      "passed": false,
+      "problems": [
+        "excess same-name attire output records: M_Combinations (3 -> 4)"
+      ]
+    }
+  },
+  "final_candidate_complete_hammer_folder_verifier_passed": true,
+  "input_changes": "none",
+  "in_game_validation": "not_performed"
+}

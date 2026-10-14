@@ -1,0 +1,96 @@
+{
+  "release": "0.15.1 experimental",
+  "run_tag": "r3",
+  "candidate": "NewModelFormatter_0.15.1_experimental_r3.exe",
+  "candidate_sha256": "dabd1972c56780738dd4dafeb2d8c1eb9fc9af3cb21971dd6787cdb2491c651f",
+  "candidate_bytes": 44473158,
+  "installer": {
+    "original_sha256": "ece4729f2ac3fc707c69550d4a79df7866c11a61463d8eb529ae927e04f377f2",
+    "target_sha256": "dabd1972c56780738dd4dafeb2d8c1eb9fc9af3cb21971dd6787cdb2491c651f",
+    "original_bytes": 44019860,
+    "target_bytes": 44473158,
+    "operation_count": 7,
+    "raw_carchive_payloads_reused": 1066,
+    "original_pyz_module_prefix_reused": true,
+    "python_reconstruction_verified": true,
+    "windows_powershell_installer_tested": false,
+    "compressed_patch_bytes": 500825,
+    "zip_crc_verified": true,
+    "zip_bytes": 517609
+  },
+  "installer_sha256": "c5961641977d53a992133425b2ec8ef906f011198df934b3035b731b6c3fa651",
+  "source_zip_sha256": "3e20f456585b0f5b1b7cfc7e719b5d348c8cddf3887d6188d542f70fb372739a",
+  "source_zip_bytes": 1422150,
+  "source_files": 207,
+  "all_source_zip_members_exact": true,
+  "source_zip_crc_verified": true,
+  "repository_tests_passed": 602,
+  "repository_test_log_sha256": "30aa36cdfbe3d626c5439e14d7e36204a1b00bee4d2b5198ec07e9faeac505fe",
+  "extracted_source_directory": "/workspace/formatter-investigation/general-masking151/source-package-check-r3",
+  "extracted_source_tests": {
+    "passed": 602,
+    "log": "/workspace/formatter-investigation/general-masking151/source-package-check-r3/extracted-tests.log",
+    "log_sha256": "114c0fe3012be9a9f62bdfbc02d359cbf26ad6eb81b70e30a45b520b613c2e92",
+    "cwd": "/workspace/formatter-investigation/general-masking151/source-package-check-r3",
+    "command": [
+      "/workspace/formatter-investigation/runtime06-venv/bin/python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "returncode": 0
+  },
+  "extracted_source_rebuild": {
+    "byte_identical": true,
+    "file": "/workspace/formatter-investigation/general-masking151/source-package-check-r3/NewModelFormatter_0.15.1_rebuilt.exe",
+    "sha256": "dabd1972c56780738dd4dafeb2d8c1eb9fc9af3cb21971dd6787cdb2491c651f",
+    "cwd": "/workspace/formatter-investigation/general-masking151/source-package-check-r3",
+    "command": [
+      "/workspace/formatter-investigation/runtime06-venv/bin/python",
+      "/workspace/formatter-investigation/general-masking151/source-package-check-r3/build_patched_exe.py",
+      "/workspace/formatter-investigation/formatter-original/Gorilla Model Formatter 1.0/Gorilla Model Formatter.exe",
+      "/workspace/formatter-investigation/general-masking151/source-package-check-r3/NewModelFormatter_0.15.1_rebuilt.exe",
+      "--own-ui"
+    ],
+    "returncode": 0,
+    "log_sha256": "4b7f9cb5f03624e01f75407c902784cb5d90dd01e23cad5f062bdf8a8a66c197"
+  },
+  "all_package_data_checks_passed": true,
+  "publication_ready": true,
+  "native_folder_cases": 9,
+  "partial_helper_cases": 7,
+  "native_assertions_passed": 145,
+  "exact_candidate_gui_checked": true,
+  "actual_positive_coverage": {
+    "hammer24": "actual supported mask applied or already covered",
+    "bryan25": "actual supported mask applied or already covered"
+  },
+  "masking_is_per_model_geometry_not_a_wrestler_profile": true,
+  "authored_masks_preserved_per_flag_group_and_lod": true,
+  "geometry_weights_physics_and_other_assets_preserved": true,
+  "unreadable_original_masks_not_claimed_recovered": true,
+  "foreign_textures_added": false,
+  "originals_unchanged": true,
+  "cakeview_and_folder_workflow_preserved": true,
+  "teeth_rule_unchanged_from_015": true,
+  "aj_material_namespace_correction_is_separate": true,
+  "in_game_visibility_teeth_and_animation_fixed": false,
+  "in_game_validation": "not_performed",
+  "windows_powershell_installer_tested": false,
+  "known_limits": [
+    "Flip fixture lacks raw MTLS, all unrelated materials and DDS; core helper success is not a complete wrestler conversion",
+    "opaque variant declaration does not inspect DDS alpha or establish game-loaded assets",
+    "static coverage does not prove deformation, arbitrary camera angles or game HPL semantics",
+    "native BigBoom input remains partial and its reported black teeth remain unresolved"
+  ],
+  "evidence_files": [
+    "General_Mask_Native_Validation_0.15.1.json",
+    "Native_Payload_Proof_0.15.1.json",
+    "NewModelFormatter_UI_Validation_0.15.1.json",
+    "Duplicate_Mesh_Verification_0.15.1.json",
+    "NewModelFormatter_0.15.1_Source_Manifest.json"
+  ]
+}

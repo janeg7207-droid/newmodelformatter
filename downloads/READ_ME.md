@@ -1,8 +1,10 @@
-# NewModelFormatter 0.15 experimental
+# NewModelFormatter 0.15.1 experimental
 
 This build repairs named local texture bindings for supported legacy materials,
 preserves explicitly authored teeth irradiance, and automatically restores the
-supplied Bryan and Flip masks for their exact inspected formatted-2K25 pairs. This
+supplied Bryan and Flip masks for their exact inspected formatted-2K25 pairs.
+0.15.1 adds per-model static body masking beneath eligible opaque clothing,
+boots and pads. The 0.15 teeth and older-2K24 material repairs remain unchanged. This
 covers supported inputs that previously passed through 2K24 -> 2K25 formatting.
 Gorilla-style folder input/output, CakeView, YCL translation, the original UI
 logic and original source files remain preserved. Appearance still requires
@@ -15,13 +17,90 @@ clipping, belt/blood or movement fix is claimed.
 
 ## Install
 
-1. Extract `NewModelFormatter_0.15_patch_installer.zip` into a fresh folder.
+1. Extract `NewModelFormatter_0.15.1_patch_installer.zip` into a fresh folder.
 2. Run `Install.cmd` and select your ORIGINAL Gorilla Model Formatter 1.0 EXE.
 3. Open the created `NewModelFormatter.exe`. Convert into a new empty output
    folder using your usual CakeView workflow.
 
 Select the original Gorilla EXE, not an older experimental EXE. No Python or
 Blender is needed to run the tool. The installer refuses existing output files.
+
+## New 0.15.1 per-model body masking beneath clothing
+
+**Body masking beneath clothes, boots and pads (experimental)** is selected
+by default and can be disabled. It derives additions from each supported
+model's paired native Body and clothing geometry. The production rule uses
+that model's data; it does not require Flip's identity or copy his mask IDs.
+
+Only actual face ranges with a linked, supported native gear JMTL (`0x15`),
+opaque variant 0 and proven scene flags qualify. Ring and entrance coverage
+are evaluated separately for HPL flags 0 and 1. Missing bindings, alpha or
+unsupported material declarations and unsupported scenes are excluded or
+refused with reasons in the report. Each paired model must have matching
+shared root bind frames and matching frames for every positively weighted
+Body or eligible clothing joint. Unused facial/helper differences are retained
+and recorded; they do not establish a coverage mismatch.
+
+The selector requires positive-depth intersections with outward-facing
+clothing surfaces, full projected coverage of Body triangles and coverage of
+every incident triangle around each selected vertex. All render vertices
+sharing a mask remap ID must qualify. Bounds only accelerate those tests;
+they do not establish coverage. The distance bound adapts to the referenced
+Body surface, and bounded-work refusal emits no partial selection. Geometry,
+UVs, skin weights, material payloads, YCL translation and folder input/output
+methods are preserved at this mask step.
+
+Finite faces whose winding disagrees with stored normals, or whose outward
+direction is ambiguous, are excluded locally. Every vertex incident to an
+excluded Body face and all its aliases stay out of the added mask; excluded
+clothing faces cannot provide coverage. Independently proved regions can
+qualify. The report records excluded face and vertex counts. Geometry,
+winding and stored normal directions are preserved; invalid/nonfinite domains
+and exceeded work budgets still refuse the calculation.
+
+Readable authored masks retain every existing group, flag and ID separately
+at each LOD, including nonuniform records and custom groups. Additions require
+verified cloned native LOD geometry and actual Body remap domains; primary-mesh
+IDs are not copied blindly into unknown LODs. A new mask generated for missing
+or unreadable HPL contains only supported static coverage. It does not recover
+the original mask's unknown coverage, and the report keeps that limitation.
+
+24 focused math checks and the complete 602-test repository suite passed,
+including closed boots, missing soles, holes, slivers, remap aliases,
+overlapping clothes, local winding exclusions, scale and work refusal.
+The held Flip geometry reproduces the independently measured 242 Body IDs
+under each elbow pad, 484 total, with the general selector. That is a measured
+comparison example, not a production identity gate. The exact release candidate
+passed 145 native checks across 16 cases: nine folder conversions/repeats and
+seven explicitly partial Flip helper cases. Hammerstone and Bryan receive
+the general rule without a whitelist; their native repeats preserve every
+asset byte. Existing mask records and every non-HPL payload are preserved.
+Final model/material fingerprints and both saved report copies are checked.
+These Wine/native-reader checks do not establish in-game appearance.
+
+Static coverage does not prove animation, simulation, arbitrary camera-angle
+coverage or actual game rendering. Serialized opacity does not establish
+texture pixel content or which baked assets the game loads. Review the report,
+rebake the complete output with CakeView, and check entrance/gameplay and arm
+and leg motion. Unsupported clothing may retain clipping; equipped title-belt
+fit is separate and is not declared fixed by a body mask.
+
+The **Body-atlas teeth/mouthbag: use skin shader (experimental)** workaround
+remains optional and selected by default; it can still be disabled. Its 0.15
+eligibility rules and refusals are unchanged. Missing or invalid local textures,
+unresolved material links and unsupported assets remain reported instead of
+being replaced. The user reports that BigBoom AJ's direct-2K24 conversion with
+0.15 still has black teeth after a complete CakeView rebake. That appearance
+problem remains unresolved; 0.15.1 does not change the teeth repair or claim
+to fix this result. AJ's supplied skin-shader teeth/mouthbag payloads already
+match that rule, but all seven entries in his uploaded MTLS reference a
+different material namespace. `BigBoomAJ_current_material_links_fix.zip`
+provides a separate table correction for that exact target namespace; it is
+not a general replacement table or a verified visual fix. This clothing-mask
+update makes no new teeth, eye or beard appearance claim.
+The versioned sections below retain earlier findings and
+validation history; their sample-specific limitations still apply unless a
+later section explicitly describes a guarded repair.
 
 ## New 0.15 older 2K24 material libraries
 
@@ -61,7 +140,10 @@ older material blocker. His intermediate `_formatted_2K25` copy instead has
 the invalid 81,408-byte HPL placeholder, even though its teeth/mouthbag repair
 ran. For a new direct conversion, use the original BigBoomAJ_2K24 folder and a
 fresh output. His exact raw MTLS pair has not been uploaded for character-specific
-validation, so a complete fresh CakeView bake and game check remain necessary.
+validation. The user subsequently tested a direct-2K24 0.15 output with a
+complete CakeView rebake and still saw black teeth. The older material-table
+repair does not establish a tooth appearance repair; this result remains
+unresolved in 0.15.1.
 
 Sequential outer-v5 material tables now receive a bounded diagnostic instead
 of an inappropriate malformed-v6 interpretation. Their older yCS shader
@@ -671,7 +753,9 @@ source/configuration snapshots with hashes. The full Blender scene pipeline
 has not replaced the original native engine. Original Gorilla EXE/mod assets
 are excluded. See `SOURCE_REBUILD.md`.
 
-168 regression tests passed under Python 3.14 with NumPy. Earlier Wine/Xvfb
+The earlier 168-test regression suite passed under Python 3.14 with NumPy.
+The current 0.15.1 suite has 602 passing tests; its final general-mask native
+folder and UI validation is still pending. Earlier Wine/Xvfb
 checks covered
 Rey, Billie YCL/materials, existing 2K26 byte preservation, AJ foot-mask
 embedding, actual 2K24 conversion, native missing-data recovery, fatal-error

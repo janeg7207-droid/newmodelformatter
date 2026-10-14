@@ -1,0 +1,197 @@
+{
+  "candidate_sha256": "dabd1972c56780738dd4dafeb2d8c1eb9fc9af3cb21971dd6787cdb2491c651f",
+  "diagnostics": [
+    {
+      "candidate_sha256": "dabd1972c56780738dd4dafeb2d8c1eb9fc9af3cb21971dd6787cdb2491c651f",
+      "diagnostic_sha256": "41e4ba091996e54e0f6ef8e90220159454665ba929f43f923f20f3bd6d6bbca8",
+      "diagnostic_script_sha256": "2ee7f937f20f39f41bb6750e3b1830f89e98687e09ed25fb968c487eadbf79c3",
+      "diagnostic_path": "/workspace/formatter-investigation/general_mask151_native-r3.exe",
+      "source_script_path": "/workspace/formatter-investigation/general-masking151/native_validation.py",
+      "source_script_sha256": "2e72a415d079b65b8ea29e66feddf9ee5cdf076be2c0f8f20023631d595255ac",
+      "runtime_provenance_injected": true,
+      "only_gui_entrypoint_changed": true,
+      "unchanged_carchive_payloads": 1067,
+      "pe_prefix_unchanged": true,
+      "in_game_validation": "not_performed"
+    },
+    {
+      "candidate_sha256": "dabd1972c56780738dd4dafeb2d8c1eb9fc9af3cb21971dd6787cdb2491c651f",
+      "diagnostic_sha256": "eb42af22636ed8b9a2800370b51b9606f30353dc858e18ff0b6ec28904bc277e",
+      "diagnostic_script_sha256": "a177e19c1919ac439d623d56fde2d55aff4f22dcc11d0b3de16439eeeca19019",
+      "diagnostic_path": "/workspace/formatter-investigation/general_mask151_ui-r3.exe",
+      "source_script_path": "/workspace/formatter-investigation/general-masking151/ui_validation.py",
+      "source_script_sha256": "e6a18de85ae7121a1cf818d876adb87d60e7cd2474adc804c7c89b8f127c87b6",
+      "runtime_provenance_injected": true,
+      "only_gui_entrypoint_changed": true,
+      "unchanged_carchive_payloads": 1067,
+      "pe_prefix_unchanged": true,
+      "in_game_validation": "not_performed"
+    }
+  ],
+  "frozen_source_modules": {
+    "gmf_repair.py": {
+      "source_sha256": "30d0145460b0e9f90191d16d2de39ff029d4774b53a86b957b2ea92a384c31a1",
+      "candidate_code_matches_source": true
+    },
+    "gmf_mask_recovery.py": {
+      "source_sha256": "4c3b6217b67dfd27aa36c213c7a5cfd2f5487a60117039cd0f396d05bf6c65c5",
+      "candidate_code_matches_source": true
+    },
+    "gmf_embedded_masks.py": {
+      "source_sha256": "a2f0ed6c38c489f7b742f9213d5ea758ca45f5cc4638e98147618d2d360175a2",
+      "candidate_code_matches_source": true
+    },
+    "gmf_supplied_masks.py": {
+      "source_sha256": "752b28179fd195400e2aff117ac288ada67d02958f9a0733dbb64fc4c67ae81f",
+      "candidate_code_matches_source": true
+    },
+    "gmf_flip_supplied_mask.py": {
+      "source_sha256": "12e51f75df6418ddbefd048fe96447259a8b72bfbf4c8cd924a5859c43da9061",
+      "candidate_code_matches_source": true
+    },
+    "gmf_flip_elbow_mask.py": {
+      "source_sha256": "e1a7e4197753e72bc6bd194cb123fcb4b9550d31e41152fc0a3a809ccc9a1808",
+      "candidate_code_matches_source": true
+    },
+    "gmf_clothing_coverage.py": {
+      "source_sha256": "ce13e5b7f49b34d2d65b0a292c7ee1e9d25c4aff85834da0f2cbdadcae37597e",
+      "candidate_code_matches_source": true
+    },
+    "gmf_mask_lods.py": {
+      "source_sha256": "614e88584410d33557902998ea8a39fa77b55f72fb7453f569cc5b0470c9d054",
+      "candidate_code_matches_source": true
+    },
+    "gmf_clothing_masks.py": {
+      "source_sha256": "122f4a9371f5768e184af60e07639b5bb02eb5378713bdf6f70587bf4229c5ee",
+      "candidate_code_matches_source": true
+    },
+    "gmf_material_formats.py": {
+      "source_sha256": "99f65c2aa21e46764dd364a324c6cc553d9d341f5ced1756b608b459d6673fd4",
+      "candidate_code_matches_source": true
+    },
+    "gmf_legacy_materials.py": {
+      "source_sha256": "4791f8b3f2d8d234d0dea61d97c83cd5fbc411d10544cc9f3eb35759b672a748",
+      "candidate_code_matches_source": true
+    },
+    "gmf_local_textures.py": {
+      "source_sha256": "dbe64fde7f537db5379b9862b0aa18bda148b5a1c352dc64d12faa86cb7a1454",
+      "candidate_code_matches_source": true
+    },
+    "gmf_dds_headers.py": {
+      "source_sha256": "4c9b87a60ff982b8bff3edc9d1ba0e8ae3107d0928dcbe3b05b94c03b826491c",
+      "candidate_code_matches_source": true
+    },
+    "gmf_mesh_matching.py": {
+      "source_sha256": "d98183a82b889a845684d9f62968dd7beae12cd47a29af12796a548ebddc39e7",
+      "candidate_code_matches_source": true
+    },
+    "gmf_teeth_parameters.py": {
+      "source_sha256": "d43299a011912bddd918a60ee9736d993e86afbdcdbc7415c806042733413d75",
+      "candidate_code_matches_source": true
+    },
+    "gmf_teeth_skin_workaround.py": {
+      "source_sha256": "8b51ac96723f236a60c602fbeb91ef4824446e6f1875d81065c9d2cec01f32b7",
+      "candidate_code_matches_source": true
+    },
+    "gmf_eye_parameters.py": {
+      "source_sha256": "79c3021a75bde7a15d5e82b39858a4e847dfd3182ac5b110c0dead760f1cf6bf",
+      "candidate_code_matches_source": true
+    },
+    "gmf_eye_defaults.py": {
+      "source_sha256": "556eb386e616b81b36c6db51df5ac335b6224a823d21eb11c0066849fb575a46",
+      "candidate_code_matches_source": true
+    },
+    "gmf_tongue_anchor.py": {
+      "source_sha256": "fe8d64953e1b9601cc4430d8ad542f50aa24d78c4974e04b510e233b21400bf0",
+      "candidate_code_matches_source": true
+    },
+    "gmf_ocular_anchor.py": {
+      "source_sha256": "cbb987bd86f4018a98694a88c27bead653b88302609f9f8dc642cc84e802bf80",
+      "candidate_code_matches_source": true
+    },
+    "gmf_face_audit.py": {
+      "source_sha256": "d1baf36866e4e83394465e56ec16e653d5c7d0139f98ceaafc5c0e1d1ed7d925",
+      "candidate_code_matches_source": true
+    },
+    "gmf_partial_rig.py": {
+      "source_sha256": "13672bb0e5a008bff50af8a55add899489c87c3d1d80de3a6875ea7eacf4b3e7",
+      "candidate_code_matches_source": true
+    },
+    "gmf_2k26_repair.py": {
+      "source_sha256": "805378d4df54983352fc0e801125b323fb184eed54d668ab8ea1e1315e1b03cd",
+      "candidate_code_matches_source": true
+    },
+    "gmf_reference_checks.py": {
+      "source_sha256": "d43b0baee65032beee555bfbefb58f35a3a2ca48ddaeb3de862c1d9881e8278f",
+      "candidate_code_matches_source": true
+    },
+    "gmf_reference_audit.py": {
+      "source_sha256": "afa72ce165cab50b3c9aa448f004cc48ff47fe19e5b043f57c6d3b5e76ef723f",
+      "candidate_code_matches_source": true
+    },
+    "gmf_ycl_repair.py": {
+      "source_sha256": "ab099ca2634a8d96c189f9ed58b58b4916da8f10723e4ca6839ce2255aed1e43",
+      "candidate_code_matches_source": true
+    },
+    "gmf_wdf_repair.py": {
+      "source_sha256": "2dac5429751be3e8fe52c2c302a0fc4773d392d4fc9fa4b789097b35e2adb1e5",
+      "candidate_code_matches_source": true
+    },
+    "gmf_physics_audit.py": {
+      "source_sha256": "5081b5d3e5a1226a62012db9b12d682afa52dacc88bd08754c12953ca47e55a1",
+      "candidate_code_matches_source": true
+    },
+    "gmf_surface_math.py": {
+      "source_sha256": "92c894a0a634bb590a7e76976188e1c0092fba5538bf285b9a346934972684a5",
+      "candidate_code_matches_source": true
+    },
+    "gmf_surface_transfer.py": {
+      "source_sha256": "d3c47d5b9736ab601ee0dac1f894e06713e225b7819abd730e5a7dcc6dbbff0b",
+      "candidate_code_matches_source": true
+    },
+    "gmf_surface_verification.py": {
+      "source_sha256": "3e27c6cff555084a4845646531a58ca18b42aaf82dbbada5575d7592ae5e64d6",
+      "candidate_code_matches_source": true
+    },
+    "gmf_aj_mask.py": {
+      "source_sha256": "d8d6ab68011742c97c1c7c38f85d99ae26de3989f257f13a6669e7ecbea0fee1",
+      "candidate_code_matches_source": true
+    },
+    "gmf_jmtl_fields.py": {
+      "source_sha256": "d7a31520c01e94db84c1d5da490b61da9573f44267e12e5c38e42fa7815e3ecd",
+      "candidate_code_matches_source": true
+    },
+    "gmf_jmtl_audit.py": {
+      "source_sha256": "d86548af2d7ca7555ce41d21208290e2e637fbaf1ec054870b339f7e282aa6ce",
+      "candidate_code_matches_source": true
+    },
+    "gmf_native_assets.py": {
+      "source_sha256": "153aca2fb8db974d1673814a9622bf2a61dc1cbcea4b67dadf0727bac14bb36d",
+      "candidate_code_matches_source": true
+    },
+    "gmf_native_masks.py": {
+      "source_sha256": "45bdc9a19cc968838f0ffd2187d427bb9ae1943ebf0add21818afa0b8a09e0c8",
+      "candidate_code_matches_source": true
+    },
+    "gmf_2k26_audit.py": {
+      "source_sha256": "283a251ade001af8b59372908231015f52becde8f64bb8979e4442ab53efb730",
+      "candidate_code_matches_source": true
+    },
+    "gmf_2k24_route.py": {
+      "source_sha256": "3b1e6e09944d53dc4f80091224acf625f1543777a42e6ecf627cd70b26943484",
+      "candidate_code_matches_source": true
+    },
+    "gmf_dds_alpha.py": {
+      "source_sha256": "eec543d478e6527c5f4f7cf1d2f11f8c9ad75b112b2ca5705b1e39bedc85796a",
+      "candidate_code_matches_source": true
+    },
+    "gmf_report.py": {
+      "source_sha256": "9fc9c199d2bb79fc9ffb15ceb0053a8d9fb8df9367b7c9ba162e33030cc39fab",
+      "candidate_code_matches_source": true
+    },
+    "newmodelformatter_gui.py": {
+      "source_sha256": "a85e5fb60e904033be66e8faa694a69d749290baea0b30d00d676c574a08e679",
+      "candidate_code_matches_source": true
+    }
+  }
+}

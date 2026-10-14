@@ -1,6 +1,6 @@
 # Installation
 
-See [NEW_FORMATTER.md](NEW_FORMATTER.md) for current 0.14.2 installation,
+See [NEW_FORMATTER.md](NEW_FORMATTER.md) for current 0.15.1 installation,
 verification and remaining limitations. See [SOURCE_REBUILD.md](SOURCE_REBUILD.md)
 for rebuilding the EXE from the exact original supplied Gorilla EXE.
 

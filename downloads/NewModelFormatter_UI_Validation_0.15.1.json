@@ -1,0 +1,14 @@
+{
+  "candidate_sha256": "dabd1972c56780738dd4dafeb2d8c1eb9fc9af3cb21971dd6787cdb2491c651f",
+  "diagnostic_exe_sha256": "eb42af22636ed8b9a2800370b51b9606f30353dc858e18ff0b6ec28904bc277e",
+  "title": "NewModelFormatter \u2014 experimental",
+  "root_geometry": "880x840+0+0",
+  "version_visible": true,
+  "default_teeth_workaround": true,
+  "teeth_workaround_visible": true,
+  "report_button_visible": true,
+  "default_clothing_masking": true,
+  "clothing_masking_visible": true,
+  "cakeview_unlock_required": true,
+  "scope": "Wine/Xvfb exact-candidate UI; no game test"
+}

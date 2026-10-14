@@ -1,0 +1,1008 @@
+{
+  "release": "0.15.1 experimental",
+  "candidate_sha256": "dabd1972c56780738dd4dafeb2d8c1eb9fc9af3cb21971dd6787cdb2491c651f",
+  "files": {
+    "FACE_RENDERING_INVESTIGATION.md": {
+      "bytes": 7318,
+      "sha256": "d4d74aa7d558ece84325552817b59ca645f291e2dbae7c5ef1994140b099f456"
+    },
+    "FILES_NEEDED.md": {
+      "bytes": 4582,
+      "sha256": "711cccc7725e677d105ad1a246e24a3acb926f427e812b1957bdf12f17ee34d3"
+    },
+    "INSTALL.md": {
+      "bytes": 466,
+      "sha256": "52fb5cc1bacee50ad6390503dba7a6fae339dd4fa7048d4baf6d5fb6f5dcb587"
+    },
+    "INVESTIGATION.md": {
+      "bytes": 28343,
+      "sha256": "7d12cc5d36831df7cf3fab9791722be3b756ba6267ef5f21995684b1994eb785"
+    },
+    "NEW_FORMATTER.md": {
+      "bytes": 50943,
+      "sha256": "07c275e867adebae8ff515402b326910a3694f19048055305c6064b3496a21e9"
+    },
+    "README.md": {
+      "bytes": 19,
+      "sha256": "797d2f8f9734599be3be173c6552ff16d111a38fef86c2d6818951768430d48d"
+    },
+    "ROADMAP.md": {
+      "bytes": 1782,
+      "sha256": "6a486682a554f865e188ed2636c7953a8fa29f01d7379d047ee6d03c1672851c"
+    },
+    "SOURCE_REBUILD.md": {
+      "bytes": 1834,
+      "sha256": "c72d638facb09767b8afa434743641eda7f75f129143a81d6126764a57313681"
+    },
+    "apply_source_patch.py": {
+      "bytes": 2935,
+      "sha256": "d88ff9e2b195519d582aa6fb2bb0c0a123e6c5c340571bb953f91ecd47f2830f"
+    },
+    "build_patched_exe.py": {
+      "bytes": 13444,
+      "sha256": "6c365bf3e1a8e7cad25a13cae8df41f565527ab611adcee0a5385b62be70a149"
+    },
+    "gmf_2k24_route.py": {
+      "bytes": 4031,
+      "sha256": "3b1e6e09944d53dc4f80091224acf625f1543777a42e6ecf627cd70b26943484"
+    },
+    "gmf_2k26_audit.py": {
+      "bytes": 12179,
+      "sha256": "283a251ade001af8b59372908231015f52becde8f64bb8979e4442ab53efb730"
+    },
+    "gmf_2k26_repair.py": {
+      "bytes": 21310,
+      "sha256": "805378d4df54983352fc0e801125b323fb184eed54d668ab8ea1e1315e1b03cd"
+    },
+    "gmf_aj_mask.py": {
+      "bytes": 7132,
+      "sha256": "d8d6ab68011742c97c1c7c38f85d99ae26de3989f257f13a6669e7ecbea0fee1"
+    },
+    "gmf_clothing_coverage.py": {
+      "bytes": 22439,
+      "sha256": "ce13e5b7f49b34d2d65b0a292c7ee1e9d25c4aff85834da0f2cbdadcae37597e"
+    },
+    "gmf_clothing_masks.py": {
+      "bytes": 38892,
+      "sha256": "122f4a9371f5768e184af60e07639b5bb02eb5378713bdf6f70587bf4229c5ee"
+    },
+    "gmf_dds_alpha.py": {
+      "bytes": 2480,
+      "sha256": "eec543d478e6527c5f4f7cf1d2f11f8c9ad75b112b2ca5705b1e39bedc85796a"
+    },
+    "gmf_dds_headers.py": {
+      "bytes": 9792,
+      "sha256": "4c9b87a60ff982b8bff3edc9d1ba0e8ae3107d0928dcbe3b05b94c03b826491c"
+    },
+    "gmf_embedded_masks.py": {
+      "bytes": 18244,
+      "sha256": "a2f0ed6c38c489f7b742f9213d5ea758ca45f5cc4638e98147618d2d360175a2"
+    },
+    "gmf_eye_defaults.py": {
+      "bytes": 17269,
+      "sha256": "556eb386e616b81b36c6db51df5ac335b6224a823d21eb11c0066849fb575a46"
+    },
+    "gmf_eye_parameters.py": {
+      "bytes": 4329,
+      "sha256": "79c3021a75bde7a15d5e82b39858a4e847dfd3182ac5b110c0dead760f1cf6bf"
+    },
+    "gmf_face_audit.py": {
+      "bytes": 23563,
+      "sha256": "d1baf36866e4e83394465e56ec16e653d5c7d0139f98ceaafc5c0e1d1ed7d925"
+    },
+    "gmf_flip_elbow_mask.py": {
+      "bytes": 45285,
+      "sha256": "e1a7e4197753e72bc6bd194cb123fcb4b9550d31e41152fc0a3a809ccc9a1808"
+    },
+    "gmf_flip_supplied_mask.py": {
+      "bytes": 11123,
+      "sha256": "12e51f75df6418ddbefd048fe96447259a8b72bfbf4c8cd924a5859c43da9061"
+    },
+    "gmf_jmtl_audit.py": {
+      "bytes": 4739,
+      "sha256": "d86548af2d7ca7555ce41d21208290e2e637fbaf1ec054870b339f7e282aa6ce"
+    },
+    "gmf_jmtl_fields.py": {
+      "bytes": 2249,
+      "sha256": "d7a31520c01e94db84c1d5da490b61da9573f44267e12e5c38e42fa7815e3ecd"
+    },
+    "gmf_legacy_materials.py": {
+      "bytes": 15322,
+      "sha256": "4791f8b3f2d8d234d0dea61d97c83cd5fbc411d10544cc9f3eb35759b672a748"
+    },
+    "gmf_local_textures.py": {
+      "bytes": 14670,
+      "sha256": "dbe64fde7f537db5379b9862b0aa18bda148b5a1c352dc64d12faa86cb7a1454"
+    },
+    "gmf_mask_lods.py": {
+      "bytes": 18641,
+      "sha256": "614e88584410d33557902998ea8a39fa77b55f72fb7453f569cc5b0470c9d054"
+    },
+    "gmf_mask_recovery.py": {
+      "bytes": 105149,
+      "sha256": "4c3b6217b67dfd27aa36c213c7a5cfd2f5487a60117039cd0f396d05bf6c65c5"
+    },
+    "gmf_material_formats.py": {
+      "bytes": 14841,
+      "sha256": "99f65c2aa21e46764dd364a324c6cc553d9d341f5ced1756b608b459d6673fd4"
+    },
+    "gmf_mesh_matching.py": {
+      "bytes": 15715,
+      "sha256": "d98183a82b889a845684d9f62968dd7beae12cd47a29af12796a548ebddc39e7"
+    },
+    "gmf_native_assets.py": {
+      "bytes": 12022,
+      "sha256": "153aca2fb8db974d1673814a9622bf2a61dc1cbcea4b67dadf0727bac14bb36d"
+    },
+    "gmf_native_masks.py": {
+      "bytes": 8886,
+      "sha256": "45bdc9a19cc968838f0ffd2187d427bb9ae1943ebf0add21818afa0b8a09e0c8"
+    },
+    "gmf_ocular_anchor.py": {
+      "bytes": 25566,
+      "sha256": "cbb987bd86f4018a98694a88c27bead653b88302609f9f8dc642cc84e802bf80"
+    },
+    "gmf_partial_rig.py": {
+      "bytes": 17321,
+      "sha256": "13672bb0e5a008bff50af8a55add899489c87c3d1d80de3a6875ea7eacf4b3e7"
+    },
+    "gmf_physics_audit.py": {
+      "bytes": 32074,
+      "sha256": "5081b5d3e5a1226a62012db9b12d682afa52dacc88bd08754c12953ca47e55a1"
+    },
+    "gmf_reference_audit.py": {
+      "bytes": 6147,
+      "sha256": "afa72ce165cab50b3c9aa448f004cc48ff47fe19e5b043f57c6d3b5e76ef723f"
+    },
+    "gmf_reference_checks.py": {
+      "bytes": 2802,
+      "sha256": "d43b0baee65032beee555bfbefb58f35a3a2ca48ddaeb3de862c1d9881e8278f"
+    },
+    "gmf_repair.py": {
+      "bytes": 31822,
+      "sha256": "30d0145460b0e9f90191d16d2de39ff029d4774b53a86b957b2ea92a384c31a1"
+    },
+    "gmf_report.py": {
+      "bytes": 7203,
+      "sha256": "9fc9c199d2bb79fc9ffb15ceb0053a8d9fb8df9367b7c9ba162e33030cc39fab"
+    },
+    "gmf_supplied_masks.py": {
+      "bytes": 10851,
+      "sha256": "752b28179fd195400e2aff117ac288ada67d02958f9a0733dbb64fc4c67ae81f"
+    },
+    "gmf_surface_math.py": {
+      "bytes": 2227,
+      "sha256": "92c894a0a634bb590a7e76976188e1c0092fba5538bf285b9a346934972684a5"
+    },
+    "gmf_surface_transfer.py": {
+      "bytes": 6759,
+      "sha256": "d3c47d5b9736ab601ee0dac1f894e06713e225b7819abd730e5a7dcc6dbbff0b"
+    },
+    "gmf_surface_verification.py": {
+      "bytes": 2060,
+      "sha256": "3e27c6cff555084a4845646531a58ca18b42aaf82dbbada5575d7592ae5e64d6"
+    },
+    "gmf_teeth_parameters.py": {
+      "bytes": 1253,
+      "sha256": "d43299a011912bddd918a60ee9736d993e86afbdcdbc7415c806042733413d75"
+    },
+    "gmf_teeth_skin_workaround.py": {
+      "bytes": 27835,
+      "sha256": "8b51ac96723f236a60c602fbeb91ef4824446e6f1875d81065c9d2cec01f32b7"
+    },
+    "gmf_tongue_anchor.py": {
+      "bytes": 21956,
+      "sha256": "fe8d64953e1b9601cc4430d8ad542f50aa24d78c4974e04b510e233b21400bf0"
+    },
+    "gmf_wdf_repair.py": {
+      "bytes": 19720,
+      "sha256": "2dac5429751be3e8fe52c2c302a0fc4773d392d4fc9fa4b789097b35e2adb1e5"
+    },
+    "gmf_ycl_repair.py": {
+      "bytes": 9245,
+      "sha256": "ab099ca2634a8d96c189f9ed58b58b4916da8f10723e4ca6839ce2255aed1e43"
+    },
+    "newmodelformatter_gui.py": {
+      "bytes": 8561,
+      "sha256": "a85e5fb60e904033be66e8faa694a69d749290baea0b30d00d676c574a08e679"
+    },
+    "patch_installer/Apply-FormatterPatch.ps1": {
+      "bytes": 6792,
+      "sha256": "710ec25a50219c57871f592cdc4004e5e312ae9f4969c1e80dc0229a715ef97c"
+    },
+    "patch_installer/Install.cmd": {
+      "bytes": 306,
+      "sha256": "eef8810dd034e3c80f0dad9763292d1cbdf2bafb68e6fd360bfe10ed952ec649"
+    },
+    "patch_installer/Optional_Flip_HPL/931_Attire.hpl": {
+      "bytes": 70188,
+      "sha256": "8a280ab3add1727a763796e9556d7a99b55cfae8ead98448fc82fd2183b927fc"
+    },
+    "patch_installer/README.txt": {
+      "bytes": 16062,
+      "sha256": "f7ba775e0533b9f82dffc859168934405aac8def0d567f2dd48085995e3e7b0d"
+    },
+    "patch_installer/build_binary_patch.py": {
+      "bytes": 8955,
+      "sha256": "8359f342fa5f4729c2137dd471826957bffe8973eb839f833dd92bc9ade2431b"
+    },
+    "reference_source/ModelFormatter/MaterialGenerator.cs": {
+      "bytes": 143832,
+      "sha256": "2abc03a3cfbb9714ebdf8311757b93fe2de72578cf53094ef690ee48bae55b3a"
+    },
+    "reference_source/ModelFormatter/MaterialGeneratorBridge.ps1": {
+      "bytes": 2456,
+      "sha256": "0d0e6f4c6586b1848922271cd451c9caeb5b54af8946f81ecc221409ee23ee7d"
+    },
+    "reference_source/ModelFormatter/MaterialGeneratorWorking.cs": {
+      "bytes": 127903,
+      "sha256": "a6762603c764b95252140a89deca9efa770b01f32b7e5d40dae2864ff99789b6"
+    },
+    "reference_source/ModelFormatter/MaterialGeneratorWorkingBridge.ps1": {
+      "bytes": 2240,
+      "sha256": "09f611232cc5e22a995ecd93a063ed96c878d17967f5334791ab49120a105ac4"
+    },
+    "reference_source/ModelFormatter/__init__.py": {
+      "bytes": 1003709,
+      "sha256": "92a226ad1a3d012b2c1a69749e3a7dcebbde7801bcae1e277e0eaa5f3e404372"
+    },
+    "reference_source/README.md": {
+      "bytes": 945,
+      "sha256": "63e2c56e25c8097ac416d6022301114d2a02866956f3ba904e778123e9e28a36"
+    },
+    "reference_source/WWE2K_MDL/Blender/Extras/MeshDataTransfer/__init__.py": {
+      "bytes": 24990,
+      "sha256": "7aba977d34697aa1eda24826452a0c75e06de9e583e561fa3c22943673459676"
+    },
+    "reference_source/WWE2K_MDL/Blender/Extras/MeshDataTransfer/mesh_data_transfer.py": {
+      "bytes": 128480,
+      "sha256": "862d4c0ca9349cc441bc3dd562b4aa8528f150890776196989c885ffcf51d7f3"
+    },
+    "reference_source/WWE2K_MDL/Blender/Extras/MeshDataTransfer/operators.py": {
+      "bytes": 17010,
+      "sha256": "1014273a91c53bdbcb4421dba412bc155f2b17a0b6fb3b4956a3d5c0747d96a5"
+    },
+    "reference_source/WWE2K_MDL/Blender/Extras/default_char_APs.json": {
+      "bytes": 44967,
+      "sha256": "249f143efbd3ed06f56d29c7dc3981325679c8a3d72e17d421f66f2d7bdbf271"
+    },
+    "reference_source/WWE2K_MDL/Blender/Extras/hair_slot_renamer.py": {
+      "bytes": 18682,
+      "sha256": "f3e6e456a5b9d1bb04bcce4af41705490c4b8c41b40c2950c508aba89dae0fca"
+    },
+    "reference_source/WWE2K_MDL/Blender/Extras/jmtl_resolver.py": {
+      "bytes": 32544,
+      "sha256": "4e51fe456a307e1831145365d1025b4c7db5fcdc8d68e19276fbdaee0c072142"
+    },
+    "reference_source/WWE2K_MDL/Blender/Extras/masking_hpl.py": {
+      "bytes": 13908,
+      "sha256": "6afa4f7ecc6058118863c4c8e197935eee5856bb05ab5c7a4798fb0c4c2f96ab"
+    },
+    "reference_source/WWE2K_MDL/Blender/Extras/material_export_panel.py": {
+      "bytes": 16557,
+      "sha256": "7063cf0e46c85eea91856bcdb1a355918db47bc02cc4d5b264e1940d59b02bca"
+    },
+    "reference_source/WWE2K_MDL/Blender/Extras/material_inference.py": {
+      "bytes": 21289,
+      "sha256": "261063def5e2acb43f39d14c0e4e7c43704909d3feae4eebf773eac5f6a6b30d"
+    },
+    "reference_source/WWE2K_MDL/Blender/Extras/materials.py": {
+      "bytes": 42245,
+      "sha256": "197f4c9346b6bd5949a00af173a74f4e23c2e7573d64104c2e8b4a4b24add52f"
+    },
+    "reference_source/WWE2K_MDL/Blender/Extras/model_gtpt_gen.py": {
+      "bytes": 25747,
+      "sha256": "daf5c02cd607e0d1edfa295fd79bd91aa3760b35234a593149aef34563511455"
+    },
+    "reference_source/WWE2K_MDL/Blender/Extras/model_points_gen.py": {
+      "bytes": 2876,
+      "sha256": "35c5ed23e2c0c2765036f99cdaa5b0e209293b90dd4a8b71aa961cf94e497327"
+    },
+    "reference_source/WWE2K_MDL/Blender/Extras/model_properties.py": {
+      "bytes": 769,
+      "sha256": "493a0c406eb0625442e3c45cfca12b34b23df7e6010edc5932e88b88037bccc9"
+    },
+    "reference_source/WWE2K_MDL/Blender/Extras/physics_swap.py": {
+      "bytes": 36787,
+      "sha256": "0e0bf0ab069cee6af3476dabdca3435d9f875aa115847ce3205ef6563b34b2d6"
+    },
+    "reference_source/WWE2K_MDL/Blender/Extras/skeleton_alignment.py": {
+      "bytes": 6531,
+      "sha256": "7038ab6aa1f9a46255ecda93ac98f0ff574a7898f99327a3d8c90d1f5b7e2732"
+    },
+    "reference_source/WWE2K_MDL/Blender/Extras/streamline4_1.py": {
+      "bytes": 68731,
+      "sha256": "f26673ccd75aaf3572bb2321e43c9155a08ffcf9259503e399b58703fadfde64"
+    },
+    "reference_source/WWE2K_MDL/Blender/_vendor/README.md": {
+      "bytes": 2022,
+      "sha256": "648ef1dd5c1cafc91cf226c95c75d9e2a2f1c7f12a20a2082304a7c950e48a88"
+    },
+    "reference_source/WWE2K_MDL/Blender/_vendor/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "reference_source/WWE2K_MDL/Blender/_vendor/flatbuffers/__init__.py": {
+      "bytes": 751,
+      "sha256": "abbb76ecdceeb76a959ee8cf211660ae4dc739b992db66133e6b96f79045e446"
+    },
+    "reference_source/WWE2K_MDL/Blender/_vendor/flatbuffers/_version.py": {
+      "bytes": 696,
+      "sha256": "b2a81266dc3d8a28191b8b5c10100971fc4258340934590f2a6f0c591c812ace"
+    },
+    "reference_source/WWE2K_MDL/Blender/_vendor/flatbuffers/builder.py": {
+      "bytes": 27472,
+      "sha256": "93abde4a4a2c2af461815270bdaed5a4e8912b94ad100c70b44523955e7fbbd3"
+    },
+    "reference_source/WWE2K_MDL/Blender/_vendor/flatbuffers/compat.py": {
+      "bytes": 2519,
+      "sha256": "db13fdc75a2f5fe21d3de6b21c8c2bfdd26942f270ba044f375c0ae6f8fb5ee5"
+    },
+    "reference_source/WWE2K_MDL/Blender/_vendor/flatbuffers/encode.py": {
+      "bytes": 1581,
+      "sha256": "48cac66f5cbcfc471c326e6f314d4f8e00216fdfcd1d3885923f3790d23b7678"
+    },
+    "reference_source/WWE2K_MDL/Blender/_vendor/flatbuffers/flexbuffers.py": {
+      "bytes": 44275,
+      "sha256": "1665c42ed4ef59d7f08a0b3a218886a7d5f26be40389463851ce20e23bf402e6"
+    },
+    "reference_source/WWE2K_MDL/Blender/_vendor/flatbuffers/number_types.py": {
+      "bytes": 3955,
+      "sha256": "f082ae2a8f36dafe2042f50e3bf0830ae25f83876218138b3818f990b57b74fa"
+    },
+    "reference_source/WWE2K_MDL/Blender/_vendor/flatbuffers/packer.py": {
+      "bytes": 1165,
+      "sha256": "a70df2fcd33e58e11c6df4fa373002b3353d3cf1124180d969ba1f811c6c8fe8"
+    },
+    "reference_source/WWE2K_MDL/Blender/_vendor/flatbuffers/table.py": {
+      "bytes": 5170,
+      "sha256": "f0e99e922a84cb043fa4ca93ed0e144c9c8c094f1e5610012a996b29208d4219"
+    },
+    "reference_source/WWE2K_MDL/Blender/_vendor/flatbuffers/util.py": {
+      "bytes": 1669,
+      "sha256": "21bd5c4b1f5fb2017d058f388989744e38fba9fb4d867888ed9116c89c2f6461"
+    },
+    "reference_source/WWE2K_MDL/Blender/blender_gtpt.py": {
+      "bytes": 11697,
+      "sha256": "698bd12c8673d10b8ea5c36b706dc97783bf264c87d3876303ba40fdc3f2b856"
+    },
+    "reference_source/WWE2K_MDL/Blender/blender_mesh.py": {
+      "bytes": 30881,
+      "sha256": "0f3e091d3ba5db57fb43d7d637e03ed29c4348637a656761b8a600822c2bdb01"
+    },
+    "reference_source/WWE2K_MDL/Blender/blender_points.py": {
+      "bytes": 2911,
+      "sha256": "e6f54b945f3c8dd3660280e185d525667722ee07a1cf2d2f5b4d838bda251a64"
+    },
+    "reference_source/WWE2K_MDL/Blender/blender_save.py": {
+      "bytes": 33528,
+      "sha256": "1880777861dcd45f6b1051614f46c533db88d97d6233dfaac3c0ac7af2877c42"
+    },
+    "reference_source/WWE2K_MDL/Blender/blender_scene.py": {
+      "bytes": 12771,
+      "sha256": "ceb96a239694e28079c32b857760a1c7853b1951ddf8415949837c92a660e15e"
+    },
+    "reference_source/WWE2K_MDL/Blender/blender_skeleton.py": {
+      "bytes": 4279,
+      "sha256": "3098f7ceb78834f99bd9ac8fefcd0d66e377770a7f27a4daf60fef406bc1fa70"
+    },
+    "reference_source/WWE2K_MDL/Blender/blender_utils.py": {
+      "bytes": 84790,
+      "sha256": "106de6dc1e57de50a59e69b53c8bfde7f024bd9125cceb7ec5daa6d39ad1b127"
+    },
+    "reference_source/WWE2K_MDL/Blender/perf.py": {
+      "bytes": 29017,
+      "sha256": "1d6382e9e6ee73119f81717310cb8bbca8a094a69628217419960ff6eb1c7e86"
+    },
+    "reference_source/WWE2K_MDL/Link/interface.py": {
+      "bytes": 9175,
+      "sha256": "0d6a769c83b690e16bc4db3c1e037714d02fad88842c29ec5b5cea48dae7a24d"
+    },
+    "reference_source/WWE2K_MDL/Link/interface_save.py": {
+      "bytes": 48741,
+      "sha256": "ebb5f967c52a07642712eb42dd8e53aa07e9b9b4d1f13a5e65667363922df780"
+    },
+    "reference_source/WWE2K_MDL/Link/log.py": {
+      "bytes": 1147,
+      "sha256": "36a0744acdec115a3df4d498fa87d29b00635966f7c9150f657ef6f87ac3fce9"
+    },
+    "reference_source/WWE2K_MDL/Link/material_presets.README.md": {
+      "bytes": 1383,
+      "sha256": "3baf9dbc0afca20429b098815e773029bcf33ab49a0643568fb677269d270941"
+    },
+    "reference_source/WWE2K_MDL/Link/material_presets.json": {
+      "bytes": 186808,
+      "sha256": "02a6daf9368e8cc24528a4beae0c53698bd5fc3ed1bf0a3daae92582342cacd7"
+    },
+    "reference_source/WWE2K_MDL/Link/wrapper.py": {
+      "bytes": 54518,
+      "sha256": "b1a5c0a7eabed25fb33412a631fa4e88545febdd046e7e9ec44754400216de99"
+    },
+    "reference_source/WWE2K_MDL/Serialize/_disabled/README.md": {
+      "bytes": 2493,
+      "sha256": "1e1d2469c5e904f410d267aa264a69234c9dc93464c7a7bef632992b59e200f4"
+    },
+    "reference_source/WWE2K_MDL/Serialize/_disabled/__init__.py": {
+      "bytes": 359,
+      "sha256": "2b8e720f4e101502f632d18fc8dc0df4a4527744531aee045a5a1702b77a89fc"
+    },
+    "reference_source/WWE2K_MDL/Serialize/_disabled/ctg_generator.py": {
+      "bytes": 37425,
+      "sha256": "51051569a06f1d4cabee1df3773c0fa56021890b083e4245cf27b778ed15c062"
+    },
+    "reference_source/WWE2K_MDL/Serialize/_disabled/mcd_patch_mhead.py": {
+      "bytes": 3598,
+      "sha256": "4c76bb5b801bde54c1e547cedb115f7fd1b1dae84d1bfe179cfcbf183271c537"
+    },
+    "reference_source/WWE2K_MDL/Serialize/_disabled/skeleton_remap_logic.py": {
+      "bytes": 25039,
+      "sha256": "3708f77bbc311c60f3914433277d1657849a6b40cb8ddc42dc9a26c45eafa541"
+    },
+    "reference_source/WWE2K_MDL/Serialize/_test_materials.py": {
+      "bytes": 156203,
+      "sha256": "e18be730bfa9ce0a59072adef0529d6798df4a4ac365a5002dd577ed73338e4c"
+    },
+    "reference_source/WWE2K_MDL/Serialize/companion_upgrade.py": {
+      "bytes": 10582,
+      "sha256": "a31b67704a193ee367baeeb3e2db754fef2a9549bee1016054a4a7e919077cee"
+    },
+    "reference_source/WWE2K_MDL/Serialize/gtpt_resolver.py": {
+      "bytes": 19967,
+      "sha256": "fe2df57614768ddc60e860b9be6639347dfbf4828bd6858c2c55e495a51a7c0d"
+    },
+    "reference_source/WWE2K_MDL/Serialize/hpl_roundtrip.py": {
+      "bytes": 46369,
+      "sha256": "9861391fbe334b6edab0c144f41877e7befa49c956324adf951090418f82b860"
+    },
+    "reference_source/WWE2K_MDL/Serialize/jmtl_writer.py": {
+      "bytes": 95255,
+      "sha256": "5c5e48662a40f02590cb6499e034cf23849a14f881d541bbf3fc57b680a2b944"
+    },
+    "reference_source/WWE2K_MDL/Serialize/material_export.py": {
+      "bytes": 97702,
+      "sha256": "364507a087c94119723033bd96664b57a998281a9741b0503be40064bee5516a"
+    },
+    "reference_source/WWE2K_MDL/Serialize/material_templates.py": {
+      "bytes": 13852,
+      "sha256": "07ab69474463357616248d683945cc4474fad3e89d029a1425baef62550a9131"
+    },
+    "reference_source/WWE2K_MDL/Serialize/model_serialize.py": {
+      "bytes": 56830,
+      "sha256": "acc8f71276dc82822e5dc9edb32a8d4b2a2c574026a4893907534eaa5de6cda6"
+    },
+    "reference_source/WWE2K_MDL/Serialize/mtls_writer.py": {
+      "bytes": 20246,
+      "sha256": "a8aaaa43288d3393a7575cdf4a504268a7307b74027edf7f092ef8d18b99026b"
+    },
+    "reference_source/WWE2K_MDL/Serialize/physics_constants.py": {
+      "bytes": 1331,
+      "sha256": "7a68412831dde83cf8fd809d48fac1afb5202a0948d5f8b57ac19a7191f4014b"
+    },
+    "reference_source/WWE2K_MDL/Serialize/physics_patcher.py": {
+      "bytes": 117207,
+      "sha256": "8fd34b6fdaf22e288aeedba3a2357501055ae600b15785668a9a5bccd58a7862"
+    },
+    "reference_source/WWE2K_MDL/Serialize/skeleton_ref_26.json": {
+      "bytes": 42066,
+      "sha256": "1c1b257da42e24c2ae534ad24cdeba2318c5e64aaf2c7df55d0cebc380860485"
+    },
+    "reference_source/WWE2K_MDL/Serialize/skeleton_remap.py": {
+      "bytes": 3107,
+      "sha256": "430eb461756cef66cdf54f3f5ee2273d82108a3b35b0c60fa0c0954d9950c3a2"
+    },
+    "reference_source/WWE2K_MDL/Serialize/vanilla_basis.py": {
+      "bytes": 64010,
+      "sha256": "bc45d0d1b406ae4ffc861b8d5c91d68a26ceb6e2f3f15ca5cc0ab24b98f74497"
+    },
+    "reference_source/WWE2K_MDL/Serialize/wdf_generator.py": {
+      "bytes": 10698,
+      "sha256": "77296442a5492a0c6b0412d6b15f85adf47f7907cb378d62d2a07ea60afd686c"
+    },
+    "reference_source/WWE2K_MDL/Serialize/wdf_remap.py": {
+      "bytes": 10477,
+      "sha256": "a9cc9ae83168905d9746037787bcf91649f04a4aed43e602074a15e3f28a4048"
+    },
+    "reference_source/WWE2K_MDL/SkinModel/skinmesh.py": {
+      "bytes": 9267,
+      "sha256": "68eec2d27e99273250bcd8c4ef22fe9a59b9e1bfe6d1960316a9a5c4630a3313"
+    },
+    "reference_source/WWE2K_MDL/SkinModel/skinmesh_blendshapes.py": {
+      "bytes": 2358,
+      "sha256": "b074677475acea5a473a95db970ab7fb461f39fec2944567d5b348b373804ae1"
+    },
+    "reference_source/WWE2K_MDL/SkinModel/skinmesh_colors.py": {
+      "bytes": 1471,
+      "sha256": "358017be89a541cd098ed99ea5940d76909a38ab8d9403988250e8867899e002"
+    },
+    "reference_source/WWE2K_MDL/SkinModel/skinmesh_groups.py": {
+      "bytes": 1717,
+      "sha256": "0925d4192842bb515f3d056ac83766036d2feb752328eb24c4a3d624b21a31c2"
+    },
+    "reference_source/WWE2K_MDL/SkinModel/skinmesh_weights.py": {
+      "bytes": 2005,
+      "sha256": "975a2315961294a502b477082e64f0e667b954faec545507dd0d3e843bc963a8"
+    },
+    "reference_source/WWE2K_MDL/SkinModel/skinmodel.py": {
+      "bytes": 2989,
+      "sha256": "d6d0e205c14ddae7e9cde89b819f5dc3ffa330ba73f8b4132adac7b78fbb29ea"
+    },
+    "reference_source/WWE2K_MDL/SkinModel/skinmodel_ap.py": {
+      "bytes": 2544,
+      "sha256": "9adf1789baa7812555a78ad5900aba209f77038135de6aec374b51852728baf8"
+    },
+    "reference_source/WWE2K_MDL/SkinModel/skinmodel_gp.py": {
+      "bytes": 4984,
+      "sha256": "80c12bd270b7a8b93796dde3c1ef7e2a38adf4b6b813d2c337f6f96739b57af9"
+    },
+    "reference_source/WWE2K_MDL/SkinModel/skinrig.py": {
+      "bytes": 1884,
+      "sha256": "2cb7f36974efeaabcc60b056db68edd7c16d298c23c73054d551b09337eb967b"
+    },
+    "reference_source/WWE2K_MDL/Yukes/__init__.py": {
+      "bytes": 20977,
+      "sha256": "d1d9484ad4fa4cba6c1ea4e7f3db4d304bc5862bcecb1ddf7ae43106a03027ba"
+    },
+    "reference_source/WWE2K_MDL/Yukes/binary_reader.py": {
+      "bytes": 8796,
+      "sha256": "9356d569fd221188b0c9aebfeaa468cb5d2b440b1de5afc4cff8869371b553ce"
+    },
+    "reference_source/WWE2K_MDL/Yukes/builder.py": {
+      "bytes": 52096,
+      "sha256": "1ab0df69b005d3b355added53aa2c6c48324a4308d114c34d59042170a94bdf5"
+    },
+    "reference_source/WWE2K_MDL/Yukes/clone_material.py": {
+      "bytes": 4227,
+      "sha256": "7b9514d754b9ebda70fdc3a485cbf4ee6100ec6e820ac1b24bbaf3b1136cabca"
+    },
+    "reference_source/WWE2K_MDL/Yukes/exporter.py": {
+      "bytes": 61482,
+      "sha256": "8277a52400f06d4562d11e99f1037708696b4b1e8d9851edbf681f8f73f97d3f"
+    },
+    "reference_source/WWE2K_MDL/Yukes/exporter_blender.py": {
+      "bytes": 23331,
+      "sha256": "deef32404c8ba9e66a5e40d476eb0ebcb4dffe598ffd2efc2cb5a065d7fe7835"
+    },
+    "reference_source/WWE2K_MDL/Yukes/format_consts.py": {
+      "bytes": 4147,
+      "sha256": "7f21d598c26ace627148eb9d6e29c0468738ce8a25ab93b70be015b8fcf9568b"
+    },
+    "reference_source/WWE2K_MDL/Yukes/importer.py": {
+      "bytes": 3005,
+      "sha256": "3d1f2d53a345ac9dee05097593ea3b09e5ce2af9f5b1d1044d5fb10c40fa6393"
+    },
+    "reference_source/WWE2K_MDL/Yukes/oodle.py": {
+      "bytes": 12797,
+      "sha256": "8ccf8e15e6b65201a862a9e67ccb312dea6fcc87b1823dc1d7a0a7ae37488ca7"
+    },
+    "reference_source/WWE2K_MDL/Yukes/pac_reader.py": {
+      "bytes": 42064,
+      "sha256": "701f566e3a7d8bef601bdd38cbfdcf164af775c647b62e203b0e7ca466b56bdf"
+    },
+    "reference_source/WWE2K_MDL/Yukes/parser.py": {
+      "bytes": 37075,
+      "sha256": "0ed0b45d35445575ba1ac3efd1eb34a608be6d408483cc27f8cb3b04111d00dd"
+    },
+    "reference_source/WWE2K_MDL/Yukes/parser_2k14.py": {
+      "bytes": 18885,
+      "sha256": "985fcd293e3fb2c7d6ac590c0b211d9664e98f791f3f5c012efb593514cb25ee"
+    },
+    "reference_source/WWE2K_MDL/Yukes/parser_svr.py": {
+      "bytes": 32287,
+      "sha256": "a67a2f3f10219895af2c02cebc5a3956dcb402ee4f321e6d8c6f04ba4a19da5d"
+    },
+    "reference_source/WWE2K_MDL/Yukes/parser_svr07.py": {
+      "bytes": 13780,
+      "sha256": "773d4ce6915bec7f4f620a73aaa00107453eed5e9ab0b7a210e2677445b24686"
+    },
+    "reference_source/WWE2K_MDL/Yukes/pof0.py": {
+      "bytes": 3902,
+      "sha256": "5dbbf946a3450662e33c503b37dd61fa8bc561653b3832ecd6258cf4025f6215"
+    },
+    "reference_source/WWE2K_MDL/Yukes/shapekey_facs_map.py": {
+      "bytes": 21071,
+      "sha256": "fa299a3ec0ca452ba9bd347c3313c8debbae243e32dad42c967ddb28a5cadcdd"
+    },
+    "reference_source/WWE2K_MDL/Yukes/stripifier.py": {
+      "bytes": 6081,
+      "sha256": "d709027398502a1475fdcd289aa6d8934c63fd530fb0aee027cfd9e294f936cd"
+    },
+    "reference_source/WWE2K_MDL/Yukes/structures.py": {
+      "bytes": 9242,
+      "sha256": "6876ced4e792f3bec37635cf383a7b3bbbd8fe3520ec3794672baf2fb77f9917"
+    },
+    "reference_source/WWE2K_MDL/Yukes/tristrip.py": {
+      "bytes": 1663,
+      "sha256": "fe5ab1773348321f23460eab5977c58764afc6a32673537e6f3e5dcd79b645a8"
+    },
+    "reference_source/WWE2K_MDL/__init__.py": {
+      "bytes": 22910,
+      "sha256": "46b0bbd83005a310197a57af8938a652f69a27a2169f03e3aee7a6b72fecffdf"
+    },
+    "reference_source/WWE2K_MDL/vcskinmodel_export.py": {
+      "bytes": 11495,
+      "sha256": "4af3ba989fd3d4c3b838cca0ef873f597808580010e92db469cd70bd931c9399"
+    },
+    "reference_source/WWE2K_MDL/vcskinmodel_import.py": {
+      "bytes": 4861,
+      "sha256": "6c9565a35a1b352e30121ff7d9867b12a652ee3ec0ee8a9ae00773551b4e8fe4"
+    },
+    "reference_source/manifest.json": {
+      "bytes": 17549,
+      "sha256": "68f8f059661ab418105c7321b289abc26473cda5290608791572edcbc20bf66f"
+    },
+    "reference_source/vynx_2k26_quick_port.py": {
+      "bytes": 54154,
+      "sha256": "d427d6a0185eecd8b8c4e485dc5fe05c758e2295e31208b3c406a5807650ddb9"
+    },
+    "split_upload.py": {
+      "bytes": 1389,
+      "sha256": "790e51487c1cd5e124a724f2ae5744c1f99edc1fa209b486c82c9f56758b28f8"
+    },
+    "tests/fixtures/gmf.convert.marshal": {
+      "bytes": 58117,
+      "sha256": "1ba39d2aa446b60377425b15d508b1d497d7c56d37491e8f63b0bf7619a0c572"
+    },
+    "tests/fixtures/gmf.folder.marshal": {
+      "bytes": 40442,
+      "sha256": "83b535f29eb243674b0a78425980927ead51d1a2d7f522d13a38015d5d0b182c"
+    },
+    "tests/fixtures/gmf.materials.marshal": {
+      "bytes": 22204,
+      "sha256": "d87595d30387467fee988b9f1c86e63ffcef4d2992f23202ea12b024591e8e9c"
+    },
+    "tests/fixtures/gmf.mcd.marshal": {
+      "bytes": 9715,
+      "sha256": "0579d3ed85e9b5541871ef3770d01f4e6fccfe4555ba3c951b6e5c4ccabbadc5"
+    },
+    "tests/fixtures/gmf.ycl.marshal": {
+      "bytes": 11286,
+      "sha256": "5b6e8aa647f3e367271eaba8e015a1c130714efb02ed7803be8bfd120e996771"
+    },
+    "tests/fixtures/gmf.ycl_own.marshal": {
+      "bytes": 12071,
+      "sha256": "06b959d7b0ade7a9ff02d96cc37bd1add59307907442e30b7f13cef4c492477b"
+    },
+    "tests/fixtures/mtls_writer.py": {
+      "bytes": 20246,
+      "sha256": "a8aaaa43288d3393a7575cdf4a504268a7307b74027edf7f092ef8d18b99026b"
+    },
+    "tests/fixtures/native26_face_reference_values.json": {
+      "bytes": 7961,
+      "sha256": "612d043c9c4fb163537b80004ad306e5f285f1c7d7cdb82400b9de765ccc0b0b"
+    },
+    "tests/test_2k24_route.py": {
+      "bytes": 4874,
+      "sha256": "b3e869c2908c6378032625d4d015bd378cdb4018b059125714773d11d71fe0cc"
+    },
+    "tests/test_2k26_repair.py": {
+      "bytes": 18237,
+      "sha256": "05d2be35918b6390d9e715f4930fe46f6eba88642b9a75cf9212deae5069da14"
+    },
+    "tests/test_aj_mask.py": {
+      "bytes": 3585,
+      "sha256": "3e1ae55c9ff338e56c80d3289bd5939be2d158af17e8f71fb557fc57b964b938"
+    },
+    "tests/test_clothing_coverage.py": {
+      "bytes": 17676,
+      "sha256": "7ef72dc82ad5d981445aea0c9d04962f12e7f52ec4b1508d4fa2f52300f18721"
+    },
+    "tests/test_clothing_masks.py": {
+      "bytes": 37680,
+      "sha256": "c6fb0a22967e95749a33b3a66ca7ce55d66a0498fc89800ceb2bf6235eea30f7"
+    },
+    "tests/test_dds_alpha.py": {
+      "bytes": 4846,
+      "sha256": "d51d53296a990cea12b4293df3d52e8051ada35a9e1743b474429fca2e1dcd3a"
+    },
+    "tests/test_dds_headers.py": {
+      "bytes": 14228,
+      "sha256": "543d04c68727e90060c1c1ab1ae55762db2e5eadf340e5e52293ab8142ccc584"
+    },
+    "tests/test_embedded_masks.py": {
+      "bytes": 10616,
+      "sha256": "a81d3703f59aea14042cce2e7c851a94fb1edc442fa62c9036cd422a5b9d684d"
+    },
+    "tests/test_eye_defaults.py": {
+      "bytes": 21491,
+      "sha256": "a3f2c9518b2d0929cde03c498e83ab7426c9f8b904e26237ff5b2617f9b4c98a"
+    },
+    "tests/test_eye_parameters.py": {
+      "bytes": 12084,
+      "sha256": "b737b5db7068065b056aacd99a38d28ebafa6f7279de0f5dba65d31e6c20a505"
+    },
+    "tests/test_face_material_audit.py": {
+      "bytes": 4095,
+      "sha256": "02821282fd25104b2309c125c669ab91426309dbeb7538b47f05d3fc71187961"
+    },
+    "tests/test_face_output_audit.py": {
+      "bytes": 21346,
+      "sha256": "91d967fd02313615f0daf5d2ff2b6589bd6ef21f5449ae602e56669ad2866982"
+    },
+    "tests/test_flip_elbow_mask.py": {
+      "bytes": 24724,
+      "sha256": "148ae4cbcb378f50e9a9da09a8b40edb65d424686ec3a52abc060769ad85b280"
+    },
+    "tests/test_flip_supplied_mask.py": {
+      "bytes": 7627,
+      "sha256": "4be174e51cea629f17188e96d05ecc1bf1a4dea052c96430b4e6fc747b103ec4"
+    },
+    "tests/test_gui_entrypoint.py": {
+      "bytes": 3130,
+      "sha256": "2e7fed52ab8007e95abf011ccd2578d84c23a4b152acebb4c073e446c645b4c7"
+    },
+    "tests/test_legacy_material_route.py": {
+      "bytes": 8387,
+      "sha256": "3b44a73cf8da197f0186e7c7e523df24312b1f63acb7a642ae5b9fe502efb693"
+    },
+    "tests/test_legacy_materials.py": {
+      "bytes": 27552,
+      "sha256": "de6608669d6e909adba5dda92c8c5c993f63e95fd00466bc413b3021787a40e0"
+    },
+    "tests/test_local_textures.py": {
+      "bytes": 28493,
+      "sha256": "4568538f81f8b91ff1c753b41e9516e549853e405a74812773014e3912417552"
+    },
+    "tests/test_mask_lods.py": {
+      "bytes": 12934,
+      "sha256": "6584ffd54893d0b1584600ecccc1d2195e8504058d8d35c74d9ff0ae6f492fe0"
+    },
+    "tests/test_mask_recovery.py": {
+      "bytes": 11673,
+      "sha256": "2dc7d658c64380ba6ee8122b300128c3e8b25ac6b2eff2b4c3c6f15973b2f8d9"
+    },
+    "tests/test_material_format_guard.py": {
+      "bytes": 9653,
+      "sha256": "b606b958beb3054137567846dae39ad44cf394e497965902d55765fa5d860b90"
+    },
+    "tests/test_material_formats.py": {
+      "bytes": 7067,
+      "sha256": "4d68862de529b180f93b50951cb70d36be46931933c4ab48221b320d3a40d201"
+    },
+    "tests/test_mesh_matching.py": {
+      "bytes": 18459,
+      "sha256": "49c68867969f81251b91a89d01f4cdabe86bc0ab9a01511a701048017c7a6271"
+    },
+    "tests/test_native_assets_namespace.py": {
+      "bytes": 8449,
+      "sha256": "7c96bb92266fb1ce3c779a1c564ba463aedf02ec410fc786f6de2be1e8aa0163"
+    },
+    "tests/test_native_missing_data.py": {
+      "bytes": 14500,
+      "sha256": "58983f3b121c2834c2893824d002706723ada3a194bc8bb4367e956154396c58"
+    },
+    "tests/test_ocular_anchor.py": {
+      "bytes": 29215,
+      "sha256": "603feb297865eeaa9920fcdfcd1819a339f6c6fed7b8142a03b19a76afe6cbae"
+    },
+    "tests/test_partial_rig.py": {
+      "bytes": 18085,
+      "sha256": "7b739fdbd7c85bd1b037f4208fd321912c35fcf41f1c632bbb9cb9ecea478fa7"
+    },
+    "tests/test_partial_rig_wrapper_order.py": {
+      "bytes": 4505,
+      "sha256": "b7ff8327dbe3bced5bccac753df162b34c07a5f306938e01ba19024d5b171125"
+    },
+    "tests/test_physics_audit.py": {
+      "bytes": 26182,
+      "sha256": "af8f1fb0ff7df5b4fe6460edc3dbf44b4bcec4c272b45cc3d44f2c9eafc34cb9"
+    },
+    "tests/test_reference_audit.py": {
+      "bytes": 5227,
+      "sha256": "b6627a0585753fa0d33e96d1231b235d254fa8c16844a4590544f1ba04f5bdc6"
+    },
+    "tests/test_repair.py": {
+      "bytes": 18086,
+      "sha256": "01e4096862af0862b469ee88935f2684e6c0daf18cc46670381854c5b4402e9c"
+    },
+    "tests/test_report.py": {
+      "bytes": 8155,
+      "sha256": "311d66532f4efd3eff3887e155a306b6ceca23cf70376247c9a955bb467185ab"
+    },
+    "tests/test_supplied_masks.py": {
+      "bytes": 8284,
+      "sha256": "5620719661de1ed761d7daf85079573d59d7411f7d508d49a7185510fee10b28"
+    },
+    "tests/test_surface_transfer.py": {
+      "bytes": 4299,
+      "sha256": "2df8f5bc0a067b45b91fb611c5f23e3b1f7ccd966f7c76bb00f6530817eb0fec"
+    },
+    "tests/test_surface_verification.py": {
+      "bytes": 1677,
+      "sha256": "273157ebe38d5cab70b8850d4578d073a4fb0229ddac57d38e08987521b2af5c"
+    },
+    "tests/test_teeth_parameters.py": {
+      "bytes": 2949,
+      "sha256": "afb140073d17a24963e7c154aec50dc76719ddd25192db0acdd0c3633ac08165"
+    },
+    "tests/test_teeth_skin_workaround.py": {
+      "bytes": 34352,
+      "sha256": "09c62491a50c576b99914da32381aa60286aa8cd6218e2825d5e1748370f0e13"
+    },
+    "tests/test_tongue_anchor.py": {
+      "bytes": 23862,
+      "sha256": "7690f4af7cbe75eb34d111ab15d20629ddacefb25c31c6e9d213f0e920095791"
+    },
+    "tests/test_wdf_repair.py": {
+      "bytes": 16820,
+      "sha256": "b00c560112a0f6cf9de070637126535a768a9280eb2b2276a2cc6a034d702f54"
+    },
+    "tests/test_ycl_repair.py": {
+      "bytes": 13594,
+      "sha256": "9cd22efdda494a8bc676646fd6c09b0a80bcb50299884626bba9ce8c37f55252"
+    }
+  },
+  "module_payload_proof": {
+    "gmf_repair.py": {
+      "source_sha256": "30d0145460b0e9f90191d16d2de39ff029d4774b53a86b957b2ea92a384c31a1",
+      "candidate_code_matches_source": true
+    },
+    "gmf_mask_recovery.py": {
+      "source_sha256": "4c3b6217b67dfd27aa36c213c7a5cfd2f5487a60117039cd0f396d05bf6c65c5",
+      "candidate_code_matches_source": true
+    },
+    "gmf_embedded_masks.py": {
+      "source_sha256": "a2f0ed6c38c489f7b742f9213d5ea758ca45f5cc4638e98147618d2d360175a2",
+      "candidate_code_matches_source": true
+    },
+    "gmf_supplied_masks.py": {
+      "source_sha256": "752b28179fd195400e2aff117ac288ada67d02958f9a0733dbb64fc4c67ae81f",
+      "candidate_code_matches_source": true
+    },
+    "gmf_flip_supplied_mask.py": {
+      "source_sha256": "12e51f75df6418ddbefd048fe96447259a8b72bfbf4c8cd924a5859c43da9061",
+      "candidate_code_matches_source": true
+    },
+    "gmf_flip_elbow_mask.py": {
+      "source_sha256": "e1a7e4197753e72bc6bd194cb123fcb4b9550d31e41152fc0a3a809ccc9a1808",
+      "candidate_code_matches_source": true
+    },
+    "gmf_clothing_coverage.py": {
+      "source_sha256": "ce13e5b7f49b34d2d65b0a292c7ee1e9d25c4aff85834da0f2cbdadcae37597e",
+      "candidate_code_matches_source": true
+    },
+    "gmf_mask_lods.py": {
+      "source_sha256": "614e88584410d33557902998ea8a39fa77b55f72fb7453f569cc5b0470c9d054",
+      "candidate_code_matches_source": true
+    },
+    "gmf_clothing_masks.py": {
+      "source_sha256": "122f4a9371f5768e184af60e07639b5bb02eb5378713bdf6f70587bf4229c5ee",
+      "candidate_code_matches_source": true
+    },
+    "gmf_material_formats.py": {
+      "source_sha256": "99f65c2aa21e46764dd364a324c6cc553d9d341f5ced1756b608b459d6673fd4",
+      "candidate_code_matches_source": true
+    },
+    "gmf_legacy_materials.py": {
+      "source_sha256": "4791f8b3f2d8d234d0dea61d97c83cd5fbc411d10544cc9f3eb35759b672a748",
+      "candidate_code_matches_source": true
+    },
+    "gmf_local_textures.py": {
+      "source_sha256": "dbe64fde7f537db5379b9862b0aa18bda148b5a1c352dc64d12faa86cb7a1454",
+      "candidate_code_matches_source": true
+    },
+    "gmf_dds_headers.py": {
+      "source_sha256": "4c9b87a60ff982b8bff3edc9d1ba0e8ae3107d0928dcbe3b05b94c03b826491c",
+      "candidate_code_matches_source": true
+    },
+    "gmf_mesh_matching.py": {
+      "source_sha256": "d98183a82b889a845684d9f62968dd7beae12cd47a29af12796a548ebddc39e7",
+      "candidate_code_matches_source": true
+    },
+    "gmf_teeth_parameters.py": {
+      "source_sha256": "d43299a011912bddd918a60ee9736d993e86afbdcdbc7415c806042733413d75",
+      "candidate_code_matches_source": true
+    },
+    "gmf_teeth_skin_workaround.py": {
+      "source_sha256": "8b51ac96723f236a60c602fbeb91ef4824446e6f1875d81065c9d2cec01f32b7",
+      "candidate_code_matches_source": true
+    },
+    "gmf_eye_parameters.py": {
+      "source_sha256": "79c3021a75bde7a15d5e82b39858a4e847dfd3182ac5b110c0dead760f1cf6bf",
+      "candidate_code_matches_source": true
+    },
+    "gmf_eye_defaults.py": {
+      "source_sha256": "556eb386e616b81b36c6db51df5ac335b6224a823d21eb11c0066849fb575a46",
+      "candidate_code_matches_source": true
+    },
+    "gmf_tongue_anchor.py": {
+      "source_sha256": "fe8d64953e1b9601cc4430d8ad542f50aa24d78c4974e04b510e233b21400bf0",
+      "candidate_code_matches_source": true
+    },
+    "gmf_ocular_anchor.py": {
+      "source_sha256": "cbb987bd86f4018a98694a88c27bead653b88302609f9f8dc642cc84e802bf80",
+      "candidate_code_matches_source": true
+    },
+    "gmf_face_audit.py": {
+      "source_sha256": "d1baf36866e4e83394465e56ec16e653d5c7d0139f98ceaafc5c0e1d1ed7d925",
+      "candidate_code_matches_source": true
+    },
+    "gmf_partial_rig.py": {
+      "source_sha256": "13672bb0e5a008bff50af8a55add899489c87c3d1d80de3a6875ea7eacf4b3e7",
+      "candidate_code_matches_source": true
+    },
+    "gmf_2k26_repair.py": {
+      "source_sha256": "805378d4df54983352fc0e801125b323fb184eed54d668ab8ea1e1315e1b03cd",
+      "candidate_code_matches_source": true
+    },
+    "gmf_reference_checks.py": {
+      "source_sha256": "d43b0baee65032beee555bfbefb58f35a3a2ca48ddaeb3de862c1d9881e8278f",
+      "candidate_code_matches_source": true
+    },
+    "gmf_reference_audit.py": {
+      "source_sha256": "afa72ce165cab50b3c9aa448f004cc48ff47fe19e5b043f57c6d3b5e76ef723f",
+      "candidate_code_matches_source": true
+    },
+    "gmf_ycl_repair.py": {
+      "source_sha256": "ab099ca2634a8d96c189f9ed58b58b4916da8f10723e4ca6839ce2255aed1e43",
+      "candidate_code_matches_source": true
+    },
+    "gmf_wdf_repair.py": {
+      "source_sha256": "2dac5429751be3e8fe52c2c302a0fc4773d392d4fc9fa4b789097b35e2adb1e5",
+      "candidate_code_matches_source": true
+    },
+    "gmf_physics_audit.py": {
+      "source_sha256": "5081b5d3e5a1226a62012db9b12d682afa52dacc88bd08754c12953ca47e55a1",
+      "candidate_code_matches_source": true
+    },
+    "gmf_surface_math.py": {
+      "source_sha256": "92c894a0a634bb590a7e76976188e1c0092fba5538bf285b9a346934972684a5",
+      "candidate_code_matches_source": true
+    },
+    "gmf_surface_transfer.py": {
+      "source_sha256": "d3c47d5b9736ab601ee0dac1f894e06713e225b7819abd730e5a7dcc6dbbff0b",
+      "candidate_code_matches_source": true
+    },
+    "gmf_surface_verification.py": {
+      "source_sha256": "3e27c6cff555084a4845646531a58ca18b42aaf82dbbada5575d7592ae5e64d6",
+      "candidate_code_matches_source": true
+    },
+    "gmf_aj_mask.py": {
+      "source_sha256": "d8d6ab68011742c97c1c7c38f85d99ae26de3989f257f13a6669e7ecbea0fee1",
+      "candidate_code_matches_source": true
+    },
+    "gmf_jmtl_fields.py": {
+      "source_sha256": "d7a31520c01e94db84c1d5da490b61da9573f44267e12e5c38e42fa7815e3ecd",
+      "candidate_code_matches_source": true
+    },
+    "gmf_jmtl_audit.py": {
+      "source_sha256": "d86548af2d7ca7555ce41d21208290e2e637fbaf1ec054870b339f7e282aa6ce",
+      "candidate_code_matches_source": true
+    },
+    "gmf_native_assets.py": {
+      "source_sha256": "153aca2fb8db974d1673814a9622bf2a61dc1cbcea4b67dadf0727bac14bb36d",
+      "candidate_code_matches_source": true
+    },
+    "gmf_native_masks.py": {
+      "source_sha256": "45bdc9a19cc968838f0ffd2187d427bb9ae1943ebf0add21818afa0b8a09e0c8",
+      "candidate_code_matches_source": true
+    },
+    "gmf_2k26_audit.py": {
+      "source_sha256": "283a251ade001af8b59372908231015f52becde8f64bb8979e4442ab53efb730",
+      "candidate_code_matches_source": true
+    },
+    "gmf_2k24_route.py": {
+      "source_sha256": "3b1e6e09944d53dc4f80091224acf625f1543777a42e6ecf627cd70b26943484",
+      "candidate_code_matches_source": true
+    },
+    "gmf_dds_alpha.py": {
+      "source_sha256": "eec543d478e6527c5f4f7cf1d2f11f8c9ad75b112b2ca5705b1e39bedc85796a",
+      "candidate_code_matches_source": true
+    },
+    "gmf_report.py": {
+      "source_sha256": "9fc9c199d2bb79fc9ffb15ceb0053a8d9fb8df9367b7c9ba162e33030cc39fab",
+      "candidate_code_matches_source": true
+    },
+    "newmodelformatter_gui.py": {
+      "source_sha256": "a85e5fb60e904033be66e8faa694a69d749290baea0b30d00d676c574a08e679",
+      "candidate_code_matches_source": true
+    }
+  },
+  "excluded": [
+    ".git",
+    "caches",
+    "*.pyc",
+    "*.exe",
+    "*.dll",
+    "*.zip"
+  ]
+}
